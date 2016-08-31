@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d1ec2bfe-f6d8-4996-b101-61b8113b5ac0" name="bacemi@ICSWS068 2016-08-04 09:57:16" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:57:16.9245988+02:00" queuing="2016-08-04T09:57:16.9245988+02:00" start="2016-08-04T09:57:16.3768644+02:00" finish="2016-08-04T09:57:17.1447572+02:00" />
+  <TestSettings name="default" id="ab666859-3766-40a2-8658-dd19cad105b3">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_57_16" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a0707778-7b99-459e-9411-f8cea3540c3e" testId="6fd6c8ac-0c17-83cc-2f81-ce9d43f5f406" testName="AS2From_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.2471179" startTime="2016-08-04T09:57:16.3768644+02:00" endTime="2016-08-04T09:57:16.8082198+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0707778-7b99-459e-9411-f8cea3540c3e" />
+    <UnitTestResult executionId="c8d3a8b8-f9ab-4087-8337-c0343895e7a1" testId="4fcd74a2-9f25-1fdf-3e63-f841cfd26367" testName="AS2To_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0007372" startTime="2016-08-04T09:57:16.8117212+02:00" endTime="2016-08-04T09:57:16.8140086+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8d3a8b8-f9ab-4087-8337-c0343895e7a1" />
+    <UnitTestResult executionId="388bef65-1012-4e51-953e-30445a471ed2" testId="a7450bf0-5ecd-01ec-ac13-cb9592ba63b4" testName="Version_Default_Returns1" computerName="ICSWS068" duration="00:00:00.0010190" startTime="2016-08-04T09:57:16.8170100+02:00" endTime="2016-08-04T09:57:16.8195120+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="388bef65-1012-4e51-953e-30445a471ed2" />
+    <UnitTestResult executionId="c3748b60-131d-464e-b319-81d43bff66df" testId="17f04283-2672-33e1-de8f-ce2ddf632feb" testName="Date_Default_Returns18991230" computerName="ICSWS068" duration="00:00:00.0190455" startTime="2016-08-04T09:57:16.8225140+02:00" endTime="2016-08-04T09:57:16.8430292+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3748b60-131d-464e-b319-81d43bff66df">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1899-12-30 00:00:00&gt;. Actual:&lt;0001-01-01 00:00:00&gt;. </Message>
+          <StackTrace>   at UnitTests.iCore.Runtime.AS2.AS2MDNTests.Date_Default_Returns18991230() in F:\ETWork\Main\Common\Assemblies\UnitTests.iCore.Runtime.AS2\AS2MDNTests.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ffbd5b90-6473-4028-9f4f-6f235c57715f" testId="0428f7f9-0a07-cfdd-562e-2b180277b8ea" testName="Date_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0002736" startTime="2016-08-04T09:57:16.8455476+02:00" endTime="2016-08-04T09:57:16.8475335+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffbd5b90-6473-4028-9f4f-6f235c57715f" />
+    <UnitTestResult executionId="7fc8730b-9fef-4ef6-b90e-ad319bf14e94" testId="77642f89-0b14-15ef-ef02-7f4d3d497a11" testName="FinalReciept_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0003633" startTime="2016-08-04T09:57:16.8505341+02:00" endTime="2016-08-04T09:57:16.8515528+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fc8730b-9fef-4ef6-b90e-ad319bf14e94" />
+    <UnitTestResult executionId="01f20b3c-c5e8-42fb-ae85-da4a4ba47757" testId="a267782d-0a30-3e01-e30e-8efc518d296c" testName="FinalRecipient_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0003325" startTime="2016-08-04T09:57:16.8544152+02:00" endTime="2016-08-04T09:57:16.8559319+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01f20b3c-c5e8-42fb-ae85-da4a4ba47757" />
+    <UnitTestResult executionId="bb33c8bb-bfed-47a7-8342-d168cf0d0895" testId="3081db7b-0c5c-4c67-4bfc-ddacf1267f51" testName="MDNGateway_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0003431" startTime="2016-08-04T09:57:16.8584178+02:00" endTime="2016-08-04T09:57:16.8604351+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb33c8bb-bfed-47a7-8342-d168cf0d0895" />
+    <UnitTestResult executionId="882ed287-617d-49d9-8c9b-0f3eccb7cd1c" testId="fa24302f-2b47-f4bb-a4be-5696d2715195" testName="MDNGateway_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0003313" startTime="2016-08-04T09:57:16.8629250+02:00" endTime="2016-08-04T09:57:16.8644253+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="882ed287-617d-49d9-8c9b-0f3eccb7cd1c" />
+    <UnitTestResult executionId="99ba3d31-93f8-4484-9dfa-f23341b6e09a" testId="d1bdef1a-5e18-2abd-f352-cc570d734ff0" testName="MessageID_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0015240" startTime="2016-08-04T09:57:16.8674273+02:00" endTime="2016-08-04T09:57:16.8699463+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99ba3d31-93f8-4484-9dfa-f23341b6e09a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;&lt;201608040957160868@94650515&gt;&gt;. </Message>
+          <StackTrace>   at UnitTests.iCore.Runtime.AS2.AS2MDNTests.MessageID_Default_ReturnsEmptyString() in F:\ETWork\Main\Common\Assemblies\UnitTests.iCore.Runtime.AS2\AS2MDNTests.cs:line 223
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1575e58-afa7-4061-b496-b157a477563d" testId="35151234-7d83-b4c7-aa2f-7c015b50fca9" testName="MessageID_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0002381" startTime="2016-08-04T09:57:16.8729513+02:00" endTime="2016-08-04T09:57:16.8744515+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1575e58-afa7-4061-b496-b157a477563d" />
+    <UnitTestResult executionId="4f6bfff6-da89-4f30-b9a1-a17744f9aa49" testId="eee40f74-41b0-fd09-93fd-491f4e43ca8c" testName="OriginalMessageID_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0003369" startTime="2016-08-04T09:57:16.8764703+02:00" endTime="2016-08-04T09:57:16.8779711+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f6bfff6-da89-4f30-b9a1-a17744f9aa49" />
+    <UnitTestResult executionId="d2e6b2f1-e66c-4a3a-b2ed-b77ab09062ed" testId="fe0e05ab-4c43-3e50-bb4a-f367f4c12d69" testName="OriginalRecipient_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0003299" startTime="2016-08-04T09:57:16.8809573+02:00" endTime="2016-08-04T09:57:16.8819570+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2e6b2f1-e66c-4a3a-b2ed-b77ab09062ed" />
+    <UnitTestResult executionId="0966a78c-5ce1-43c1-96c6-d3d95f17ac1f" testId="bce97d09-c1f9-e613-eaf0-f349c01572be" testName="OriginalRecipient_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0003293" startTime="2016-08-04T09:57:16.8850736+02:00" endTime="2016-08-04T09:57:16.8870924+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0966a78c-5ce1-43c1-96c6-d3d95f17ac1f" />
+    <UnitTestResult executionId="37ccfc1f-15f5-429c-97e5-ee5582420f98" testId="76303703-072a-feb1-a8b6-7887420e7b7c" testName="ReceivedContentDigest_Default_ReturnsEmptyByteArray" computerName="ICSWS068" duration="00:00:00.0004665" startTime="2016-08-04T09:57:16.8895768+02:00" endTime="2016-08-04T09:57:16.8915788+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37ccfc1f-15f5-429c-97e5-ee5582420f98" />
+    <UnitTestResult executionId="cda5efd3-003b-4288-bcd3-6c27b2a1a7cd" testId="0271b377-5b09-a393-49bb-af0d3f4e512c" testName="ReceivedContentDigest_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0003841" startTime="2016-08-04T09:57:16.8940805+02:00" endTime="2016-08-04T09:57:16.8955966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cda5efd3-003b-4288-bcd3-6c27b2a1a7cd" />
+    <UnitTestResult executionId="447a3931-9ff6-432b-8fa4-078e44cbbf99" testId="06461a9b-2d5b-e516-3cc7-7a7449e8a46e" testName="ReceivedContentDigestAlgorithm_Default_ReturnsSHA1" computerName="ICSWS068" duration="00:00:00.0012207" startTime="2016-08-04T09:57:16.8990837+02:00" endTime="2016-08-04T09:57:16.9020857+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="447a3931-9ff6-432b-8fa4-078e44cbbf99" />
+    <UnitTestResult executionId="081cef86-32b8-4f60-8c06-bbebe14243e9" testId="43b88268-bf08-099d-3ca2-c32f724d3dcb" testName="ReceivedContentDigestAlgorithm_SetValueSHA1_ReturnsSHA1" computerName="ICSWS068" duration="00:00:00.0006483" startTime="2016-08-04T09:57:16.9060897+02:00" endTime="2016-08-04T09:57:16.9085911+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="081cef86-32b8-4f60-8c06-bbebe14243e9" />
+    <UnitTestResult executionId="ee00197d-8cc3-4223-887b-c80dbc627509" testId="d73b7759-5c3a-30c5-3825-6278f8ac6692" testName="ReceivedContentDigestAlgorithm_SetValueMD5_ReturnsMD5" computerName="ICSWS068" duration="00:00:00.0003005" startTime="2016-08-04T09:57:16.9120928+02:00" endTime="2016-08-04T09:57:16.9145904+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee00197d-8cc3-4223-887b-c80dbc627509" />
+    <UnitTestResult executionId="a4eb0e97-37c7-46c6-a47d-3bcdcd5df1ff" testId="1f77422f-2c80-dd46-4f15-9d815dff8b75" testName="ReceivedContentDigestAlgorithm_SetValueSHA256_ReturnsSHA256" computerName="ICSWS068" duration="00:00:00.0002278" startTime="2016-08-04T09:57:16.9175924+02:00" endTime="2016-08-04T09:57:16.9191129+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4eb0e97-37c7-46c6-a47d-3bcdcd5df1ff" />
+    <UnitTestResult executionId="ff18e287-204a-4fe2-9853-3d857f23ab6f" testId="b43282c6-268e-8cd6-9cd2-e5812d8ce72d" testName="ReportCharset_Default_ReturnsEmptyString" computerName="ICSWS068" duration="00:00:00.0003348" startTime="2016-08-04T09:57:16.9211114+02:00" endTime="2016-08-04T09:57:16.9230962+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff18e287-204a-4fe2-9853-3d857f23ab6f" />
+    <UnitTestResult executionId="26132bbc-0ca9-4e69-902c-18d61e7465fa" testId="3e9bc11a-40e1-2514-e066-909a71cc75e6" testName="ReportCharset_SetValue_ValueReturned" computerName="ICSWS068" duration="00:00:00.0003111" startTime="2016-08-04T09:57:16.9255996+02:00" endTime="2016-08-04T09:57:16.9271160+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26132bbc-0ca9-4e69-902c-18d61e7465fa" />
+    <UnitTestResult executionId="58fcc561-c798-447e-8e87-e1677531a270" testId="3251f058-fb3a-f3c8-cdbb-09fcf988fe6c" testName="As2CharsetMode_Default_ReturnsMessageDefined" computerName="ICSWS068" duration="00:00:00.0013055" startTime="2016-08-04T09:57:16.9291207+02:00" endTime="2016-08-04T09:57:16.9326036+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58fcc561-c798-447e-8e87-e1677531a270" />
+    <UnitTestResult executionId="d996dbaf-ff86-436e-8137-1c8877f7b33e" testId="59b4752b-f02b-565c-002b-4cb27d341c18" testName="As2CharsetMode_SetValueUserDefined_ReturnsUserDefinied" computerName="ICSWS068" duration="00:00:00.0004369" startTime="2016-08-04T09:57:16.9361071+02:00" endTime="2016-08-04T09:57:16.9376079+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d996dbaf-ff86-436e-8137-1c8877f7b33e" />
+    <UnitTestResult executionId="7cb50110-8501-432d-bcbe-4aa40de22048" testId="2c9a69a2-fb52-5412-0a34-387b49daf176" testName="ReportEncoding_Default_ReturnsAuto" computerName="ICSWS068" duration="00:00:00.0009527" startTime="2016-08-04T09:57:16.9406099+02:00" endTime="2016-08-04T09:57:16.9426117+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cb50110-8501-432d-bcbe-4aa40de22048" />
+    <UnitTestResult executionId="b22dfe4f-61c0-401c-992b-a9ac654caa45" testId="9a650e47-da09-503c-fcdf-5f233a2111fd" testName="ReportEncoding_SetValueBase64_ReturnsBase64" computerName="ICSWS068" duration="00:00:00.0005167" startTime="2016-08-04T09:57:16.9451134+02:00" endTime="2016-08-04T09:57:16.9471145+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b22dfe4f-61c0-401c-992b-a9ac654caa45" />
+    <UnitTestResult executionId="6aaad582-e997-4793-9c97-89c8cc49308b" testId="2a0b3e20-2d00-b19a-b2dc-d2ce95e327f2" testName="ReportEncoding_SetValueBit7_ReturnsBit7" computerName="ICSWS068" duration="00:00:00.0002143" startTime="2016-08-04T09:57:16.9496157+02:00" endTime="2016-08-04T09:57:16.9511177+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6aaad582-e997-4793-9c97-89c8cc49308b" />
+    <UnitTestResult executionId="a5d41107-549c-4447-b0ef-a99372dc3b19" testId="84a3db93-8dc1-369f-9afe-66100306f051" testName="ReportEncoding_SetValueBit8_ReturnsBit8" computerName="ICSWS068" duration="00:00:00.0001979" startTime="2016-08-04T09:57:16.9548185+02:00" endTime="2016-08-04T09:57:16.9563196+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5d41107-549c-4447-b0ef-a99372dc3b19" />
+    <UnitTestResult executionId="7d429295-ec51-4362-8952-1ece7f279324" testId="abf54a78-d3b8-b690-50a6-bb3b157c66dd" testName="Save_RecieptStreamIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0037034" startTime="2016-08-04T09:57:16.9593208+02:00" endTime="2016-08-04T09:57:16.9641483+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d429295-ec51-4362-8952-1ece7f279324" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AS2From_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="6fd6c8ac-0c17-83cc-2f81-ce9d43f5f406">
+      <Execution id="a0707778-7b99-459e-9411-f8cea3540c3e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="AS2From_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="AS2To_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="4fcd74a2-9f25-1fdf-3e63-f841cfd26367">
+      <Execution id="c8d3a8b8-f9ab-4087-8337-c0343895e7a1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="AS2To_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="Version_Default_Returns1" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="a7450bf0-5ecd-01ec-ac13-cb9592ba63b4">
+      <Execution id="388bef65-1012-4e51-953e-30445a471ed2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="Version_Default_Returns1" />
+    </UnitTest>
+    <UnitTest name="Date_Default_Returns18991230" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="17f04283-2672-33e1-de8f-ce2ddf632feb">
+      <Execution id="c3748b60-131d-464e-b319-81d43bff66df" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="Date_Default_Returns18991230" />
+    </UnitTest>
+    <UnitTest name="Date_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="0428f7f9-0a07-cfdd-562e-2b180277b8ea">
+      <Execution id="ffbd5b90-6473-4028-9f4f-6f235c57715f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="Date_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="FinalReciept_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="77642f89-0b14-15ef-ef02-7f4d3d497a11">
+      <Execution id="7fc8730b-9fef-4ef6-b90e-ad319bf14e94" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="FinalReciept_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="FinalRecipient_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="a267782d-0a30-3e01-e30e-8efc518d296c">
+      <Execution id="01f20b3c-c5e8-42fb-ae85-da4a4ba47757" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="FinalRecipient_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="MDNGateway_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="3081db7b-0c5c-4c67-4bfc-ddacf1267f51">
+      <Execution id="bb33c8bb-bfed-47a7-8342-d168cf0d0895" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="MDNGateway_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="MDNGateway_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="fa24302f-2b47-f4bb-a4be-5696d2715195">
+      <Execution id="882ed287-617d-49d9-8c9b-0f3eccb7cd1c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="MDNGateway_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="MessageID_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="d1bdef1a-5e18-2abd-f352-cc570d734ff0">
+      <Execution id="99ba3d31-93f8-4484-9dfa-f23341b6e09a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="MessageID_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="MessageID_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="35151234-7d83-b4c7-aa2f-7c015b50fca9">
+      <Execution id="d1575e58-afa7-4061-b496-b157a477563d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="MessageID_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="OriginalMessageID_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="eee40f74-41b0-fd09-93fd-491f4e43ca8c">
+      <Execution id="4f6bfff6-da89-4f30-b9a1-a17744f9aa49" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="OriginalMessageID_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="OriginalRecipient_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="fe0e05ab-4c43-3e50-bb4a-f367f4c12d69">
+      <Execution id="d2e6b2f1-e66c-4a3a-b2ed-b77ab09062ed" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="OriginalRecipient_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="OriginalRecipient_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="bce97d09-c1f9-e613-eaf0-f349c01572be">
+      <Execution id="0966a78c-5ce1-43c1-96c6-d3d95f17ac1f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="OriginalRecipient_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigest_Default_ReturnsEmptyByteArray" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="76303703-072a-feb1-a8b6-7887420e7b7c">
+      <Execution id="37ccfc1f-15f5-429c-97e5-ee5582420f98" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigest_Default_ReturnsEmptyByteArray" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigest_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="0271b377-5b09-a393-49bb-af0d3f4e512c">
+      <Execution id="cda5efd3-003b-4288-bcd3-6c27b2a1a7cd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigest_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigestAlgorithm_Default_ReturnsSHA1" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="06461a9b-2d5b-e516-3cc7-7a7449e8a46e">
+      <Execution id="447a3931-9ff6-432b-8fa4-078e44cbbf99" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigestAlgorithm_Default_ReturnsSHA1" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigestAlgorithm_SetValueSHA1_ReturnsSHA1" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="43b88268-bf08-099d-3ca2-c32f724d3dcb">
+      <Execution id="081cef86-32b8-4f60-8c06-bbebe14243e9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigestAlgorithm_SetValueSHA1_ReturnsSHA1" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigestAlgorithm_SetValueMD5_ReturnsMD5" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="d73b7759-5c3a-30c5-3825-6278f8ac6692">
+      <Execution id="ee00197d-8cc3-4223-887b-c80dbc627509" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigestAlgorithm_SetValueMD5_ReturnsMD5" />
+    </UnitTest>
+    <UnitTest name="ReceivedContentDigestAlgorithm_SetValueSHA256_ReturnsSHA256" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="1f77422f-2c80-dd46-4f15-9d815dff8b75">
+      <Execution id="a4eb0e97-37c7-46c6-a47d-3bcdcd5df1ff" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReceivedContentDigestAlgorithm_SetValueSHA256_ReturnsSHA256" />
+    </UnitTest>
+    <UnitTest name="ReportCharset_Default_ReturnsEmptyString" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="b43282c6-268e-8cd6-9cd2-e5812d8ce72d">
+      <Execution id="ff18e287-204a-4fe2-9853-3d857f23ab6f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportCharset_Default_ReturnsEmptyString" />
+    </UnitTest>
+    <UnitTest name="ReportCharset_SetValue_ValueReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="3e9bc11a-40e1-2514-e066-909a71cc75e6">
+      <Execution id="26132bbc-0ca9-4e69-902c-18d61e7465fa" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportCharset_SetValue_ValueReturned" />
+    </UnitTest>
+    <UnitTest name="As2CharsetMode_Default_ReturnsMessageDefined" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="3251f058-fb3a-f3c8-cdbb-09fcf988fe6c">
+      <Execution id="58fcc561-c798-447e-8e87-e1677531a270" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="As2CharsetMode_Default_ReturnsMessageDefined" />
+    </UnitTest>
+    <UnitTest name="As2CharsetMode_SetValueUserDefined_ReturnsUserDefinied" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="59b4752b-f02b-565c-002b-4cb27d341c18">
+      <Execution id="d996dbaf-ff86-436e-8137-1c8877f7b33e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="As2CharsetMode_SetValueUserDefined_ReturnsUserDefinied" />
+    </UnitTest>
+    <UnitTest name="ReportEncoding_Default_ReturnsAuto" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="2c9a69a2-fb52-5412-0a34-387b49daf176">
+      <Execution id="7cb50110-8501-432d-bcbe-4aa40de22048" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportEncoding_Default_ReturnsAuto" />
+    </UnitTest>
+    <UnitTest name="ReportEncoding_SetValueBase64_ReturnsBase64" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="9a650e47-da09-503c-fcdf-5f233a2111fd">
+      <Execution id="b22dfe4f-61c0-401c-992b-a9ac654caa45" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportEncoding_SetValueBase64_ReturnsBase64" />
+    </UnitTest>
+    <UnitTest name="ReportEncoding_SetValueBit7_ReturnsBit7" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="2a0b3e20-2d00-b19a-b2dc-d2ce95e327f2">
+      <Execution id="6aaad582-e997-4793-9c97-89c8cc49308b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportEncoding_SetValueBit7_ReturnsBit7" />
+    </UnitTest>
+    <UnitTest name="ReportEncoding_SetValueBit8_ReturnsBit8" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="84a3db93-8dc1-369f-9afe-66100306f051">
+      <Execution id="a5d41107-549c-4447-b0ef-a99372dc3b19" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="ReportEncoding_SetValueBit8_ReturnsBit8" />
+    </UnitTest>
+    <UnitTest name="Save_RecieptStreamIsNull_Throws" storage="f:\etwork\bin\tests\unittests.icore.runtime.as2.dll" id="abf54a78-d3b8-b690-50a6-bb3b157c66dd">
+      <Execution id="7d429295-ec51-4362-8952-1ece7f279324" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.AS2.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.AS2.AS2MDNTests" name="Save_RecieptStreamIsNull_Throws" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6fd6c8ac-0c17-83cc-2f81-ce9d43f5f406" executionId="a0707778-7b99-459e-9411-f8cea3540c3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fcd74a2-9f25-1fdf-3e63-f841cfd26367" executionId="c8d3a8b8-f9ab-4087-8337-c0343895e7a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7450bf0-5ecd-01ec-ac13-cb9592ba63b4" executionId="388bef65-1012-4e51-953e-30445a471ed2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17f04283-2672-33e1-de8f-ce2ddf632feb" executionId="c3748b60-131d-464e-b319-81d43bff66df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0428f7f9-0a07-cfdd-562e-2b180277b8ea" executionId="ffbd5b90-6473-4028-9f4f-6f235c57715f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77642f89-0b14-15ef-ef02-7f4d3d497a11" executionId="7fc8730b-9fef-4ef6-b90e-ad319bf14e94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a267782d-0a30-3e01-e30e-8efc518d296c" executionId="01f20b3c-c5e8-42fb-ae85-da4a4ba47757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3081db7b-0c5c-4c67-4bfc-ddacf1267f51" executionId="bb33c8bb-bfed-47a7-8342-d168cf0d0895" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa24302f-2b47-f4bb-a4be-5696d2715195" executionId="882ed287-617d-49d9-8c9b-0f3eccb7cd1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1bdef1a-5e18-2abd-f352-cc570d734ff0" executionId="99ba3d31-93f8-4484-9dfa-f23341b6e09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35151234-7d83-b4c7-aa2f-7c015b50fca9" executionId="d1575e58-afa7-4061-b496-b157a477563d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eee40f74-41b0-fd09-93fd-491f4e43ca8c" executionId="4f6bfff6-da89-4f30-b9a1-a17744f9aa49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe0e05ab-4c43-3e50-bb4a-f367f4c12d69" executionId="d2e6b2f1-e66c-4a3a-b2ed-b77ab09062ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bce97d09-c1f9-e613-eaf0-f349c01572be" executionId="0966a78c-5ce1-43c1-96c6-d3d95f17ac1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76303703-072a-feb1-a8b6-7887420e7b7c" executionId="37ccfc1f-15f5-429c-97e5-ee5582420f98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0271b377-5b09-a393-49bb-af0d3f4e512c" executionId="cda5efd3-003b-4288-bcd3-6c27b2a1a7cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06461a9b-2d5b-e516-3cc7-7a7449e8a46e" executionId="447a3931-9ff6-432b-8fa4-078e44cbbf99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43b88268-bf08-099d-3ca2-c32f724d3dcb" executionId="081cef86-32b8-4f60-8c06-bbebe14243e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d73b7759-5c3a-30c5-3825-6278f8ac6692" executionId="ee00197d-8cc3-4223-887b-c80dbc627509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f77422f-2c80-dd46-4f15-9d815dff8b75" executionId="a4eb0e97-37c7-46c6-a47d-3bcdcd5df1ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b43282c6-268e-8cd6-9cd2-e5812d8ce72d" executionId="ff18e287-204a-4fe2-9853-3d857f23ab6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e9bc11a-40e1-2514-e066-909a71cc75e6" executionId="26132bbc-0ca9-4e69-902c-18d61e7465fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3251f058-fb3a-f3c8-cdbb-09fcf988fe6c" executionId="58fcc561-c798-447e-8e87-e1677531a270" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59b4752b-f02b-565c-002b-4cb27d341c18" executionId="d996dbaf-ff86-436e-8137-1c8877f7b33e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c9a69a2-fb52-5412-0a34-387b49daf176" executionId="7cb50110-8501-432d-bcbe-4aa40de22048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a650e47-da09-503c-fcdf-5f233a2111fd" executionId="b22dfe4f-61c0-401c-992b-a9ac654caa45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a0b3e20-2d00-b19a-b2dc-d2ce95e327f2" executionId="6aaad582-e997-4793-9c97-89c8cc49308b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84a3db93-8dc1-369f-9afe-66100306f051" executionId="a5d41107-549c-4447-b0ef-a99372dc3b19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abf54a78-d3b8-b690-50a6-bb3b157c66dd" executionId="7d429295-ec51-4362-8952-1ece7f279324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="29" executed="29" passed="27" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

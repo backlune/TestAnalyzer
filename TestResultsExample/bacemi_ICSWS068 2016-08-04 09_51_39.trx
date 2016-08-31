@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="46480859-b8b3-4066-a0ca-e941c77acd86" name="bacemi@ICSWS068 2016-08-04 09:51:39" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:51:39.5827506+02:00" queuing="2016-08-04T09:51:39.5827506+02:00" start="2016-08-04T09:51:39.0570701+02:00" finish="2016-08-04T09:51:40.6529917+02:00" />
+  <TestSettings name="default" id="bdaeefd3-1b2b-45b1-a818-c0fac393e4a0">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_51_39" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ca8795dc-9ac1-4037-a028-586b65cef795" testId="bbae37b4-1bb3-51f5-888f-e92fbd1a9c9a" testName="FindByIssuerAndSerialNumber_StoreExistsAndCertificateDoesNotExist_NoCertificateFound" computerName="ICSWS068" duration="00:00:00.1946658" startTime="2016-08-04T09:51:39.0570701+02:00" endTime="2016-08-04T09:51:39.4424841+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca8795dc-9ac1-4037-a028-586b65cef795" />
+    <UnitTestResult executionId="b9e48298-49f3-4991-884c-98f5c6ef9a0d" testId="aaf5979b-dce1-2612-3079-aa4bd8998be8" testName="FindByIssuerAndSerialNumber_StoreDoesNotExists_StoreNotCreated" computerName="ICSWS068" duration="00:00:00.0046849" startTime="2016-08-04T09:51:39.4454861+02:00" endTime="2016-08-04T09:51:39.4525094+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e48298-49f3-4991-884c-98f5c6ef9a0d" />
+    <UnitTestResult executionId="b5d2cb41-b9a1-464a-b9dd-2202759fdfa8" testId="f8c664f8-de76-b499-ba19-4031322a154f" testName="Count_Created_StoreContainsZeroCertificates" computerName="ICSWS068" duration="00:00:00.0046884" startTime="2016-08-04T09:51:39.4569971+02:00" endTime="2016-08-04T09:51:39.4635222+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5d2cb41-b9a1-464a-b9dd-2202759fdfa8" />
+    <UnitTestResult executionId="edd75f6d-cad1-4f8d-a0e2-b0d952d5dd09" testId="f1af0ded-c291-5d03-8d2c-8e6b63b6f017" testName="LoadFromPFX_ValidArgs_StoreContainsExpectedNumberOfCertificates" computerName="ICSWS068" duration="00:00:00.1063071" startTime="2016-08-04T09:51:39.4665066+02:00" endTime="2016-08-04T09:51:39.5742267+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edd75f6d-cad1-4f8d-a0e2-b0d952d5dd09" />
+    <UnitTestResult executionId="e03562c5-db0e-4a1c-9474-f82a74961889" testId="63b39ade-4738-ddc4-f8f9-323432aa9a23" testName="LoadFromPFX_SourceIsEmpty_StoreContainsExpectedNumberOfCertificates" computerName="ICSWS068" duration="00:00:00.0199420" startTime="2016-08-04T09:51:39.5787299+02:00" endTime="2016-08-04T09:51:39.5997468+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e03562c5-db0e-4a1c-9474-f82a74961889" />
+    <UnitTestResult executionId="042b4a28-a003-4507-bbb2-c42b596cf9e8" testId="343e5e74-ec74-f1d3-1cb1-e66db03e7e65" testName="LoadFromPFX_SourceIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0032005" startTime="2016-08-04T09:51:39.6027529+02:00" endTime="2016-08-04T09:51:39.6072561+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="042b4a28-a003-4507-bbb2-c42b596cf9e8" />
+    <UnitTestResult executionId="48605092-a029-409f-a5d4-670b4915e269" testId="569c4f6c-6ea6-99a0-cf98-2562bedf1cb6" testName="LoadFromPFX_PasswordIsNull_StoreContainsExpectedNumberOfCertificates" computerName="ICSWS068" duration="00:00:00.0139612" startTime="2016-08-04T09:51:39.6107572+02:00" endTime="2016-08-04T09:51:39.6262854+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48605092-a029-409f-a5d4-670b4915e269" />
+    <UnitTestResult executionId="a2f266d5-287c-4ae4-97e8-03a227e13589" testId="12220ed2-4e99-594f-ee3e-3226c82d6235" testName="LoadFromPFX_PasswordIsEmpty_StoreContainsExpectedNumberOfCertificates" computerName="ICSWS068" duration="00:00:00.0109619" startTime="2016-08-04T09:51:39.6287801+02:00" endTime="2016-08-04T09:51:39.6412863+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2f266d5-287c-4ae4-97e8-03a227e13589" />
+    <UnitTestResult executionId="5fbeebc4-0e87-41da-806e-218b0c23814d" testId="b33620a5-ca4d-32da-0d0b-0defd5024d9c" testName="LoadFromPFX_PasswordIsIncorrect_StoreContainsExpectedNumberOfCertificates" computerName="ICSWS068" duration="00:00:00.0074004" startTime="2016-08-04T09:51:39.6438024+02:00" endTime="2016-08-04T09:51:39.6527955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fbeebc4-0e87-41da-806e-218b0c23814d" />
+    <UnitTestResult executionId="3eee41ef-72c9-4361-8f78-d69eb7fe0f6d" testId="deeebc70-2689-d907-5f5c-1b537626dadf" testName="FindByIssuerAndSerialNumber_StoreIsEmpty_NoCertificateFound" computerName="ICSWS068" duration="00:00:00.0051523" startTime="2016-08-04T09:51:39.6552990+02:00" endTime="2016-08-04T09:51:39.6617323+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eee41ef-72c9-4361-8f78-d69eb7fe0f6d" />
+    <UnitTestResult executionId="0f5ff68b-e0a2-4c15-8030-2d5d3be044d2" testId="47b1e48a-f450-81b3-676d-12f2dfd05152" testName="FindByIssuerAndSerialNumber_ValidArgs_CertificateFound" computerName="ICSWS068" duration="00:00:00.0939576" startTime="2016-08-04T09:51:39.6642185+02:00" endTime="2016-08-04T09:51:39.7595943+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f5ff68b-e0a2-4c15-8030-2d5d3be044d2" />
+    <UnitTestResult executionId="00ce340e-6560-4481-b408-6fb6db52689f" testId="b27062ca-6326-e4ec-b35e-5fd2754423b8" testName="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalse_CertificateFound" computerName="ICSWS068" duration="00:00:00.0176400" startTime="2016-08-04T09:51:39.7628710+02:00" endTime="2016-08-04T09:51:39.7818845+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00ce340e-6560-4481-b408-6fb6db52689f" />
+    <UnitTestResult executionId="e22b24d1-ad07-4221-a8f7-7f7335e31c42" testId="ddfd891c-9827-0d4b-5db0-8db59e402c31" testName="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalseCertMaybeEncodedInUnicode_CertificateFound" computerName="ICSWS068" duration="00:00:00.0187019" startTime="2016-08-04T09:51:39.7848871+02:00" endTime="2016-08-04T09:51:39.8049011+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e22b24d1-ad07-4221-a8f7-7f7335e31c42" />
+    <UnitTestResult executionId="7c847635-cd9b-40ed-898e-7c17f6e474fb" testId="c3e61d17-c23f-9d75-5f7b-dbdb72d245f1" testName="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatch_CertificateNotFound" computerName="ICSWS068" duration="00:00:00.0097645" startTime="2016-08-04T09:51:39.8084037+02:00" endTime="2016-08-04T09:51:39.8194114+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c847635-cd9b-40ed-898e-7c17f6e474fb" />
+    <UnitTestResult executionId="3269cb3c-7e3a-4cac-8bda-f1d688198890" testId="8de65237-6b83-c84c-afae-1a4bb84f31f6" testName="FindByIssuerAndSerialNumber_IssuerIsComplete_CertificateFound" computerName="ICSWS068" duration="00:00:00.0243360" startTime="2016-08-04T09:51:39.8224134+02:00" endTime="2016-08-04T09:51:39.8484323+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3269cb3c-7e3a-4cac-8bda-f1d688198890" />
+    <UnitTestResult executionId="61b02582-70ef-4ed4-a0d9-4147455a457e" testId="aba010b1-b01f-3eff-8827-c945e9392ae4" testName="FindByIssuerAndSerialNumber_IssuerIsCompleteExactMatch_CertificateFound" computerName="ICSWS068" duration="00:00:00.0194048" startTime="2016-08-04T09:51:39.8514343+02:00" endTime="2016-08-04T09:51:39.8724492+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61b02582-70ef-4ed4-a0d9-4147455a457e" />
+    <UnitTestResult executionId="9e953b5e-429d-4ab7-899f-8bf8eda307b6" testId="8060dbab-f90d-e699-2395-1166c7984431" testName="FindByIssuerAndSerialNumber_IncorrectIssuer_CertificateNotFound" computerName="ICSWS068" duration="00:00:00.0232713" startTime="2016-08-04T09:51:39.8759521+02:00" endTime="2016-08-04T09:51:39.9004713+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e953b5e-429d-4ab7-899f-8bf8eda307b6" />
+    <UnitTestResult executionId="a00b2603-48ae-46fe-8028-709510bb5a67" testId="f10f4db1-0d02-d105-ae60-f785155ee4a4" testName="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerial_CertificateFound" computerName="ICSWS068" duration="00:00:00.0090698" startTime="2016-08-04T09:51:39.9042974+02:00" endTime="2016-08-04T09:51:39.9148089+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a00b2603-48ae-46fe-8028-709510bb5a67" />
+    <UnitTestResult executionId="d29546ec-4c30-40b6-8b42-d34ad034e656" testId="ad62e865-a493-cbeb-e26a-eb6a6aa86a0c" testName="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMatch_CertificateNotFound" computerName="ICSWS068" duration="00:00:00.0095041" startTime="2016-08-04T09:51:39.9178097+02:00" endTime="2016-08-04T09:51:39.9283527+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d29546ec-4c30-40b6-8b42-d34ad034e656" />
+    <UnitTestResult executionId="dde9ecf9-1b6a-4cd2-acd8-2ab905257497" testId="b09d2c86-b10e-4a8d-21d5-e4e39acbce91" testName="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMAtch_CertificateFound" computerName="ICSWS068" duration="00:00:00.0090332" startTime="2016-08-04T09:51:39.9313424+02:00" endTime="2016-08-04T09:51:39.9421656+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dde9ecf9-1b6a-4cd2-acd8-2ab905257497" />
+    <UnitTestResult executionId="6ba247ff-25eb-4c9e-be33-2d26840cf02f" testId="9f638c6b-f189-97e4-51a4-2e40677c8f4d" testName="FindByIssuerAndSerialNumber_IncorrectSerial_CertificateNotFound" computerName="ICSWS068" duration="00:00:00.0218443" startTime="2016-08-04T09:51:39.9451670+02:00" endTime="2016-08-04T09:51:39.9683930+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ba247ff-25eb-4c9e-be33-2d26840cf02f" />
+    <UnitTestResult executionId="b16c397b-441e-4027-9424-3a01a245e4dd" testId="0d8d4067-3da4-4a3b-13f5-f098e30b231f" testName="FindByIssuerAndSerialNumber_IncorrectSerialFormat_Throws" computerName="ICSWS068" duration="00:00:00.0098947" startTime="2016-08-04T09:51:39.9714748+02:00" endTime="2016-08-04T09:51:39.9830019+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b16c397b-441e-4027-9424-3a01a245e4dd" />
+    <UnitTestResult executionId="72e4d86f-fe31-4cf8-878f-e47a627e8287" testId="789938d0-dbb0-0980-b172-67bf3405b7f0" testName="FindByThumbprint_ValidArgs_CertificateFound" computerName="ICSWS068" duration="00:00:00.0115548" startTime="2016-08-04T09:51:39.9854869+02:00" endTime="2016-08-04T09:51:39.9980116+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72e4d86f-fe31-4cf8-878f-e47a627e8287" />
+    <UnitTestResult executionId="122c15af-36e7-432f-a6dd-38dfd6b0b7d9" testId="7a8f1437-c926-e686-a937-a7fd983bfebe" testName="FindByThumbprint_ValidArgs2_CertificateFound" computerName="ICSWS068" duration="00:00:00.0093467" startTime="2016-08-04T09:51:40.0011769+02:00" endTime="2016-08-04T09:51:40.0116903+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="122c15af-36e7-432f-a6dd-38dfd6b0b7d9" />
+    <UnitTestResult executionId="d3bbd22f-555b-4a52-b378-4471f0ae0a03" testId="b4ede2f1-996e-fd04-7924-d961251f4bf7" testName="CreateAsymmetricXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" computerName="ICSWS068" duration="00:00:00.3664122" startTime="2016-08-04T09:51:40.0141908+02:00" endTime="2016-08-04T09:51:40.3825725+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3bbd22f-555b-4a52-b378-4471f0ae0a03" />
+    <UnitTestResult executionId="c0e64ef2-36a5-46ec-b7a4-c8f2191fb3dd" testId="e203044f-69b0-aab9-b676-df6e7c9cedb2" testName="CreateAsymmetricXmlSignature_EnvelopedWithRSAKey_CreatedAndVerifiedCorrectly" computerName="ICSWS068" duration="00:00:00.0596006" startTime="2016-08-04T09:51:40.3855748+02:00" endTime="2016-08-04T09:51:40.4463870+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0e64ef2-36a5-46ec-b7a4-c8f2191fb3dd" />
+    <UnitTestResult executionId="3824ec7c-fc77-45cd-93fa-4972a1b75f11" testId="407b61b5-0633-cc8d-9b5e-dd47fa9be0ed" testName="CreateHMACXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" computerName="ICSWS068" duration="00:00:00.0186373" startTime="2016-08-04T09:51:40.4493878+02:00" endTime="2016-08-04T09:51:40.4699033+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3824ec7c-fc77-45cd-93fa-4972a1b75f11" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FindByIssuerAndSerialNumber_StoreExistsAndCertificateDoesNotExist_NoCertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="bbae37b4-1bb3-51f5-888f-e92fbd1a9c9a">
+      <Execution id="ca8795dc-9ac1-4037-a028-586b65cef795" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateManagerTests" name="FindByIssuerAndSerialNumber_StoreExistsAndCertificateDoesNotExist_NoCertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_StoreDoesNotExists_StoreNotCreated" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="aaf5979b-dce1-2612-3079-aa4bd8998be8">
+      <Execution id="b9e48298-49f3-4991-884c-98f5c6ef9a0d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateManagerTests" name="FindByIssuerAndSerialNumber_StoreDoesNotExists_StoreNotCreated" />
+    </UnitTest>
+    <UnitTest name="Count_Created_StoreContainsZeroCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="f8c664f8-de76-b499-ba19-4031322a154f">
+      <Execution id="b5d2cb41-b9a1-464a-b9dd-2202759fdfa8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="Count_Created_StoreContainsZeroCertificates" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_ValidArgs_StoreContainsExpectedNumberOfCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="f1af0ded-c291-5d03-8d2c-8e6b63b6f017">
+      <Execution id="edd75f6d-cad1-4f8d-a0e2-b0d952d5dd09" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_ValidArgs_StoreContainsExpectedNumberOfCertificates" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_SourceIsEmpty_StoreContainsExpectedNumberOfCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="63b39ade-4738-ddc4-f8f9-323432aa9a23">
+      <Execution id="e03562c5-db0e-4a1c-9474-f82a74961889" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_SourceIsEmpty_StoreContainsExpectedNumberOfCertificates" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_SourceIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="343e5e74-ec74-f1d3-1cb1-e66db03e7e65">
+      <Execution id="042b4a28-a003-4507-bbb2-c42b596cf9e8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_SourceIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_PasswordIsNull_StoreContainsExpectedNumberOfCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="569c4f6c-6ea6-99a0-cf98-2562bedf1cb6">
+      <Execution id="48605092-a029-409f-a5d4-670b4915e269" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_PasswordIsNull_StoreContainsExpectedNumberOfCertificates" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_PasswordIsEmpty_StoreContainsExpectedNumberOfCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="12220ed2-4e99-594f-ee3e-3226c82d6235">
+      <Execution id="a2f266d5-287c-4ae4-97e8-03a227e13589" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_PasswordIsEmpty_StoreContainsExpectedNumberOfCertificates" />
+    </UnitTest>
+    <UnitTest name="LoadFromPFX_PasswordIsIncorrect_StoreContainsExpectedNumberOfCertificates" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="b33620a5-ca4d-32da-0d0b-0defd5024d9c">
+      <Execution id="5fbeebc4-0e87-41da-806e-218b0c23814d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="LoadFromPFX_PasswordIsIncorrect_StoreContainsExpectedNumberOfCertificates" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_StoreIsEmpty_NoCertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="deeebc70-2689-d907-5f5c-1b537626dadf">
+      <Execution id="3eee41ef-72c9-4361-8f78-d69eb7fe0f6d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_StoreIsEmpty_NoCertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_ValidArgs_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="47b1e48a-f450-81b3-676d-12f2dfd05152">
+      <Execution id="0f5ff68b-e0a2-4c15-8030-2d5d3be044d2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_ValidArgs_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalse_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="b27062ca-6326-e4ec-b35e-5fd2754423b8">
+      <Execution id="00ce340e-6560-4481-b408-6fb6db52689f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalse_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalseCertMaybeEncodedInUnicode_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="ddfd891c-9827-0d4b-5db0-8db59e402c31">
+      <Execution id="e22b24d1-ad07-4221-a8f7-7f7335e31c42" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatchIsFalseCertMaybeEncodedInUnicode_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatch_CertificateNotFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="c3e61d17-c23f-9d75-5f7b-dbdb72d245f1">
+      <Execution id="7c847635-cd9b-40ed-898e-7c17f6e474fb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IssuerIsNotCompleteExactMatch_CertificateNotFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IssuerIsComplete_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="8de65237-6b83-c84c-afae-1a4bb84f31f6">
+      <Execution id="3269cb3c-7e3a-4cac-8bda-f1d688198890" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IssuerIsComplete_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IssuerIsCompleteExactMatch_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="aba010b1-b01f-3eff-8827-c945e9392ae4">
+      <Execution id="61b02582-70ef-4ed4-a0d9-4147455a457e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IssuerIsCompleteExactMatch_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IncorrectIssuer_CertificateNotFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="8060dbab-f90d-e699-2395-1166c7984431">
+      <Execution id="9e953b5e-429d-4ab7-899f-8bf8eda307b6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IncorrectIssuer_CertificateNotFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerial_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="f10f4db1-0d02-d105-ae60-f785155ee4a4">
+      <Execution id="a00b2603-48ae-46fe-8028-709510bb5a67" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerial_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMatch_CertificateNotFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="ad62e865-a493-cbeb-e26a-eb6a6aa86a0c">
+      <Execution id="d29546ec-4c30-40b6-8b42-d34ad034e656" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMatch_CertificateNotFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMAtch_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="b09d2c86-b10e-4a8d-21d5-e4e39acbce91">
+      <Execution id="dde9ecf9-1b6a-4cd2-acd8-2ab905257497" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_EmptyIssuerAndCorrectSerialExactMAtch_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IncorrectSerial_CertificateNotFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="9f638c6b-f189-97e4-51a4-2e40677c8f4d">
+      <Execution id="6ba247ff-25eb-4c9e-be33-2d26840cf02f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IncorrectSerial_CertificateNotFound" />
+    </UnitTest>
+    <UnitTest name="FindByIssuerAndSerialNumber_IncorrectSerialFormat_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="0d8d4067-3da4-4a3b-13f5-f098e30b231f">
+      <Execution id="b16c397b-441e-4027-9424-3a01a245e4dd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByIssuerAndSerialNumber_IncorrectSerialFormat_Throws" />
+    </UnitTest>
+    <UnitTest name="FindByThumbprint_ValidArgs_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="789938d0-dbb0-0980-b172-67bf3405b7f0">
+      <Execution id="72e4d86f-fe31-4cf8-878f-e47a627e8287" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByThumbprint_ValidArgs_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="FindByThumbprint_ValidArgs2_CertificateFound" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="7a8f1437-c926-e686-a937-a7fd983bfebe">
+      <Execution id="122c15af-36e7-432f-a6dd-38dfd6b0b7d9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.CertificateMemoryStoreTests" name="FindByThumbprint_ValidArgs2_CertificateFound" />
+    </UnitTest>
+    <UnitTest name="CreateAsymmetricXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="b4ede2f1-996e-fd04-7924-d961251f4bf7">
+      <Execution id="d3bbd22f-555b-4a52-b378-4471f0ae0a03" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.XmlSignatureTests" name="CreateAsymmetricXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" />
+    </UnitTest>
+    <UnitTest name="CreateAsymmetricXmlSignature_EnvelopedWithRSAKey_CreatedAndVerifiedCorrectly" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="e203044f-69b0-aab9-b676-df6e7c9cedb2">
+      <Execution id="c0e64ef2-36a5-46ec-b7a4-c8f2191fb3dd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.XmlSignatureTests" name="CreateAsymmetricXmlSignature_EnvelopedWithRSAKey_CreatedAndVerifiedCorrectly" />
+    </UnitTest>
+    <UnitTest name="CreateHMACXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" storage="f:\etwork\bin\tests\intgtests.icore.runtime.crypto.dll" id="407b61b5-0633-cc8d-9b5e-dd47fa9be0ed">
+      <Execution id="3824ec7c-fc77-45cd-93fa-4972a1b75f11" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.Crypto.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Crypto.XmlSignatureTests" name="CreateHMACXmlSignature_EnvelopingWithRSAKey_CreatedAndVerifiedCorrectly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bbae37b4-1bb3-51f5-888f-e92fbd1a9c9a" executionId="ca8795dc-9ac1-4037-a028-586b65cef795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aaf5979b-dce1-2612-3079-aa4bd8998be8" executionId="b9e48298-49f3-4991-884c-98f5c6ef9a0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8c664f8-de76-b499-ba19-4031322a154f" executionId="b5d2cb41-b9a1-464a-b9dd-2202759fdfa8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1af0ded-c291-5d03-8d2c-8e6b63b6f017" executionId="edd75f6d-cad1-4f8d-a0e2-b0d952d5dd09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63b39ade-4738-ddc4-f8f9-323432aa9a23" executionId="e03562c5-db0e-4a1c-9474-f82a74961889" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="343e5e74-ec74-f1d3-1cb1-e66db03e7e65" executionId="042b4a28-a003-4507-bbb2-c42b596cf9e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="569c4f6c-6ea6-99a0-cf98-2562bedf1cb6" executionId="48605092-a029-409f-a5d4-670b4915e269" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12220ed2-4e99-594f-ee3e-3226c82d6235" executionId="a2f266d5-287c-4ae4-97e8-03a227e13589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b33620a5-ca4d-32da-0d0b-0defd5024d9c" executionId="5fbeebc4-0e87-41da-806e-218b0c23814d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="deeebc70-2689-d907-5f5c-1b537626dadf" executionId="3eee41ef-72c9-4361-8f78-d69eb7fe0f6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47b1e48a-f450-81b3-676d-12f2dfd05152" executionId="0f5ff68b-e0a2-4c15-8030-2d5d3be044d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b27062ca-6326-e4ec-b35e-5fd2754423b8" executionId="00ce340e-6560-4481-b408-6fb6db52689f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddfd891c-9827-0d4b-5db0-8db59e402c31" executionId="e22b24d1-ad07-4221-a8f7-7f7335e31c42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3e61d17-c23f-9d75-5f7b-dbdb72d245f1" executionId="7c847635-cd9b-40ed-898e-7c17f6e474fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8de65237-6b83-c84c-afae-1a4bb84f31f6" executionId="3269cb3c-7e3a-4cac-8bda-f1d688198890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aba010b1-b01f-3eff-8827-c945e9392ae4" executionId="61b02582-70ef-4ed4-a0d9-4147455a457e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8060dbab-f90d-e699-2395-1166c7984431" executionId="9e953b5e-429d-4ab7-899f-8bf8eda307b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f10f4db1-0d02-d105-ae60-f785155ee4a4" executionId="a00b2603-48ae-46fe-8028-709510bb5a67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad62e865-a493-cbeb-e26a-eb6a6aa86a0c" executionId="d29546ec-4c30-40b6-8b42-d34ad034e656" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b09d2c86-b10e-4a8d-21d5-e4e39acbce91" executionId="dde9ecf9-1b6a-4cd2-acd8-2ab905257497" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f638c6b-f189-97e4-51a4-2e40677c8f4d" executionId="6ba247ff-25eb-4c9e-be33-2d26840cf02f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d8d4067-3da4-4a3b-13f5-f098e30b231f" executionId="b16c397b-441e-4027-9424-3a01a245e4dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="789938d0-dbb0-0980-b172-67bf3405b7f0" executionId="72e4d86f-fe31-4cf8-878f-e47a627e8287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a8f1437-c926-e686-a937-a7fd983bfebe" executionId="122c15af-36e7-432f-a6dd-38dfd6b0b7d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4ede2f1-996e-fd04-7924-d961251f4bf7" executionId="d3bbd22f-555b-4a52-b378-4471f0ae0a03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e203044f-69b0-aab9-b676-df6e7c9cedb2" executionId="c0e64ef2-36a5-46ec-b7a4-c8f2191fb3dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="407b61b5-0633-cc8d-9b5e-dd47fa9be0ed" executionId="3824ec7c-fc77-45cd-93fa-4972a1b75f11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="27" executed="27" passed="27" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

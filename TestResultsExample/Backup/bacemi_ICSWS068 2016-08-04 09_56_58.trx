@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="54527343-cced-4ef6-a534-ac14a59e5cdd" name="bacemi@ICSWS068 2016-08-04 09:56:58" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:56:58.1036951+02:00" queuing="2016-08-04T09:56:58.1041802+02:00" start="2016-08-04T09:56:57.3315004+02:00" finish="2016-08-04T09:56:58.1457018+02:00" />
+  <TestSettings name="default" id="662f1ad0-1a6b-42d9-9f12-8bc826ed56a3">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_56_58" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7debed21-9c1a-4a45-8844-372d19662a37" testId="25e06ddf-712a-3a2a-56e7-0f0aee82bb6a" testName="MoveNext_NormalExecution_PathInfoReturned" computerName="ICSWS068" duration="00:00:00.3171793" startTime="2016-08-04T09:56:57.3315004+02:00" endTime="2016-08-04T09:56:57.8393381+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7debed21-9c1a-4a45-8844-372d19662a37" />
+    <UnitTestResult executionId="1b3f423a-4a92-45b0-b9fd-ee144dfa4b0f" testId="3b8d7432-f77f-7d62-5cf0-03c240546dd5" testName="MoveNext_ValueReturns_ValueAreCorrectlyTransferedToReturnedObject" computerName="ICSWS068" duration="00:00:00.0306209" startTime="2016-08-04T09:56:57.8427864+02:00" endTime="2016-08-04T09:56:57.8758336+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b3f423a-4a92-45b0-b9fd-ee144dfa4b0f" />
+    <UnitTestResult executionId="d2e892d7-6bea-4346-a7c2-836f4e577bf7" testId="4ef41912-c461-f875-9512-60932a885372" testName="MoveNext_MultipleCalls_MaxOneValueReturned" computerName="ICSWS068" duration="00:00:00.0002108" startTime="2016-08-04T09:56:57.8783210+02:00" endTime="2016-08-04T09:56:57.8798380+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2e892d7-6bea-4346-a7c2-836f4e577bf7" />
+    <UnitTestResult executionId="dc4ca720-fd16-41c7-a4ea-c041fab8e754" testId="4a210d7e-26d1-b190-f667-fa5e3ef695c6" testName="MoveNext_MultipleCalls_AtLeastOneValueReturned" computerName="ICSWS068" duration="00:00:00.0002815" startTime="2016-08-04T09:56:57.8848241+02:00" endTime="2016-08-04T09:56:57.8868255+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4ca720-fd16-41c7-a4ea-c041fab8e754" />
+    <UnitTestResult executionId="9ba6ccb0-4ec1-4f24-bdf2-c6a37b18bbe8" testId="cbcebed2-e194-dd8d-de40-76c5cb88059b" testName="ToString_NoValuesSet_EmptyString" computerName="ICSWS068" duration="00:00:00.0002401" startTime="2016-08-04T09:56:57.8893272+02:00" endTime="2016-08-04T09:56:57.8908287+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ba6ccb0-4ec1-4f24-bdf2-c6a37b18bbe8" />
+    <UnitTestResult executionId="efb2205f-9f38-46de-b673-805ba9d6dfc1" testId="c14ab667-c553-aac6-32c9-c8e4b6267920" testName="ToString_SomeValuesSet_CorrectNameOrderedString" computerName="ICSWS068" duration="00:00:00.0002167" startTime="2016-08-04T09:56:57.8933304+02:00" endTime="2016-08-04T09:56:57.8943307+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efb2205f-9f38-46de-b673-805ba9d6dfc1" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MoveNext_NormalExecution_PathInfoReturned" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="25e06ddf-712a-3a2a-56e7-0f0aee82bb6a">
+      <Execution id="7debed21-9c1a-4a45-8844-372d19662a37" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.GetPathsCommandTests" name="MoveNext_NormalExecution_PathInfoReturned" />
+    </UnitTest>
+    <UnitTest name="MoveNext_ValueReturns_ValueAreCorrectlyTransferedToReturnedObject" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="3b8d7432-f77f-7d62-5cf0-03c240546dd5">
+      <Execution id="1b3f423a-4a92-45b0-b9fd-ee144dfa4b0f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.GetPathsCommandTests" name="MoveNext_ValueReturns_ValueAreCorrectlyTransferedToReturnedObject" />
+    </UnitTest>
+    <UnitTest name="MoveNext_MultipleCalls_MaxOneValueReturned" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="4ef41912-c461-f875-9512-60932a885372">
+      <Execution id="d2e892d7-6bea-4346-a7c2-836f4e577bf7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.GetPathsCommandTests" name="MoveNext_MultipleCalls_MaxOneValueReturned" />
+    </UnitTest>
+    <UnitTest name="MoveNext_MultipleCalls_AtLeastOneValueReturned" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="4a210d7e-26d1-b190-f667-fa5e3ef695c6">
+      <Execution id="dc4ca720-fd16-41c7-a4ea-c041fab8e754" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.GetPathsCommandTests" name="MoveNext_MultipleCalls_AtLeastOneValueReturned" />
+    </UnitTest>
+    <UnitTest name="ToString_NoValuesSet_EmptyString" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="cbcebed2-e194-dd8d-de40-76c5cb88059b">
+      <Execution id="9ba6ccb0-4ec1-4f24-bdf2-c6a37b18bbe8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.iCorePathInfoTests" name="ToString_NoValuesSet_EmptyString" />
+    </UnitTest>
+    <UnitTest name="ToString_SomeValuesSet_CorrectNameOrderedString" storage="f:\etwork\bin\tests\unittests.icore.ps.commands.dll" id="c14ab667-c553-aac6-32c9-c8e4b6267920">
+      <Execution id="efb2205f-9f38-46de-b673-805ba9d6dfc1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.PS.Commands.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.PS.Commands.iCorePathInfoTests" name="ToString_SomeValuesSet_CorrectNameOrderedString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="25e06ddf-712a-3a2a-56e7-0f0aee82bb6a" executionId="7debed21-9c1a-4a45-8844-372d19662a37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b8d7432-f77f-7d62-5cf0-03c240546dd5" executionId="1b3f423a-4a92-45b0-b9fd-ee144dfa4b0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ef41912-c461-f875-9512-60932a885372" executionId="d2e892d7-6bea-4346-a7c2-836f4e577bf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a210d7e-26d1-b190-f667-fa5e3ef695c6" executionId="dc4ca720-fd16-41c7-a4ea-c041fab8e754" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbcebed2-e194-dd8d-de40-76c5cb88059b" executionId="9ba6ccb0-4ec1-4f24-bdf2-c6a37b18bbe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c14ab667-c553-aac6-32c9-c8e4b6267920" executionId="efb2205f-9f38-46de-b673-805ba9d6dfc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

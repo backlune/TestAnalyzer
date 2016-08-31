@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d66ef4c-0e05-4fe1-bf08-e4ecd0dd4358" name="bacemi@ICSWS068 2016-08-04 09:56:33" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:56:33.3015390+02:00" queuing="2016-08-04T09:56:33.3015390+02:00" start="2016-08-04T09:56:32.8542099+02:00" finish="2016-08-04T09:56:33.5392784+02:00" />
+  <TestSettings name="default" id="13cb0cb7-98b8-42bc-b99a-fc296ab5ed76">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_56_33" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4e36aff5-da24-4dda-af78-9161f7eac67a" testId="fed059ea-fd44-defa-4741-5deb45174598" testName="TestTimeValidityDefaultConstructor" computerName="ICSWS068" duration="00:00:00.0212176" startTime="2016-08-04T09:56:32.8542099+02:00" endTime="2016-08-04T09:56:33.1949578+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e36aff5-da24-4dda-af78-9161f7eac67a" />
+    <UnitTestResult executionId="ee51faed-9e00-451a-8b84-df5f62dd443c" testId="9d3017cc-648a-9dbd-6ba8-b2fffc3b53c6" testName="TestTimeValidityCopyConstructor" computerName="ICSWS068" duration="00:00:00.0049380" startTime="2016-08-04T09:56:33.1999615+02:00" endTime="2016-08-04T09:56:33.2064661+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee51faed-9e00-451a-8b84-df5f62dd443c" />
+    <UnitTestResult executionId="00f3e253-0176-43b7-8fea-6bfd8d4e1ef7" testId="cd00d138-c261-40d8-3204-792747d60401" testName="TestTimeValidityThreshold" computerName="ICSWS068" duration="00:00:00.0023445" startTime="2016-08-04T09:56:33.2104693+02:00" endTime="2016-08-04T09:56:33.2149768+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00f3e253-0176-43b7-8fea-6bfd8d4e1ef7" />
+    <UnitTestResult executionId="e310f1fb-40db-407d-827c-000f33948285" testId="2e65d5ad-5f93-e0d8-03cb-ef46c66cf853" testName="TestTimeValidityGetNextChangeEverydayNoSpan" computerName="ICSWS068" duration="00:00:00.0005319" startTime="2016-08-04T09:56:33.2204808+02:00" endTime="2016-08-04T09:56:33.2229826+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e310f1fb-40db-407d-827c-000f33948285" />
+    <UnitTestResult executionId="ebe8909a-75ff-4d4e-b63d-627774db83dc" testId="e7990c53-48a6-d86c-7667-36fdef59f7c0" testName="TestTimeValidityGetNextChangeEveryFridaydayNoSpan" computerName="ICSWS068" duration="00:00:00.0017298" startTime="2016-08-04T09:56:33.2269854+02:00" endTime="2016-08-04T09:56:33.2309883+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebe8909a-75ff-4d4e-b63d-627774db83dc" />
+    <UnitTestResult executionId="00000083-fb4a-409d-a528-4459e17979fb" testId="506d0d9a-a3f0-37d8-c477-4f04f5233e27" testName="TestTimeValidityGetNextChangeEveryFirstMondayNoSpan" computerName="ICSWS068" duration="00:00:00.0007542" startTime="2016-08-04T09:56:33.2364923+02:00" endTime="2016-08-04T09:56:33.2384937+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00000083-fb4a-409d-a528-4459e17979fb" />
+    <UnitTestResult executionId="d529ec43-27d1-4176-88e3-b60ad30e61cb" testId="c6222ee0-a30c-27e9-29b1-df5a6cfcc0cb" testName="TestTimeValidityGetNextChangeEveryLastTuesdayNoSpan" computerName="ICSWS068" duration="00:00:00.0008020" startTime="2016-08-04T09:56:33.2409957+02:00" endTime="2016-08-04T09:56:33.2434978+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d529ec43-27d1-4176-88e3-b60ad30e61cb" />
+    <UnitTestResult executionId="0b650074-fcf2-4722-8a5d-c8298190a545" testId="4288a733-5379-c9f6-d25c-41b166e86fd4" testName="TestTimeValidityGetNextChangeEverydayWithSpan" computerName="ICSWS068" duration="00:00:00.0006806" startTime="2016-08-04T09:56:33.2485009+02:00" endTime="2016-08-04T09:56:33.2510026+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b650074-fcf2-4722-8a5d-c8298190a545" />
+    <UnitTestResult executionId="b635cb42-6389-43d0-a0f5-aa070da91056" testId="c49df7c4-aa1b-567f-69c9-86565a8e7977" testName="TestTimeValidityGetNextChangeEveryFridaydayWithSpan" computerName="ICSWS068" duration="00:00:00.0005252" startTime="2016-08-04T09:56:33.2545052+02:00" endTime="2016-08-04T09:56:33.2560060+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b635cb42-6389-43d0-a0f5-aa070da91056" />
+    <UnitTestResult executionId="c6356189-38ef-42de-8b95-0e65f117f79a" testId="a7ffe384-a9e9-d5eb-19b9-9568e9e7916a" testName="TestTimeValidityGetNextChangeEveryFirstMondayWithSpan" computerName="ICSWS068" duration="00:00:00.0007753" startTime="2016-08-04T09:56:33.2595089+02:00" endTime="2016-08-04T09:56:33.2620106+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6356189-38ef-42de-8b95-0e65f117f79a" />
+    <UnitTestResult executionId="22ff6949-34fa-45fe-9229-d2a0dfc6b89b" testId="c317ba7c-6a23-2bb7-be63-484b5fd40135" testName="TestTimeValidityGetNextChangeEveryLastWednesdayWithSpan" computerName="ICSWS068" duration="00:00:00.0004554" startTime="2016-08-04T09:56:33.2665138+02:00" endTime="2016-08-04T09:56:33.2680146+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22ff6949-34fa-45fe-9229-d2a0dfc6b89b" />
+    <UnitTestResult executionId="f312c4c7-a678-449d-a428-62fb86802545" testId="c2b9306e-035d-de3f-d629-26992059f28e" testName="TestTimeValidityInterlacedDefinitions" computerName="ICSWS068" duration="00:00:00.0004785" startTime="2016-08-04T09:56:33.2715169+02:00" endTime="2016-08-04T09:56:33.2735186+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f312c4c7-a678-449d-a428-62fb86802545" />
+    <UnitTestResult executionId="779d2be6-b5be-4409-9bb3-fb41218aaf3c" testId="cd048cf3-3328-9a87-51bc-6d3a31b0ee6c" testName="TestTimeValidityServiceBehavior" computerName="ICSWS068" duration="00:00:00.0037125" startTime="2016-08-04T09:56:33.2765209+02:00" endTime="2016-08-04T09:56:33.2820250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="779d2be6-b5be-4409-9bb3-fb41218aaf3c">
+      <Output>
+        <StdOut>Debug Trace:
+[Deactivate] - Now [2010-03-12 15:01:34]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 16:01:34];[2010-03-12 21:59:55]
+[Deactivate] - Now [2010-03-12 16:01:34]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 17:01:34];[2010-03-12 21:59:55]
+[Deactivate] - Now [2010-03-12 17:01:34]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 18:01:34];[2010-03-12 21:59:55]
+[Deactivate] - Now [2010-03-12 18:01:34]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 19:01:34];[2010-03-12 21:59:55]
+[Deactivate] - Now [2010-03-12 19:01:34]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 20:01:34];[2010-03-12 21:59:55]
+[Deactivate] - Now [2010-03-12 20:01:34]. Interval [7100400] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 21:59:55];[2010-03-12 21:59:55]
+[Activate] - Now [2010-03-12 21:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 22:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-12 22:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-12 23:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-12 23:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 00:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-13 00:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 01:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-13 01:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 02:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-13 02:59:55]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 03:59:55];[2010-03-13 05:00:00]
+[Activate] - Now [2010-03-13 03:59:55]. Interval [3604900] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 05:00:00];[2010-03-13 05:00:00]
+[Deactivate] - Now [2010-03-13 05:00:00]. Interval [3600000] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 06:00:00];[2010-03-13 21:59:55]
+[Activate] - Now [2010-03-13 04:59:59]. Interval [1] =&gt; ActualTimeOfChange/TimeOfChange: [2010-03-13 05:00:00];[2010-03-13 05:00:00]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9707b8f-0e79-4ff1-8348-5bf00000a9ce" testId="4ce517ec-5c61-a89f-a393-a12bbbf7e00a" testName="TestTimeValidity_Bug8399_1" computerName="ICSWS068" duration="00:00:00.0008527" startTime="2016-08-04T09:56:33.2860281+02:00" endTime="2016-08-04T09:56:33.2880295+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9707b8f-0e79-4ff1-8348-5bf00000a9ce" />
+    <UnitTestResult executionId="aa65bcb6-5ab9-4586-9568-ccb26b15e4ee" testId="cedfde2f-abbe-5de9-f124-6bd2545dbb3f" testName="TestTimeValidityBug8399_2" computerName="ICSWS068" duration="00:00:00.0003653" startTime="2016-08-04T09:56:33.2925324+02:00" endTime="2016-08-04T09:56:33.2940333+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa65bcb6-5ab9-4586-9568-ccb26b15e4ee" />
+    <UnitTestResult executionId="f93f390f-722c-458a-a381-b262eca09cf0" testId="5836c15d-9abd-00f3-7eb4-4c18328aec68" testName="TimeValue_Every5Seconds_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0008639" startTime="2016-08-04T09:56:33.2980364+02:00" endTime="2016-08-04T09:56:33.3010387+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f93f390f-722c-458a-a381-b262eca09cf0" />
+    <UnitTestResult executionId="f6c50e2a-40a5-4231-bf26-9ac59d11a719" testId="322477d2-961f-2355-8d48-20ee25c77f62" testName="TimeValue_Every5Minutes_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0002260" startTime="2016-08-04T09:56:33.3050413+02:00" endTime="2016-08-04T09:56:33.3075433+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6c50e2a-40a5-4231-bf26-9ac59d11a719" />
+    <UnitTestResult executionId="d2290c64-151d-455e-a384-25a786ac30ae" testId="d1d08b1a-db45-ba7b-7af5-b12105a1baab" testName="TimeValue_Every5Hours_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0001615" startTime="2016-08-04T09:56:33.3105453+02:00" endTime="2016-08-04T09:56:33.3120464+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2290c64-151d-455e-a384-25a786ac30ae" />
+    <UnitTestResult executionId="28b45957-56ab-4aab-a35f-bb291ac67ff7" testId="f6df628b-d0b9-53dc-6adc-183a91f5b233" testName="TimerIntervalConverter_ConvertAtValueToTimerFrequency_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0023612" startTime="2016-08-04T09:56:33.3155487+02:00" endTime="2016-08-04T09:56:33.3200522+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28b45957-56ab-4aab-a35f-bb291ac67ff7" />
+    <UnitTestResult executionId="d9e00e14-d53f-4a24-ae5f-1fb50367dd84" testId="f9f2704f-2b72-e938-37f3-f4350bdbb49a" testName="TimerIntervalConverter_ConvertEveryValueToTimerFrequency_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0002082" startTime="2016-08-04T09:56:33.3235545+02:00" endTime="2016-08-04T09:56:33.3250556+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9e00e14-d53f-4a24-ae5f-1fb50367dd84" />
+    <UnitTestResult executionId="b3f84aa6-e413-43dd-af9f-6170cb9db6c0" testId="3c0543e2-7684-b309-c309-5df0c55f1186" testName="TimerIntervalConverter_ConvertFromTimerFrequency_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0021149" startTime="2016-08-04T09:56:33.3285579+02:00" endTime="2016-08-04T09:56:33.3335619+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3f84aa6-e413-43dd-af9f-6170cb9db6c0" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestTimeValidityDefaultConstructor" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="fed059ea-fd44-defa-4741-5deb45174598">
+      <Execution id="4e36aff5-da24-4dda-af78-9161f7eac67a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityDefaultConstructor" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityCopyConstructor" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="9d3017cc-648a-9dbd-6ba8-b2fffc3b53c6">
+      <Execution id="ee51faed-9e00-451a-8b84-df5f62dd443c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityCopyConstructor" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityThreshold" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="cd00d138-c261-40d8-3204-792747d60401">
+      <Execution id="00f3e253-0176-43b7-8fea-6bfd8d4e1ef7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityThreshold" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEverydayNoSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="2e65d5ad-5f93-e0d8-03cb-ef46c66cf853">
+      <Execution id="e310f1fb-40db-407d-827c-000f33948285" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEverydayNoSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryFridaydayNoSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="e7990c53-48a6-d86c-7667-36fdef59f7c0">
+      <Execution id="ebe8909a-75ff-4d4e-b63d-627774db83dc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryFridaydayNoSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryFirstMondayNoSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="506d0d9a-a3f0-37d8-c477-4f04f5233e27">
+      <Execution id="00000083-fb4a-409d-a528-4459e17979fb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryFirstMondayNoSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryLastTuesdayNoSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="c6222ee0-a30c-27e9-29b1-df5a6cfcc0cb">
+      <Execution id="d529ec43-27d1-4176-88e3-b60ad30e61cb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryLastTuesdayNoSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEverydayWithSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="4288a733-5379-c9f6-d25c-41b166e86fd4">
+      <Execution id="0b650074-fcf2-4722-8a5d-c8298190a545" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEverydayWithSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryFridaydayWithSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="c49df7c4-aa1b-567f-69c9-86565a8e7977">
+      <Execution id="b635cb42-6389-43d0-a0f5-aa070da91056" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryFridaydayWithSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryFirstMondayWithSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="a7ffe384-a9e9-d5eb-19b9-9568e9e7916a">
+      <Execution id="c6356189-38ef-42de-8b95-0e65f117f79a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryFirstMondayWithSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityGetNextChangeEveryLastWednesdayWithSpan" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="c317ba7c-6a23-2bb7-be63-484b5fd40135">
+      <Execution id="22ff6949-34fa-45fe-9229-d2a0dfc6b89b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityGetNextChangeEveryLastWednesdayWithSpan" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityInterlacedDefinitions" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="c2b9306e-035d-de3f-d629-26992059f28e">
+      <Execution id="f312c4c7-a678-449d-a428-62fb86802545" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityInterlacedDefinitions" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityServiceBehavior" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="cd048cf3-3328-9a87-51bc-6d3a31b0ee6c">
+      <Execution id="779d2be6-b5be-4409-9bb3-fb41218aaf3c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityServiceBehavior" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidity_Bug8399_1" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="4ce517ec-5c61-a89f-a393-a12bbbf7e00a">
+      <Execution id="c9707b8f-0e79-4ff1-8348-5bf00000a9ce" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidity_Bug8399_1" />
+    </UnitTest>
+    <UnitTest name="TestTimeValidityBug8399_2" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="cedfde2f-abbe-5de9-f124-6bd2545dbb3f">
+      <Execution id="aa65bcb6-5ab9-4586-9568-ccb26b15e4ee" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimeVallidityTest" name="TestTimeValidityBug8399_2" />
+    </UnitTest>
+    <UnitTest name="TimeValue_Every5Seconds_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="5836c15d-9abd-00f3-7eb4-4c18328aec68">
+      <Execution id="f93f390f-722c-458a-a381-b262eca09cf0" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalTests" name="TimeValue_Every5Seconds_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="TimeValue_Every5Minutes_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="322477d2-961f-2355-8d48-20ee25c77f62">
+      <Execution id="f6c50e2a-40a5-4231-bf26-9ac59d11a719" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalTests" name="TimeValue_Every5Minutes_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="TimeValue_Every5Hours_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="d1d08b1a-db45-ba7b-7af5-b12105a1baab">
+      <Execution id="d2290c64-151d-455e-a384-25a786ac30ae" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalTests" name="TimeValue_Every5Hours_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="TimerIntervalConverter_ConvertAtValueToTimerFrequency_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="f6df628b-d0b9-53dc-6adc-183a91f5b233">
+      <Execution id="28b45957-56ab-4aab-a35f-bb291ac67ff7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalConverterTests" name="TimerIntervalConverter_ConvertAtValueToTimerFrequency_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="TimerIntervalConverter_ConvertEveryValueToTimerFrequency_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="f9f2704f-2b72-e938-37f3-f4350bdbb49a">
+      <Execution id="d9e00e14-d53f-4a24-ae5f-1fb50367dd84" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalConverterTests" name="TimerIntervalConverter_ConvertEveryValueToTimerFrequency_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="TimerIntervalConverter_ConvertFromTimerFrequency_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.dll" id="3c0543e2-7684-b309-c309-5df0c55f1186">
+      <Execution id="b3f84aa6-e413-43dd-af9f-6170cb9db6c0" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.TimerIntervalConverterTests" name="TimerIntervalConverter_ConvertFromTimerFrequency_ReturnsCorrectValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fed059ea-fd44-defa-4741-5deb45174598" executionId="4e36aff5-da24-4dda-af78-9161f7eac67a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d3017cc-648a-9dbd-6ba8-b2fffc3b53c6" executionId="ee51faed-9e00-451a-8b84-df5f62dd443c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd00d138-c261-40d8-3204-792747d60401" executionId="00f3e253-0176-43b7-8fea-6bfd8d4e1ef7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e65d5ad-5f93-e0d8-03cb-ef46c66cf853" executionId="e310f1fb-40db-407d-827c-000f33948285" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7990c53-48a6-d86c-7667-36fdef59f7c0" executionId="ebe8909a-75ff-4d4e-b63d-627774db83dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="506d0d9a-a3f0-37d8-c477-4f04f5233e27" executionId="00000083-fb4a-409d-a528-4459e17979fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6222ee0-a30c-27e9-29b1-df5a6cfcc0cb" executionId="d529ec43-27d1-4176-88e3-b60ad30e61cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4288a733-5379-c9f6-d25c-41b166e86fd4" executionId="0b650074-fcf2-4722-8a5d-c8298190a545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c49df7c4-aa1b-567f-69c9-86565a8e7977" executionId="b635cb42-6389-43d0-a0f5-aa070da91056" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7ffe384-a9e9-d5eb-19b9-9568e9e7916a" executionId="c6356189-38ef-42de-8b95-0e65f117f79a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c317ba7c-6a23-2bb7-be63-484b5fd40135" executionId="22ff6949-34fa-45fe-9229-d2a0dfc6b89b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2b9306e-035d-de3f-d629-26992059f28e" executionId="f312c4c7-a678-449d-a428-62fb86802545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd048cf3-3328-9a87-51bc-6d3a31b0ee6c" executionId="779d2be6-b5be-4409-9bb3-fb41218aaf3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ce517ec-5c61-a89f-a393-a12bbbf7e00a" executionId="c9707b8f-0e79-4ff1-8348-5bf00000a9ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cedfde2f-abbe-5de9-f124-6bd2545dbb3f" executionId="aa65bcb6-5ab9-4586-9568-ccb26b15e4ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5836c15d-9abd-00f3-7eb4-4c18328aec68" executionId="f93f390f-722c-458a-a381-b262eca09cf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="322477d2-961f-2355-8d48-20ee25c77f62" executionId="f6c50e2a-40a5-4231-bf26-9ac59d11a719" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1d08b1a-db45-ba7b-7af5-b12105a1baab" executionId="d2290c64-151d-455e-a384-25a786ac30ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6df628b-d0b9-53dc-6adc-183a91f5b233" executionId="28b45957-56ab-4aab-a35f-bb291ac67ff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9f2704f-2b72-e938-37f3-f4350bdbb49a" executionId="d9e00e14-d53f-4a24-ae5f-1fb50367dd84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c0543e2-7684-b309-c309-5df0c55f1186" executionId="b3f84aa6-e413-43dd-af9f-6170cb9db6c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="21" executed="21" passed="21" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

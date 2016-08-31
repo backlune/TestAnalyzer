@@ -1,0 +1,110 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   DownloadFile_SessionClosedWhileDownloading_ResumesDownload
+Passed   DownloadFile_SessionClosedWhileDownloadingNoRetries_OnlyPartBeforeCloseDownloaded
+Passed   UploadFile_SessionClosedWhileUploadingWithRetry_ResumesUpload
+Passed   UploadFile_SessionClosedWhileUploadingWithNoRetry_OnlyPartBeforeCloseUploaded
+Passed   Login_WithCorrectPassword_Success
+Passed   Login_WithIncorrectPassword_ThrowsFtpException
+Passed   Login_WithPublicKey_Success
+Passed   Login_WithPublicKey_WrongPassword_ThrowsFtpException
+Passed   Login_WithInteractive_Success
+Passed   ListDirectory_NoFilter_ExpectedFiles
+Passed   ListDirectory_InvalidCommand_ThrowsFTPException
+Passed   ListDirectory_FilterOnExtensionCaseInsesitive_ExpectedFiles
+Passed   ListDirectory_FilterOnExtensionCaseSensitive_ExpectedFiles
+Passed   ListDirectory_MultiFilter_ExpectedFiles
+Passed   ListDirectory_ListsDirectoriesAsWellAsFiles_ExpectedFilesAndDirectories
+Passed   DeleteFile_FileDeletedAtServer
+Passed   DeleteFile_NotExistingFile_ThrowsFtpException
+Passed   DeleteFile_NotLoggedin_ThrowsFtpException
+Passed   DownloadFile_ExistingFile_Success
+Passed   DownloadFile_ResumeDownload_Success
+Passed   DownloadFile_PartialDownload_OutOfRange_ThrowsFtpException
+Passed   DownloadFile_NotExistingFile_ThrowsFtpException
+Passed   DownloadFile_NotLoggedin_ThrowsFtpException
+Passed   DownloadFile_DestinationStreamDoesNotHaveWriteAccess_ThrowsNotSupportedException
+Passed   RenameFile_ExistingFile_Success
+Passed   RenameFile_NotExistingFile_ThrowsFtpException
+Passed   RenameFile_NotLoggedin_ThrowsFtpException
+Passed   UploadFile_FileDoesNotExistOnServer_Success
+Passed   UploadFile_FileExistOnServer_Append_Success
+Passed   UploadFile_FileExistOnServer_Overwrite_Success
+Passed   UploadFile_FileExistOnServer_Skip_Success
+Passed   UploadFile_FileExistOnServer_RestartFrom_Success
+Passed   UploadFile_FileExistOnServer_RestartFrom0_Success
+Passed   UploadFile_FileExistOnServer_RestartFromMinusOne_Success
+Passed   UploadFile_StreamPositionNotSetToZero_EntireStreamUploaded
+Passed   GetFileSize_Success
+Passed   SetCWD_ListDirectory_Affected
+Passed   SetCWD_UploadFile_Affected
+Passed   SetCWD_DownloadFile_Affected
+Passed   SetCWD_RenameFile_Affected
+Passed   SetCWD_DeleteFile_Affected
+Passed   SetCWD_GetFileSize_Affected
+Passed   SetCWD_DeepRootedPath
+Passed   GetCWD_Success
+Passed   SetCWD_NotExistingDirectory_ThrowsFtpException
+Passed   Clone_ConfigCloned_Test
+Passed   BeginPoll_SFTP_FileWrittenAfterTimePeriod_Success
+Passed   WriteFromFile_StoreModeIsAppendWriteTwice_FileIsAppended
+Passed   WriteFromFile_StoreModeIsOverwrite_FileIsOverwritten
+Passed   WriteFromFile_StoreModeIsSkip_OnlyWrittenToOnce
+Passed   WriteFromFile_CreateTemporaryFileWithAppend_RenameUploadRenameIsPerformed
+Passed   WriteFromFile_CreateTemporaryFileWithAppendAndCheckFileSize_DoesNotThrowException
+Passed   Login_Anonymous_Success
+Passed   Login_BasicSSL_Success
+Passed   Login_ErrorCodeIgnored_DoesNotThrowException
+Passed   Login_ErrorCodeNotIgnored_DoesThrowException
+Passed   ListDirectory_Filtered_ReturnsCorrectFiles
+Passed   ListDirectory_ServerStopped_ThrowsFtpException
+Skipped  ListDirectory_InvalidCommand_ThrowsFTPException
+Standard Output Messages:
+   
+
+Debug Trace:
+[2016-08-04 09:52:38.279]	[   24]	FTP server started 
+   
+   ==============================Server settings==============================
+   Listening Address: 127.0.0.1
+   Listening Port: 30021
+   AllowAnonymous: True
+   ==============================Server settings==============================
+   
+
+Passed   GetFiles_NoFilesExists_ReturnsNegativeSize
+Passed   GetFiles_FilesExists_ReturnsSize
+Passed   SendCommand_ValidCommand_ReturnsExpectedReply
+Passed   SendCommand_ValidCommandAndNullExpectedReturnCode_ReturnsExpectedReply
+Passed   SendCommand_ValidCommandAndEmptyExpectedReturnCode_ReturnsExpectedReply
+Passed   SendCommand_ValidCommandAndExpectedReturnCode_ReturnsExpectedReply
+Passed   SendCommand_ValidCommandAndInvalidExpectedReturnCode_Throws
+Passed   SendCommand_ValidCommandAndExpectedReturnCodes_ReturnsExpectedReply
+Passed   SendCommand_InValidCommandAndExpectedReturnCode_ReturnsExpectedReply
+Passed   SendCommand_InValidCommand_Throws
+Passed   SendCommand_InValidCommandAndNullExpectedReturnCode_Throws
+Passed   SendCommand_InValidCommandAndEmptyExpectedReturnCode_Throws
+Passed   SendCommand_InValidCommandAndReturnCodeNotInExpectedReturnCode_Throws
+Passed   MGet_GetAllFilesThatAreListed_Success
+Passed   Upload_ErrorCodeIgnored_DoesNotThrowException
+Passed   Upload_ErrorCodeNotIgnored_DoesThrowException
+Passed   Delete_ErrorCodeIgnored_DoesNotThrowException
+Passed   Delete_ErrorCodeNotIgnored_DoesThrowException
+Passed   Download_ErrorCodeIgnored_DoesNotThrowException
+Passed   Download_ErrorCodeNotIgnored_DoesThrowException
+Passed   MakeDirectory_ErrorCodeIgnored_DoesNotThrowException
+Passed   MakeDirectory_ErrorCodeNotIgnored_DoesThrowException
+Passed   RenameFileName_ErrorCodeIgnored_DoesThrowNotException
+Passed   RenameFileName_ErrorCodeNotIgnored_DoesThrowException
+Passed   WriteFromFile_StoreModeIsAppendWriteTwice_FileIsAppended
+Passed   WriteFromFile_StoreModeIsOverwrite_FileIsOverwritten
+Passed   WriteFromFile_StoreModeIsSkip_OnlyWrittenToOnce
+Passed   WriteFromFile_CreateTemporaryFileWithAppend_RenameUploadRenameIsPerformed
+Passed   WriteFromFile_CreateTemporaryFileWithAppendAndCheckFileSize_DoesNotThrowException
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_52_10.trx
+
+Total tests: 88. Passed: 87. Failed: 0. Skipped: 1.
+Test Run Successful.
+Test execution time: 35,1159 Seconds

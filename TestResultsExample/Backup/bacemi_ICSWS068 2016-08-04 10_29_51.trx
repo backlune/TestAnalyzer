@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e9fe8d96-d8fc-48a1-b5e8-594548d6ae4d" name="bacemi@ICSWS068 2016-08-04 10:29:51" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T10:29:51.1581183+02:00" queuing="2016-08-04T10:29:51.1581183+02:00" start="2016-08-04T08:29:38.0108850+02:00" finish="2016-08-04T10:29:52.8049976+02:00" />
+  <TestSettings name="default" id="56924539-4c03-4f81-8746-84293b0cb43d">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 10_29_51" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bc11b736-3fdc-48b8-80df-b0b28b2a9243" testId="ba1ee5d5-b3e4-480d-8119-dc5ded913b52" testName="RetrieveKeys_MatchesExpectedResults (Data Row 0)" computerName="ICSWS068" duration="00:00:06.4486387" startTime="2016-08-04T08:29:38.0108850+02:00" endTime="2016-08-04T08:29:44.4626313+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc11b736-3fdc-48b8-80df-b0b28b2a9243">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1734afc9-23a1-4eaf-9fab-21460c566eff" testId="67495962-8376-4f47-b540-7e3559b62754" testName="RetrieveKeys_MatchesExpectedResults (Data Row 1)" computerName="ICSWS068" duration="00:00:00.3779808" startTime="2016-08-04T08:29:44.4626313+02:00" endTime="2016-08-04T08:29:44.8403366+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1734afc9-23a1-4eaf-9fab-21460c566eff">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea035c2b-ebd8-4486-a250-7309153fdcf5" testId="094bde7e-fbc4-4d69-83f8-209fc690caa2" testName="RetrieveKeys_MatchesExpectedResults (Data Row 2)" computerName="ICSWS068" duration="00:00:00.3472947" startTime="2016-08-04T08:29:44.8403366+02:00" endTime="2016-08-04T08:29:45.1878805+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea035c2b-ebd8-4486-a250-7309153fdcf5">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57426034-0788-4cec-923d-129c5e2793b8" testId="8ce10d30-11c3-4dba-91ee-00a378e4388b" testName="RetrieveKeys_MatchesExpectedResults (Data Row 3)" computerName="ICSWS068" duration="00:00:00.3970200" startTime="2016-08-04T08:29:45.1878805+02:00" endTime="2016-08-04T08:29:45.5847480+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57426034-0788-4cec-923d-129c5e2793b8">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55390f78-0856-48fc-a392-013271509a69" testId="00885987-f00b-4748-b640-ebb5bd8cf39c" testName="RetrieveKeys_MatchesExpectedResults (Data Row 4)" computerName="ICSWS068" duration="00:00:00.3602361" startTime="2016-08-04T08:29:45.5847480+02:00" endTime="2016-08-04T08:29:45.9450844+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55390f78-0856-48fc-a392-013271509a69">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dcf6c2a1-c496-4fdd-bf4b-65cfc2ea59be" testId="98d83204-9e46-45a9-b00f-a2ba114a0324" testName="RetrieveKeys_MatchesExpectedResults (Data Row 5)" computerName="ICSWS068" duration="00:00:00.3519418" startTime="2016-08-04T08:29:45.9450844+02:00" endTime="2016-08-04T08:29:46.2970400+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcf6c2a1-c496-4fdd-bf4b-65cfc2ea59be">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebc64d23-866b-48f5-b4ef-2e8c178cab29" testId="841aea62-9212-4b55-9572-8ff0b47d5ba0" testName="RetrieveKeys_MatchesExpectedResults (Data Row 6)" computerName="ICSWS068" duration="00:00:00.3659084" startTime="2016-08-04T08:29:46.2970400+02:00" endTime="2016-08-04T08:29:46.6629416+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebc64d23-866b-48f5-b4ef-2e8c178cab29">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e311ac5-cb1a-4441-af27-3c5b008af04a" testId="90ef5b41-2ffd-4b68-aa2f-2fece13c7942" testName="RetrieveKeys_MatchesExpectedResults (Data Row 7)" computerName="ICSWS068" duration="00:00:00.4566086" startTime="2016-08-04T08:29:46.6629416+02:00" endTime="2016-08-04T08:29:47.1199166+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e311ac5-cb1a-4441-af27-3c5b008af04a">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e523b836-581f-47b4-b8f2-dcb7f2139ae6" testId="c48c0d5f-7996-4197-8e21-dfac0adf5cfd" testName="RetrieveKeys_MatchesExpectedResults (Data Row 8)" computerName="ICSWS068" duration="00:00:00.4643430" startTime="2016-08-04T08:29:47.1199166+02:00" endTime="2016-08-04T08:29:47.5842791+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e523b836-581f-47b4-b8f2-dcb7f2139ae6">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0e9deee-1122-4175-baae-23fb39988b8e" testId="a10e5402-cea0-4404-a86d-88c95f1348e5" testName="RetrieveKeys_MatchesExpectedResults (Data Row 9)" computerName="ICSWS068" duration="00:00:00.3566036" startTime="2016-08-04T08:29:47.5842791+02:00" endTime="2016-08-04T08:29:47.9405193+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0e9deee-1122-4175-baae-23fb39988b8e">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3382e42-52f4-472b-ad86-453d1d5b5af8" testId="6894d4af-0605-43f0-ad0f-0f40a16741f4" testName="RetrieveKeys_MatchesExpectedResults (Data Row 10)" computerName="ICSWS068" duration="00:00:00.3675168" startTime="2016-08-04T08:29:47.9405193+02:00" endTime="2016-08-04T08:29:48.3082219+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3382e42-52f4-472b-ad86-453d1d5b5af8">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53957405-cf84-4672-87ae-14d4cec6c546" testId="5f671f47-9608-46b5-b6fb-e0bb25c0c8ca" testName="RetrieveKeys_MatchesExpectedResults (Data Row 11)" computerName="ICSWS068" duration="00:00:00.3589493" startTime="2016-08-04T08:29:48.3082219+02:00" endTime="2016-08-04T08:29:48.6672295+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53957405-cf84-4672-87ae-14d4cec6c546">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd7a0efb-50d2-4551-83df-093f5118eefd" testId="0f4aaa4c-b4c8-4aef-8d9d-65632a3d2cad" testName="RetrieveKeys_MatchesExpectedResults (Data Row 12)" computerName="ICSWS068" duration="00:00:00.3726833" startTime="2016-08-04T08:29:48.6672295+02:00" endTime="2016-08-04T08:29:49.0399666+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd7a0efb-50d2-4551-83df-093f5118eefd">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d9985f2-779e-40b8-b2a3-c5497c0221b8" testId="75531505-9633-4028-abde-641753be0b45" testName="RetrieveKeys_MatchesExpectedResults (Data Row 13)" computerName="ICSWS068" duration="00:00:00.3711285" startTime="2016-08-04T08:29:49.0399666+02:00" endTime="2016-08-04T08:29:49.4111169+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d9985f2-779e-40b8-b2a3-c5497c0221b8">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b4846e3-f93d-4f44-bd47-ddc37819b62f" testId="c2feb179-eaa3-45c1-9c10-92bcc0fb3082" testName="RetrieveKeys_MatchesExpectedResults (Data Row 14)" computerName="ICSWS068" duration="00:00:00.6109971" startTime="2016-08-04T08:29:49.4111169+02:00" endTime="2016-08-04T08:29:50.0221672+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b4846e3-f93d-4f44-bd47-ddc37819b62f">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+        <ErrorInfo>
+          <Message>Test method SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests.RetrieveKeys_MatchesExpectedResults threw exception: 
+System.Data.SqlClient.SqlException: Cannot resolve collation conflict between "Finnish_Swedish_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in UNION ALL operator occurring in ORDER BY statement column 1.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at iCore.Common.Data.DatabaseBase`2.ExecuteReader(TCommand command, CommandBehavior behavior)
+   at iCore.Common.Data.DatabaseBase`2.ExecuteReader(String sql)
+   at iCore.Common.Entities.EntityPerfEnum.&lt;ExecuteCommand&gt;d__51`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests.RetrieveKeys_MatchesExpectedResults() in F:\ETWork\Main\Common\Assemblies\SysIntgTests.iCore.Common.Entities.Filters\FilterRetrieveKeysTests.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17cdb160-23f9-4167-9088-23dcfaedbd4d" testId="c2e31e6c-3e16-479f-bcba-7faccd18af02" testName="RetrieveKeys_MatchesExpectedResults (Data Row 15)" computerName="ICSWS068" duration="00:00:00.3744225" startTime="2016-08-04T08:29:50.0221672+02:00" endTime="2016-08-04T08:29:50.3963242+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17cdb160-23f9-4167-9088-23dcfaedbd4d">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+        <ErrorInfo>
+          <Message>Test method SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests.RetrieveKeys_MatchesExpectedResults threw exception: 
+System.Data.SqlClient.SqlException: Cannot resolve collation conflict between "Finnish_Swedish_CI_AS" and "SQL_Latin1_General_CP1_CI_AS" in UNION ALL operator occurring in ORDER BY statement column 2.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at iCore.Common.Data.DatabaseBase`2.ExecuteReader(TCommand command, CommandBehavior behavior)
+   at iCore.Common.Data.DatabaseBase`2.ExecuteReader(String sql)
+   at iCore.Common.Entities.EntityPerfEnum.&lt;ExecuteCommand&gt;d__51`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests.RetrieveKeys_MatchesExpectedResults() in F:\ETWork\Main\Common\Assemblies\SysIntgTests.iCore.Common.Entities.Filters\FilterRetrieveKeysTests.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f13b5d3-8c45-4f05-a5c9-3f96e0976369" testId="16f1c3fa-083c-4445-921e-5feb7ee5e78d" testName="RetrieveKeys_MatchesExpectedResults (Data Row 16)" computerName="ICSWS068" duration="00:00:00.6899571" startTime="2016-08-04T08:29:50.3968248+02:00" endTime="2016-08-04T08:29:51.0863787+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f13b5d3-8c45-4f05-a5c9-3f96e0976369">
+      <Output>
+        <StdOut>TestContext Messages:
+Running test for Node filter All.
+Running test for Node filter MultiCondition1.
+Running test for Node filter MultiCondition2.
+Running test for Node filter PartnerIsP1orP3.
+Running test for Node filter CreationDateBetween.
+Running test for Node filter RecordLimit.
+Running test for Node filter NodeAttributes1.
+Running test for Node filter NodeAttributes2.
+Running test for Node filter Mix1.
+Running test for Node filter DisabledEntries.
+Running test for Workflow filter All.
+Running test for Workflow filter UnderTest1.
+Running test for Workflow filter CategoryConditions.
+Running test for ComponentConfiguration filter Mix1.
+Running test for CompositeEntity filter All.
+Running test for CompositeEntity filter FilterByEntityType.
+Running test for CompositeEntity filter MultipartWithAllPart.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 0)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="ba1ee5d5-b3e4-480d-8119-dc5ded913b52">
+      <Execution id="bc11b736-3fdc-48b8-80df-b0b28b2a9243" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 1)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="67495962-8376-4f47-b540-7e3559b62754">
+      <Execution id="1734afc9-23a1-4eaf-9fab-21460c566eff" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 2)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="094bde7e-fbc4-4d69-83f8-209fc690caa2">
+      <Execution id="ea035c2b-ebd8-4486-a250-7309153fdcf5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 3)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="8ce10d30-11c3-4dba-91ee-00a378e4388b">
+      <Execution id="57426034-0788-4cec-923d-129c5e2793b8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 4)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="00885987-f00b-4748-b640-ebb5bd8cf39c">
+      <Execution id="55390f78-0856-48fc-a392-013271509a69" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 5)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="98d83204-9e46-45a9-b00f-a2ba114a0324">
+      <Execution id="dcf6c2a1-c496-4fdd-bf4b-65cfc2ea59be" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 6)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="841aea62-9212-4b55-9572-8ff0b47d5ba0">
+      <Execution id="ebc64d23-866b-48f5-b4ef-2e8c178cab29" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 6)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 7)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="90ef5b41-2ffd-4b68-aa2f-2fece13c7942">
+      <Execution id="8e311ac5-cb1a-4441-af27-3c5b008af04a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 7)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 8)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="c48c0d5f-7996-4197-8e21-dfac0adf5cfd">
+      <Execution id="e523b836-581f-47b4-b8f2-dcb7f2139ae6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 8)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 9)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="a10e5402-cea0-4404-a86d-88c95f1348e5">
+      <Execution id="c0e9deee-1122-4175-baae-23fb39988b8e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 9)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 10)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="6894d4af-0605-43f0-ad0f-0f40a16741f4">
+      <Execution id="c3382e42-52f4-472b-ad86-453d1d5b5af8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 10)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 11)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="5f671f47-9608-46b5-b6fb-e0bb25c0c8ca">
+      <Execution id="53957405-cf84-4672-87ae-14d4cec6c546" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 11)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 12)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="0f4aaa4c-b4c8-4aef-8d9d-65632a3d2cad">
+      <Execution id="cd7a0efb-50d2-4551-83df-093f5118eefd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 12)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 13)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="75531505-9633-4028-abde-641753be0b45">
+      <Execution id="4d9985f2-779e-40b8-b2a3-c5497c0221b8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 13)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 14)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="c2feb179-eaa3-45c1-9c10-92bcc0fb3082">
+      <Execution id="3b4846e3-f93d-4f44-bd47-ddc37819b62f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 14)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 15)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="c2e31e6c-3e16-479f-bcba-7faccd18af02">
+      <Execution id="17cdb160-23f9-4167-9088-23dcfaedbd4d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 15)" />
+    </UnitTest>
+    <UnitTest name="RetrieveKeys_MatchesExpectedResults (Data Row 16)" storage="f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll" id="16f1c3fa-083c-4445-921e-5feb7ee5e78d">
+      <Execution id="3f13b5d3-8c45-4f05-a5c9-3f96e0976369" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Common.Entities.Filters.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.Filters.FilterRetrieveKeysTests" name="RetrieveKeys_MatchesExpectedResults (Data Row 16)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ba1ee5d5-b3e4-480d-8119-dc5ded913b52" executionId="bc11b736-3fdc-48b8-80df-b0b28b2a9243" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67495962-8376-4f47-b540-7e3559b62754" executionId="1734afc9-23a1-4eaf-9fab-21460c566eff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="094bde7e-fbc4-4d69-83f8-209fc690caa2" executionId="ea035c2b-ebd8-4486-a250-7309153fdcf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ce10d30-11c3-4dba-91ee-00a378e4388b" executionId="57426034-0788-4cec-923d-129c5e2793b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00885987-f00b-4748-b640-ebb5bd8cf39c" executionId="55390f78-0856-48fc-a392-013271509a69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98d83204-9e46-45a9-b00f-a2ba114a0324" executionId="dcf6c2a1-c496-4fdd-bf4b-65cfc2ea59be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="841aea62-9212-4b55-9572-8ff0b47d5ba0" executionId="ebc64d23-866b-48f5-b4ef-2e8c178cab29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90ef5b41-2ffd-4b68-aa2f-2fece13c7942" executionId="8e311ac5-cb1a-4441-af27-3c5b008af04a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c48c0d5f-7996-4197-8e21-dfac0adf5cfd" executionId="e523b836-581f-47b4-b8f2-dcb7f2139ae6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a10e5402-cea0-4404-a86d-88c95f1348e5" executionId="c0e9deee-1122-4175-baae-23fb39988b8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6894d4af-0605-43f0-ad0f-0f40a16741f4" executionId="c3382e42-52f4-472b-ad86-453d1d5b5af8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f671f47-9608-46b5-b6fb-e0bb25c0c8ca" executionId="53957405-cf84-4672-87ae-14d4cec6c546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f4aaa4c-b4c8-4aef-8d9d-65632a3d2cad" executionId="cd7a0efb-50d2-4551-83df-093f5118eefd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75531505-9633-4028-abde-641753be0b45" executionId="4d9985f2-779e-40b8-b2a3-c5497c0221b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2feb179-eaa3-45c1-9c10-92bcc0fb3082" executionId="3b4846e3-f93d-4f44-bd47-ddc37819b62f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2e31e6c-3e16-479f-bcba-7faccd18af02" executionId="17cdb160-23f9-4167-9088-23dcfaedbd4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16f1c3fa-083c-4445-921e-5feb7ee5e78d" executionId="3f13b5d3-8c45-4f05-a5c9-3f96e0976369" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="17" executed="17" passed="15" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ICSWS068" outcome="Warning" timestamp="2016-08-04T10:29:52.7759770+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="ICSWS068" outcome="Warning" timestamp="2016-08-04T10:29:52.7774778+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

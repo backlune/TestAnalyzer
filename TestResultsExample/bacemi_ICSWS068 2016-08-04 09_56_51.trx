@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1980312a-1dc1-4f1c-9b2c-c2cf9a9beca4" name="bacemi@ICSWS068 2016-08-04 09:56:51" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:56:51.6496609+02:00" queuing="2016-08-04T09:56:51.6496609+02:00" start="2016-08-04T09:56:51.3235263+02:00" finish="2016-08-04T09:56:52.1579224+02:00" />
+  <TestSettings name="default" id="d26127ee-0265-41f4-8101-9f9e002ec6d5">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_56_51" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7380b860-db8c-45c6-93f3-4991410ed7fd" testId="948b5b8d-9e52-1e8a-f7d0-e164d4828bbf" testName="ConvertFilename_InputIsNull_ThrowsArgumentException" computerName="ICSWS068" duration="00:00:00.0355355" startTime="2016-08-04T09:56:51.3235263+02:00" endTime="2016-08-04T09:56:51.5450545+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7380b860-db8c-45c6-93f3-4991410ed7fd" />
+    <UnitTestResult executionId="ece18845-9ab6-4469-a93f-1677e21a1c8b" testId="fb29f53d-e2a1-ed42-2415-f580bdca5744" testName="ConvertFilename_InputIsEmptyString_ThrowsArgumentException" computerName="ICSWS068" duration="00:00:00.0003310" startTime="2016-08-04T09:56:51.5490574+02:00" endTime="2016-08-04T09:56:51.5505597+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ece18845-9ab6-4469-a93f-1677e21a1c8b" />
+    <UnitTestResult executionId="3367fd44-371e-49bd-a94f-753e65a45fa2" testId="fa83ed69-0b5a-e723-0ae4-1da508b0e714" testName="ConvertFilename_InputIsWhiteSpace_ThrowsArgumntException" computerName="ICSWS068" duration="00:00:00.0003014" startTime="2016-08-04T09:56:51.5535614+02:00" endTime="2016-08-04T09:56:51.5550617+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3367fd44-371e-49bd-a94f-753e65a45fa2" />
+    <UnitTestResult executionId="07ae8086-9352-413c-bb0a-ca663c989f2f" testId="35a249b9-7dbc-ba4d-a43b-b251eaf92e0d" testName="ConvertFilename_InputContainsSlash_SlashReplacedWith1" computerName="ICSWS068" duration="00:00:00.0001724" startTime="2016-08-04T09:56:51.5575634+02:00" endTime="2016-08-04T09:56:51.5590642+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ae8086-9352-413c-bb0a-ca663c989f2f" />
+    <UnitTestResult executionId="5c64871a-86fc-463d-be0e-ac5d5eb70312" testId="275588c8-fa42-dea9-a406-1d6a725a716c" testName="ConvertFilename_InoutContainsBackslash_BackslashReplacedWith2" computerName="ICSWS068" duration="00:00:00.0001302" startTime="2016-08-04T09:56:51.5610660+02:00" endTime="2016-08-04T09:56:51.5630671+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c64871a-86fc-463d-be0e-ac5d5eb70312" />
+    <UnitTestResult executionId="21651ad5-649f-4454-a831-5ca5ac587a99" testId="253a24da-8402-d4d5-0237-e3e48cec6197" testName="ConvertFilename_InputContainsColon_ColonReplacedWith3" computerName="ICSWS068" duration="00:00:00.0001234" startTime="2016-08-04T09:56:51.5655691+02:00" endTime="2016-08-04T09:56:51.5665697+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21651ad5-649f-4454-a831-5ca5ac587a99" />
+    <UnitTestResult executionId="8b3d0c37-7b54-4be6-8642-482d1dd6f7d7" testId="1f30742b-7683-c207-aa1b-87f836be6822" testName="ConvertFilename_InputContainsAsterisk_AsteriskReplacedWith4" computerName="ICSWS068" duration="00:00:00.0001595" startTime="2016-08-04T09:56:51.5690714+02:00" endTime="2016-08-04T09:56:51.5710731+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b3d0c37-7b54-4be6-8642-482d1dd6f7d7" />
+    <UnitTestResult executionId="50e59409-1bd5-4344-a9c0-11cf3d2e10b5" testId="0d040a2b-fe9a-53e4-0faf-e287a9bde543" testName="ConvertFilename_InputContainsQuestionmark_QuestionMarkReplacedWith5" computerName="ICSWS068" duration="00:00:00.0001258" startTime="2016-08-04T09:56:51.5735795+02:00" endTime="2016-08-04T09:56:51.5750807+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50e59409-1bd5-4344-a9c0-11cf3d2e10b5" />
+    <UnitTestResult executionId="ea6654dd-136a-45ef-b01b-63eb1218e41b" testId="1327e174-b7a8-c551-ab33-6201c199d2bd" testName="ConvertFilename_InputContainsStringChar_StringCharReplacedWith6" computerName="ICSWS068" duration="00:00:00.0001498" startTime="2016-08-04T09:56:51.5780827+02:00" endTime="2016-08-04T09:56:51.5800841+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea6654dd-136a-45ef-b01b-63eb1218e41b" />
+    <UnitTestResult executionId="8ee11125-0cba-4071-bd0a-8518bf7656b8" testId="644dfd82-4205-7d6a-010e-ec5cc656ef3e" testName="ConvertFilename_InputContainsSmallerThanSign_SmallerThanSignReplacedWith7" computerName="ICSWS068" duration="00:00:00.0001313" startTime="2016-08-04T09:56:51.5816011+02:00" endTime="2016-08-04T09:56:51.5840823+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ee11125-0cba-4071-bd0a-8518bf7656b8" />
+    <UnitTestResult executionId="17786598-4c6d-43da-926a-dfff29a138f1" testId="a10df888-0bf6-9cab-e181-4ad1bd83dbfc" testName="ConvertFilename_InputContainsLargerThanSign_LargerThanSignReplacedWith8" computerName="ICSWS068" duration="00:00:00.0002064" startTime="2016-08-04T09:56:51.5865834+02:00" endTime="2016-08-04T09:56:51.5885851+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17786598-4c6d-43da-926a-dfff29a138f1" />
+    <UnitTestResult executionId="ec37571d-3236-41c6-a55d-7248446666f7" testId="adbdcaad-9ae0-230a-64e7-b3a2b7396732" testName="ConvertFilename_InputContainsVerticalBar_VerticalBarReplacedWith9" computerName="ICSWS068" duration="00:00:00.0002266" startTime="2016-08-04T09:56:51.5931047+02:00" endTime="2016-08-04T09:56:51.5951091+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec37571d-3236-41c6-a55d-7248446666f7" />
+    <UnitTestResult executionId="a25cc27b-f7b3-4682-b570-99840b442c51" testId="b1929afe-5817-01ab-06c1-7160289fc5e6" testName="UseUnmanagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.2705303" startTime="2016-08-04T09:56:51.5981114+02:00" endTime="2016-08-04T09:56:51.8700496+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a25cc27b-f7b3-4682-b570-99840b442c51" />
+    <UnitTestResult executionId="c9fd87d3-cd5d-4ceb-acc7-bba6af70bd60" testId="0ed1f804-81be-cb67-536d-57b358f28098" testName="UseUnmanagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0018017" startTime="2016-08-04T09:56:51.8730501+02:00" endTime="2016-08-04T09:56:51.8760682+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9fd87d3-cd5d-4ceb-acc7-bba6af70bd60" />
+    <UnitTestResult executionId="b30fe1b0-70a8-4fa9-957c-857ebbc62676" testId="b50e9c4f-ad91-ba48-3b5a-e38d86599235" testName="UseUnmanagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0014694" startTime="2016-08-04T09:56:51.8785544+02:00" endTime="2016-08-04T09:56:51.8815731+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b30fe1b0-70a8-4fa9-957c-857ebbc62676" />
+    <UnitTestResult executionId="cd043862-62bb-4cfc-9c6f-ec6fdcb4d15e" testId="bf88028d-f70a-4039-09a9-2d8ed569c2c0" testName="UseUnmanagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0182743" startTime="2016-08-04T09:56:51.8843769+02:00" endTime="2016-08-04T09:56:51.9038965+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd043862-62bb-4cfc-9c6f-ec6fdcb4d15e" />
+    <UnitTestResult executionId="b5659737-413a-497d-b183-5bb1b95c3c7d" testId="f1e37645-2dd3-d12c-23e6-a23835039b14" testName="UseUnmanagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0016735" startTime="2016-08-04T09:56:51.9064137+02:00" endTime="2016-08-04T09:56:51.9094005+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5659737-413a-497d-b183-5bb1b95c3c7d" />
+    <UnitTestResult executionId="c1bc1b73-564b-43eb-adf4-a1441aa69bfb" testId="5a1cfc1f-2f0f-6c22-46ce-6589b033a3ae" testName="UseManagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0016357" startTime="2016-08-04T09:56:51.9119010+02:00" endTime="2016-08-04T09:56:51.9149045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1bc1b73-564b-43eb-adf4-a1441aa69bfb" />
+    <UnitTestResult executionId="b74815d6-357d-4d98-ae94-15623e15e943" testId="5f66af55-4989-d680-6b8d-629f5a945467" testName="UseManagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0014506" startTime="2016-08-04T09:56:51.9179056+02:00" endTime="2016-08-04T09:56:51.9204085+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b74815d6-357d-4d98-ae94-15623e15e943" />
+    <UnitTestResult executionId="3426aa99-5916-4053-8bbf-6b178a71f28e" testId="b713982b-93f2-f221-b64b-6e85c424e25b" testName="UseManagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0014172" startTime="2016-08-04T09:56:51.9229123+02:00" endTime="2016-08-04T09:56:51.9259304+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3426aa99-5916-4053-8bbf-6b178a71f28e" />
+    <UnitTestResult executionId="147374db-a468-4fe9-b54e-093602aaccc6" testId="6438279c-0807-8425-d09d-ae3ead5d797f" testName="UseManagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0011908" startTime="2016-08-04T09:56:51.9284163+02:00" endTime="2016-08-04T09:56:51.9309192+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="147374db-a468-4fe9-b54e-093602aaccc6" />
+    <UnitTestResult executionId="baa6134e-4b37-4619-971f-cf85bd9c04dc" testId="203d6d1c-0260-fe0f-3137-89da7c969711" testName="UseManagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" computerName="ICSWS068" duration="00:00:00.0015143" startTime="2016-08-04T09:56:51.9334194+02:00" endTime="2016-08-04T09:56:51.9364385+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baa6134e-4b37-4619-971f-cf85bd9c04dc" />
+    <UnitTestResult executionId="e3eaeeb4-ce20-4022-b760-21fae5fe4bab" testId="14d1e2fe-fb0a-6653-23b6-c78bfced1573" testName="UseUnmanagedImplementationOf_ComponentInUnmanagedGroup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0015386" startTime="2016-08-04T09:56:51.9384243+02:00" endTime="2016-08-04T09:56:51.9414255+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3eaeeb4-ce20-4022-b760-21fae5fe4bab" />
+    <UnitTestResult executionId="2039d694-25ab-4709-8b53-fe46e58248c4" testId="2ef16ab5-75bd-b2a9-1058-ca47e4a88018" testName="UseUnmanagedImplementationOf_ComponentInManagedGroup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0015436" startTime="2016-08-04T09:56:51.9439284+02:00" endTime="2016-08-04T09:56:51.9469304+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2039d694-25ab-4709-8b53-fe46e58248c4" />
+    <UnitTestResult executionId="8babe9ec-a08e-486b-9c32-efaeb01a4c13" testId="89cfd677-5164-1371-a848-58af202a0b80" testName="UseUnmanagedImplementationOf_ComponentInManagedGroupAndAsUnamangedSelf_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0014973" startTime="2016-08-04T09:56:51.9494321+02:00" endTime="2016-08-04T09:56:51.9524385+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8babe9ec-a08e-486b-9c32-efaeb01a4c13" />
+    <UnitTestResult executionId="9b574a09-ffcc-469d-b193-b5309011efe2" testId="03e7ed42-49d9-d436-9209-68b11c53ffe0" testName="UseUnmanagedImplementationOf_ComponentNotInGroup_CorrectReturnValue" computerName="ICSWS068" duration="00:00:00.0014410" startTime="2016-08-04T09:56:51.9549408+02:00" endTime="2016-08-04T09:56:51.9574586+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b574a09-ffcc-469d-b193-b5309011efe2" />
+    <UnitTestResult executionId="ab084fed-4630-4fbb-805e-a25e8d5534c3" testId="795bdf57-c060-ea9d-db40-6560af6e5c2b" testName="FAILED_ArgumentIsZero_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0002961" startTime="2016-08-04T09:56:51.9599598+02:00" endTime="2016-08-04T09:56:51.9614448+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab084fed-4630-4fbb-805e-a25e8d5534c3" />
+    <UnitTestResult executionId="d786c8ae-adae-420b-9dbe-5b833c27547a" testId="070b013c-8861-9692-3cba-6888ffeb43d9" testName="FAILED_ArgumentIsPositive_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0001451" startTime="2016-08-04T09:56:51.9644474+02:00" endTime="2016-08-04T09:56:51.9659488+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d786c8ae-adae-420b-9dbe-5b833c27547a" />
+    <UnitTestResult executionId="55c26b9d-38a3-4f6c-9666-edb11e492674" testId="9d2cd7db-9ac8-4adb-dc30-a92b19e74069" testName="FAILED_ArgumentIsNegative_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0001114" startTime="2016-08-04T09:56:51.9684505+02:00" endTime="2016-08-04T09:56:51.9699514+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55c26b9d-38a3-4f6c-9666-edb11e492674" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ConvertFilename_InputIsNull_ThrowsArgumentException" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="948b5b8d-9e52-1e8a-f7d0-e164d4828bbf">
+      <Execution id="7380b860-db8c-45c6-93f3-4991410ed7fd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputIsNull_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputIsEmptyString_ThrowsArgumentException" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="fb29f53d-e2a1-ed42-2415-f580bdca5744">
+      <Execution id="ece18845-9ab6-4469-a93f-1677e21a1c8b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputIsEmptyString_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputIsWhiteSpace_ThrowsArgumntException" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="fa83ed69-0b5a-e723-0ae4-1da508b0e714">
+      <Execution id="3367fd44-371e-49bd-a94f-753e65a45fa2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputIsWhiteSpace_ThrowsArgumntException" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsSlash_SlashReplacedWith1" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="35a249b9-7dbc-ba4d-a43b-b251eaf92e0d">
+      <Execution id="07ae8086-9352-413c-bb0a-ca663c989f2f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsSlash_SlashReplacedWith1" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InoutContainsBackslash_BackslashReplacedWith2" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="275588c8-fa42-dea9-a406-1d6a725a716c">
+      <Execution id="5c64871a-86fc-463d-be0e-ac5d5eb70312" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InoutContainsBackslash_BackslashReplacedWith2" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsColon_ColonReplacedWith3" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="253a24da-8402-d4d5-0237-e3e48cec6197">
+      <Execution id="21651ad5-649f-4454-a831-5ca5ac587a99" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsColon_ColonReplacedWith3" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsAsterisk_AsteriskReplacedWith4" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="1f30742b-7683-c207-aa1b-87f836be6822">
+      <Execution id="8b3d0c37-7b54-4be6-8642-482d1dd6f7d7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsAsterisk_AsteriskReplacedWith4" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsQuestionmark_QuestionMarkReplacedWith5" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="0d040a2b-fe9a-53e4-0faf-e287a9bde543">
+      <Execution id="50e59409-1bd5-4344-a9c0-11cf3d2e10b5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsQuestionmark_QuestionMarkReplacedWith5" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsStringChar_StringCharReplacedWith6" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="1327e174-b7a8-c551-ab33-6201c199d2bd">
+      <Execution id="ea6654dd-136a-45ef-b01b-63eb1218e41b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsStringChar_StringCharReplacedWith6" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsSmallerThanSign_SmallerThanSignReplacedWith7" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="644dfd82-4205-7d6a-010e-ec5cc656ef3e">
+      <Execution id="8ee11125-0cba-4071-bd0a-8518bf7656b8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsSmallerThanSign_SmallerThanSignReplacedWith7" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsLargerThanSign_LargerThanSignReplacedWith8" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="a10df888-0bf6-9cab-e181-4ad1bd83dbfc">
+      <Execution id="17786598-4c6d-43da-926a-dfff29a138f1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsLargerThanSign_LargerThanSignReplacedWith8" />
+    </UnitTest>
+    <UnitTest name="ConvertFilename_InputContainsVerticalBar_VerticalBarReplacedWith9" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="adbdcaad-9ae0-230a-64e7-b3a2b7396732">
+      <Execution id="ec37571d-3236-41c6-a55d-7248446666f7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Components.Common.ScriptFileNameHelperTests" name="ConvertFilename_InputContainsVerticalBar_VerticalBarReplacedWith9" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="b1929afe-5817-01ab-06c1-7160289fc5e6">
+      <Execution id="a25cc27b-f7b3-4682-b570-99840b442c51" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="0ed1f804-81be-cb67-536d-57b358f28098">
+      <Execution id="c9fd87d3-cd5d-4ceb-acc7-bba6af70bd60" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="b50e9c4f-ad91-ba48-3b5a-e38d86599235">
+      <Execution id="b30fe1b0-70a8-4fa9-957c-857ebbc62676" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="bf88028d-f70a-4039-09a9-2d8ed569c2c0">
+      <Execution id="cd043862-62bb-4cfc-9c6f-ec6fdcb4d15e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="f1e37645-2dd3-d12c-23e6-a23835039b14">
+      <Execution id="b5659737-413a-497d-b183-5bb1b95c3c7d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseManagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="5a1cfc1f-2f0f-6c22-46ce-6589b033a3ae">
+      <Execution id="c1bc1b73-564b-43eb-adf4-a1441aa69bfb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseManagedImplementationOf_ExistingComponentManagedSetup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseManagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="5f66af55-4989-d680-6b8d-629f5a945467">
+      <Execution id="b74815d6-357d-4d98-ae94-15623e15e943" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseManagedImplementationOf_ExistingComponentUnmanagedSetup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseManagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="b713982b-93f2-f221-b64b-6e85c424e25b">
+      <Execution id="3426aa99-5916-4053-8bbf-6b178a71f28e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseManagedImplementationOf_NonExistingComponent_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseManagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="6438279c-0807-8425-d09d-ae3ead5d797f">
+      <Execution id="147374db-a468-4fe9-b54e-093602aaccc6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseManagedImplementationOf_WrongXMLFileData_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseManagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="203d6d1c-0260-fe0f-3137-89da7c969711">
+      <Execution id="baa6134e-4b37-4619-971f-cf85bd9c04dc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseManagedImplementationOf_XMLFileNotFound_CorrectDefaultReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ComponentInUnmanagedGroup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="14d1e2fe-fb0a-6653-23b6-c78bfced1573">
+      <Execution id="e3eaeeb4-ce20-4022-b760-21fae5fe4bab" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ComponentInUnmanagedGroup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ComponentInManagedGroup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="2ef16ab5-75bd-b2a9-1058-ca47e4a88018">
+      <Execution id="2039d694-25ab-4709-8b53-fe46e58248c4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ComponentInManagedGroup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ComponentInManagedGroupAndAsUnamangedSelf_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="89cfd677-5164-1371-a848-58af202a0b80">
+      <Execution id="8babe9ec-a08e-486b-9c32-efaeb01a4c13" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ComponentInManagedGroupAndAsUnamangedSelf_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="UseUnmanagedImplementationOf_ComponentNotInGroup_CorrectReturnValue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="03e7ed42-49d9-d436-9209-68b11c53ffe0">
+      <Execution id="9b574a09-ffcc-469d-b193-b5309011efe2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Core.RuntimeModeConfigurationLoaderTests" name="UseUnmanagedImplementationOf_ComponentNotInGroup_CorrectReturnValue" />
+    </UnitTest>
+    <UnitTest name="FAILED_ArgumentIsZero_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="795bdf57-c060-ea9d-db40-6560af6e5c2b">
+      <Execution id="ab084fed-4630-4fbb-805e-a25e8d5534c3" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Common.COMResultCodesTests" name="FAILED_ArgumentIsZero_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="FAILED_ArgumentIsPositive_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="070b013c-8861-9692-3cba-6888ffeb43d9">
+      <Execution id="d786c8ae-adae-420b-9dbe-5b833c27547a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Common.COMResultCodesTests" name="FAILED_ArgumentIsPositive_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="FAILED_ArgumentIsNegative_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.components.common.dll" id="9d2cd7db-9ac8-4adb-dc30-a92b19e74069">
+      <Execution id="55c26b9d-38a3-4f6c-9666-edb11e492674" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Components.Common.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Component.Common.COMResultCodesTests" name="FAILED_ArgumentIsNegative_ReturnsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="948b5b8d-9e52-1e8a-f7d0-e164d4828bbf" executionId="7380b860-db8c-45c6-93f3-4991410ed7fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb29f53d-e2a1-ed42-2415-f580bdca5744" executionId="ece18845-9ab6-4469-a93f-1677e21a1c8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa83ed69-0b5a-e723-0ae4-1da508b0e714" executionId="3367fd44-371e-49bd-a94f-753e65a45fa2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35a249b9-7dbc-ba4d-a43b-b251eaf92e0d" executionId="07ae8086-9352-413c-bb0a-ca663c989f2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="275588c8-fa42-dea9-a406-1d6a725a716c" executionId="5c64871a-86fc-463d-be0e-ac5d5eb70312" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="253a24da-8402-d4d5-0237-e3e48cec6197" executionId="21651ad5-649f-4454-a831-5ca5ac587a99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f30742b-7683-c207-aa1b-87f836be6822" executionId="8b3d0c37-7b54-4be6-8642-482d1dd6f7d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d040a2b-fe9a-53e4-0faf-e287a9bde543" executionId="50e59409-1bd5-4344-a9c0-11cf3d2e10b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1327e174-b7a8-c551-ab33-6201c199d2bd" executionId="ea6654dd-136a-45ef-b01b-63eb1218e41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="644dfd82-4205-7d6a-010e-ec5cc656ef3e" executionId="8ee11125-0cba-4071-bd0a-8518bf7656b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a10df888-0bf6-9cab-e181-4ad1bd83dbfc" executionId="17786598-4c6d-43da-926a-dfff29a138f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adbdcaad-9ae0-230a-64e7-b3a2b7396732" executionId="ec37571d-3236-41c6-a55d-7248446666f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1929afe-5817-01ab-06c1-7160289fc5e6" executionId="a25cc27b-f7b3-4682-b570-99840b442c51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ed1f804-81be-cb67-536d-57b358f28098" executionId="c9fd87d3-cd5d-4ceb-acc7-bba6af70bd60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b50e9c4f-ad91-ba48-3b5a-e38d86599235" executionId="b30fe1b0-70a8-4fa9-957c-857ebbc62676" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf88028d-f70a-4039-09a9-2d8ed569c2c0" executionId="cd043862-62bb-4cfc-9c6f-ec6fdcb4d15e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1e37645-2dd3-d12c-23e6-a23835039b14" executionId="b5659737-413a-497d-b183-5bb1b95c3c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a1cfc1f-2f0f-6c22-46ce-6589b033a3ae" executionId="c1bc1b73-564b-43eb-adf4-a1441aa69bfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f66af55-4989-d680-6b8d-629f5a945467" executionId="b74815d6-357d-4d98-ae94-15623e15e943" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b713982b-93f2-f221-b64b-6e85c424e25b" executionId="3426aa99-5916-4053-8bbf-6b178a71f28e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6438279c-0807-8425-d09d-ae3ead5d797f" executionId="147374db-a468-4fe9-b54e-093602aaccc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="203d6d1c-0260-fe0f-3137-89da7c969711" executionId="baa6134e-4b37-4619-971f-cf85bd9c04dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14d1e2fe-fb0a-6653-23b6-c78bfced1573" executionId="e3eaeeb4-ce20-4022-b760-21fae5fe4bab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ef16ab5-75bd-b2a9-1058-ca47e4a88018" executionId="2039d694-25ab-4709-8b53-fe46e58248c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89cfd677-5164-1371-a848-58af202a0b80" executionId="8babe9ec-a08e-486b-9c32-efaeb01a4c13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03e7ed42-49d9-d436-9209-68b11c53ffe0" executionId="9b574a09-ffcc-469d-b193-b5309011efe2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="795bdf57-c060-ea9d-db40-6560af6e5c2b" executionId="ab084fed-4630-4fbb-805e-a25e8d5534c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="070b013c-8861-9692-3cba-6888ffeb43d9" executionId="d786c8ae-adae-420b-9dbe-5b833c27547a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d2cd7db-9ac8-4adb-dc30-a92b19e74069" executionId="55c26b9d-38a3-4f6c-9666-edb11e492674" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

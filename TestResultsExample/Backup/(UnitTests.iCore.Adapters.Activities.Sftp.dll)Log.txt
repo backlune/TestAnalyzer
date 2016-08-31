@@ -1,0 +1,25 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Validate_UseHttpProxyTrueNoDataSet_ErrorsAreAdded
+Passed   Validate_UseHttpProxyFalse_NoValidationErrors
+Passed   Validate_UseHttpProxyTruePortSetButNotServer_ReturnsOneError
+Passed   Validate_UseHttpProxyTruePortNotSetAndServerSet_ReturnsOneError
+Passed   ToEldosValue_NoAuth_ReturnSBNoAuth
+Passed   ToEldosValue_Basic_ReturnSBBasic
+Passed   ToEldosValue_Digest_ReturnsSBDigest
+Passed   ToEldoValue_NTLM_ReturnsSBNTLM
+Passed   Validate_IfUseSocksIsFalseAndUseHttpProxyTrue_NoErrorIsReturned
+Passed   Validate_IfUseSocksIsTrueAndUseHttpProxyFalse_NoErrorIsReturned
+Passed   Validate_IfUseSocksIsTrueAndUseHttpProxyIsTrue_ErrorIsReturned
+Passed   ToEldosValue_SocksVersion4_ReturnsElSocks4
+Passed   ToEldosValue_SocksVersion5_ReturnsElSocks5
+Passed   Validate_WhenNotUseSocks_ThereAreNoErrors
+Passed   Validate_WhenUseSocksAndServerNotDefined_OneErrorIsReturned
+Passed   Validate_WhenUseSocksAndServerIsDefined_NoErrorIsReturned
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_55_56.trx
+
+Total tests: 16. Passed: 16. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,0247 Seconds

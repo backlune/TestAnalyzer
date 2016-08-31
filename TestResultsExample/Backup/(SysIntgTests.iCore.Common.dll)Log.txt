@@ -1,0 +1,45 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   SelfTest
+Passed   SelfTestAsync
+Passed   SelfTestWithTransactionScope
+Passed   SelfTestWithTransactionScopeAsync
+Passed   SelfTestTransactionScopeNesting
+Passed   SelfTestWithFailureInIsolatedObject
+Passed   TxScopeCreatedInMainAndInvocationOnIsolatedObject_TransactionFlowsToTemporaryAppDomain
+Passed   TxScopeCreatedInMain_TxScopeCreatedInTempAdAndRolledBack_TxIsAbortedInMain
+Passed   TxScopeCreatedInMain_TxScopeCreatedInTempAdAndCommitted_RolledBackInMain_NoDbChangesMade
+Passed   TxScopeCreatedInMain_TxScopeCreatedInTempAdAndCommitted_CommittedInMain_AllDbChangesPersisted
+Passed   TxScopeCreatedInMainWithoutDbAccessAndInvocationOnIsolatedObject_TransactionFlowsToTemporaryAppDomain
+Passed   TxScopeCreatedInMainWithoutDbAccess_TxScopeCreatedInTempAdAndRolledBack_TxIsAbortedInMain
+Passed   TxScopeCreatedInMainWithoutDbAccess_TxScopeCreatedInTempAdAndCommitted_RolledBackInMain_NoDbChangesMade
+Passed   TxScopeCreatedInMainWithoutDbAccess_TxScopeCreatedInTempAdAndCommitted_CommittedInMain_AllDbChangesPersisted
+Passed   TxScope_PropagationOverMultipleAppDomains
+Passed   TxScope_PropagationOverMultipleAppDomains2
+Passed   TxScope_PropagationOverMultipleAppDomainsWithDifferentTransactions
+Passed   Invoke_ProxyPassedBetweenAppDomains_CorrectTransactionsAreTransferred
+Passed   Constructor_Required_NotInTempDomain_CreatesNewAppDomainWithCorrectDefaultOptions
+Passed   Constructor_Required_InCompatibleTempDomain_ReuseOfSameDomain
+Passed   Constructor_RequiresNew_InCompatibleTempDomain_CreatesNewDomain
+Passed   Constructor_RequiresNewIfIncompatible_InCompatibleTempDomain_ReuseOfSameDomain
+Passed   Constructor_RequiresNewIfIncompatible_InInCompatibleTempDomain_CreatesNewDomain
+Passed   Constructor_Required_InInCompatibleTempDomain_ThrowsInvalidOperationException
+Passed   Constructor_NotInTempDomain_CopiesServiceLocator
+Passed   Constructor_NotInTempDomain_DoesNotCopyServiceLocatorWhenSpecifiedToNotDoSo
+Passed   Current_OutsideAnyScope_ReturnsNonNullValue
+Passed   Current_OutsideAnyScope_ReturnsWrapperForCurrentAppDomain
+Passed   Constructor_CreatesNewAppDomainWithCorrectDefaultOptions
+Passed   CreateInstance_ReturnsProxyToOtherDomain
+Passed   CreateInstanceInTempDomain_ReturnsNonProxyObject
+Passed   CreateInstance_NonMarshalByRefObject_ThrowsException
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.dll' was not found.
+
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.dll' was not found.
+
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 10_03_00.trx
+
+Total tests: 32. Passed: 32. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 1,2411 Minutes

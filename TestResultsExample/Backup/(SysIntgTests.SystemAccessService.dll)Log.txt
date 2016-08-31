@@ -1,0 +1,1009 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Add_SettingAttributeType_EmptyName_ReturnsConfirmationResultWithInvalidPropertyValueError
+Passed   Add_SettingAttributeType_ValidProperties_ReturnsSuccess
+Passed   Add_SettingAttributeType_VarTypeIsInteger_ValidProperties_ReturnsSuccess
+Passed   Add_SettingAttributeType_ValidPropertiesWithAffectedSetting_ReturnsConfirmationResultAndOnSubsequentCallSucceeds
+Passed   Update_SettingAttributeType_EmptyName_ReturnsErrorResult
+Passed   Update_SettingAttributeType_UnusedGroupWithValidProperties_ReturnsSuccess
+Passed   Update_SettingAttributeType_UsedGroupWithValidProperties_ReturnsSuccess
+Passed   Add_Category_EmptyName_ReturnsConfirmationResultWithInvalidPropertyValueError
+Passed   Add_Category_ValidProperties_ReturnsSuccessResultAndCategoryIsAddedToSystem
+Passed   Add_Category_ValidPropertiesWithParentCategory_ReturnsSuccessResultAndCategoryIsAddedToSystem
+Passed   Update_Category_EmptyName_ReturnsConfirmationResultWithInvalidPropertyValueError
+Passed   Update_Category_ValidProperties_ReturnsSuccessResultAndCategoryIsAddedToSystem
+Passed   Update_Category_ValidPropertiesWithParentCategory_ReturnsSuccessResultAndCategoryIsAddedToSystem
+Failed   DeleteEntity_JobsAndEventsInVariousStates_CommandIsEnabledPropertyHasCorrectValues
+Standard Output Messages:
+   
+
+Debug Trace:
+iCore.Common.Entities.IEntity
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EntityTypeId
+   iCore.Common.Entities.IComponentDefinition
+   System.String
+   System.DateTime
+   iCore.Common.Entities.IEventHistory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IJob, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EArgument
+   System.Boolean
+   System.Int64
+   iCore.Common.Entities.EventState
+   iCore.Common.Entities.EventReason
+   iCore.Common.Entities.EArgument[]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentConfiguration, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICategoryMembership
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategory, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.TimeSpan
+   System.Guid
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPool, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IServer, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ServerStartupSpecialTask
+   System.Nullable`1[[System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.UInt16
+   System.Int16
+   iCore.Common.Entities.IUser
+   iCore.Common.Entities.IUserGroup
+   iCore.Common.Entities.UserDisplayOptions
+   iCore.Common.Entities.MainTreeDisplayOptions
+   iCore.Common.Entities.NodeContent
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUserGroup, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ViewMode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUser, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPoolImplementation
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INode, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.INode
+   System.String
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Object
+   iCore.Public.Types.ScriptVarType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartner
+   System.String
+   iCore.Common.Entities.IEntityImage
+   iCore.Common.Entities.SizedEntityImage[]
+   iCore.Common.Entities.SizedEntityImage
+   System.Drawing.Size
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupInstance
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerIdentity
+   iCore.Common.Entities.IPartner
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartner, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.INodeTypeStyleSheet
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeTypeVersion, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.SelectionRule
+   iCore.Common.Entities.EventTypes
+   iCore.Common.Entities.EventTrackingCleanupRole
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.MatchedStatus
+   iCore.Common.Entities.EventSourceType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventHandler, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.EventHandlerStatus
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentDefinition, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Common.Entities.JobState
+   iCore.Common.Entities.JobHistoryReason
+   iCore.Common.Entities.JobType
+   System.Byte
+   System.Int32
+   iCore.Public.Types.JobLifetime
+   iCore.Common.Entities.EntityKey[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeType
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.ILogEntry
+   iCore.Public.Types.LogLevel
+   iCore.Common.LogMessageTypeID
+   iCore.Common.Entities.IWorkflow
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WorkflowClassification
+   iCore.Common.Entities.IWorkflow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Types.LogLevelFilter
+   iCore.Common.Types.EntryPointNameValue
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.ITimer
+   iCore.Common.Entities.ITimer
+   iCore.Common.Types.TimerFrequency
+   iCore.Common.Types.TimerInterval+TimerIntervalType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ITimerEvent
+   iCore.Common.Entities.ITimer
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.TimerEventPriority
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Int32[]
+   iCore.SAS.Interfaces.WeekDay
+   iCore.SAS.Interfaces.WeekDay[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingIdentity
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupInstance
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.String
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeValue
+   iCore.Common.Entities.ISetting
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceActivityTypeInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceActivityTypeInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.CategorizedNamedItem, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.CategorizedNamedItem
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceAssemblyInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceAssemblyInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceSchemaInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceSchemaInfo
+   iCore.Common.Entities.SchemaType[]
+   iCore.Common.Entities.SchemaType
+   System.Uri
+   System.Version
+   iCore.Common.Entities.WebServiceGenerationOptions
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICrossReferenceEntry
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.CounterCheckType
+   iCore.Common.Entities.AppendDateTimePosition
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.ICompositeEntity
+   iCore.Common.Entities.CorrelatedActive
+   iCore.Common.IconEntity
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ISystemQueue
+   iCore.Management.Monitoring.FailoverServerPartState
+   iCore.Public.Types.ServerPartType
+   iCore.Management.Monitoring.ServerPartStatus
+   System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Management.Monitoring.EventListenerState
+   iCore.Management.Monitoring.EventListenerStatistics
+   iCore.Management.Monitoring.TimeOfLastOperationTrackingStatisticsCounter
+   iCore.Management.Monitoring.EventProcessorState
+   iCore.Management.Monitoring.EventProcessorStatistics
+   iCore.Management.Monitoring.JobManagerState
+   iCore.Management.Monitoring.JobManagerStatistics
+   iCore.Management.Monitoring.StatisticsCounter
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails
+   iCore.Management.Monitoring.TimerType
+   iCore.Management.Monitoring.EventGeneratorState
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails[]
+   iCore.Management.Monitoring.DetailedServerPartState
+   iCore.SAS.Administration.Models.ServerStatusModel
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.ServerPartDataModel[]
+   iCore.Management.Monitoring.ServiceStatus
+   iCore.Management.Monitoring.SystemEventProcessorState
+   iCore.Management.Monitoring.SystemEventProcessorStatistics
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo
+   System.Int64[]
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerConnectionInfo
+   iCore.Management.Monitoring.ServerConnectionStatus
+   iCore.Management.Monitoring.SystemMonitorServerInfo
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo
+   iCore.Management.Monitoring.WorkerHostProcessInfo
+   iCore.Management.Monitoring.WorkerHostStatistics
+   iCore.SAS.Administration.Models.SystemMonitorDataModel
+   iCore.SAS.Administration.Models.ServerStatusModel[]
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessorDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel
+   System.Double
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel[]
+   iCore.SAS.Administration.Models.EventGeneratorDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel[]
+   iCore.SAS.Administration.Models.ServerMonitorDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel[]
+   iCore.SAS.Administration.Models.EventListenerDataModel
+   iCore.SAS.Administration.Models.JobManagerDataModel
+   iCore.SAS.Administration.Models.EventProcessorDataModel
+   System.Char
+   System.Guid
+   System.String
+   System.Boolean
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+
+Passed   CompileEntity_VariousScripts_CommandExistsWithCorrectState
+Passed   CompileEntity_VariousWorkflows_CommandExistsWithCorrectState
+Passed   CompileEntity_VariousAdapterflows_CommandExistsWithCorrectState
+Passed   CompileEntity_VariousWebservices_CommandExistsWithCorrectState
+Passed   CompileEntity_ScriptBase_CommandExistsAndIsDisabled
+Passed   Test
+Passed   SaveFilterResult_SucceedsAndReturnsNonEmptyString
+Passed   SaveFilterResultSelection_SucceedsAndReturnsCorrectNumberOfRows
+Failed   EntryPointObjectPropertyValueRangeSpecification_GetValueRange_CorrectJsonIsReturned
+
+Failed   NonSystemWorkflowPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   DefaultEntityPropertyValueRangeSpecification_GetAdapterFlowValueRange_ValuesMatchesExpected
+
+Failed   ApplicationPoolPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   ComponentConfigurationScriptPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   EventHandlerComponentConfigurationPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   EventhandlerEventTypePropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   EventHandlerSelectionPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   NullableApplicationPoolPropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   TimerEventEventTypePropertyValueRangeSpecification_GetValueRange_ValuesMatchesExpected
+
+Failed   CategoryHierarchicalPropertyValueRangeProvider_GetValueRange_ValuesMatchesExpected
+
+Failed   EntryPointObjectPropertyValueRangeSpecification_GetValueRange_CorrectJsonIsReturned
+
+Passed   CompileEntity_SingleNonCompilableScript_ReturnsErrorCommandResult
+Passed   CompileEntity_SingleCompilableScript_ReturnsSuccessCommandResultAndScriptIsCompiled
+Passed   CompileEntity_MixOfCompilableAndNonCompilableScripts_ReturnsErrorCommandResultAndCompilableScriptIsCompiled
+Passed   CompileEntity_SingleNonCompilableWorkflow_ReturnsErrorCommandResult
+Passed   CompileEntity_SingleCompilableWorkflow_ReturnsSuccessCommandResultAndWorkflowIsCompiled
+Passed   CompileEntity_MixOfCompilableAndNonCompilableWorkflows_ReturnsErrorCommandResultAndCompilableWorkflowIsCompiled
+Passed   CompileEntity_SingleNonCompilableAdapterflow_ReturnsErrorCommandResult
+Passed   CompileEntity_SingleCompilableAdapterflow_ReturnsSuccessCommandResultAndWorkflowIsCompiled
+Passed   CompileEntity_MixOfCompilableAndNonCompilableAdapterflows_ReturnsErrorCommandResultAndCompilableAdapterflowIsCompiled
+Passed   CompileEntity_SingleCompilableWebService_ReturnsSuccessCommandResultAndWebServiceIsCompiled
+Passed   TestAFilter
+Passed   GetTypeInfoModelRepository_Works
+Passed   GetTypeInfoModelRepository_CanBeSerializedWithDataContractSerializer
+Passed   GetTypeInfoModelRepository_ReturnsTypeSerializableUsingDataContractSerializer
+Passed   JsonSerializeCategory_DoesNotThrow
+Passed   JsonSerializeAdapterflow_DoesNotThrow
+Passed   JsonSerializeApplicationPool_DoesNotThrow
+Passed   JsonSerializeCounter_DoesNotThrow
+Passed   JsonSerializeComponentConfiguration_DoesNotThrow
+Passed   JsonSerializeEvent_DoesNotThrow
+Passed   JsonSerializeEventHandler_DoesNotThrow
+Passed   JsonSerializeCrossReference_DoesNotThrow
+Passed   JsonSerializeEntityFilter_DoesNotThrow
+Passed   JsonSerializeEventType_DoesNotThrow
+Passed   JsonSerializeFavorite_DoesNotThrow
+Passed   JsonSerializeJob_DoesNotThrow
+Passed   JsonSerializeLogEntry_DoesNotThrow
+Passed   JsonSerializeNode_DoesNotThrow
+Passed   JsonSerializeNodeAttributeType_DoesNotThrow
+Passed   JsonSerializeNodeType_DoesNotThrow
+Passed   JsonSerializeNodeTypeVersion_DoesNotThrow
+Passed   JsonSerializePartner_DoesNotThrow
+Passed   JsonSerializePartnerAttributeDefinition_DoesNotThrow
+Passed   JsonSerializeScript_DoesNotThrow
+Passed   JsonSerializeServer_DoesNotThrow
+Passed   JsonSerializeSetting_DoesNotThrow
+Passed   JsonSerializeSettingAttributeGroupType_DoesNotThrow
+Passed   JsonSerializeTimer_DoesNotThrow
+Passed   JsonSerializeUser_DoesNotThrow
+Passed   JsonSerializeWorkflow_DoesNotThrow
+Passed   JsonSerializeWebServiceDefinition_DoesNotThrow
+Passed   SerializeEntity_LazyDepthSetTo2_CorrectPropertiesGetSerialized
+Passed   SerializeEntity_LazyDepthSetTo1_CorrectPropertiesGetSerialized
+Passed   SerializeEntity_LazyDepthSetTo0_CorrectPropertiesGetSerialized
+Passed   LazyKeyEntityPair_SerializationRoundtripWithKeyOnly_DeserializesKeyOnly
+Passed   LazyKeyEntityPair_SerializationRoundtripWithFullEntity_DeserializesFullEntity
+Passed   EntityWithPartialEntityKey_Deserialization_CreatesANewEntityInstance
+Passed   EntityWithFullEntityKey_Deserialization_LoadsExistingEntity
+Passed   Deserialize_NewSettingAttributeGroupTypeWithNewMembers_DeserializesCorrectly
+Passed   Deserialize_ExistingSettingAttributeGroupTypeWithNewUpdatedAndDeletedMembers_DeserializesCorrectly
+Passed   Server_DesializationNewEntity_DeserializesNewEntityCorrect
+Passed   Timer_DeserializationNewEntity_DeserializesNewEntityCorrect
+Passed   Timer_SerializationRoundtripWithFullEntity_DeserializesFullEntity
+Passed   JsonDeserializeTimer_DoesNotThrow
+Passed   Deserialize_ExistingTimer_DeserializesCorrectly
+Passed   SerializationRoundTrip_ExistingNodeTypeWithImages_Succeeds
+Failed   Deserialize_NewNodeTypeWithImages_Succeeds
+Standard Output Messages:
+   
+
+Debug Trace:
+iCore.Common.Entities.IEntity
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EntityTypeId
+   iCore.Common.Entities.IComponentDefinition
+   System.String
+   System.DateTime
+   iCore.Common.Entities.IEventHistory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IJob, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EArgument
+   System.Boolean
+   System.Int64
+   iCore.Common.Entities.EventState
+   iCore.Common.Entities.EventReason
+   iCore.Common.Entities.EArgument[]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentConfiguration, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICategoryMembership
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategory, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.TimeSpan
+   System.Guid
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPool, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IServer, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ServerStartupSpecialTask
+   System.Nullable`1[[System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.UInt16
+   System.Int16
+   iCore.Common.Entities.IUser
+   iCore.Common.Entities.IUserGroup
+   iCore.Common.Entities.UserDisplayOptions
+   iCore.Common.Entities.MainTreeDisplayOptions
+   iCore.Common.Entities.NodeContent
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUserGroup, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ViewMode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUser, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPoolImplementation
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INode, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.INode
+   System.String
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Object
+   iCore.Public.Types.ScriptVarType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartner
+   System.String
+   iCore.Common.Entities.IEntityImage
+   iCore.Common.Entities.SizedEntityImage[]
+   iCore.Common.Entities.SizedEntityImage
+   System.Drawing.Size
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupInstance
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerIdentity
+   iCore.Common.Entities.IPartner
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartner, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.INodeTypeStyleSheet
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeTypeVersion, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.SelectionRule
+   iCore.Common.Entities.EventTypes
+   iCore.Common.Entities.EventTrackingCleanupRole
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.MatchedStatus
+   iCore.Common.Entities.EventSourceType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventHandler, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.EventHandlerStatus
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentDefinition, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Common.Entities.JobState
+   iCore.Common.Entities.JobHistoryReason
+   iCore.Common.Entities.JobType
+   System.Byte
+   System.Int32
+   iCore.Public.Types.JobLifetime
+   iCore.Common.Entities.EntityKey[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeType
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.ILogEntry
+   iCore.Public.Types.LogLevel
+   iCore.Common.LogMessageTypeID
+   iCore.Common.Entities.IWorkflow
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WorkflowClassification
+   iCore.Common.Entities.IWorkflow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Types.LogLevelFilter
+   iCore.Common.Types.EntryPointNameValue
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.ITimer
+   iCore.Common.Entities.ITimer
+   iCore.Common.Types.TimerFrequency
+   iCore.Common.Types.TimerInterval+TimerIntervalType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ITimerEvent
+   iCore.Common.Entities.ITimer
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.TimerEventPriority
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Int32[]
+   iCore.SAS.Interfaces.WeekDay
+   iCore.SAS.Interfaces.WeekDay[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingIdentity
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupInstance
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.String
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeValue
+   iCore.Common.Entities.ISetting
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceActivityTypeInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceActivityTypeInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.CategorizedNamedItem, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.CategorizedNamedItem
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceAssemblyInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceAssemblyInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceSchemaInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceSchemaInfo
+   iCore.Common.Entities.SchemaType[]
+   iCore.Common.Entities.SchemaType
+   System.Uri
+   System.Version
+   iCore.Common.Entities.WebServiceGenerationOptions
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICrossReferenceEntry
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.CounterCheckType
+   iCore.Common.Entities.AppendDateTimePosition
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.ICompositeEntity
+   iCore.Common.Entities.CorrelatedActive
+   iCore.Common.IconEntity
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ISystemQueue
+   iCore.Management.Monitoring.FailoverServerPartState
+   iCore.Public.Types.ServerPartType
+   iCore.Management.Monitoring.ServerPartStatus
+   System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Management.Monitoring.EventListenerState
+   iCore.Management.Monitoring.EventListenerStatistics
+   iCore.Management.Monitoring.TimeOfLastOperationTrackingStatisticsCounter
+   iCore.Management.Monitoring.EventProcessorState
+   iCore.Management.Monitoring.EventProcessorStatistics
+   iCore.Management.Monitoring.JobManagerState
+   iCore.Management.Monitoring.JobManagerStatistics
+   iCore.Management.Monitoring.StatisticsCounter
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails
+   iCore.Management.Monitoring.TimerType
+   iCore.Management.Monitoring.EventGeneratorState
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails[]
+   iCore.Management.Monitoring.DetailedServerPartState
+   iCore.SAS.Administration.Models.ServerStatusModel
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.ServerPartDataModel[]
+   iCore.Management.Monitoring.ServiceStatus
+   iCore.Management.Monitoring.SystemEventProcessorState
+   iCore.Management.Monitoring.SystemEventProcessorStatistics
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo
+   System.Int64[]
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerConnectionInfo
+   iCore.Management.Monitoring.ServerConnectionStatus
+   iCore.Management.Monitoring.SystemMonitorServerInfo
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo
+   iCore.Management.Monitoring.WorkerHostProcessInfo
+   iCore.Management.Monitoring.WorkerHostStatistics
+   iCore.SAS.Administration.Models.SystemMonitorDataModel
+   iCore.SAS.Administration.Models.ServerStatusModel[]
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessorDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel
+   System.Double
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel[]
+   iCore.SAS.Administration.Models.EventGeneratorDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel[]
+   iCore.SAS.Administration.Models.ServerMonitorDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel[]
+   iCore.SAS.Administration.Models.EventListenerDataModel
+   iCore.SAS.Administration.Models.JobManagerDataModel
+   iCore.SAS.Administration.Models.EventProcessorDataModel
+   System.Char
+   System.Guid
+   System.String
+   System.Boolean
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEntity
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EntityTypeId
+   iCore.Common.Entities.IComponentDefinition
+   System.String
+   System.DateTime
+   iCore.Common.Entities.IEventHistory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IJob, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.EntityKey
+   iCore.Common.Entities.EArgument
+   System.Boolean
+   System.Int64
+   iCore.Common.Entities.EventState
+   iCore.Common.Entities.EventReason
+   iCore.Common.Entities.EArgument[]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentConfiguration, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategoryMembership, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICategoryMembership
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ICategory
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICategory, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.TimeSpan
+   System.Guid
+   iCore.Common.Entities.IComponentConfiguration
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPool, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.IApplicationPool
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IServer, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ServerStartupSpecialTask
+   System.Nullable`1[[System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   System.UInt16
+   System.Int16
+   iCore.Common.Entities.IUser
+   iCore.Common.Entities.IUserGroup
+   iCore.Common.Entities.UserDisplayOptions
+   iCore.Common.Entities.MainTreeDisplayOptions
+   iCore.Common.Entities.NodeContent
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUserGroup, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ViewMode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IUser, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IApplicationPoolImplementation
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IApplicationPoolImplementation, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INode, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.INode
+   System.String
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.INodeAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Object
+   iCore.Public.Types.ScriptVarType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INodeAttributeType
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartner
+   System.String
+   iCore.Common.Entities.IEntityImage
+   iCore.Common.Entities.SizedEntityImage[]
+   iCore.Common.Entities.SizedEntityImage
+   System.Drawing.Size
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupInstance
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeValue
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerIdentity
+   iCore.Common.Entities.IPartner
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartner, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeTypeVersion
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.INodeTypeStyleSheet
+   iCore.Common.Entities.INodeType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeTypeVersion, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.SelectionRule
+   iCore.Common.Entities.EventTypes
+   iCore.Common.Entities.EventTrackingCleanupRole
+   iCore.Common.Entities.IEventType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.INodeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.MatchedStatus
+   iCore.Common.Entities.EventSourceType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IEventHandler, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.EventHandlerStatus
+   iCore.Common.Entities.IEventHandler
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IComponentDefinition, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Common.Entities.JobState
+   iCore.Common.Entities.JobHistoryReason
+   iCore.Common.Entities.JobType
+   System.Byte
+   System.Int32
+   iCore.Public.Types.JobLifetime
+   iCore.Common.Entities.EntityKey[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeType
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IPartnerAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.IPartnerAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.INode
+   iCore.Common.Entities.IEvent
+   iCore.Common.Entities.IJob
+   iCore.Common.Entities.ILogEntry
+   iCore.Public.Types.LogLevel
+   iCore.Common.LogMessageTypeID
+   iCore.Common.Entities.IWorkflow
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WorkflowClassification
+   iCore.Common.Entities.IWorkflow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Entities.IAdapterFlow
+   iCore.Common.Types.LogLevelFilter
+   iCore.Common.Types.EntryPointNameValue
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.IScript
+   iCore.Common.Entities.ITimer
+   iCore.Common.Entities.ITimer
+   iCore.Common.Types.TimerFrequency
+   iCore.Common.Types.TimerInterval+TimerIntervalType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ITimerEvent
+   iCore.Common.Entities.ITimer
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.TimerEventPriority
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ITimerEvent, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Int32[]
+   iCore.SAS.Interfaces.WeekDay
+   iCore.SAS.Interfaces.WeekDay[]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeType
+   iCore.Common.Entities.ISettingAttributeGroupType
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingIdentity
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingIdentity, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeGroupInstance
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   iCore.Common.Entities.ISetting
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupType, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.String
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ISettingAttributeValue
+   iCore.Common.Entities.ISetting
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeGroupInstance, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ISettingAttributeValue, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.IWebServiceDefinition
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceActivityTypeInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceActivityTypeInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.CategorizedNamedItem, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.CategorizedNamedItem
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceAssemblyInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceAssemblyInfo
+   iCore.Common.Entities.ILazyKeyedCollection`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[iCore.Common.Entities.WebServiceSchemaInfo, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.WebServiceSchemaInfo
+   iCore.Common.Entities.SchemaType[]
+   iCore.Common.Entities.SchemaType
+   System.Uri
+   System.Version
+   iCore.Common.Entities.WebServiceGenerationOptions
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICrossReferenceEntry
+   iCore.Common.Entities.ICrossReferenceTable
+   iCore.SAS.Administration.ILazySubEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ILazyLoadedEntity`1[[iCore.Common.Entities.ICrossReferenceEntry, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]][]
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.ICounter
+   iCore.Common.Entities.CounterCheckType
+   iCore.Common.Entities.AppendDateTimePosition
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.IEntityFilter
+   iCore.Common.Entities.ICompositeEntity
+   iCore.Common.Entities.CorrelatedActive
+   iCore.Common.IconEntity
+   iCore.Common.Entities.IServer
+   iCore.Common.Entities.ISystemQueue
+   iCore.Management.Monitoring.FailoverServerPartState
+   iCore.Public.Types.ServerPartType
+   iCore.Management.Monitoring.ServerPartStatus
+   System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+   iCore.Management.Monitoring.EventListenerState
+   iCore.Management.Monitoring.EventListenerStatistics
+   iCore.Management.Monitoring.TimeOfLastOperationTrackingStatisticsCounter
+   iCore.Management.Monitoring.EventProcessorState
+   iCore.Management.Monitoring.EventProcessorStatistics
+   iCore.Management.Monitoring.JobManagerState
+   iCore.Management.Monitoring.JobManagerStatistics
+   iCore.Management.Monitoring.StatisticsCounter
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails
+   iCore.Management.Monitoring.TimerType
+   iCore.Management.Monitoring.EventGeneratorState
+   iCore.Management.Monitoring.EventGeneratorState+TimerDetails[]
+   iCore.Management.Monitoring.DetailedServerPartState
+   iCore.SAS.Administration.Models.ServerStatusModel
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.ServerPartDataModel[]
+   iCore.Management.Monitoring.ServiceStatus
+   iCore.Management.Monitoring.SystemEventProcessorState
+   iCore.Management.Monitoring.SystemEventProcessorStatistics
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo
+   System.Int64[]
+   iCore.Management.Monitoring.WorkerHostProcessBaseInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerConnectionInfo
+   iCore.Management.Monitoring.ServerConnectionStatus
+   iCore.Management.Monitoring.SystemMonitorServerInfo
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo[]
+   iCore.Management.Monitoring.SystemMonitorServerPartInfo
+   iCore.Management.Monitoring.WorkerHostProcessInfo
+   iCore.Management.Monitoring.WorkerHostStatistics
+   iCore.SAS.Administration.Models.SystemMonitorDataModel
+   iCore.SAS.Administration.Models.ServerStatusModel[]
+   iCore.SAS.Administration.Models.ServerPartDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessorDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel
+   iCore.SAS.Administration.Models.SystemEventProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel
+   System.Double
+   iCore.SAS.Administration.Models.WorkerHostManagerProcessDataModel[]
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel
+   iCore.SAS.Administration.Models.WorkerHostManagerJobDataModel[]
+   iCore.SAS.Administration.Models.EventGeneratorDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel
+   iCore.SAS.Administration.Models.TimerDetailsDataModel[]
+   iCore.SAS.Administration.Models.ServerMonitorDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel
+   iCore.SAS.Administration.Models.SerializableServerDataModel[]
+   iCore.SAS.Administration.Models.EventListenerDataModel
+   iCore.SAS.Administration.Models.JobManagerDataModel
+   iCore.SAS.Administration.Models.EventProcessorDataModel
+   System.Char
+   System.Guid
+   System.String
+   System.Boolean
+   System.Collections.Generic.IEnumerable`1[[iCore.Common.Entities.EntityKey, iCore.Common.Entities, Version=3.40.0.0, Culture=neutral, PublicKeyToken=fe44b4a6e7c933aa]]
+
+Passed   ExportEncrypted_MultipleNodeAttributes_SucceedsAndReturnsStreamContent
+Passed   ExportEncrypted_MultipleNodeAttributesInvalidPasswordConfirmation_ReturnsInvalidPropertyError
+Passed   ExportUnencrypted_MultipleNodeAttributes_SucceedsAndReturnsStreamContent
+Passed   ExportEncrypted_MultipleNodeAttributes_SucceedsAndReturnsStreamContent
+Passed   FindEntityFilterQueryRowIndex_Various_Succeeds
+Passed   Delete_MultipleSettingAttributeTypesOfUnusedGroup_Succeeds
+Passed   Delete_MultipleSettingAttributeTypesOfUsedGroup_RequestsConfirmationAndThenSucceeds
+Passed   SystemExplorerFilterTreeNode_CreateFilterModel_ReturnsModelWithCorrectName
+Passed   SystemExplorerFilterTreeNode_CreateFilterModel_ReturnsModelWithCorrectDisplayName
+Passed   SystemExplorerFilterTreeNode_CreateFilterModel_ReturnsModelWithCorrectDescription
+Passed   SystemExplorerFilterTreeNode_CreateFilterModel_ReturnsModelWithEnabledParametersOnly
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamHasCorrectAttributes
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 0)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 1)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 2)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 3)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 4)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 5)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 6)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 7)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 8)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 9)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 10)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 11)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 12)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 13)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 14)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 15)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 16)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 17)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 18)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 19)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 20)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 21)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 22)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 23)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 24)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 25)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 26)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 27)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 28)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 29)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 30)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 31)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 32)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 33)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 34)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 35)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 36)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 37)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 38)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 39)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 40)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 41)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 42)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 43)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 44)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 45)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 46)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 47)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 48)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 49)
+Passed   SystemExplorerFilterTreeNode_GetParameterValueRangeAttribute_ParamTypeHasCorrectAttributes (Data Row 50)
+Failed   TypeInfoModelRepository_TryGetTypeId_ReturnsCorrectMappedType
+
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.systemaccessservice.dll' was not found.
+
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.systemaccessservice.dll' was not found.
+
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 10_33_06.trx
+
+Total tests: 155. Passed: 140. Failed: 15. Skipped: 0.
+Test execution time: 3,5545 Minutes

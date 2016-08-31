@@ -1,0 +1,30 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   TestTimeValidityDefaultConstructor
+Passed   TestTimeValidityCopyConstructor
+Passed   TestTimeValidityThreshold
+Passed   TestTimeValidityGetNextChangeEverydayNoSpan
+Passed   TestTimeValidityGetNextChangeEveryFridaydayNoSpan
+Passed   TestTimeValidityGetNextChangeEveryFirstMondayNoSpan
+Passed   TestTimeValidityGetNextChangeEveryLastTuesdayNoSpan
+Passed   TestTimeValidityGetNextChangeEverydayWithSpan
+Passed   TestTimeValidityGetNextChangeEveryFridaydayWithSpan
+Passed   TestTimeValidityGetNextChangeEveryFirstMondayWithSpan
+Passed   TestTimeValidityGetNextChangeEveryLastWednesdayWithSpan
+Passed   TestTimeValidityInterlacedDefinitions
+Passed   TestTimeValidityServiceBehavior
+Passed   TestTimeValidity_Bug8399_1
+Passed   TestTimeValidityBug8399_2
+Passed   TimeValue_Every5Seconds_ReturnsCorrectValue
+Passed   TimeValue_Every5Minutes_ReturnsCorrectValue
+Passed   TimeValue_Every5Hours_ReturnsCorrectValue
+Passed   TimerIntervalConverter_ConvertAtValueToTimerFrequency_ReturnsCorrectValue
+Passed   TimerIntervalConverter_ConvertEveryValueToTimerFrequency_ReturnsCorrectValue
+Passed   TimerIntervalConverter_ConvertFromTimerFrequency_ReturnsCorrectValue
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_56_33.trx
+
+Total tests: 21. Passed: 21. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,4490 Seconds

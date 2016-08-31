@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ef92db05-9562-476c-b3d2-7da436544cd4" name="bacemi@ICSWS068 2016-08-04 09:55:56" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:55:56.7034723+02:00" queuing="2016-08-04T09:55:56.7034723+02:00" start="2016-08-04T09:55:56.2689008+02:00" finish="2016-08-04T09:55:56.8912513+02:00" />
+  <TestSettings name="default" id="c0e1f58c-bdd3-4bbd-9659-765dd5e87664">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_55_56" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="10c47392-c2b7-463d-be21-c67859ca6c2d" testId="2ee2492e-a4d5-35ec-2832-1cdb7071bff6" testName="Validate_UseHttpProxyTrueNoDataSet_ErrorsAreAdded" computerName="ICSWS068" duration="00:00:00.0841578" startTime="2016-08-04T09:55:56.2689008+02:00" endTime="2016-08-04T09:55:56.5782759+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10c47392-c2b7-463d-be21-c67859ca6c2d" />
+    <UnitTestResult executionId="f5dbf390-70c5-49a5-a768-6a378c779e31" testId="3bb28333-3b54-d453-d545-f21164a36988" testName="Validate_UseHttpProxyFalse_NoValidationErrors" computerName="ICSWS068" duration="00:00:00.0087261" startTime="2016-08-04T09:55:56.5817785+02:00" endTime="2016-08-04T09:55:56.5927862+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5dbf390-70c5-49a5-a768-6a378c779e31" />
+    <UnitTestResult executionId="3af018c8-155e-47a4-9b08-58ccfa276f4c" testId="95543054-6349-b17b-d6db-5b92579a282e" testName="Validate_UseHttpProxyTruePortSetButNotServer_ReturnsOneError" computerName="ICSWS068" duration="00:00:00.0060198" startTime="2016-08-04T09:55:56.5952891+02:00" endTime="2016-08-04T09:55:56.6027969+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3af018c8-155e-47a4-9b08-58ccfa276f4c" />
+    <UnitTestResult executionId="4090e780-c6d5-45a8-ac60-67ade0f8b93f" testId="8d33847a-04d3-6e9a-f240-278552a18a5a" testName="Validate_UseHttpProxyTruePortNotSetAndServerSet_ReturnsOneError" computerName="ICSWS068" duration="00:00:00.0061224" startTime="2016-08-04T09:55:56.6053156+02:00" endTime="2016-08-04T09:55:56.6128231+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4090e780-c6d5-45a8-ac60-67ade0f8b93f" />
+    <UnitTestResult executionId="80626e4a-683d-4d64-b746-a4b86df9cc82" testId="9b1abd9b-6276-9163-e4bd-2c8809150699" testName="ToEldosValue_NoAuth_ReturnSBNoAuth" computerName="ICSWS068" duration="00:00:00.0004967" startTime="2016-08-04T09:55:56.6173102+02:00" endTime="2016-08-04T09:55:56.6188107+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80626e4a-683d-4d64-b746-a4b86df9cc82" />
+    <UnitTestResult executionId="2123d3e9-12bf-46cf-ab9a-776f99e7e355" testId="3de2ffe6-b123-a427-85f8-adfba54cce3f" testName="ToEldosValue_Basic_ReturnSBBasic" computerName="ICSWS068" duration="00:00:00.0002360" startTime="2016-08-04T09:55:56.6222019+02:00" endTime="2016-08-04T09:55:56.6237048+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2123d3e9-12bf-46cf-ab9a-776f99e7e355" />
+    <UnitTestResult executionId="4bd12227-6e65-406a-9555-abb841f86a5d" testId="99de1e86-9800-008c-d6dd-a171873a4bf2" testName="ToEldosValue_Digest_ReturnsSBDigest" computerName="ICSWS068" duration="00:00:00.0001184" startTime="2016-08-04T09:55:56.6262065+02:00" endTime="2016-08-04T09:55:56.6277091+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd12227-6e65-406a-9555-abb841f86a5d" />
+    <UnitTestResult executionId="85ccf359-20ee-4894-9bbc-480ff0f781cc" testId="169395ff-4051-f604-3e2a-e1525095356c" testName="ToEldoValue_NTLM_ReturnsSBNTLM" computerName="ICSWS068" duration="00:00:00.0001214" startTime="2016-08-04T09:55:56.6302102+02:00" endTime="2016-08-04T09:55:56.6317105+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85ccf359-20ee-4894-9bbc-480ff0f781cc" />
+    <UnitTestResult executionId="1a030285-86fa-4d03-9bcc-88f19a276cbb" testId="4cf12261-bb8e-1dce-f86f-6b3f1642d861" testName="Validate_IfUseSocksIsFalseAndUseHttpProxyTrue_NoErrorIsReturned" computerName="ICSWS068" duration="00:00:00.0066139" startTime="2016-08-04T09:55:56.6337216+02:00" endTime="2016-08-04T09:55:56.6412177+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a030285-86fa-4d03-9bcc-88f19a276cbb" />
+    <UnitTestResult executionId="d9f2a17d-d56f-46ca-813a-4d7977b45664" testId="8f300c2c-745d-1f2a-e1f6-467cdb68ddb1" testName="Validate_IfUseSocksIsTrueAndUseHttpProxyFalse_NoErrorIsReturned" computerName="ICSWS068" duration="00:00:00.0054350" startTime="2016-08-04T09:55:56.6442883+02:00" endTime="2016-08-04T09:55:56.6512917+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9f2a17d-d56f-46ca-813a-4d7977b45664" />
+    <UnitTestResult executionId="7f844e01-ee21-43bd-b400-4d7314d3cc02" testId="b797333f-b9a1-6804-3dee-ac234472eb86" testName="Validate_IfUseSocksIsTrueAndUseHttpProxyIsTrue_ErrorIsReturned" computerName="ICSWS068" duration="00:00:00.0056265" startTime="2016-08-04T09:55:56.6542743+02:00" endTime="2016-08-04T09:55:56.6612795+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f844e01-ee21-43bd-b400-4d7314d3cc02" />
+    <UnitTestResult executionId="a5093f09-b4bb-48a3-afe0-1dc8e38449c0" testId="71cab3a9-63e2-8b39-5c5c-82da4f059aee" testName="ToEldosValue_SocksVersion4_ReturnsElSocks4" computerName="ICSWS068" duration="00:00:00.0002475" startTime="2016-08-04T09:55:56.6638912+02:00" endTime="2016-08-04T09:55:56.6653932+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5093f09-b4bb-48a3-afe0-1dc8e38449c0" />
+    <UnitTestResult executionId="d356e7fa-80ff-49e2-b236-a1f40b943ef4" testId="dffbe6a5-1503-2cc5-4249-cc8526b214bb" testName="ToEldosValue_SocksVersion5_ReturnsElSocks5" computerName="ICSWS068" duration="00:00:00.0001551" startTime="2016-08-04T09:55:56.6678958+02:00" endTime="2016-08-04T09:55:56.6693964+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d356e7fa-80ff-49e2-b236-a1f40b943ef4" />
+    <UnitTestResult executionId="be3d0c24-7b41-48df-85d8-fe64b99b5c7a" testId="5b88f29b-a842-063e-1dcd-a32f75621bf6" testName="Validate_WhenNotUseSocks_ThereAreNoErrors" computerName="ICSWS068" duration="00:00:00.0063593" startTime="2016-08-04T09:55:56.6713963+02:00" endTime="2016-08-04T09:55:56.6797871+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be3d0c24-7b41-48df-85d8-fe64b99b5c7a" />
+    <UnitTestResult executionId="2f6dcd9b-6239-4a38-b7da-a48de9bfcb43" testId="56eff8e7-1f78-5858-2d2c-cfe9cb832c4b" testName="Validate_WhenUseSocksAndServerNotDefined_OneErrorIsReturned" computerName="ICSWS068" duration="00:00:00.0062567" startTime="2016-08-04T09:55:56.6831800+02:00" endTime="2016-08-04T09:55:56.6906866+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f6dcd9b-6239-4a38-b7da-a48de9bfcb43" />
+    <UnitTestResult executionId="9d63f9c2-84b2-4152-996c-71e80acb40f4" testId="caa9ab2f-3b4f-9a84-9b3d-fd371c9392d4" testName="Validate_WhenUseSocksAndServerIsDefined_NoErrorIsReturned" computerName="ICSWS068" duration="00:00:00.0055335" startTime="2016-08-04T09:55:56.6951886+02:00" endTime="2016-08-04T09:55:56.7012084+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d63f9c2-84b2-4152-996c-71e80acb40f4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Validate_UseHttpProxyTrueNoDataSet_ErrorsAreAdded" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="2ee2492e-a4d5-35ec-2832-1cdb7071bff6">
+      <Execution id="10c47392-c2b7-463d-be21-c67859ca6c2d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyValidationTests" name="Validate_UseHttpProxyTrueNoDataSet_ErrorsAreAdded" />
+    </UnitTest>
+    <UnitTest name="Validate_UseHttpProxyFalse_NoValidationErrors" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="3bb28333-3b54-d453-d545-f21164a36988">
+      <Execution id="f5dbf390-70c5-49a5-a768-6a378c779e31" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyValidationTests" name="Validate_UseHttpProxyFalse_NoValidationErrors" />
+    </UnitTest>
+    <UnitTest name="Validate_UseHttpProxyTruePortSetButNotServer_ReturnsOneError" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="95543054-6349-b17b-d6db-5b92579a282e">
+      <Execution id="3af018c8-155e-47a4-9b08-58ccfa276f4c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyValidationTests" name="Validate_UseHttpProxyTruePortSetButNotServer_ReturnsOneError" />
+    </UnitTest>
+    <UnitTest name="Validate_UseHttpProxyTruePortNotSetAndServerSet_ReturnsOneError" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="8d33847a-04d3-6e9a-f240-278552a18a5a">
+      <Execution id="4090e780-c6d5-45a8-ac60-67ade0f8b93f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyValidationTests" name="Validate_UseHttpProxyTruePortNotSetAndServerSet_ReturnsOneError" />
+    </UnitTest>
+    <UnitTest name="ToEldosValue_NoAuth_ReturnSBNoAuth" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="9b1abd9b-6276-9163-e4bd-2c8809150699">
+      <Execution id="80626e4a-683d-4d64-b746-a4b86df9cc82" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyAuthenticationExtensionTests" name="ToEldosValue_NoAuth_ReturnSBNoAuth" />
+    </UnitTest>
+    <UnitTest name="ToEldosValue_Basic_ReturnSBBasic" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="3de2ffe6-b123-a427-85f8-adfba54cce3f">
+      <Execution id="2123d3e9-12bf-46cf-ab9a-776f99e7e355" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyAuthenticationExtensionTests" name="ToEldosValue_Basic_ReturnSBBasic" />
+    </UnitTest>
+    <UnitTest name="ToEldosValue_Digest_ReturnsSBDigest" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="99de1e86-9800-008c-d6dd-a171873a4bf2">
+      <Execution id="4bd12227-6e65-406a-9555-abb841f86a5d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyAuthenticationExtensionTests" name="ToEldosValue_Digest_ReturnsSBDigest" />
+    </UnitTest>
+    <UnitTest name="ToEldoValue_NTLM_ReturnsSBNTLM" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="169395ff-4051-f604-3e2a-e1525095356c">
+      <Execution id="85ccf359-20ee-4894-9bbc-480ff0f781cc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.HttpProxyAuthenticationExtensionTests" name="ToEldoValue_NTLM_ReturnsSBNTLM" />
+    </UnitTest>
+    <UnitTest name="Validate_IfUseSocksIsFalseAndUseHttpProxyTrue_NoErrorIsReturned" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="4cf12261-bb8e-1dce-f86f-6b3f1642d861">
+      <Execution id="1a030285-86fa-4d03-9bcc-88f19a276cbb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.ProxyValidatorTests" name="Validate_IfUseSocksIsFalseAndUseHttpProxyTrue_NoErrorIsReturned" />
+    </UnitTest>
+    <UnitTest name="Validate_IfUseSocksIsTrueAndUseHttpProxyFalse_NoErrorIsReturned" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="8f300c2c-745d-1f2a-e1f6-467cdb68ddb1">
+      <Execution id="d9f2a17d-d56f-46ca-813a-4d7977b45664" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.ProxyValidatorTests" name="Validate_IfUseSocksIsTrueAndUseHttpProxyFalse_NoErrorIsReturned" />
+    </UnitTest>
+    <UnitTest name="Validate_IfUseSocksIsTrueAndUseHttpProxyIsTrue_ErrorIsReturned" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="b797333f-b9a1-6804-3dee-ac234472eb86">
+      <Execution id="7f844e01-ee21-43bd-b400-4d7314d3cc02" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.ProxyValidatorTests" name="Validate_IfUseSocksIsTrueAndUseHttpProxyIsTrue_ErrorIsReturned" />
+    </UnitTest>
+    <UnitTest name="ToEldosValue_SocksVersion4_ReturnsElSocks4" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="71cab3a9-63e2-8b39-5c5c-82da4f059aee">
+      <Execution id="a5093f09-b4bb-48a3-afe0-1dc8e38449c0" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.SocksVersionValueExtenstionTests" name="ToEldosValue_SocksVersion4_ReturnsElSocks4" />
+    </UnitTest>
+    <UnitTest name="ToEldosValue_SocksVersion5_ReturnsElSocks5" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="dffbe6a5-1503-2cc5-4249-cc8526b214bb">
+      <Execution id="d356e7fa-80ff-49e2-b236-a1f40b943ef4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.SocksVersionValueExtenstionTests" name="ToEldosValue_SocksVersion5_ReturnsElSocks5" />
+    </UnitTest>
+    <UnitTest name="Validate_WhenNotUseSocks_ThereAreNoErrors" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="5b88f29b-a842-063e-1dcd-a32f75621bf6">
+      <Execution id="be3d0c24-7b41-48df-85d8-fe64b99b5c7a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.SocksValidatorTests" name="Validate_WhenNotUseSocks_ThereAreNoErrors" />
+    </UnitTest>
+    <UnitTest name="Validate_WhenUseSocksAndServerNotDefined_OneErrorIsReturned" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="56eff8e7-1f78-5858-2d2c-cfe9cb832c4b">
+      <Execution id="2f6dcd9b-6239-4a38-b7da-a48de9bfcb43" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.SocksValidatorTests" name="Validate_WhenUseSocksAndServerNotDefined_OneErrorIsReturned" />
+    </UnitTest>
+    <UnitTest name="Validate_WhenUseSocksAndServerIsDefined_NoErrorIsReturned" storage="f:\etwork\bin\tests\unittests.icore.adapters.activities.sftp.dll" id="caa9ab2f-3b4f-9a84-9b3d-fd371c9392d4">
+      <Execution id="9d63f9c2-84b2-4152-996c-71e80acb40f4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Adapters.Activities.Sftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Adapters.Activities.Sftp.SocksValidatorTests" name="Validate_WhenUseSocksAndServerIsDefined_NoErrorIsReturned" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2ee2492e-a4d5-35ec-2832-1cdb7071bff6" executionId="10c47392-c2b7-463d-be21-c67859ca6c2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bb28333-3b54-d453-d545-f21164a36988" executionId="f5dbf390-70c5-49a5-a768-6a378c779e31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95543054-6349-b17b-d6db-5b92579a282e" executionId="3af018c8-155e-47a4-9b08-58ccfa276f4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d33847a-04d3-6e9a-f240-278552a18a5a" executionId="4090e780-c6d5-45a8-ac60-67ade0f8b93f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b1abd9b-6276-9163-e4bd-2c8809150699" executionId="80626e4a-683d-4d64-b746-a4b86df9cc82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3de2ffe6-b123-a427-85f8-adfba54cce3f" executionId="2123d3e9-12bf-46cf-ab9a-776f99e7e355" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99de1e86-9800-008c-d6dd-a171873a4bf2" executionId="4bd12227-6e65-406a-9555-abb841f86a5d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="169395ff-4051-f604-3e2a-e1525095356c" executionId="85ccf359-20ee-4894-9bbc-480ff0f781cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cf12261-bb8e-1dce-f86f-6b3f1642d861" executionId="1a030285-86fa-4d03-9bcc-88f19a276cbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f300c2c-745d-1f2a-e1f6-467cdb68ddb1" executionId="d9f2a17d-d56f-46ca-813a-4d7977b45664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b797333f-b9a1-6804-3dee-ac234472eb86" executionId="7f844e01-ee21-43bd-b400-4d7314d3cc02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71cab3a9-63e2-8b39-5c5c-82da4f059aee" executionId="a5093f09-b4bb-48a3-afe0-1dc8e38449c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dffbe6a5-1503-2cc5-4249-cc8526b214bb" executionId="d356e7fa-80ff-49e2-b236-a1f40b943ef4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b88f29b-a842-063e-1dcd-a32f75621bf6" executionId="be3d0c24-7b41-48df-85d8-fe64b99b5c7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56eff8e7-1f78-5858-2d2c-cfe9cb832c4b" executionId="2f6dcd9b-6239-4a38-b7da-a48de9bfcb43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="caa9ab2f-3b4f-9a84-9b3d-fd371c9392d4" executionId="9d63f9c2-84b2-4152-996c-71e80acb40f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

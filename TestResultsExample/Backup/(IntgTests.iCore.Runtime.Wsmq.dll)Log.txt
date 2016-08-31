@@ -1,0 +1,32 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Recieve_MessageOnQueue_Succeeds
+Passed   Recieve_NoMessageOnQueueAndErrorOnTimeout_ExceptionEventInvoked
+Passed   Recieve_NoMessageOnQueue_NoExceptionEventInvoked
+Passed   Recieve_NoMessageOnQueueAtFirst_MessageRecievedEventInvokeAfterMessageIsSent
+Passed   CancelRecieve_CancelWhileRecievingAndNoMessageOnQueue_RecieveEventuallyCancelled
+Passed   AccessQueue_QueueExists_GreatSuccess
+Passed   AccessQueue_QueueDoesNotExist_Fails
+Passed   AccessQueue_Disconnected_Fails
+Passed   Rollback_Disconnected_Fails
+Passed   Rollback_Connected_DoesNotFail
+Passed   Commit_Connected_DoesNotFail
+Passed   Commit_Disconnected_Fails
+Passed   Codepage_Connected_Functions
+Passed   Codepage_Disconnected_Fails
+Passed   Get_NoMessageExistOnQueue_ThrowsWsmqException
+Passed   Get_MessageExistOnQueue_MessageIsRetrived
+Passed   Put_ValidMessage_MessageCanBeRetrived
+Passed   Close_QueueWasOpen_IsClosedAfterClose
+Passed   Close_QueueWasClosed_IsClosedAfterClose
+Passed   WriteStream_StreamDataLargerThanBuffer_DataWrittenToMessage
+Passed   Recieve_NoMessageOnQueue_ReturnsNull
+Passed   Recieve_MessageOnQueue_MessageRetrived
+Passed   Send_MessageIsValid_MessageCanBeRetrived
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_52_52.trx
+
+Total tests: 23. Passed: 23. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 27,1323 Seconds

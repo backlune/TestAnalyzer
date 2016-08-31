@@ -1,0 +1,73 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 0)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 1)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 2)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 3)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 4)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 5)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 6)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 7)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 8)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 9)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 10)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 11)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 12)
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 13)
+Failed   RetrieveKeys_MatchesExpectedResults (Data Row 14)
+Standard Output Messages:
+   
+
+TestContext Messages:
+Running test for Node filter All.
+   Running test for Node filter MultiCondition1.
+   Running test for Node filter MultiCondition2.
+   Running test for Node filter PartnerIsP1orP3.
+   Running test for Node filter CreationDateBetween.
+   Running test for Node filter RecordLimit.
+   Running test for Node filter NodeAttributes1.
+   Running test for Node filter NodeAttributes2.
+   Running test for Node filter Mix1.
+   Running test for Node filter DisabledEntries.
+   Running test for Workflow filter All.
+   Running test for Workflow filter UnderTest1.
+   Running test for Workflow filter CategoryConditions.
+   Running test for ComponentConfiguration filter Mix1.
+   Running test for CompositeEntity filter All.
+   Running test for CompositeEntity filter FilterByEntityType.
+   Running test for CompositeEntity filter MultipartWithAllPart.
+
+Failed   RetrieveKeys_MatchesExpectedResults (Data Row 15)
+Standard Output Messages:
+   
+
+TestContext Messages:
+Running test for Node filter All.
+   Running test for Node filter MultiCondition1.
+   Running test for Node filter MultiCondition2.
+   Running test for Node filter PartnerIsP1orP3.
+   Running test for Node filter CreationDateBetween.
+   Running test for Node filter RecordLimit.
+   Running test for Node filter NodeAttributes1.
+   Running test for Node filter NodeAttributes2.
+   Running test for Node filter Mix1.
+   Running test for Node filter DisabledEntries.
+   Running test for Workflow filter All.
+   Running test for Workflow filter UnderTest1.
+   Running test for Workflow filter CategoryConditions.
+   Running test for ComponentConfiguration filter Mix1.
+   Running test for CompositeEntity filter All.
+   Running test for CompositeEntity filter FilterByEntityType.
+   Running test for CompositeEntity filter MultipartWithAllPart.
+
+Passed   RetrieveKeys_MatchesExpectedResults (Data Row 16)
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll' was not found.
+
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.common.entities.filters.dll' was not found.
+
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 10_29_51.trx
+
+Total tests: 17. Passed: 15. Failed: 2. Skipped: 0.
+Test execution time: 16,6809 Seconds

@@ -1,0 +1,41 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Invoke_SourceMissing_ThrowsArgumentException
+Passed   Invoke_ConfigNullValidateCertTrue_ThrowsArgumentNullException
+Passed   Invoke_ConfigNullValidateCertFalse_RunsToCompletion
+Passed   Invoke_ConfigNotSetValidateCertFalse_RunsToCompletion
+Passed   Invoke_PerformAllChecks_RunsToCompletion
+Passed   Invoke_ValidateCertificateTrue_ValidateCertificateCalledOnce
+Passed   Invoke_SignerCertificateNull_ValidateCertificateNeverCalled
+Passed   Invoke_ValidateCertificateFalse_ValidateCertificateNeverCalled
+Passed   Invoke_ValidateReferencesTrue_ValidateReferencesCalledOnce
+Passed   Invoke_ValidateReferencesFalse_ValidateReferencesNeverCalled
+Passed   Invoke_HasDestination_DestinationPassedToRemoveSignature
+Passed   Invoke_NoDestination_RemoveSignatureNotCalled
+Passed   Invoke_KeyMaterialIsNotNull_PassItOnToBackend
+Passed   Invoke_KeyMaterialIsNull_DoNotPassItOnToBackend
+Passed   Invoke_ReferenceValidationFalse_PassedOnCorrectlyToResult
+Passed   Invoke_ReferenceValidationTrue_PassedOnCorrectlyToResult
+Passed   Invoke_SignatureValidationTrue_PassedOnCorrectlyToResult
+Passed   Invoke_SignatureValidationFalse_PassedOnCorrectlyToResult
+Passed   Invoke_CertificateValidationNotCalled_FalseInResult
+Passed   Invoke_CertificateValidationInvalid_FalseInResult
+Passed   Invoke_CertificateValidationOk_TrueInResult
+Passed   Invoke_ValidArguments_ResultIsNotNull
+Passed   Invoke_ConfigurationMissing_ThrowsArgumentException
+Passed   Invoke_SourceMissing_ThrowsArgumentException
+Passed   Invoke_DestinationMissing_ThrowsArgumentException
+Passed   Invoke_ConfigurationIsNull_ThrowsArgumentException
+Passed   Invoke_SourceIsNull_ThrowsArgumentException
+Passed   Invoke_DestinationIsNull_ThrowsArgumentException
+Passed   Invoke_ValidArgumentsHMAC_RunsToCompletion
+Passed   Invoke_ValidArgumentsRSA_RunsToCompletion
+Passed   Invoke_RSABothCertificateAndKeyMaterialSet_ThrowsArgumentException
+Passed   Invoke_RSABothCertificateAndKeyMaterialIsNull_ThrowsArgumentException
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_58_27.trx
+
+Total tests: 32. Passed: 32. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,6265 Seconds

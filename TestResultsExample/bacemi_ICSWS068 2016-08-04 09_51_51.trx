@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9d476271-b3b3-4323-8549-8856264af45b" name="bacemi@ICSWS068 2016-08-04 09:51:51" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:51:51.5892479+02:00" queuing="2016-08-04T09:51:51.5892479+02:00" start="2016-08-04T09:51:43.0904165+02:00" finish="2016-08-04T09:52:05.3791409+02:00" />
+  <TestSettings name="default" id="6c2dffa7-e5d5-4750-a565-cf50d12c915e">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_51_51" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="61a7e1c9-2d89-4478-8c0f-2004ed44f25b" testId="a48d8fdf-c902-cf10-61d6-275517291572" testName="Login_AutoSetupOffice365_Success" computerName="ICSWS068" duration="00:00:08.2199880" startTime="2016-08-04T09:51:43.0904165+02:00" endTime="2016-08-04T09:51:51.5305037+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61a7e1c9-2d89-4478-8c0f-2004ed44f25b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method iCore.Runtime.Mail.Tests.SmtpClientTests.Login_AutoSetupOffice365_Success threw exception: 
+iCore.Public.Types.Mail.SmtpException: Failed to Login to SMTP server. Possible error: SMTP Authentication failed, bad username or password. Additional info: User authentication failed: Unaccepted server reply for command SWNwcy4yMDEw (error code is 535) (error code is 535)</Message>
+          <StackTrace>    at iCore.Runtime.Mail.SmtpClient.InvokeAndHandleError[T](Func`1 func, String operationErrText)
+   at iCore.Runtime.Mail.SmtpClient.InvokeAndHandleError(Action action, String operationErrText)
+   at iCore.Runtime.Mail.SmtpClient.Open(String server, Int32 port, String userName, String password, SASLMechanism mechanism)
+   at iCore.Runtime.Mail.Tests.SmtpClientTests.Login_AutoSetupOffice365_Success() in F:\ETWork\Main\Common\Assemblies\IntgTests.iCore.Runtime\Mail\SmtpClientTests.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c335181c-5081-4b73-a05c-97734734aa01" testId="51b24c3b-0d2b-d2ef-c2ab-7e4741ec3d35" testName="Login_AutoSetupMicrosoftLive_Success" computerName="ICSWS068" duration="00:00:02.3973543" startTime="2016-08-04T09:51:51.5339902+02:00" endTime="2016-08-04T09:51:53.9330975+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c335181c-5081-4b73-a05c-97734734aa01" />
+    <UnitTestResult executionId="565be513-f2d1-4ee6-96ab-46094a3c4e64" testId="8dedbf8b-bd83-6340-d8c6-0482061cab84" testName="Login_AutoSetupGmail_Success" computerName="ICSWS068" duration="00:00:01.2068473" startTime="2016-08-04T09:51:53.9360998+02:00" endTime="2016-08-04T09:51:55.1445766+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="565be513-f2d1-4ee6-96ab-46094a3c4e64" />
+    <UnitTestResult executionId="bc17b83d-cf7b-408b-9e61-59c8eb1aad0e" testId="f04636e7-b055-fe11-166c-66721faac490" testName="Login_AutoSetupGmailAndWrongPassword_ThrowsSmtpException" computerName="ICSWS068" duration="00:00:00.5143723" startTime="2016-08-04T09:51:55.1475780+02:00" endTime="2016-08-04T09:51:55.6637900+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc17b83d-cf7b-408b-9e61-59c8eb1aad0e" />
+    <UnitTestResult executionId="c06c8d00-bf34-482c-aff9-c4c1048a1088" testId="3a55048f-f382-b729-6c1e-a82dd4b04741" testName="Open_AutoSetupUnknownConfiguration_Fail" computerName="ICSWS068" duration="00:00:00.0059913" startTime="2016-08-04T09:51:55.6667935+02:00" endTime="2016-08-04T09:51:55.6743142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c06c8d00-bf34-482c-aff9-c4c1048a1088" />
+    <UnitTestResult executionId="32f682e1-128d-435b-a977-2e50fed27bb6" testId="59374b30-491f-19e5-d711-a2113952d1e1" testName="DefaultConstructor_NoArgs_Success" computerName="ICSWS068" duration="00:00:00.1391020" startTime="2016-08-04T09:51:55.6778018+02:00" endTime="2016-08-04T09:51:55.8224351+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32f682e1-128d-435b-a977-2e50fed27bb6" />
+    <UnitTestResult executionId="8369ba9c-b6cf-4775-b843-9e7bd319a6eb" testId="e252d847-1bc2-cfa4-2bc8-df86fe096f90" testName="GetSystemDate_FormatIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0017811" startTime="2016-08-04T09:51:55.8254386+02:00" endTime="2016-08-04T09:51:55.8284394+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8369ba9c-b6cf-4775-b843-9e7bd319a6eb" />
+    <UnitTestResult executionId="350737ed-e651-4184-b190-01eb18807e37" testId="53724b47-dd47-8893-d0e1-f80daf1ac191" testName="GetSystemDate_FormatIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0007430" startTime="2016-08-04T09:51:55.8309420+02:00" endTime="2016-08-04T09:51:55.8324429+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="350737ed-e651-4184-b190-01eb18807e37" />
+    <UnitTestResult executionId="c5bb507e-5aec-44c2-95aa-a58f34e4d861" testId="0cf578dc-82e2-1411-22a8-4b1972d14b29" testName="GetSystemDate_ValidFormat_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0082578" startTime="2016-08-04T09:51:55.8349446+02:00" endTime="2016-08-04T09:51:55.8449517+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5bb507e-5aec-44c2-95aa-a58f34e4d861" />
+    <UnitTestResult executionId="9c3d0a81-e3c6-4b9d-ad26-56552e2d543e" testId="fc0f379f-ae1f-54a7-a892-fd7381a472b6" testName="GetSystemDate_CustomFormatSecondsOnly_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0004653" startTime="2016-08-04T09:51:55.8474543+02:00" endTime="2016-08-04T09:51:55.8489543+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c3d0a81-e3c6-4b9d-ad26-56552e2d543e" />
+    <UnitTestResult executionId="af1161d3-1bee-4dd7-ae64-75049499781c" testId="2f74e4f4-6fdb-214d-5943-62e06ad5b0ea" testName="AddDate_SourceFormatIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0013518" startTime="2016-08-04T09:51:55.8509560+02:00" endTime="2016-08-04T09:51:55.8539595+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af1161d3-1bee-4dd7-ae64-75049499781c" />
+    <UnitTestResult executionId="aa82f858-edf6-4d4a-894d-253d5cb7611d" testId="1dbf4624-ec9d-a602-00e9-6e8c2db7c073" testName="AddDate_SourceFormatIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0007527" startTime="2016-08-04T09:51:55.8569600+02:00" endTime="2016-08-04T09:51:55.8589615+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa82f858-edf6-4d4a-894d-253d5cb7611d" />
+    <UnitTestResult executionId="3671ab7c-6fca-4b1a-bddd-6e1690fe72da" testId="9e2fa56a-fd09-c702-4312-a839f22e3e1f" testName="AddDate_SourceDateIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0011020" startTime="2016-08-04T09:51:55.8619676+02:00" endTime="2016-08-04T09:51:55.8644702+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3671ab7c-6fca-4b1a-bddd-6e1690fe72da" />
+    <UnitTestResult executionId="57dede5c-38e8-48dc-97b1-90e1431f0bfc" testId="b404d70d-1077-c801-8caf-03dfdeae6c6e" testName="AddDate_SourceDateIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0008275" startTime="2016-08-04T09:51:55.8674719+02:00" endTime="2016-08-04T09:51:55.8694745+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57dede5c-38e8-48dc-97b1-90e1431f0bfc" />
+    <UnitTestResult executionId="71845f7e-06b1-4e2c-a7b9-f7dcf0998530" testId="b3e03361-acdb-9e8d-5f5d-920f65c90464" testName="AddDate_DestinationFormatIsEmpty_ResultHasSourceFormat" computerName="ICSWS068" duration="00:00:00.0008961" startTime="2016-08-04T09:51:55.8729765+02:00" endTime="2016-08-04T09:51:55.8754773+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71845f7e-06b1-4e2c-a7b9-f7dcf0998530" />
+    <UnitTestResult executionId="d96bae7f-4c8d-49f8-bff2-064b2ca8046f" testId="ce1aaab1-3bf7-77f2-edf1-f89ea5185b8e" testName="AddDate_DestinationFormatIsNull_ResultHasSourceFormat" computerName="ICSWS068" duration="00:00:00.0006545" startTime="2016-08-04T09:51:55.8779958+02:00" endTime="2016-08-04T09:51:55.8804984+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d96bae7f-4c8d-49f8-bff2-064b2ca8046f" />
+    <UnitTestResult executionId="e1b73c46-5fc4-4900-9b8a-7086d03b31c8" testId="6e3b3e37-2380-e0b4-4994-f3d4f6a2c186" testName="AddDate_AddZeroSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0004375" startTime="2016-08-04T09:51:55.8830018+02:00" endTime="2016-08-04T09:51:55.8845197+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1b73c46-5fc4-4900-9b8a-7086d03b31c8" />
+    <UnitTestResult executionId="6a7fe6ad-1427-4449-a579-180dc66a3595" testId="b7811708-f2a8-091a-6a8c-c017c363ef90" testName="AddDate_AddFiveSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0006290" startTime="2016-08-04T09:51:55.8870047+02:00" endTime="2016-08-04T09:51:55.8895222+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a7fe6ad-1427-4449-a579-180dc66a3595" />
+    <UnitTestResult executionId="4f6cd857-660f-4edb-bbd5-6e01c2239b82" testId="7b9ff203-dc18-e9da-40f2-e8aebf13b81d" testName="AddDate_AddMinusTwoSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0004598" startTime="2016-08-04T09:51:55.8921436+02:00" endTime="2016-08-04T09:51:55.8941292+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f6cd857-660f-4edb-bbd5-6e01c2239b82" />
+    <UnitTestResult executionId="180c5753-e426-4235-b535-9c0b114211eb" testId="b8de7cfd-ff23-6136-c459-9c7b2d71c82d" testName="ConvertDate_SourceAndDestinationFormatSame_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0008401" startTime="2016-08-04T09:51:55.8966309+02:00" endTime="2016-08-04T09:51:55.8991332+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="180c5753-e426-4235-b535-9c0b114211eb" />
+    <UnitTestResult executionId="04d33378-e5ac-4d6b-95e3-ef87511b25ee" testId="6e7dc258-19be-10ba-39a4-f00941bd1eb3" testName="ConvertDate_SourceAndDestinationFormatNotSame_ExpectedDateReturned" computerName="ICSWS068" duration="00:00:00.0004606" startTime="2016-08-04T09:51:55.9017558+02:00" endTime="2016-08-04T09:51:55.9032575+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04d33378-e5ac-4d6b-95e3-ef87511b25ee" />
+    <UnitTestResult executionId="4d2ecfa2-825b-41a2-858d-bea33dc02d2d" testId="44eb7f52-348e-d242-52cc-e8e82d60f330" testName="ConvertDate_SourceFormatIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0008313" startTime="2016-08-04T09:51:55.9057580+02:00" endTime="2016-08-04T09:51:55.9082601+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d2ecfa2-825b-41a2-858d-bea33dc02d2d" />
+    <UnitTestResult executionId="8a538a2c-aa0e-4c3a-8b73-5fef1aba9c49" testId="8d2e3b8f-24fa-2de5-4e9d-0181774d8b89" testName="ConvertDate_SourceFormatIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0007580" startTime="2016-08-04T09:51:55.9112650+02:00" endTime="2016-08-04T09:51:55.9132840+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a538a2c-aa0e-4c3a-8b73-5fef1aba9c49" />
+    <UnitTestResult executionId="f0645795-9f55-4193-a053-faa92a326259" testId="474c5202-b188-c690-025c-abeb8a7b4aea" testName="ConvertDate_SourceDateIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0007985" startTime="2016-08-04T09:51:55.9157711+02:00" endTime="2016-08-04T09:51:55.9177713+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0645795-9f55-4193-a053-faa92a326259" />
+    <UnitTestResult executionId="53268ee2-d0b3-4cdb-a4fc-58c7725409df" testId="e232a90e-330c-1f50-23b5-a8f44452bf31" testName="ConvertDate_SourceDateIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0008196" startTime="2016-08-04T09:51:55.9217795+02:00" endTime="2016-08-04T09:51:55.9237815+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53268ee2-d0b3-4cdb-a4fc-58c7725409df" />
+    <UnitTestResult executionId="c2cd4aa8-cc21-4ad4-85da-7bbd438937a4" testId="4347b253-462d-edff-a6d3-c10e3c48f110" testName="ConvertDate_DestinationFormatIsEmpty_Throws" computerName="ICSWS068" duration="00:00:00.0007694" startTime="2016-08-04T09:51:55.9262832+02:00" endTime="2016-08-04T09:51:55.9283011+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2cd4aa8-cc21-4ad4-85da-7bbd438937a4" />
+    <UnitTestResult executionId="acde651a-7ff8-47c6-a2d2-9e65874ada5a" testId="0eb15c5a-352a-9c40-07da-1a4e4239aded" testName="ConvertDate_DestinationFormatIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0007976" startTime="2016-08-04T09:51:55.9312863+02:00" endTime="2016-08-04T09:51:55.9337925+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acde651a-7ff8-47c6-a2d2-9e65874ada5a" />
+    <UnitTestResult executionId="cb381f70-3a42-4243-8dd4-a0229258530a" testId="82749c90-324e-a226-758b-38a6109bcd75" testName="Login_AutoSetupOffice365_Success" computerName="ICSWS068" duration="00:00:02.5534908" startTime="2016-08-04T09:51:55.9362889+02:00" endTime="2016-08-04T09:51:58.4913903+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb381f70-3a42-4243-8dd4-a0229258530a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method IntgTests.iCore.Runtime.Pop3ClientTests.Login_AutoSetupOffice365_Success threw exception: 
+iCore.Public.Types.Mail.Pop3Exception: Failed to Login to POP3 server. Additional info: Authorization failed. Server says: Logon failure: unknown user name or bad password.</Message>
+          <StackTrace>    at iCore.Runtime.Mail.Pop3Client.InvokeAndHandleError[T](Func`1 func, String operationErrText)
+   at iCore.Runtime.Mail.Pop3Client.InvokeAndHandleError(Action action, String operationErrText)
+   at iCore.Runtime.Mail.Pop3Client.Login(String address, Int32 port, String userName, String password)
+   at IntgTests.iCore.Runtime.Pop3ClientTests.Login_AutoSetupOffice365_Success() in F:\ETWork\Main\Common\Assemblies\IntgTests.iCore.Runtime\Mail\Pop3ClientTests.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="996b0bee-636e-484e-b45e-226d9caee152" testId="7611740b-9b88-7520-ce47-8670eb165d8f" testName="Login_AutoSetupMicrosoftLive_Success" computerName="ICSWS068" duration="00:00:02.1848194" startTime="2016-08-04T09:51:58.4943926+02:00" endTime="2016-08-04T09:52:00.6801607+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996b0bee-636e-484e-b45e-226d9caee152" />
+    <UnitTestResult executionId="671fa5e6-b521-4383-b8c5-fcba265a5492" testId="ba7a382b-9248-bb67-a1b4-42ae63f114bc" testName="Login_AutoSetupGmail_Success" computerName="ICSWS068" duration="00:00:03.2252175" startTime="2016-08-04T09:52:00.6836650+02:00" endTime="2016-08-04T09:52:03.9105899+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671fa5e6-b521-4383-b8c5-fcba265a5492" />
+    <UnitTestResult executionId="4b5e4930-f628-4ebc-ae1c-aa895f57b6fa" testId="620bc77e-1ad1-3469-e78e-c42a74f1fefb" testName="Login_AutoSetupGmailAndWrongPassword_ThrowsPop3Exception" computerName="ICSWS068" duration="00:00:01.1542339" startTime="2016-08-04T09:52:03.9145931+02:00" endTime="2016-08-04T09:52:05.0714203+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b5e4930-f628-4ebc-ae1c-aa895f57b6fa" />
+    <UnitTestResult executionId="9d9799ca-f08f-4597-a59a-980a927923be" testId="f3079970-8f4a-c240-6e4a-df6369a94287" testName="Login_AutoSetupUnknownConfiguration_Fail" computerName="ICSWS068" duration="00:00:00.0080587" startTime="2016-08-04T09:52:05.0749232+02:00" endTime="2016-08-04T09:52:05.0854306+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d9799ca-f08f-4597-a59a-980a927923be" />
+    <UnitTestResult executionId="bca5f633-e486-4b55-b058-06fb4ace841f" testId="d0202983-5b41-9758-3b7c-08e945f08b2b" testName="GetWellKnownServerConfigurationFromServerAddress_NoAuto_RetunsNull" computerName="ICSWS068" duration="00:00:00.0003331" startTime="2016-08-04T09:52:05.0899341+02:00" endTime="2016-08-04T09:52:05.0919352+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bca5f633-e486-4b55-b058-06fb4ace841f" />
+    <UnitTestResult executionId="076010e2-c4ef-46f3-974c-2e24c078ae44" testId="15a38c65-cb50-3b2a-8963-284bf9e0e889" testName="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_RetunsCorrectConfigurationType" computerName="ICSWS068" duration="00:00:00.0016166" startTime="2016-08-04T09:52:05.0959381+02:00" endTime="2016-08-04T09:52:05.0989401+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="076010e2-c4ef-46f3-974c-2e24c078ae44" />
+    <UnitTestResult executionId="2f9abb69-8f13-4527-8771-6084bbcfed37" testId="40faadf7-8533-bb81-265c-0aaa3fceffde" testName="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsPOP3" computerName="ICSWS068" duration="00:00:00.0009398" startTime="2016-08-04T09:52:05.1034435+02:00" endTime="2016-08-04T09:52:05.1064455+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f9abb69-8f13-4527-8771-6084bbcfed37" />
+    <UnitTestResult executionId="1e642ecb-3605-423b-adc9-7a3d14d2056b" testId="a49c2209-5aef-962b-c959-89c598b54a75" testName="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsIMAP4" computerName="ICSWS068" duration="00:00:00.0005193" startTime="2016-08-04T09:52:05.1099481+02:00" endTime="2016-08-04T09:52:05.1124501+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e642ecb-3605-423b-adc9-7a3d14d2056b" />
+    <UnitTestResult executionId="b9e230a9-ba70-4296-877f-ad22da0d6ae8" testId="959fa772-958e-c482-a9ae-61835bc07d57" testName="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsSMTP" computerName="ICSWS068" duration="00:00:00.0004929" startTime="2016-08-04T09:52:05.1159527+02:00" endTime="2016-08-04T09:52:05.1184547+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9e230a9-ba70-4296-877f-ad22da0d6ae8" />
+    <UnitTestResult executionId="f4c510df-d6f7-49a4-a7f3-5252bfaf0be6" testId="60e95b79-d5f2-7547-2241-51dea804903d" testName="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_RetunsCorrectConfigurationType" computerName="ICSWS068" duration="00:00:00.0002524" startTime="2016-08-04T09:52:05.1214564+02:00" endTime="2016-08-04T09:52:05.1234576+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4c510df-d6f7-49a4-a7f3-5252bfaf0be6" />
+    <UnitTestResult executionId="62b4bd84-17fb-40e9-99a1-cae171f0fa82" testId="85bcbe06-ad0c-f1ae-7b0b-095fd1371be3" testName="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsPOP3" computerName="ICSWS068" duration="00:00:00.0004894" startTime="2016-08-04T09:52:05.1279613+02:00" endTime="2016-08-04T09:52:05.1299624+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62b4bd84-17fb-40e9-99a1-cae171f0fa82" />
+    <UnitTestResult executionId="bd5baafb-9952-4bc3-9a50-836f6b23b58c" testId="fe98d0dd-5241-01e0-c20f-b0912ba5c625" testName="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsIMAP4" computerName="ICSWS068" duration="00:00:00.0004718" startTime="2016-08-04T09:52:05.1339653+02:00" endTime="2016-08-04T09:52:05.1359667+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd5baafb-9952-4bc3-9a50-836f6b23b58c" />
+    <UnitTestResult executionId="2b2c5a80-9019-4a42-8fb2-9fd16e0d08eb" testId="c49383ac-5e08-e3c9-ede0-80cc45d00deb" testName="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsSMTP" computerName="ICSWS068" duration="00:00:00.0003577" startTime="2016-08-04T09:52:05.1389693+02:00" endTime="2016-08-04T09:52:05.1404702+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b2c5a80-9019-4a42-8fb2-9fd16e0d08eb" />
+    <UnitTestResult executionId="3781722e-db4d-4f63-9557-6be4ad0aff30" testId="e0b836f9-340f-2b39-090a-eedb4ec7a618" testName="GetWellKnownServerConfigurationFromServerAddress_IsAutoButUnknownServer_Throws" computerName="ICSWS068" duration="00:00:00.0006665" startTime="2016-08-04T09:52:05.1434722+02:00" endTime="2016-08-04T09:52:05.1454739+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3781722e-db4d-4f63-9557-6be4ad0aff30" />
+    <UnitTestResult executionId="996c093b-d190-409d-9ea7-9119ec19b82f" testId="9b8ca84a-466b-1d85-2d6f-2ade6c4dc477" testName="MakeAutoConfigAddress_KnownServer_Succeeds" computerName="ICSWS068" duration="00:00:00.0001477" startTime="2016-08-04T09:52:05.1484756+02:00" endTime="2016-08-04T09:52:05.1504770+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996c093b-d190-409d-9ea7-9119ec19b82f" />
+    <UnitTestResult executionId="e6f9eade-3f32-4814-a0ad-b17763e3940d" testId="5713d3a2-3f58-50d7-7bf3-f74fe616d288" testName="WellKnownMailServerNames_ListsCorrectNumberOfServerNames" computerName="ICSWS068" duration="00:00:00.0011336" startTime="2016-08-04T09:52:05.1534790+02:00" endTime="2016-08-04T09:52:05.1559808+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6f9eade-3f32-4814-a0ad-b17763e3940d" />
+    <UnitTestResult executionId="45e89c3e-7eb6-4f1f-944f-34a1b4a514b6" testId="8b998ad5-7e2d-5da4-dc33-f59f256bf27c" testName="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andPOP3_RetunsCorrectConfigurationType" computerName="ICSWS068" duration="00:00:00.0002519" startTime="2016-08-04T09:52:05.1589831+02:00" endTime="2016-08-04T09:52:05.1609845+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45e89c3e-7eb6-4f1f-944f-34a1b4a514b6" />
+    <UnitTestResult executionId="e7a877c9-5c77-4104-97d4-07292d1bf039" testId="5e97c549-3f13-797b-5c17-be5b51bec8ab" testName="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andSMTP_RetunsCorrectConfigurationType" computerName="ICSWS068" duration="00:00:00.0002501" startTime="2016-08-04T09:52:05.1644871+02:00" endTime="2016-08-04T09:52:05.1664885+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7a877c9-5c77-4104-97d4-07292d1bf039" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Login_AutoSetupOffice365_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="a48d8fdf-c902-cf10-61d6-275517291572">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Office365" />
+      </TestCategory>
+      <Execution id="61a7e1c9-2d89-4478-8c0f-2004ed44f25b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="iCore.Runtime.Mail.Tests.SmtpClientTests" name="Login_AutoSetupOffice365_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupMicrosoftLive_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="51b24c3b-0d2b-d2ef-c2ab-7e4741ec3d35">
+      <Execution id="c335181c-5081-4b73-a05c-97734734aa01" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="iCore.Runtime.Mail.Tests.SmtpClientTests" name="Login_AutoSetupMicrosoftLive_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupGmail_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="8dedbf8b-bd83-6340-d8c6-0482061cab84">
+      <Execution id="565be513-f2d1-4ee6-96ab-46094a3c4e64" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="iCore.Runtime.Mail.Tests.SmtpClientTests" name="Login_AutoSetupGmail_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupGmailAndWrongPassword_ThrowsSmtpException" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="f04636e7-b055-fe11-166c-66721faac490">
+      <Execution id="bc17b83d-cf7b-408b-9e61-59c8eb1aad0e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="iCore.Runtime.Mail.Tests.SmtpClientTests" name="Login_AutoSetupGmailAndWrongPassword_ThrowsSmtpException" />
+    </UnitTest>
+    <UnitTest name="Open_AutoSetupUnknownConfiguration_Fail" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="3a55048f-f382-b729-6c1e-a82dd4b04741">
+      <Execution id="c06c8d00-bf34-482c-aff9-c4c1048a1088" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="iCore.Runtime.Mail.Tests.SmtpClientTests" name="Open_AutoSetupUnknownConfiguration_Fail" />
+    </UnitTest>
+    <UnitTest name="DefaultConstructor_NoArgs_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="59374b30-491f-19e5-d711-a2113952d1e1">
+      <Execution id="32f682e1-128d-435b-a977-2e50fed27bb6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="DefaultConstructor_NoArgs_Success" />
+    </UnitTest>
+    <UnitTest name="GetSystemDate_FormatIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="e252d847-1bc2-cfa4-2bc8-df86fe096f90">
+      <Execution id="8369ba9c-b6cf-4775-b843-9e7bd319a6eb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="GetSystemDate_FormatIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="GetSystemDate_FormatIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="53724b47-dd47-8893-d0e1-f80daf1ac191">
+      <Execution id="350737ed-e651-4184-b190-01eb18807e37" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="GetSystemDate_FormatIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="GetSystemDate_ValidFormat_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="0cf578dc-82e2-1411-22a8-4b1972d14b29">
+      <Execution id="c5bb507e-5aec-44c2-95aa-a58f34e4d861" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="GetSystemDate_ValidFormat_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="GetSystemDate_CustomFormatSecondsOnly_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="fc0f379f-ae1f-54a7-a892-fd7381a472b6">
+      <Execution id="9c3d0a81-e3c6-4b9d-ad26-56552e2d543e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="GetSystemDate_CustomFormatSecondsOnly_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="AddDate_SourceFormatIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="2f74e4f4-6fdb-214d-5943-62e06ad5b0ea">
+      <Execution id="af1161d3-1bee-4dd7-ae64-75049499781c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_SourceFormatIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="AddDate_SourceFormatIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="1dbf4624-ec9d-a602-00e9-6e8c2db7c073">
+      <Execution id="aa82f858-edf6-4d4a-894d-253d5cb7611d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_SourceFormatIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="AddDate_SourceDateIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="9e2fa56a-fd09-c702-4312-a839f22e3e1f">
+      <Execution id="3671ab7c-6fca-4b1a-bddd-6e1690fe72da" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_SourceDateIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="AddDate_SourceDateIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="b404d70d-1077-c801-8caf-03dfdeae6c6e">
+      <Execution id="57dede5c-38e8-48dc-97b1-90e1431f0bfc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_SourceDateIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="AddDate_DestinationFormatIsEmpty_ResultHasSourceFormat" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="b3e03361-acdb-9e8d-5f5d-920f65c90464">
+      <Execution id="71845f7e-06b1-4e2c-a7b9-f7dcf0998530" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_DestinationFormatIsEmpty_ResultHasSourceFormat" />
+    </UnitTest>
+    <UnitTest name="AddDate_DestinationFormatIsNull_ResultHasSourceFormat" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="ce1aaab1-3bf7-77f2-edf1-f89ea5185b8e">
+      <Execution id="d96bae7f-4c8d-49f8-bff2-064b2ca8046f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_DestinationFormatIsNull_ResultHasSourceFormat" />
+    </UnitTest>
+    <UnitTest name="AddDate_AddZeroSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="6e3b3e37-2380-e0b4-4994-f3d4f6a2c186">
+      <Execution id="e1b73c46-5fc4-4900-9b8a-7086d03b31c8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_AddZeroSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="AddDate_AddFiveSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="b7811708-f2a8-091a-6a8c-c017c363ef90">
+      <Execution id="6a7fe6ad-1427-4449-a579-180dc66a3595" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_AddFiveSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="AddDate_AddMinusTwoSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="7b9ff203-dc18-e9da-40f2-e8aebf13b81d">
+      <Execution id="4f6cd857-660f-4edb-bbd5-6e01c2239b82" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="AddDate_AddMinusTwoSecondsSourceAndDestinationFormatSame_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceAndDestinationFormatSame_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="b8de7cfd-ff23-6136-c459-9c7b2d71c82d">
+      <Execution id="180c5753-e426-4235-b535-9c0b114211eb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceAndDestinationFormatSame_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceAndDestinationFormatNotSame_ExpectedDateReturned" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="6e7dc258-19be-10ba-39a4-f00941bd1eb3">
+      <Execution id="04d33378-e5ac-4d6b-95e3-ef87511b25ee" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceAndDestinationFormatNotSame_ExpectedDateReturned" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceFormatIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="44eb7f52-348e-d242-52cc-e8e82d60f330">
+      <Execution id="4d2ecfa2-825b-41a2-858d-bea33dc02d2d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceFormatIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceFormatIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="8d2e3b8f-24fa-2de5-4e9d-0181774d8b89">
+      <Execution id="8a538a2c-aa0e-4c3a-8b73-5fef1aba9c49" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceFormatIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceDateIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="474c5202-b188-c690-025c-abeb8a7b4aea">
+      <Execution id="f0645795-9f55-4193-a053-faa92a326259" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceDateIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_SourceDateIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="e232a90e-330c-1f50-23b5-a8f44452bf31">
+      <Execution id="53268ee2-d0b3-4cdb-a4fc-58c7725409df" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_SourceDateIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_DestinationFormatIsEmpty_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="4347b253-462d-edff-a6d3-c10e3c48f110">
+      <Execution id="c2cd4aa8-cc21-4ad4-85da-7bbd438937a4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_DestinationFormatIsEmpty_Throws" />
+    </UnitTest>
+    <UnitTest name="ConvertDate_DestinationFormatIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="0eb15c5a-352a-9c40-07da-1a4e4239aded">
+      <Execution id="acde651a-7ff8-47c6-a2d2-9e65874ada5a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.DateConversionImplTests" name="ConvertDate_DestinationFormatIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupOffice365_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="82749c90-324e-a226-758b-38a6109bcd75">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Office365" />
+      </TestCategory>
+      <Execution id="cb381f70-3a42-4243-8dd4-a0229258530a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Pop3ClientTests" name="Login_AutoSetupOffice365_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupMicrosoftLive_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="7611740b-9b88-7520-ce47-8670eb165d8f">
+      <Execution id="996b0bee-636e-484e-b45e-226d9caee152" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Pop3ClientTests" name="Login_AutoSetupMicrosoftLive_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupGmail_Success" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="ba7a382b-9248-bb67-a1b4-42ae63f114bc">
+      <Execution id="671fa5e6-b521-4383-b8c5-fcba265a5492" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Pop3ClientTests" name="Login_AutoSetupGmail_Success" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupGmailAndWrongPassword_ThrowsPop3Exception" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="620bc77e-1ad1-3469-e78e-c42a74f1fefb">
+      <Execution id="4b5e4930-f628-4ebc-ae1c-aa895f57b6fa" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Pop3ClientTests" name="Login_AutoSetupGmailAndWrongPassword_ThrowsPop3Exception" />
+    </UnitTest>
+    <UnitTest name="Login_AutoSetupUnknownConfiguration_Fail" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="f3079970-8f4a-c240-6e4a-df6369a94287">
+      <Execution id="9d9799ca-f08f-4597-a59a-980a927923be" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.Pop3ClientTests" name="Login_AutoSetupUnknownConfiguration_Fail" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_NoAuto_RetunsNull" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="d0202983-5b41-9758-3b7c-08e945f08b2b">
+      <Execution id="bca5f633-e486-4b55-b058-06fb4ace841f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_NoAuto_RetunsNull" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_RetunsCorrectConfigurationType" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="15a38c65-cb50-3b2a-8963-284bf9e0e889">
+      <Execution id="076010e2-c4ef-46f3-974c-2e24c078ae44" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_RetunsCorrectConfigurationType" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsPOP3" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="40faadf7-8533-bb81-265c-0aaa3fceffde">
+      <Execution id="2f9abb69-8f13-4527-8771-6084bbcfed37" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsPOP3" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsIMAP4" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="a49c2209-5aef-962b-c959-89c598b54a75">
+      <Execution id="1e642ecb-3605-423b-adc9-7a3d14d2056b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsIMAP4" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsSMTP" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="959fa772-958e-c482-a9ae-61835bc07d57">
+      <Execution id="b9e230a9-ba70-4296-877f-ad22da0d6ae8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsOffice365_ConfigurationContainsSMTP" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_RetunsCorrectConfigurationType" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="60e95b79-d5f2-7547-2241-51dea804903d">
+      <Execution id="f4c510df-d6f7-49a4-a7f3-5252bfaf0be6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_RetunsCorrectConfigurationType" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsPOP3" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="85bcbe06-ad0c-f1ae-7b0b-095fd1371be3">
+      <Execution id="62b4bd84-17fb-40e9-99a1-cae171f0fa82" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsPOP3" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsIMAP4" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="fe98d0dd-5241-01e0-c20f-b0912ba5c625">
+      <Execution id="bd5baafb-9952-4bc3-9a50-836f6b23b58c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsIMAP4" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsSMTP" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="c49383ac-5e08-e3c9-ede0-80cc45d00deb">
+      <Execution id="2b2c5a80-9019-4a42-8fb2-9fd16e0d08eb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsMicrosoftLive_ConfigurationContainsSMTP" />
+    </UnitTest>
+    <UnitTest name="GetWellKnownServerConfigurationFromServerAddress_IsAutoButUnknownServer_Throws" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="e0b836f9-340f-2b39-090a-eedb4ec7a618">
+      <Execution id="3781722e-db4d-4f63-9557-6be4ad0aff30" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="GetWellKnownServerConfigurationFromServerAddress_IsAutoButUnknownServer_Throws" />
+    </UnitTest>
+    <UnitTest name="MakeAutoConfigAddress_KnownServer_Succeeds" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="9b8ca84a-466b-1d85-2d6f-2ade6c4dc477">
+      <Execution id="996c093b-d190-409d-9ea7-9119ec19b82f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="MakeAutoConfigAddress_KnownServer_Succeeds" />
+    </UnitTest>
+    <UnitTest name="WellKnownMailServerNames_ListsCorrectNumberOfServerNames" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="5713d3a2-3f58-50d7-7bf3-f74fe616d288">
+      <Execution id="e6f9eade-3f32-4814-a0ad-b17763e3940d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="WellKnownMailServerNames_ListsCorrectNumberOfServerNames" />
+    </UnitTest>
+    <UnitTest name="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andPOP3_RetunsCorrectConfigurationType" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="8b998ad5-7e2d-5da4-dc33-f59f256bf27c">
+      <Execution id="45e89c3e-7eb6-4f1f-944f-34a1b4a514b6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andPOP3_RetunsCorrectConfigurationType" />
+    </UnitTest>
+    <UnitTest name="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andSMTP_RetunsCorrectConfigurationType" storage="f:\etwork\bin\tests\intgtests.icore.runtime.dll" id="5e97c549-3f13-797b-5c17-be5b51bec8ab">
+      <Execution id="e7a877c9-5c77-4104-97d4-07292d1bf039" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Runtime.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Runtime.WellKnownMailServerConfigurationFactoryTests" name="TryGetServerConfigurationFromServerAddressAndProtocol_IsOffice365andSMTP_RetunsCorrectConfigurationType" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a48d8fdf-c902-cf10-61d6-275517291572" executionId="61a7e1c9-2d89-4478-8c0f-2004ed44f25b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51b24c3b-0d2b-d2ef-c2ab-7e4741ec3d35" executionId="c335181c-5081-4b73-a05c-97734734aa01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8dedbf8b-bd83-6340-d8c6-0482061cab84" executionId="565be513-f2d1-4ee6-96ab-46094a3c4e64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f04636e7-b055-fe11-166c-66721faac490" executionId="bc17b83d-cf7b-408b-9e61-59c8eb1aad0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a55048f-f382-b729-6c1e-a82dd4b04741" executionId="c06c8d00-bf34-482c-aff9-c4c1048a1088" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59374b30-491f-19e5-d711-a2113952d1e1" executionId="32f682e1-128d-435b-a977-2e50fed27bb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e252d847-1bc2-cfa4-2bc8-df86fe096f90" executionId="8369ba9c-b6cf-4775-b843-9e7bd319a6eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53724b47-dd47-8893-d0e1-f80daf1ac191" executionId="350737ed-e651-4184-b190-01eb18807e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cf578dc-82e2-1411-22a8-4b1972d14b29" executionId="c5bb507e-5aec-44c2-95aa-a58f34e4d861" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc0f379f-ae1f-54a7-a892-fd7381a472b6" executionId="9c3d0a81-e3c6-4b9d-ad26-56552e2d543e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f74e4f4-6fdb-214d-5943-62e06ad5b0ea" executionId="af1161d3-1bee-4dd7-ae64-75049499781c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dbf4624-ec9d-a602-00e9-6e8c2db7c073" executionId="aa82f858-edf6-4d4a-894d-253d5cb7611d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e2fa56a-fd09-c702-4312-a839f22e3e1f" executionId="3671ab7c-6fca-4b1a-bddd-6e1690fe72da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b404d70d-1077-c801-8caf-03dfdeae6c6e" executionId="57dede5c-38e8-48dc-97b1-90e1431f0bfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3e03361-acdb-9e8d-5f5d-920f65c90464" executionId="71845f7e-06b1-4e2c-a7b9-f7dcf0998530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce1aaab1-3bf7-77f2-edf1-f89ea5185b8e" executionId="d96bae7f-4c8d-49f8-bff2-064b2ca8046f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e3b3e37-2380-e0b4-4994-f3d4f6a2c186" executionId="e1b73c46-5fc4-4900-9b8a-7086d03b31c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7811708-f2a8-091a-6a8c-c017c363ef90" executionId="6a7fe6ad-1427-4449-a579-180dc66a3595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b9ff203-dc18-e9da-40f2-e8aebf13b81d" executionId="4f6cd857-660f-4edb-bbd5-6e01c2239b82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8de7cfd-ff23-6136-c459-9c7b2d71c82d" executionId="180c5753-e426-4235-b535-9c0b114211eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e7dc258-19be-10ba-39a4-f00941bd1eb3" executionId="04d33378-e5ac-4d6b-95e3-ef87511b25ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44eb7f52-348e-d242-52cc-e8e82d60f330" executionId="4d2ecfa2-825b-41a2-858d-bea33dc02d2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d2e3b8f-24fa-2de5-4e9d-0181774d8b89" executionId="8a538a2c-aa0e-4c3a-8b73-5fef1aba9c49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="474c5202-b188-c690-025c-abeb8a7b4aea" executionId="f0645795-9f55-4193-a053-faa92a326259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e232a90e-330c-1f50-23b5-a8f44452bf31" executionId="53268ee2-d0b3-4cdb-a4fc-58c7725409df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4347b253-462d-edff-a6d3-c10e3c48f110" executionId="c2cd4aa8-cc21-4ad4-85da-7bbd438937a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0eb15c5a-352a-9c40-07da-1a4e4239aded" executionId="acde651a-7ff8-47c6-a2d2-9e65874ada5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82749c90-324e-a226-758b-38a6109bcd75" executionId="cb381f70-3a42-4243-8dd4-a0229258530a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7611740b-9b88-7520-ce47-8670eb165d8f" executionId="996b0bee-636e-484e-b45e-226d9caee152" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba7a382b-9248-bb67-a1b4-42ae63f114bc" executionId="671fa5e6-b521-4383-b8c5-fcba265a5492" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="620bc77e-1ad1-3469-e78e-c42a74f1fefb" executionId="4b5e4930-f628-4ebc-ae1c-aa895f57b6fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3079970-8f4a-c240-6e4a-df6369a94287" executionId="9d9799ca-f08f-4597-a59a-980a927923be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0202983-5b41-9758-3b7c-08e945f08b2b" executionId="bca5f633-e486-4b55-b058-06fb4ace841f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15a38c65-cb50-3b2a-8963-284bf9e0e889" executionId="076010e2-c4ef-46f3-974c-2e24c078ae44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40faadf7-8533-bb81-265c-0aaa3fceffde" executionId="2f9abb69-8f13-4527-8771-6084bbcfed37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a49c2209-5aef-962b-c959-89c598b54a75" executionId="1e642ecb-3605-423b-adc9-7a3d14d2056b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="959fa772-958e-c482-a9ae-61835bc07d57" executionId="b9e230a9-ba70-4296-877f-ad22da0d6ae8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60e95b79-d5f2-7547-2241-51dea804903d" executionId="f4c510df-d6f7-49a4-a7f3-5252bfaf0be6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85bcbe06-ad0c-f1ae-7b0b-095fd1371be3" executionId="62b4bd84-17fb-40e9-99a1-cae171f0fa82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe98d0dd-5241-01e0-c20f-b0912ba5c625" executionId="bd5baafb-9952-4bc3-9a50-836f6b23b58c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c49383ac-5e08-e3c9-ede0-80cc45d00deb" executionId="2b2c5a80-9019-4a42-8fb2-9fd16e0d08eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0b836f9-340f-2b39-090a-eedb4ec7a618" executionId="3781722e-db4d-4f63-9557-6be4ad0aff30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b8ca84a-466b-1d85-2d6f-2ade6c4dc477" executionId="996c093b-d190-409d-9ea7-9119ec19b82f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5713d3a2-3f58-50d7-7bf3-f74fe616d288" executionId="e6f9eade-3f32-4814-a0ad-b17763e3940d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b998ad5-7e2d-5da4-dc33-f59f256bf27c" executionId="45e89c3e-7eb6-4f1f-944f-34a1b4a514b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e97c549-3f13-797b-5c17-be5b51bec8ab" executionId="e7a877c9-5c77-4104-97d4-07292d1bf039" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="46" executed="46" passed="44" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

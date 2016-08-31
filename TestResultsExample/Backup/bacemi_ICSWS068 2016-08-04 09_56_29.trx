@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bb33a89d-ceb3-46ba-99d9-9a491987a079" name="bacemi@ICSWS068 2016-08-04 09:56:29" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:56:29.7381087+02:00" queuing="2016-08-04T09:56:29.7381087+02:00" start="2016-08-04T09:56:29.0230924+02:00" finish="2016-08-04T09:56:29.8166684+02:00" />
+  <TestSettings name="default" id="d7a85c5e-3e3b-4fff-9333-f3b3de06918d">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_56_29" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b35320a5-ed07-4d8d-8cd4-f43c55ab0ad2" testId="bb6b34b9-3a1f-e18e-cf05-16ef144187b5" testName="VerifyThatTheReleasedInVersionMatchesBetween_SystemVersionXml_And_iCoreUpdDbSql" computerName="ICSWS068" duration="00:00:00.1588206" startTime="2016-08-04T09:56:29.0230924+02:00" endTime="2016-08-04T09:56:29.4594090+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b35320a5-ed07-4d8d-8cd4-f43c55ab0ad2" />
+    <UnitTestResult executionId="85e4fc44-40ca-4fa8-a785-6df2d3719dd8" testId="c4c77d00-3ef9-9551-0fed-44591b2bb2d5" testName="VerifyThatTheLastVersionInUpdDbMatchesTheVersionInSystemVersionXml" computerName="ICSWS068" duration="00:00:00.0142430" startTime="2016-08-04T09:56:29.4644128+02:00" endTime="2016-08-04T09:56:29.4809248+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85e4fc44-40ca-4fa8-a785-6df2d3719dd8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="VerifyThatTheReleasedInVersionMatchesBetween_SystemVersionXml_And_iCoreUpdDbSql" storage="f:\etwork\bin\tests\unittests.icore.common.sysmgmt.dll" id="bb6b34b9-3a1f-e18e-cf05-16ef144187b5">
+      <Execution id="b35320a5-ed07-4d8d-8cd4-f43c55ab0ad2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.SysMgmt.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.SysMgmt.SystemVersionFileTests" name="VerifyThatTheReleasedInVersionMatchesBetween_SystemVersionXml_And_iCoreUpdDbSql" />
+    </UnitTest>
+    <UnitTest name="VerifyThatTheLastVersionInUpdDbMatchesTheVersionInSystemVersionXml" storage="f:\etwork\bin\tests\unittests.icore.common.sysmgmt.dll" id="c4c77d00-3ef9-9551-0fed-44591b2bb2d5">
+      <Execution id="85e4fc44-40ca-4fa8-a785-6df2d3719dd8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.SysMgmt.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.SysMgmt.SystemVersionFileTests" name="VerifyThatTheLastVersionInUpdDbMatchesTheVersionInSystemVersionXml" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bb6b34b9-3a1f-e18e-cf05-16ef144187b5" executionId="b35320a5-ed07-4d8d-8cd4-f43c55ab0ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4c77d00-3ef9-9551-0fed-44591b2bb2d5" executionId="85e4fc44-40ca-4fa8-a785-6df2d3719dd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,15 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   MoveNext_NormalExecution_PathInfoReturned
+Passed   MoveNext_ValueReturns_ValueAreCorrectlyTransferedToReturnedObject
+Passed   MoveNext_MultipleCalls_MaxOneValueReturned
+Passed   MoveNext_MultipleCalls_AtLeastOneValueReturned
+Passed   ToString_NoValuesSet_EmptyString
+Passed   ToString_SomeValuesSet_CorrectNameOrderedString
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_56_58.trx
+
+Total tests: 6. Passed: 6. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,0972 Seconds

@@ -1,0 +1,569 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   IsBrowsableTest1
+Passed   IsBrowsableTest2
+Passed   IsBrowsableTest3
+Passed   ImplementsTest1
+Passed   GetPropertyDecoratedWithTest5
+Passed   GetPropertyDecoratedWithTest4
+Passed   GetPropertyDecoratedWithTest3
+Passed   GetPropertiesDecoratedWithTest1
+Passed   GetPropertiesDecoratedWithTest2
+Passed   GetPropertiesDecoratedWithTest3
+Passed   GetPropertiesDecoratedWithTest4
+Passed   VerticesTest
+Passed   VertexCountTest
+Passed   EdgesTest
+Passed   TryGetVertexTest
+Passed   GetVertexTest
+Passed   GetNonExistingVertexTest
+Passed   RemoveVertexTest
+Passed   RemoveNonExistingVertexTest
+Passed   HasReferrersTest
+Passed   HasRefereesTest
+Passed   GetToplogicalOrderTest
+Passed   GetReverseToplogicalOrderTest
+Passed   GetDirectReferrersOfTest
+Passed   GetDirectRefereesOfTest
+Passed   GetAdjacentReferrersTest
+Passed   GetAdjacentRefereesTest
+Passed   ContainsDependencyTest
+Passed   ClearTest
+Passed   AddVertexFailureTest
+Passed   GetSubgraphWithRefereesOfTest
+Passed   GetSubgraphWithReferrersOfTest
+Passed   RemoveVertexWithRefereesTest
+Passed   RemoveDependencyTest
+Passed   AddVertexWithReferrersFromTest
+Passed   AddVertexWithRefereesFromTest
+Passed   MappedProperty_GetCustomAttributesTest2
+Passed   TryReplaceXamlTypeName_TypeNameExistsAsTypeArgument_ReplacementsAreMade
+Passed   TryReplaceXamlTypeName_SearchStringNotFound_ReturnsFalse
+Passed   Test
+Passed   AddOrUpdateNodeAttributeValues_NormalExecutionAllArgumentsSet_Success
+Passed   AddOrUpdateNodeAttributeValues_ExistingNodeAttributeOverwrite_Success
+Passed   AddOrUpdateNodeAttributeValues_AddExistingAttributeToNode_Success
+Passed   AddOrUpdateNodeAttributeValues_ExistingNodeAttributeTypeOptionGenerateError_ThrowsException
+Passed   AddOrUpdateNodeAttributeValues_NonExistingNodeAttributeTypeOptionGenerateError_ThrowsException
+Passed   AddOrUpdateNodeAttributeValues_NodeDoesNotExist_ThrowsException
+Passed   Add_IEntity_ThrowsNotSupported
+Passed   Update_IEntity_ThrowsNotSupported
+Passed   Delete_IEntity_ThrowsNotSupported
+Passed   Add_WrongEntityType_ThrowsArgumentException
+Passed   Update_WrongEntityType_ThrowsArgumentException
+Passed   Delete_WrongEntityType_ThrowsArgumentException
+Passed   EntityReflectionType_InvokingGetFrom_InheritedInterfaceIsReturned
+Passed   Merge_NullAndInstance_ReturnsNewInstance
+Passed   Merge_InstanceAndNull_ReturnsNewInstance
+Passed   Merge_NonNulls_ReturnsNewInstance
+Passed   Merge_DifferentTypes_IsStillComposite
+Passed   RuntimeParameter_Parse1
+Passed   RuntimeParameter_NoParametersFromSeveralSQLCounts
+Passed   RuntimeParameter_Roundtrip
+Passed   SetValueIntegerOutputTest (Data Row 0)
+Passed   SetValueIntegerOutputTest (Data Row 1)
+Passed   SetValueIntegerOutputTest (Data Row 2)
+Passed   SetValueIntegerOutputTest (Data Row 3)
+Passed   SetValueIntegerOutputTest (Data Row 4)
+Passed   SetValueIntegerOutputTest (Data Row 5)
+Passed   SetValueIntegerOutputTest (Data Row 6)
+Passed   SetValueIntegerOutputTest (Data Row 7)
+Passed   SetValueIntegerOutputTest (Data Row 8)
+Passed   SetValueIntegerOutputTest (Data Row 9)
+Passed   SetValueFloatOutputTest (Data Row 0)
+Passed   SetValueFloatOutputTest (Data Row 1)
+Passed   SetValueFloatOutputTest (Data Row 2)
+Passed   SetValueFloatOutputTest (Data Row 3)
+Passed   SetValueFloatOutputTest (Data Row 4)
+Passed   SetValueFloatOutputTest (Data Row 5)
+Passed   SetValueFloatOutputTest (Data Row 6)
+Passed   SetValueFloatOutputTest (Data Row 7)
+Passed   SetValueFloatOutputTest (Data Row 8)
+Passed   SetValueFloatOutputTest (Data Row 9)
+Passed   SetValueStringOutputTest (Data Row 0)
+Passed   SetValueStringOutputTest (Data Row 1)
+Passed   SetValueStringOutputTest (Data Row 2)
+Passed   SetValueStringOutputTest (Data Row 3)
+Passed   SetValueStringOutputTest (Data Row 4)
+Passed   SetValueStringOutputTest (Data Row 5)
+Passed   SetValueStringOutputTest (Data Row 6)
+Passed   SetValueStringOutputTest (Data Row 7)
+Passed   SetValueStringOutputTest (Data Row 8)
+Passed   SetValueStringOutputTest (Data Row 9)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 0)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 1)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 2)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 3)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 4)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 5)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 6)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 7)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 8)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 9)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 10)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 11)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 12)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 13)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 14)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 15)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 16)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 17)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 18)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 19)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 20)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 21)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 22)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 23)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 24)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 25)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 26)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 27)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 28)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 29)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 30)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 31)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 32)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 33)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 34)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 35)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 36)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 37)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 38)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 39)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 40)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 41)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 42)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 43)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 44)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 45)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 46)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 47)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 48)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 49)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 50)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 51)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 52)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 53)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 54)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 55)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 56)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 57)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 58)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 59)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 60)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 61)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 62)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 63)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 64)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 65)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 66)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 67)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 68)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 69)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 70)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 71)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 72)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 73)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 74)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 75)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 76)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 77)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 78)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 79)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 80)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 81)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 82)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 83)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 84)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 85)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 86)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 87)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 88)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 89)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 90)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 91)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 92)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 93)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 94)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 95)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 96)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 97)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 98)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 99)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 100)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 101)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 102)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 103)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 104)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 105)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 106)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 107)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 108)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 109)
+Passed   Equals_FromDataSorce_RetrnValueIsExpected (Data Row 110)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 0)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 1)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 2)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 3)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 4)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 5)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 6)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 7)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 8)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 9)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 10)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 11)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 12)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 13)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 14)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 15)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 16)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 17)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 18)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 19)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 20)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 21)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 22)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 23)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 24)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 25)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 26)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 27)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 28)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 29)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 30)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 31)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 32)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 33)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 34)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 35)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 36)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 37)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 38)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 39)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 40)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 41)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 42)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 43)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 44)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 45)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 46)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 47)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 48)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 49)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 50)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 51)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 52)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 53)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 54)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 55)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 56)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 57)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 58)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 59)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 60)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 61)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 62)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 63)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 64)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 65)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 66)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 67)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 68)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 69)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 70)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 71)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 72)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 73)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 74)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 75)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 76)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 77)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 78)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 79)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 80)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 81)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 82)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 83)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 84)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 85)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 86)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 87)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 88)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 89)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 90)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 91)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 92)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 93)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 94)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 95)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 96)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 97)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 98)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 99)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 100)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 101)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 102)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 103)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 104)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 105)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 106)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 107)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 108)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 109)
+Passed   IsSameValue_FromDataSorce_RetrnValueIsExpected (Data Row 110)
+Passed   SetValue_HasValueAndSetWithScriptVar_OldValueIsKept
+Passed   SetValue_HasNoValueAndSetWithScriptVar_HasNoValue
+Passed   GetiCPSAssemblyPath_RequestingAssemblyPathAtRuntime_AssemblyCanBeDirty
+Passed   GetiCPSAssemblyPath_RequestingAssemblyPathAtDesigntime_AssemblyCannotBeDirty
+Passed   GetiCPSAssemblyPath_RequestingAssemblyPath_DirectoryForAssemblyIsCreated
+Passed   GetiCPSAssemblyPath_RequestingAssemblyPath_CachedAssemblyIsUsed
+Passed   GetiCPSAssemblyPath_RequestingAssemblyPath_PathToAssemblyIsCorrect
+Passed   GetiCPSAssemblyPath_RequestingPathForNoniCPS_PathIsEmpty
+Passed   WriteLogToFile_ProvidingValidInputs_LogEntriesWrittenToStream
+Passed   Constructor_NullArgument_ThrowsArgumentNullException
+Passed   Constructor_ValidArgument_SetsOwnerProperty
+Passed   Constructor_ValidArgument_CountIsZero
+Passed   Add_NonNewItem_ThrowsArgumentException
+Passed   Add_NewItem_Succeeds
+Passed   Add_NewItem_RaisesCollectionChangedEvent
+Passed   Add_NewItem_CollectionIsDirty
+Passed   Remove_SingleExistingNewItemInCollection_ReturnsTrue
+Passed   Remove_SingleExistingNewItemInCollection_IsDirtyIsFalse
+Passed   Remove_NonExistingItem_ReturnsFalse
+Passed   Remove_NullArgument_ThrowsArgumentNullException
+Passed   RemoveByKey_NonExistingKey_ReturnsFalse
+Passed   RemoveByKey_ExistingItem_ReturnsTrue
+Passed   RemoveByKey_ExistingItem_ItemIsRemoved
+Passed   Remove_ExistingNewItem_ItemIsRemoved
+Passed   Remove_RemovedNewItem_ReturnsFalse
+Passed   RemoveByKey_DeletedItem_ReturnsFalse
+Passed   GetEnumerator_BothDeletedNewAndExistingItemsInContainer_ReturnsCorrectEnumeration
+Passed   Remove_ExistingItem_RaisesCollectionChangedEvent
+Passed   RemoveByKey_ExistingItem_RaisesCollectionChangedEvent
+Passed   Enumerating_CollectionNotNewAndNotRefreshed_CausesRefreshToBeCalled
+Passed   Remove_ExistingNewItem_RaisesCollectionChangedEvent
+Passed   ItemByIndex_IndexOutOfBounds_ThrowsArgumentOutOfRangeException
+Passed   ItemByIndex_IndexOutOfBounds2_ThrowsArgumentOutOfRangeException
+Passed   ItemByIndex_ValidIndexToExistingItem_ReturnsCorrectItem
+Passed   ItemByIndex_ValidIndexToNewItem_ReturnsCorrectItem
+Passed   ItemByKey_NonExistingKey_ThrowsKeyNotFoundException
+Passed   ItemByKey_ExistingKey_ReturnsCorrectItem
+Passed   ItemRaisesPropertyChanged_IsDirtyBecomesTrue_IsDirtySet
+Passed   RemovedItemRaisesPropertyChanged_IsDirtyBecomesTrue_IsDirtyUnaffected
+Passed   ItemPropertyChanged_IsDirtyBecomesFalseButOtherDirtyItemsExists_IsDirtyIsStillSet
+Passed   Clear_ExistingItemsWereRemoved_IsDirtyIsTrue
+Passed   Clear_OnlyNewItemsWereRemoved_IsDirtyIsFalse
+Passed   Clear_ModifiedItemsExist_CountIsZero
+Passed   Commit_IsDirtyIsFalse_CommitImplIsNotCalled
+Passed   Commit_IsDirtyIsTrue_CommitImplIsCalledWithTheCorrectParameters
+Passed   Commit_CommitImplThrowsException_ExceptionIsPropagated
+Passed   Commit_CommitImplThrowsException_NoChangesAreMadeToTheCollection
+Passed   Commit_CommitImplSucceeds_IsDirtyIsFalse
+Passed   Commit_CommitImplSucceeds_CollectionContentsUnchanged
+Passed   Refresh_IsDirtyIsTrue_RefreshImplIsCalled
+Passed   Refresh_IsDirtyIsFalse_RefreshImplIsCalled
+Passed   Refresh_CollectionIsPopulatedWithTheCorrectItems
+Passed   Remove_ExistingItem_RaisesPropertyChangedEventForCountProperty
+Passed   Add_NewItem_RaisesPropertyChangedEventForCountProperty
+Passed   Remove_ExistingItem_RaisesPropertyChangedEventForItemProperty
+Passed   Add_NewItem_RaisesPropertyChangedEventForItemProperty
+Passed   RemoveAt_ExistingItem_RaisesPropertyChangedEventForCountProperty
+Passed   RemoveAt_ExistingItem_RaisesPropertyChangedEventForItemProperty
+Passed   RemoveAt_NewItem_RaisesPropertyChangedEventForCountProperty
+Passed   RemoveAt_NewItem_RaisesPropertyChangedEventForItemProperty
+Passed   RemoveAt_IndexIsNewItem_RemovesItemAtIndex
+Passed   RemoveAt_IndexIsExistingItem_RemovesItemAtIndex
+Passed   RemoveAt_IndexOutOfBounds_ThrowsException
+Passed   RemoveAt_IndexLessThanZero_ThrowsException
+Passed   RemoveByKey_ExistingItem_RaisesPropertyChangedEventForCountProperty
+Passed   RemoveByKey_ExistingItem_RaisesPropertyChangedEventForItemProperty
+Passed   Clear_CollectionIsNotEmpty_RaisesCollectionChangedEvent
+Passed   EmptyTest
+Passed   TypeIdTest
+Passed   SingleGuidKeyTest
+Passed   SingleKeyInArrayTest
+Passed   SingleIntKeyTest
+Passed   SingleStringKeyTest
+Passed   op_InequalityTest1
+Passed   op_InequalityTest2
+Passed   op_InequalityTest3
+Passed   op_InequalityTest4
+Passed   op_InequalityTest5
+Passed   op_EqualityTest1
+Passed   op_EqualityTest2
+Passed   op_EqualityTest3
+Passed   op_EqualityTest4
+Passed   op_EqualityTest5
+Passed   IsSingleKeyTest1
+Passed   IsSingleKeyTest2
+Passed   IsSingleKeyTest3
+Passed   IsSingleKeyTest4
+Passed   GetSingleKeyTest1
+Passed   GetSingleKeyTest2
+Passed   GetSingleKeyTest3
+Passed   GetSingleKeyTest4
+Passed   GetSingleKeyTest5
+Passed   GetHashCodeTest1
+Passed   GetHashCodeTest2
+Passed   GetHashCodeTest4
+Passed   GetHashCodeTest5
+Passed   GetHashCodeTest6
+Passed   EqualsTest1
+Passed   EqualsTest2
+Passed   EqualsTest3
+Passed   EqualsTest4
+Passed   EqualsTest5
+Passed   Serialize_SingleGuidKey_DeserializesToAnEqualObject
+Passed   Serialize_SingleIntKey_DeserializesToAnEqualObject
+Passed   Serialize_SingleStringKey_DeserializesToAnEqualObject
+Passed   Serialize_Empty_DeserializesToAnEqualObject
+Passed   Serialize_MultiStringKey_DeserializesToAnEqualObject
+Passed   Serialize_MultiObjectKey_DeserializesToAnEqualObject
+Passed   GuidEntityKey_RoundtripsCorrectly
+Passed   Int32EntityKey_RoundtripsCorrectly
+Passed   Int64EntityKey_RoundtripsCorrectly
+Passed   StringEntityKey_RoundtripsCorrectly
+Passed   MultiPartEntityKey_RoundtripsCorrectly
+Passed   EmptyEntityKey_RoundtripsCorrectly
+Passed   EntityKey_ProtoBufSerializationRoundtrip
+Passed   CompileWebservice_AssemblyResolverIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_NamespaceIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_CompilerIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_ProjectIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_ValidArgs_WSDefinitionCompilerIsCalledOnce
+Passed   CompileWebservice_ValidArgs_WSNamespaceIsPassedToCompiler
+Passed   CompileWebservice_ValidArgs_ProjectSourceFilesArePassedToCompiler
+Passed   CompileWebservice_ValidArgs_ProjectReferencesArePassedToCompiler
+Passed   CompileWebservice_ValidArgs_DocumentationIsSetAfterCompiling
+Passed   InternalCompile_XamlIsSetToNull_ArgumentExceptionIsRaised
+Passed   InternalCompile_SystemContextIsSetToNull_ArgumentExceptionIsRaised
+Passed   InternalCompile_AsssemblyNameSetToNull_ArgumentExceptionIsRaised
+Passed   InternalCompile_ValidArgs_WorkflowCompilerIsCalledOnce
+Passed   InternalCompile_ValidArgs_XAMLSourceCodeIsIncludedInCompile
+Passed   InternalCompile_CompilerReturnsErrors_CompilerErrorExceptionIsRaised
+Passed   InternalCompile_ValidArgs_LocalSystemSourceCodeIsIncludedInCompile
+Passed   InternalCompile_ValidArgs_PartialClassCodeIsIncludedInCompile
+Passed   CompileWebservice_SystemContextIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_AssemblyResolverIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_CompilerIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_WSDefinitionAssemblyNameIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_ConsumerAssemblyNameIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_ProjectIsSetToNull_ArgumentNullExceptionIsRaised
+Passed   CompileWebservice_ValidArgs_WSDefinitionCompilerIsCalledOnce
+Passed   CompileWebservice_ValidArgs_WSNamespaceIsPassedToCompiler
+Passed   CompileWebservice_ValidArgs_ProjectSourceFilesArePassedToCompiler
+Passed   CompileWebservice_ValidArgs_ProjectReferencesArePassedToCompiler
+Passed   CompileWebservice_ValidArgs_DocumentationIsSetAfterCompiling
+Failed   EncryptValue_Data_EncryptedOK
+
+Failed   EncryptValue_EmptyData_ReturnsNonEmptyArray
+
+Failed   EncryptValueToBase64String_Data_EncryptedOK
+
+Failed   DecryptValue_EncryptedData_DecryptedOK
+
+Failed   DecryptValue_EmptyByteArray_ReturnsEmptyString
+
+Failed   Decrypt_InvalidValue_Throws
+
+Failed   DecryptValueFromBase64String_EncryptedData_DecryptedOK
+
+Failed   EncryptValueAndDecryptValue_NonEmptyData_EncryptedAndDecrypted
+
+Failed   EncryptValueAndDecryptValue_ShortData_NotPaddedWithNullChars
+
+Failed   EncryptValueAndDecryptValue_EmptyData_ReturnsNonEmptyArray
+
+Passed   ActivateProtection_MasterKeyIsNull_Throws
+Passed   ActivateProtection_MasterKeyIsZeroLengthAndNotPreviouslyActivated_Throws
+Passed   ActivateProtection_MasterKeyIsFiveCharactersAndNotPreviouslyActivated_Throws
+Passed   ActivateProtection_ProgressInfoObjectIsNull_Throws
+Passed   ActivateProtection_SystemContextIsNull_Throws
+Passed   ActivateProtection_ConfirmApplyActivationDelegateIsNull_Throws
+Passed   DeactivateProtection_MasterKeyIsNull_Throws
+Passed   DeactivateProtection_SystemContextIsNull_Throws
+Passed   DeactivateProtection_ProgressInfoIsNull_Throws
+Passed   DeactivateProtection_SystemProtectionIsNotActive_Throws
+Passed   RegenerateEncryptionKey_MasterKeyIsNull_Throws
+Passed   RegenerateEncryptionKey_SystemContextIsNull_Throws
+Passed   RegenerateEncryptionKey_ProgressInfoIsNull_Throws
+Passed   RegenerateEncryptionKey_SystemProtectionIsNotActive_Throws
+Passed   ChangeMasterKey_NewKeyIsNull_Throws
+Passed   ChangeMasterKey_OldKeyIsNull_Throws
+Passed   ChangeMasterKey_SystemContextIsNull_Throws
+Passed   ChangeMasterKey_NewKeyIsTooShort_Throws
+Passed   ChangeMasterKey_NewKeySameAsCurrentKey_Throws
+Passed   SystemHasBeenActivatedBefore_ContextHasMasterKeyHashAndKey_ReturnsTrue
+Passed   SystemHasBeenActivatedBefore_ContextHasMasterKeyHashButNoKey_ReturnsFalse
+Passed   SystemHasBeenActivatedBefore_ContextHasNoMasterKeyHashButKey_ReturnsFalse
+Passed   SystemHasBeenActivatedBefore_NullArgument_Throws
+Passed   CheckCurrentMachineValidForSystemStart_SystemContextIsNull_Throws
+Passed   CheckCurrentMachineValidForSystemStart_DataProtectionOff_Succeeds
+Passed   CheckCurrentMachineValidForSystemStart_CurrentMachineHasAttachMachineWithValidAttach_Succeeds
+Passed   CheckCurrentMachineValidForSystemStart_CurrentMachineDoesNotHaveAttachedMachinesInstance_Throws
+Passed   CheckCurrentMachineValidForSystemStart_CurrentMachineHaveAttachedMachinesInstanceThatIsInvalid_Throws
+Passed   ETimer_SetValidMonthDaysByAssigningValidMonthDaysIntArray_DaysPropertiesHaveCorrectValues
+Passed   ETimer_SetValidMonthDaysByAssigningInvalidDaysInIntArray_InvalidDaysAreIgnored
+Passed   ETimer_SettingDayPropertiesByDayProperties_ValidMonthDaysArrayContainsCorrectValues
+Passed   StripQualifiers_FromString_EqualsFromType
+Passed   StripQualifiers_FromiCoreTypeString_IsCorrect
+Passed   StripQualifiers_ArrayMarker_IsRetained
+Passed   StripQualifiers_ArrayMarkerWithRank_IsRetained
+Passed   MakeUniqueName_NameLookupArgIsNull_ThrowsException
+Passed   MakeUniqueName_UniqueNotFound_ThrowsException
+Passed   MakeUniqueName_UniqueFound_ReturnsCorrectName
+Passed   Serialization_Null_DeserializesToSameValue
+Passed   Serialization_BooleanFalse_DeserializesToSameValue
+Passed   Serialization_BooleanTrue_DeserializesToSameValue
+Passed   Serialization_Byte_DeserializesToSameValue
+Passed   Serialization_Char_DeserializesToSameValue
+Passed   Serialization_DateTime_DeserializesToSameValue
+Passed   Serialization_DBNull_DeserializesToSameValue
+Passed   Serialization_Decimal_DeserializesToSameValue
+Passed   Serialization_Double_DeserializesToSameValue
+Passed   Serialization_Int16_DeserializesToSameValue
+Passed   Serialization_UInt16_DeserializesToSameValue
+Passed   Serialization_Int32_DeserializesToSameValue
+Passed   Serialization_UInt32_DeserializesToSameValue
+Passed   Serialization_Int64_DeserializesToSameValue
+Passed   Serialization_UInt64_DeserializesToSameValue
+Passed   Serialization_SByte_DeserializesToSameValue
+Passed   Serialization_Single_DeserializesToSameValue
+Passed   Serialization_String_DeserializesToSameValue
+Passed   Serialization_TimeSpan_DeserializesToSameValue
+Passed   Serialization_ComplexSerializableType_DeserializesToSameValue
+Passed   Serialization_ComplexISerializableType_DeserializesToSameValue
+Passed   Serialization_ComplexISerializableType_DeserializationConstructorCalled
+Passed   Serialization_NonSerializableType_ThrowsException
+Passed   Validate_AddNoAuthAttribute_ReturnsNull
+Passed   Validate_DeleteNoAuthAttribute_ReturnNull
+Passed   Validate_UpdateNoAuthAttribute_Throws
+Passed   Validate_UpdateReadOnlyProperty_ReturnsNull
+Passed   CanExcuteDelete_NoEntries_ReturnsTrue
+Passed   CanExcuteDelete_OneEntryThatIsNotCurrentMachine_ReturnsTrue
+Passed   CanExcuteDelete_OneEntryThatIsCurrentMachine_ReturnsFalse
+Passed   CanExcuteDelete_MutipleEntriesNoneIsCurrentMachine_ReturnsTrue
+Passed   CanExcuteDelete_MutipleEntriesIncludesCurrentMachine_ReturnsFalse
+Passed   Initialize_InvokedBeforeIntervalAndDateHasTicks_EventsAreRaisedAtExpectedMoments
+Passed   Initialize_InvokedBeforeIntervalIn_EventsAreRaisedAtExpectedMoments
+Passed   Initialize_InvokedInInterval_EventsAreRaisedAtExpectedMoments
+Passed   CodeExpression_CommittingMethodChanges_ChangesAreApplied
+Passed   CodeExpression_RollbackSpecificScopeChanges_ChangesInTheRollbackedScopeAreDiscarded
+Passed   CodeExpression_RollbackAllChanges_ChangesInAllScopesAreRolledBack
+Passed   CodeExpression_FetchingAlreadyExistingMethodBody_CorrectMethodBodyIsFetched
+Passed   CodeExpression_FetchingNewMethodBody_CorrectMethodBodyIsFetched
+Passed   CodeExpression_FetchMethodBodyAfterCommitting_CorrectMethodBodyIsFetched
+Passed   CodeExpression_RemoveMethodCommit_MethodIsRemovedAfterCommit
+Passed   CodeExpression_RemoveExistingMethodRollback_MethodExistsAfterRollback
+Passed   CodeExpression_ActivityNameChanged_MethodNameIsChanged
+Passed   CodeExpression_ActivityNameChanged_ExistingMethodNameIsChanged
+Passed   CodeExpression_RemoveMethodThenUndoRemoveCommit_MethodNotRemovedOnCommit
+Passed   CodeExpression_RemoveMethodThenUndoRemoveOfAnotherMethodCommit_MethodRemovedOnCommit
+Passed   CodeExpression_UndoRemoveMethodWithoutAnyChanges_Succeeds
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_56_20.trx
+
+Total tests: 551. Passed: 541. Failed: 10. Skipped: 0.
+Test execution time: 7,7523 Seconds

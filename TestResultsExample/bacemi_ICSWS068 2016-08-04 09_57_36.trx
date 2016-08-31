@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="83a4f232-eef4-4e9d-aca7-8efbc5369528" name="bacemi@ICSWS068 2016-08-04 09:57:36" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:57:36.3201325+02:00" queuing="2016-08-04T09:57:36.3201325+02:00" start="2016-08-04T09:57:35.6044978+02:00" finish="2016-08-04T09:57:37.3816678+02:00" />
+  <TestSettings name="default" id="6978e4a1-d3f0-47e6-8c74-43c502946f7d">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_57_36" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a27da367-9a26-4f44-a4ca-8d257ebf0e7b" testId="554cddc9-6ec8-3081-bfea-f0f0e11eb729" testName="Constructor_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.1722115" startTime="2016-08-04T09:57:35.6044978+02:00" endTime="2016-08-04T09:57:35.9886906+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a27da367-9a26-4f44-a4ca-8d257ebf0e7b" />
+    <UnitTestResult executionId="80b0c797-d793-4e03-9860-14164e1cd960" testId="833d89f9-764e-9e23-21da-c15b350c16fe" testName="Constructor_ClientArgumentDoesNotImplementIFtpClientInterface_Throws" computerName="ICSWS068" duration="00:00:00.0095079" startTime="2016-08-04T09:57:35.9926935+02:00" endTime="2016-08-04T09:57:36.0042018+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80b0c797-d793-4e03-9860-14164e1cd960" />
+    <UnitTestResult executionId="a4612a67-936c-46bb-8a06-1046cb4ab9f5" testId="8f775d7f-81a3-ec1f-fd8b-d2b89e4a37d6" testName="SendCommand_ValidArguments_ReturnsExpectedReply" computerName="ICSWS068" duration="00:00:00.0383064" startTime="2016-08-04T09:57:36.0077044+02:00" endTime="2016-08-04T09:57:36.0482333+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4612a67-936c-46bb-8a06-1046cb4ab9f5" />
+    <UnitTestResult executionId="319c7d0c-0815-4df3-8f57-4be671f39ce7" testId="0fd81cd8-e876-3650-a141-1447e8096590" testName="SendCommand_ExpectedReturnCodesIsTwoValues_ReturnsExpectedReply" computerName="ICSWS068" duration="00:00:00.0016894" startTime="2016-08-04T09:57:36.0507348+02:00" endTime="2016-08-04T09:57:36.0542376+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="319c7d0c-0815-4df3-8f57-4be671f39ce7" />
+    <UnitTestResult executionId="afebf214-5773-4f65-aea7-9e834c5ba84a" testId="970f1968-ce1d-7ba8-b746-6b4f1a081fdf" testName="SendCommand_ExpectedReturnCodesIsNotSpecified_ReturnsExpectedReply" computerName="ICSWS068" duration="00:00:00.0011348" startTime="2016-08-04T09:57:36.0567396+02:00" endTime="2016-08-04T09:57:36.0592408+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afebf214-5773-4f65-aea7-9e834c5ba84a" />
+    <UnitTestResult executionId="2207ee34-9832-4b55-898c-0c6be96867de" testId="9e892fe1-c54d-2a4c-7410-f0edd6c7de0b" testName="SendCommand_ExpectedRepliesIsNull_ReturnsExpectedReply" computerName="ICSWS068" duration="00:00:00.0011521" startTime="2016-08-04T09:57:36.0622434+02:00" endTime="2016-08-04T09:57:36.0642445+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2207ee34-9832-4b55-898c-0c6be96867de" />
+    <UnitTestResult executionId="93ca99a8-def6-4de0-a3f4-011a2f5e9b4f" testId="35c5fa39-5d77-678a-8ce6-c99aaf48b579" testName="SendCommand_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.1811939" startTime="2016-08-04T09:57:36.0667462+02:00" endTime="2016-08-04T09:57:36.2493346+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93ca99a8-def6-4de0-a3f4-011a2f5e9b4f" />
+    <UnitTestResult executionId="efa848ff-18c4-460b-aa0a-55634db362e3" testId="a7039092-93f1-ad5e-329c-a69276598ffb" testName="SendCommand_CancelledAfterFirstFail_RetryZeroTimes" computerName="ICSWS068" duration="00:00:00.0045113" startTime="2016-08-04T09:57:36.2538876+02:00" endTime="2016-08-04T09:57:36.2603919+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efa848ff-18c4-460b-aa0a-55634db362e3" />
+    <UnitTestResult executionId="382312e6-f75f-4492-9a97-1fdc97dbaab9" testId="2c2a4b2e-d018-6f5c-337b-0250862696a5" testName="SendCommand_ImplementationThrowsNonFtpException_RetryZeroTimes" computerName="ICSWS068" duration="00:00:00.0202314" startTime="2016-08-04T09:57:36.2638989+02:00" endTime="2016-08-04T09:57:36.2859929+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="382312e6-f75f-4492-9a97-1fdc97dbaab9" />
+    <UnitTestResult executionId="be785ecf-951b-4403-9bb6-e3a5cfaa1e5a" testId="8c603de4-8af0-b9d0-51ab-43501f032767" testName="Close_ObjectCreated_DisposesTraceListeners" computerName="ICSWS068" duration="00:00:00.1854968" startTime="2016-08-04T09:57:36.2884958+02:00" endTime="2016-08-04T09:57:36.4755832+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be785ecf-951b-4403-9bb6-e3a5cfaa1e5a" />
+    <UnitTestResult executionId="634408b8-084b-4d80-8141-56af2be576d3" testId="24fec4f4-18b0-cd4c-9040-b7fed9cb4afd" testName="SendCommand_NotConnected_Throws" computerName="ICSWS068" duration="00:00:00.0171702" startTime="2016-08-04T09:57:36.4790858+02:00" endTime="2016-08-04T09:57:36.4975823+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="634408b8-084b-4d80-8141-56af2be576d3" />
+    <UnitTestResult executionId="97d65e4b-26d2-488b-9260-6176bca2b976" testId="019da2f5-d56f-7933-fdae-9bd905551030" testName="Login_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0087968" startTime="2016-08-04T09:57:36.5005849+02:00" endTime="2016-08-04T09:57:36.5105912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97d65e4b-26d2-488b-9260-6176bca2b976" />
+    <UnitTestResult executionId="27e61aaa-84ca-4255-a892-eaddc718fa6b" testId="4d03305c-26af-5839-3ea9-1dabb6c5a9b9" testName="Login_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.0018052" startTime="2016-08-04T09:57:36.5140987+02:00" endTime="2016-08-04T09:57:36.5171010+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27e61aaa-84ca-4255-a892-eaddc718fa6b" />
+    <UnitTestResult executionId="ba9cf808-4509-4738-8f63-ad121a11e37a" testId="526c7c71-c5b1-b2b2-890e-efd722ebebf9" testName="Close_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0040972" startTime="2016-08-04T09:57:36.5196027+02:00" endTime="2016-08-04T09:57:36.5256067+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba9cf808-4509-4738-8f63-ad121a11e37a" />
+    <UnitTestResult executionId="bbaeb195-c9b3-42c7-a8cc-9652d14a4d44" testId="bf93daea-620d-a83b-5369-17338042611e" testName="Close_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.0050245" startTime="2016-08-04T09:57:36.5291093+02:00" endTime="2016-08-04T09:57:36.5354162+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbaeb195-c9b3-42c7-a8cc-9652d14a4d44" />
+    <UnitTestResult executionId="206c37cf-963b-479e-8a02-8bd903cb9966" testId="0e03bf87-09ad-6aa6-f6bf-a13e048f2bd9" testName="DeleteFile_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0137427" startTime="2016-08-04T09:57:36.5384182+02:00" endTime="2016-08-04T09:57:36.5539060+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="206c37cf-963b-479e-8a02-8bd903cb9966" />
+    <UnitTestResult executionId="d7810c9a-6b24-433f-b62f-24e75961a2a5" testId="8f9baba9-8438-701c-301b-437ad0759558" testName="DeleteFile_CorrectArgumentsAndNoFile_Success" computerName="ICSWS068" duration="00:00:00.0045934" startTime="2016-08-04T09:57:36.5569077+02:00" endTime="2016-08-04T09:57:36.5629181+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7810c9a-6b24-433f-b62f-24e75961a2a5" />
+    <UnitTestResult executionId="b442e548-3431-46e5-b07e-508f7d504063" testId="e6d3735e-fd79-b61a-d360-8117efbac483" testName="DeleteFile_CorrectArgumentsAndNoFileAndErrorOnNoFileisTrue_ThrowsFtpException" computerName="ICSWS068" duration="00:00:00.0044556" startTime="2016-08-04T09:57:36.5654187+02:00" endTime="2016-08-04T09:57:36.5714397+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b442e548-3431-46e5-b07e-508f7d504063" />
+    <UnitTestResult executionId="534fe13e-136f-4cdc-93f1-de8233814677" testId="4809c12e-6481-d91f-1a7f-789a8b4c6427" testName="DeleteFile_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.0046673" startTime="2016-08-04T09:57:36.5739446+02:00" endTime="2016-08-04T09:57:36.5799337+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="534fe13e-136f-4cdc-93f1-de8233814677" />
+    <UnitTestResult executionId="754f5fd7-b8dc-46d6-b8ea-6bba60251ca8" testId="2bb8b826-77c8-575f-5f17-133320cd1c64" testName="RenameFile_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0055030" startTime="2016-08-04T09:57:36.5819351+02:00" endTime="2016-08-04T09:57:36.5896133+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="754f5fd7-b8dc-46d6-b8ea-6bba60251ca8" />
+    <UnitTestResult executionId="ec3b112d-7133-4a43-bbf7-ed869f243336" testId="329c41b2-9bc0-4dcb-f807-de21bacef647" testName="RenameFile_CorrectArgumentsAndOverwriteIsTrue_Success" computerName="ICSWS068" duration="00:00:00.0045157" startTime="2016-08-04T09:57:36.5926162+02:00" endTime="2016-08-04T09:57:36.5981363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec3b112d-7133-4a43-bbf7-ed869f243336" />
+    <UnitTestResult executionId="9e1039ee-b1fb-4031-87c5-0f2faa533615" testId="cf7c9e20-3b73-b829-3d31-85c8b0e07b91" testName="RenameFile_CorrectArgumentsAndOverwriteIsTrueAndNoFile_Success" computerName="ICSWS068" duration="00:00:00.0045594" startTime="2016-08-04T09:57:36.6006383+02:00" endTime="2016-08-04T09:57:36.6066420+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e1039ee-b1fb-4031-87c5-0f2faa533615" />
+    <UnitTestResult executionId="8ea0a50a-68bb-4da5-97a7-507156bd92fd" testId="de80bc7f-79ae-b17f-c52a-ea50be9f5626" testName="RenameFile_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.0060215" startTime="2016-08-04T09:57:36.6091273+02:00" endTime="2016-08-04T09:57:36.6164401+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ea0a50a-68bb-4da5-97a7-507156bd92fd" />
+    <UnitTestResult executionId="fada377c-00a9-4003-ba1b-80e631f0185e" testId="6cabe1a2-ac81-d47d-d8a8-2d78b98fc155" testName="ListDirectory_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0079367" startTime="2016-08-04T09:57:36.6197673+02:00" endTime="2016-08-04T09:57:36.6288586+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fada377c-00a9-4003-ba1b-80e631f0185e" />
+    <UnitTestResult executionId="2b10669e-1447-4d49-a29c-3195c0f72778" testId="1b54a4bc-622d-9903-6575-e9f4df91cf6b" testName="ListDirectory_InvalidArguments_RetryThreeTimes" computerName="ICSWS068" duration="00:00:00.0061684" startTime="2016-08-04T09:57:36.6313595+02:00" endTime="2016-08-04T09:57:36.6388843+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b10669e-1447-4d49-a29c-3195c0f72778" />
+    <UnitTestResult executionId="466c09eb-819c-4df5-9236-1caa06a093be" testId="938b017b-d589-d8fa-a640-5bc3cff20d0c" testName="IsConnected_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0096766" startTime="2016-08-04T09:57:36.6423863+02:00" endTime="2016-08-04T09:57:36.6534008+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="466c09eb-819c-4df5-9236-1caa06a093be" />
+    <UnitTestResult executionId="eb96552f-0ee9-4b78-8952-99600a857bb8" testId="6d1dc839-ee0f-7c6e-2c1c-6ea6662ab55a" testName="Download_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0048919" startTime="2016-08-04T09:57:36.6564022+02:00" endTime="2016-08-04T09:57:36.6624085+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb96552f-0ee9-4b78-8952-99600a857bb8" />
+    <UnitTestResult executionId="12652e11-a70a-41c1-8391-6753e0eb176b" testId="d996786f-2300-afbf-984f-e17561d8d5eb" testName="Download_InvalidArguments_RetryTwoTimesAndThrowFtpException" computerName="ICSWS068" duration="00:00:00.0087596" startTime="2016-08-04T09:57:36.6659129+02:00" endTime="2016-08-04T09:57:36.6761593+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12652e11-a70a-41c1-8391-6753e0eb176b" />
+    <UnitTestResult executionId="ff54bef9-52f4-4c9c-8da4-afd63e900bbf" testId="7eff1c8d-7e2a-a949-da7b-f35c1e1d354e" testName="Download_LostConnection_RetryOnceAndSuccess" computerName="ICSWS068" duration="00:00:00.0088713" startTime="2016-08-04T09:57:36.6796610+02:00" endTime="2016-08-04T09:57:36.6896717+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff54bef9-52f4-4c9c-8da4-afd63e900bbf" />
+    <UnitTestResult executionId="2b80e2c3-e39c-4d18-a79c-531076ac7bbf" testId="f461b0d0-7f94-b1ce-b66a-4ced8156d5f1" testName="Upload_NoExistingFileAndStoreTypeNone_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0060338" startTime="2016-08-04T09:57:36.6926740+02:00" endTime="2016-08-04T09:57:36.7001785+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b80e2c3-e39c-4d18-a79c-531076ac7bbf" />
+    <UnitTestResult executionId="38e53500-fb9c-4c68-aaad-b9bb6eb72882" testId="255b0463-4824-ce1b-d744-2ba16afed6ff" testName="Upload_NoExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0114146" startTime="2016-08-04T09:57:36.7036826+02:00" endTime="2016-08-04T09:57:36.7167938+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38e53500-fb9c-4c68-aaad-b9bb6eb72882" />
+    <UnitTestResult executionId="4649321e-e47a-479c-9815-214aa5fd9626" testId="fb3dd578-a904-48e9-9c87-e3c51d125186" testName="Upload_ExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0092206" startTime="2016-08-04T09:57:36.7202964+02:00" endTime="2016-08-04T09:57:36.7312939+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4649321e-e47a-479c-9815-214aa5fd9626" />
+    <UnitTestResult executionId="16fe5eb7-7729-4948-ad03-d0297e09f0b0" testId="17c6c9f1-d78b-a9d1-917b-54086990c13b" testName="Upload_NoExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0069285" startTime="2016-08-04T09:57:36.7342495+02:00" endTime="2016-08-04T09:57:36.7427060+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16fe5eb7-7729-4948-ad03-d0297e09f0b0" />
+    <UnitTestResult executionId="4f3361bf-f6e4-4fd5-acf2-7263601415d1" testId="49a230f5-de07-62da-4ae1-e51b4aaadd8f" testName="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0078118" startTime="2016-08-04T09:57:36.7462100+02:00" endTime="2016-08-04T09:57:36.7552424+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f3361bf-f6e4-4fd5-acf2-7263601415d1" />
+    <UnitTestResult executionId="658236ff-5d6d-4076-9628-346a3f85ae2d" testId="80a48d29-9bbc-bd8f-4151-ce076acf5401" testName="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWithFileInSubFolder_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0076364" startTime="2016-08-04T09:57:36.7582447+02:00" endTime="2016-08-04T09:57:36.7677507+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="658236ff-5d6d-4076-9628-346a3f85ae2d" />
+    <UnitTestResult executionId="9cb15c35-3cb7-4ec4-a7c6-f5ee018bfb6c" testId="7bf449b1-cb0a-9c4a-13d1-6f91a180577e" testName="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" computerName="ICSWS068" duration="00:00:00.0056154" startTime="2016-08-04T09:57:36.7707551+02:00" endTime="2016-08-04T09:57:36.7777432+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cb15c35-3cb7-4ec4-a7c6-f5ee018bfb6c" />
+    <UnitTestResult executionId="54a5c6c6-a74d-4fdc-a937-bf5ffcc6f1c9" testId="d3e18c01-2c32-f944-5778-dbeaa9e6189d" testName="Upload_ExistingFileAndStoreTypeOverwriteAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" computerName="ICSWS068" duration="00:00:00.0059066" startTime="2016-08-04T09:57:36.7812467+02:00" endTime="2016-08-04T09:57:36.7887521+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54a5c6c6-a74d-4fdc-a937-bf5ffcc6f1c9" />
+    <UnitTestResult executionId="90b1fb3a-41f6-4b3e-ad38-dadb726b5cfb" testId="0777feb8-f5e7-08d3-175b-a09a1594fe85" testName="Upload_InvalidArguments_RetryTwoTimesAndThrowFtpException" computerName="ICSWS068" duration="00:00:00.0072165" startTime="2016-08-04T09:57:36.7917535+02:00" endTime="2016-08-04T09:57:36.8002601+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b1fb3a-41f6-4b3e-ad38-dadb726b5cfb" />
+    <UnitTestResult executionId="e7bbc832-d78c-46c7-9df9-dedaf123b3ed" testId="380be209-9191-f5ed-539a-9359a2968942" testName="Upload_LostConnection_RetryOnceAndReturnsTrue" computerName="ICSWS068" duration="00:00:00.0081373" startTime="2016-08-04T09:57:36.8037627+02:00" endTime="2016-08-04T09:57:36.8137702+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7bbc832-d78c-46c7-9df9-dedaf123b3ed" />
+    <UnitTestResult executionId="e50ad5eb-e985-45cb-8372-db533c1c83ca" testId="667230d6-f6da-e1c7-d805-30002060bb8c" testName="Upload_NoExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0063907" startTime="2016-08-04T09:57:36.8162886+02:00" endTime="2016-08-04T09:57:36.8237797+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e50ad5eb-e985-45cb-8372-db533c1c83ca" />
+    <UnitTestResult executionId="960e459b-4bf4-4c21-8d56-7a91cbdd169d" testId="be1582c4-f161-8f3e-97d7-57375a723d42" testName="Upload_ExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0051960" startTime="2016-08-04T09:57:36.8262999+02:00" endTime="2016-08-04T09:57:36.8328276+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="960e459b-4bf4-4c21-8d56-7a91cbdd169d" />
+    <UnitTestResult executionId="cbed6ad6-fd90-41fc-a50d-66c5beace310" testId="11f120ea-4b43-ab0d-a4bd-cd5a22bad16b" testName="Upload_ExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0070793" startTime="2016-08-04T09:57:36.8358138+02:00" endTime="2016-08-04T09:57:36.8439491+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbed6ad6-fd90-41fc-a50d-66c5beace310" />
+    <UnitTestResult executionId="14903558-45ae-45c0-b4e5-490eedecb0a1" testId="2cd53951-d089-fb7a-629d-0cf872239bd2" testName="Upload_NoExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0065825" startTime="2016-08-04T09:57:36.8469681+02:00" endTime="2016-08-04T09:57:36.8549862+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14903558-45ae-45c0-b4e5-490eedecb0a1" />
+    <UnitTestResult executionId="9716483d-adc6-417c-9228-ce5c69681c6b" testId="bb94420d-a0ee-d918-29ca-bad6f089f076" testName="GetCurrentFtpirectory_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0039239" startTime="2016-08-04T09:57:36.8574721+02:00" endTime="2016-08-04T09:57:36.8619755+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9716483d-adc6-417c-9228-ce5c69681c6b" />
+    <UnitTestResult executionId="cde994b4-13d9-487b-ac1e-933a58ce7f9d" testId="c32b68ca-4fd5-ce64-d795-db960ac38da1" testName="SetCurrentFtpirectory_CorrectArguments_Success" computerName="ICSWS068" duration="00:00:00.0043321" startTime="2016-08-04T09:57:36.8657813+02:00" endTime="2016-08-04T09:57:36.8713041+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cde994b4-13d9-487b-ac1e-933a58ce7f9d" />
+    <UnitTestResult executionId="edc010a3-4263-433d-89a4-115bf4b70964" testId="78bed13f-984d-cf71-5790-6968b0992320" testName="GetFiles_ValidArgs_ExpectedNoOfFilesReturned" computerName="ICSWS068" duration="00:00:00.0052506" startTime="2016-08-04T09:57:36.8742861+02:00" endTime="2016-08-04T09:57:36.8807922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edc010a3-4263-433d-89a4-115bf4b70964" />
+    <UnitTestResult executionId="79d67834-bd0f-4a8a-9513-6fec1a12fd91" testId="79124d3e-1fec-c10a-6cf0-63af4352aede" testName="LogEvent_GetFilesWithInvalidArguments_LogEventRaisedTreeTimes" computerName="ICSWS068" duration="00:00:00.0044215" startTime="2016-08-04T09:57:36.8832980+02:00" endTime="2016-08-04T09:57:36.8888182+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79d67834-bd0f-4a8a-9513-6fec1a12fd91" />
+    <UnitTestResult executionId="5ec77a62-72c3-4689-9404-ae49c0bd9e91" testId="593d7cf4-9f5f-d51e-5b1d-e0fff3713455" testName="WriteFromFile_FileDontExist_NotTryingToOpenFile" computerName="ICSWS068" duration="00:00:00.0927702" startTime="2016-08-04T09:57:36.8918031+02:00" endTime="2016-08-04T09:57:36.9857279+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ec77a62-72c3-4689-9404-ae49c0bd9e91" />
+    <UnitTestResult executionId="16e17b3b-0ec4-4b10-9d37-6fa61e18c3c2" testId="79d11412-dc24-afba-b5cc-5afadfe19aca" testName="WriteFromFile_FileDontExist_ThrowsFileNotFoundException" computerName="ICSWS068" duration="00:00:00.0023975" startTime="2016-08-04T09:57:36.9902305+02:00" endTime="2016-08-04T09:57:36.9942340+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16e17b3b-0ec4-4b10-9d37-6fa61e18c3c2" />
+    <UnitTestResult executionId="0cc87af2-b1a2-48b5-a7ae-635305c54e35" testId="acc5668f-d3ed-f46f-609b-18e6b65134ba" testName="WriteFromFile_FileExists_FileIsOpened" computerName="ICSWS068" duration="00:00:00.0062200" startTime="2016-08-04T09:57:36.9977362+02:00" endTime="2016-08-04T09:57:37.0057420+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cc87af2-b1a2-48b5-a7ae-635305c54e35">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91ad692d-be81-4a09-8349-522e8c0bcd47" testId="46507018-f219-6306-abf2-aa2e51020f16" testName="WriteFromFile_FileExists_StreamIsUsedToUploadFile" computerName="ICSWS068" duration="00:00:00.0065801" startTime="2016-08-04T09:57:37.0082443+02:00" endTime="2016-08-04T09:57:37.0167500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91ad692d-be81-4a09-8349-522e8c0bcd47">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d406ac81-945a-4eff-bb87-76d8697dc89f" testId="b67d1f91-8c1b-19de-82e3-39429b8b1bf6" testName="WriteFromFile_DestinationFileNameIsNull_UploadWithSourceFileName" computerName="ICSWS068" duration="00:00:00.0031008" startTime="2016-08-04T09:57:37.0197517+02:00" endTime="2016-08-04T09:57:37.0240683+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d406ac81-945a-4eff-bb87-76d8697dc89f">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/sourcefilepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62bdd7a0-fa20-4326-ac38-b1d542f142e4" testId="7e3ac6d5-c19d-b1ad-3ed2-50396c5feaaf" testName="WriteFromStream_StreamIsNull_ThrowException" computerName="ICSWS068" duration="00:00:00.0013275" startTime="2016-08-04T09:57:37.0270701+02:00" endTime="2016-08-04T09:57:37.0305726+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62bdd7a0-fa20-4326-ac38-b1d542f142e4" />
+    <UnitTestResult executionId="a0017cf0-d0d3-4519-855a-26bde9838ba7" testId="1eb73df5-8068-1b21-3228-2eae54186153" testName="WriteFromStream_NoTempFile_UploadingToDestinationFilePath" computerName="ICSWS068" duration="00:00:00.0022527" startTime="2016-08-04T09:57:37.0340597+02:00" endTime="2016-08-04T09:57:37.0375623+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0017cf0-d0d3-4519-855a-26bde9838ba7">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf5491f3-0b10-4265-980f-2df8d1fa5883" testId="5bdf4f0b-16c0-dca3-a860-bda0f52385ef" testName="WriteFromStream_CreateTempFileAndTempExtensionDefined_UploadingFileWithTempExtension" computerName="ICSWS068" duration="00:00:00.0038661" startTime="2016-08-04T09:57:37.0410651+02:00" endTime="2016-08-04T09:57:37.0470697+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf5491f3-0b10-4265-980f-2df8d1fa5883">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c946e1bf-2ed6-47d2-9157-abc9fee6eb98" testId="866c3d81-fca6-6b78-abb9-36b60bbe735c" testName="WriteFromStream_CreateTempFileAndTempFolderDefined_UploadingToTempFolder" computerName="ICSWS068" duration="00:00:00.0022556" startTime="2016-08-04T09:57:37.0505717+02:00" endTime="2016-08-04T09:57:37.0545740+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c946e1bf-2ed6-47d2-9157-abc9fee6eb98">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62ebf9fe-2cdd-4af7-bef5-eed442e61821" testId="c8462dc6-6aaf-ef9c-3624-f8844333070c" testName="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_UploadingToTempFilePath" computerName="ICSWS068" duration="00:00:00.0025266" startTime="2016-08-04T09:57:37.0570766+02:00" endTime="2016-08-04T09:57:37.0615789+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62ebf9fe-2cdd-4af7-bef5-eed442e61821">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef66a4b4-d484-4fbc-b801-0c3e015cfb9c" testId="1d19ce95-71ba-e494-81d2-38b982cbe349" testName="WriteFromStream_CreateTempFileAndTempExtensionDefined_FileRenamedToDestinationFilePathAfterUpload" computerName="ICSWS068" duration="00:00:00.0022198" startTime="2016-08-04T09:57:37.0650826+02:00" endTime="2016-08-04T09:57:37.0685846+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef66a4b4-d484-4fbc-b801-0c3e015cfb9c">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed5511eb-0a04-40a3-833a-481379df7edb" testId="5631e00a-9b1f-af30-062e-79f0a72733e9" testName="WriteFromStream_CreateTempFileAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" computerName="ICSWS068" duration="00:00:00.0015178" startTime="2016-08-04T09:57:37.0710860+02:00" endTime="2016-08-04T09:57:37.0741223+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed5511eb-0a04-40a3-833a-481379df7edb">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ddea9ba0-6440-46c5-a5db-e7c149a3a349" testId="57964779-2e29-d90b-d7eb-b8120b962d93" testName="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" computerName="ICSWS068" duration="00:00:00.0016483" startTime="2016-08-04T09:57:37.0766085+02:00" endTime="2016-08-04T09:57:37.0791105+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddea9ba0-6440-46c5-a5db-e7c149a3a349">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ccbdb6bf-d302-4114-8667-133b01cf63da" testId="e594b2e0-5ba1-1f9b-5d5a-3117e04f236d" testName="WriteFromStream_CreateTempFileButTempExtensionAndTempFolderEmpty_ThrowException" computerName="ICSWS068" duration="00:00:00.0012231" startTime="2016-08-04T09:57:37.0821128+02:00" endTime="2016-08-04T09:57:37.0849298+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccbdb6bf-d302-4114-8667-133b01cf63da" />
+    <UnitTestResult executionId="b7c1a544-9e24-451b-bf54-148f1146336d" testId="3963b078-fdd7-5345-b05b-9179fbcf8daa" testName="WriteFromStream_CreateTempFileStoreModeIsAppendAndDestinationFileAlreadyExists_DestinationFileRenamedBeforeUpload" computerName="ICSWS068" duration="00:00:00.0031488" startTime="2016-08-04T09:57:37.0874303+02:00" endTime="2016-08-04T09:57:37.0919511+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7c1a544-9e24-451b-bf54-148f1146336d">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59058186-d87f-4609-9618-68606b854a06" testId="e9217f39-7b1a-175e-c84c-94b97af60e3a" testName="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_DeleteTempFile" computerName="ICSWS068" duration="00:00:00.0040169" startTime="2016-08-04T09:57:37.0944510+02:00" endTime="2016-08-04T09:57:37.0999395+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59058186-d87f-4609-9618-68606b854a06">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e4ae9a4a-d52d-4189-bc4f-e57ffa7c212e" testId="3b697844-23e8-707f-4c64-ebc58232e643" testName="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_ThrowsException" computerName="ICSWS068" duration="00:00:00.0029967" startTime="2016-08-04T09:57:37.1024415+02:00" endTime="2016-08-04T09:57:37.1069447+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4ae9a4a-d52d-4189-bc4f-e57ffa7c212e">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34e7f66a-147e-4ea2-96b9-2741c348ea57" testId="1b4cbfde-956a-7d4b-b460-2951c77b61f9" testName="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameBeforeUpload" computerName="ICSWS068" duration="00:00:00.0022072" startTime="2016-08-04T09:57:37.1099469+02:00" endTime="2016-08-04T09:57:37.1133363+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34e7f66a-147e-4ea2-96b9-2741c348ea57">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f112ac3c-59ae-4ed8-a081-054adcd94082" testId="5a9bf0fb-f3bd-3b13-0a4e-4446045fc476" testName="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameAfterUpload" computerName="ICSWS068" duration="00:00:00.0021078" startTime="2016-08-04T09:57:37.1158600+02:00" endTime="2016-08-04T09:57:37.1193424+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f112ac3c-59ae-4ed8-a081-054adcd94082">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f42c45e-9cfd-4fe7-9d74-da1d551b37c8" testId="f3755226-aac9-2d93-11a3-2bebeded02ce" testName="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_RenameAfterUpload" computerName="ICSWS068" duration="00:00:00.0015899" startTime="2016-08-04T09:57:37.1223444+02:00" endTime="2016-08-04T09:57:37.1248658+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f42c45e-9cfd-4fe7-9d74-da1d551b37c8">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0540fee1-50fc-4a50-837a-46f8fa51854f" testId="ba71e18b-3730-630a-7a26-09a7bebad3f9" testName="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_Upload" computerName="ICSWS068" duration="00:00:00.0018923" startTime="2016-08-04T09:57:37.1273481+02:00" endTime="2016-08-04T09:57:37.1303657+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0540fee1-50fc-4a50-837a-46f8fa51854f">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4796a8a-2983-4d90-88bd-f3491d2722aa" testId="74939384-a053-b1e8-762d-18167f9f8002" testName="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoUpload" computerName="ICSWS068" duration="00:00:00.0024794" startTime="2016-08-04T09:57:37.1323530+02:00" endTime="2016-08-04T09:57:37.1367852+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4796a8a-2983-4d90-88bd-f3491d2722aa">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=/destination/filepath.txt directorySeparator=
+\destination: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59d6dc86-b080-4439-bb32-52cb2568b6ca" testId="38eb1053-0d0f-acc8-6206-02b47fdd1ffa" testName="Combine_DirectorySeparatorIsSlash_ReturnsCorrectPaths" computerName="ICSWS068" duration="00:00:00.0010196" startTime="2016-08-04T09:57:37.1392925+02:00" endTime="2016-08-04T09:57:37.1412883+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59d6dc86-b080-4439-bb32-52cb2568b6ca" />
+    <UnitTestResult executionId="5d2e4958-bdbd-4cee-a7bf-01735ac553d1" testId="7a48de11-86d8-3c6c-90eb-99e36dad4308" testName="Combine_SlashInPath_ReturnsCorrectPath" computerName="ICSWS068" duration="00:00:00.0001818" startTime="2016-08-04T09:57:37.1441601+02:00" endTime="2016-08-04T09:57:37.1456616+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d2e4958-bdbd-4cee-a7bf-01735ac553d1" />
+    <UnitTestResult executionId="b7d521c1-4184-43e1-8b89-45b1592c08fa" testId="ffb854f7-2478-fef0-eb6b-95510ab9aa77" testName="Combine_BackslashInPath_ReturnsCorrectPath" computerName="ICSWS068" duration="00:00:00.0004038" startTime="2016-08-04T09:57:37.1481806+02:00" endTime="2016-08-04T09:57:37.1496645+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7d521c1-4184-43e1-8b89-45b1592c08fa" />
+    <UnitTestResult executionId="a2a6d087-bf57-4a60-8e9d-69b14d4815a7" testId="2920d6c7-1cb4-9dee-9c50-0384cff8fb85" testName="Combine_DirectorySeparatorIsBackslash_ReturnsCorrectPaths" computerName="ICSWS068" duration="00:00:00.0001618" startTime="2016-08-04T09:57:37.1521832+02:00" endTime="2016-08-04T09:57:37.1536855+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2a6d087-bf57-4a60-8e9d-69b14d4815a7" />
+    <UnitTestResult executionId="fff3b819-abf8-4181-a586-051bf0213b59" testId="719a39fb-79f9-4cc7-44e9-f668570bdf04" testName="GetFileName_PathsWithSlash_ReturnsCorrectFileName" computerName="ICSWS068" duration="00:00:00.0005023" startTime="2016-08-04T09:57:37.1561887+02:00" endTime="2016-08-04T09:57:37.1576895+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fff3b819-abf8-4181-a586-051bf0213b59" />
+    <UnitTestResult executionId="72eb8631-88b3-41f1-ba55-df5e35512125" testId="985e1c86-6f96-bdaa-e4bd-548bec999420" testName="GetFileName_PathsWithBackSlash_ReturnsCorrectFileName" computerName="ICSWS068" duration="00:00:00.0002838" startTime="2016-08-04T09:57:37.1602080+02:00" endTime="2016-08-04T09:57:37.1616927+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72eb8631-88b3-41f1-ba55-df5e35512125" />
+    <UnitTestResult executionId="c50fb5ae-d6ef-42cf-ac7e-460ac3a1e4e9" testId="64cba36b-d9ec-effd-4bf9-fd6254e2c224" testName="GetDirectoryName_PathsWithSlash_ReturnsCorrectDirectory" computerName="ICSWS068" duration="00:00:00.0007557" startTime="2016-08-04T09:57:37.1648657+02:00" endTime="2016-08-04T09:57:37.1673627+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c50fb5ae-d6ef-42cf-ac7e-460ac3a1e4e9">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=testfile.txt directorySeparator=
+: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=path/testfile.txt directorySeparator=
+path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=testfolder/testfile.txt directorySeparator=
+testfolder: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=/testfolder/testfile.txt directorySeparator=
+\testfolder: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=testfolder/path/testfile.txt directorySeparator=
+testfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=/testfolder/path/testfile.txt directorySeparator=
+\testfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=/testfolder/testsubfolder/path/testfile.txt directorySeparator=
+\testfolder\testsubfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23900d88-da45-4dfa-b876-4f4c30452236" testId="05759293-98f6-97db-b4c2-82b1cc075d8b" testName="GetDirectoryName_PathsWithBackSlash_RuturnsCorrectDirectory" computerName="ICSWS068" duration="00:00:00.0005140" startTime="2016-08-04T09:57:37.1698492+02:00" endTime="2016-08-04T09:57:37.1713667+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23900d88-da45-4dfa-b876-4f4c30452236">
+      <Output>
+        <StdOut>Debug Trace:
+FileTransferPath.GetDirectoryName: path=testfile.txt directorySeparator=
+: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=path\testfile.txt directorySeparator=
+path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=testfolder\testfile.txt directorySeparator=
+testfolder: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=\testfolder\testfile.txt directorySeparator=
+\testfolder: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=testfolder\path\testfile.txt directorySeparator=
+testfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=\testfolder\path\testfile.txt directorySeparator=
+\testfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}
+FileTransferPath.GetDirectoryName: path=\testfolder\testsubfolder\path\testfile.txt directorySeparator=
+\testfolder\testsubfolder\path: FileTransferPath.GetDirectoryName: Path.GetDirectoryName={0}</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cee835bb-2614-4617-a119-fc09cb738c3c" testId="f18645a2-d272-8695-ed66-7a98d2978c7c" testName="IsPathRooted_PathsWithSlash_RuturnsCorrectResult" computerName="ICSWS068" duration="00:00:00.0006656" startTime="2016-08-04T09:57:37.1735793+02:00" endTime="2016-08-04T09:57:37.1755649+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cee835bb-2614-4617-a119-fc09cb738c3c" />
+    <UnitTestResult executionId="a7a880da-29cf-49ea-9302-8329e32baacb" testId="1288024f-4257-8d90-1273-c384c2c6602a" testName="IsPathRooted_PathsWithBackSlash_RuturnsCorrectResult" computerName="ICSWS068" duration="00:00:00.0002850" startTime="2016-08-04T09:57:37.1775830+02:00" endTime="2016-08-04T09:57:37.1790683+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7a880da-29cf-49ea-9302-8329e32baacb" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Constructor_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="554cddc9-6ec8-3081-bfea-f0f0e11eb729">
+      <Execution id="a27da367-9a26-4f44-a4ca-8d257ebf0e7b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="Constructor_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="Constructor_ClientArgumentDoesNotImplementIFtpClientInterface_Throws" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="833d89f9-764e-9e23-21da-c15b350c16fe">
+      <Execution id="80b0c797-d793-4e03-9860-14164e1cd960" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="Constructor_ClientArgumentDoesNotImplementIFtpClientInterface_Throws" />
+    </UnitTest>
+    <UnitTest name="SendCommand_ValidArguments_ReturnsExpectedReply" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="8f775d7f-81a3-ec1f-fd8b-d2b89e4a37d6">
+      <Execution id="a4612a67-936c-46bb-8a06-1046cb4ab9f5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_ValidArguments_ReturnsExpectedReply" />
+    </UnitTest>
+    <UnitTest name="SendCommand_ExpectedReturnCodesIsTwoValues_ReturnsExpectedReply" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="0fd81cd8-e876-3650-a141-1447e8096590">
+      <Execution id="319c7d0c-0815-4df3-8f57-4be671f39ce7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_ExpectedReturnCodesIsTwoValues_ReturnsExpectedReply" />
+    </UnitTest>
+    <UnitTest name="SendCommand_ExpectedReturnCodesIsNotSpecified_ReturnsExpectedReply" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="970f1968-ce1d-7ba8-b746-6b4f1a081fdf">
+      <Execution id="afebf214-5773-4f65-aea7-9e834c5ba84a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_ExpectedReturnCodesIsNotSpecified_ReturnsExpectedReply" />
+    </UnitTest>
+    <UnitTest name="SendCommand_ExpectedRepliesIsNull_ReturnsExpectedReply" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="9e892fe1-c54d-2a4c-7410-f0edd6c7de0b">
+      <Execution id="2207ee34-9832-4b55-898c-0c6be96867de" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_ExpectedRepliesIsNull_ReturnsExpectedReply" />
+    </UnitTest>
+    <UnitTest name="SendCommand_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="35c5fa39-5d77-678a-8ce6-c99aaf48b579">
+      <Execution id="93ca99a8-def6-4de0-a3f4-011a2f5e9b4f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="SendCommand_CancelledAfterFirstFail_RetryZeroTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="a7039092-93f1-ad5e-329c-a69276598ffb">
+      <Execution id="efa848ff-18c4-460b-aa0a-55634db362e3" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_CancelledAfterFirstFail_RetryZeroTimes" />
+    </UnitTest>
+    <UnitTest name="SendCommand_ImplementationThrowsNonFtpException_RetryZeroTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="2c2a4b2e-d018-6f5c-337b-0250862696a5">
+      <Execution id="382312e6-f75f-4492-9a97-1fdc97dbaab9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpConnectionTests" name="SendCommand_ImplementationThrowsNonFtpException_RetryZeroTimes" />
+    </UnitTest>
+    <UnitTest name="Close_ObjectCreated_DisposesTraceListeners" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="8c603de4-8af0-b9d0-51ab-43501f032767">
+      <Execution id="be785ecf-951b-4403-9bb6-e3a5cfaa1e5a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpClientTests" name="Close_ObjectCreated_DisposesTraceListeners" />
+    </UnitTest>
+    <UnitTest name="SendCommand_NotConnected_Throws" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="24fec4f4-18b0-cd4c-9040-b7fed9cb4afd">
+      <Execution id="634408b8-084b-4d80-8141-56af2be576d3" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FtpClientTests" name="SendCommand_NotConnected_Throws" />
+    </UnitTest>
+    <UnitTest name="Login_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="019da2f5-d56f-7933-fdae-9bd905551030">
+      <Execution id="97d65e4b-26d2-488b-9260-6176bca2b976" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Login_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="Login_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="4d03305c-26af-5839-3ea9-1dabb6c5a9b9">
+      <Execution id="27e61aaa-84ca-4255-a892-eaddc718fa6b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Login_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="Close_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="526c7c71-c5b1-b2b2-890e-efd722ebebf9">
+      <Execution id="ba9cf808-4509-4738-8f63-ad121a11e37a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Close_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="Close_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="bf93daea-620d-a83b-5369-17338042611e">
+      <Execution id="bbaeb195-c9b3-42c7-a8cc-9652d14a4d44" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Close_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="DeleteFile_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="0e03bf87-09ad-6aa6-f6bf-a13e048f2bd9">
+      <Execution id="206c37cf-963b-479e-8a02-8bd903cb9966" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="DeleteFile_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="DeleteFile_CorrectArgumentsAndNoFile_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="8f9baba9-8438-701c-301b-437ad0759558">
+      <Execution id="d7810c9a-6b24-433f-b62f-24e75961a2a5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="DeleteFile_CorrectArgumentsAndNoFile_Success" />
+    </UnitTest>
+    <UnitTest name="DeleteFile_CorrectArgumentsAndNoFileAndErrorOnNoFileisTrue_ThrowsFtpException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="e6d3735e-fd79-b61a-d360-8117efbac483">
+      <Execution id="b442e548-3431-46e5-b07e-508f7d504063" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="DeleteFile_CorrectArgumentsAndNoFileAndErrorOnNoFileisTrue_ThrowsFtpException" />
+    </UnitTest>
+    <UnitTest name="DeleteFile_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="4809c12e-6481-d91f-1a7f-789a8b4c6427">
+      <Execution id="534fe13e-136f-4cdc-93f1-de8233814677" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="DeleteFile_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="RenameFile_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="2bb8b826-77c8-575f-5f17-133320cd1c64">
+      <Execution id="754f5fd7-b8dc-46d6-b8ea-6bba60251ca8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="RenameFile_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="RenameFile_CorrectArgumentsAndOverwriteIsTrue_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="329c41b2-9bc0-4dcb-f807-de21bacef647">
+      <Execution id="ec3b112d-7133-4a43-bbf7-ed869f243336" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="RenameFile_CorrectArgumentsAndOverwriteIsTrue_Success" />
+    </UnitTest>
+    <UnitTest name="RenameFile_CorrectArgumentsAndOverwriteIsTrueAndNoFile_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="cf7c9e20-3b73-b829-3d31-85c8b0e07b91">
+      <Execution id="9e1039ee-b1fb-4031-87c5-0f2faa533615" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="RenameFile_CorrectArgumentsAndOverwriteIsTrueAndNoFile_Success" />
+    </UnitTest>
+    <UnitTest name="RenameFile_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="de80bc7f-79ae-b17f-c52a-ea50be9f5626">
+      <Execution id="8ea0a50a-68bb-4da5-97a7-507156bd92fd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="RenameFile_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="ListDirectory_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="6cabe1a2-ac81-d47d-d8a8-2d78b98fc155">
+      <Execution id="fada377c-00a9-4003-ba1b-80e631f0185e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="ListDirectory_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="ListDirectory_InvalidArguments_RetryThreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="1b54a4bc-622d-9903-6575-e9f4df91cf6b">
+      <Execution id="2b10669e-1447-4d49-a29c-3195c0f72778" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="ListDirectory_InvalidArguments_RetryThreeTimes" />
+    </UnitTest>
+    <UnitTest name="IsConnected_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="938b017b-d589-d8fa-a640-5bc3cff20d0c">
+      <Execution id="466c09eb-819c-4df5-9236-1caa06a093be" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="IsConnected_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="Download_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="6d1dc839-ee0f-7c6e-2c1c-6ea6662ab55a">
+      <Execution id="eb96552f-0ee9-4b78-8952-99600a857bb8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Download_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="Download_InvalidArguments_RetryTwoTimesAndThrowFtpException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="d996786f-2300-afbf-984f-e17561d8d5eb">
+      <Execution id="12652e11-a70a-41c1-8391-6753e0eb176b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Download_InvalidArguments_RetryTwoTimesAndThrowFtpException" />
+    </UnitTest>
+    <UnitTest name="Download_LostConnection_RetryOnceAndSuccess" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="7eff1c8d-7e2a-a949-da7b-f35c1e1d354e">
+      <Execution id="ff54bef9-52f4-4c9c-8da4-afd63e900bbf" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Download_LostConnection_RetryOnceAndSuccess" />
+    </UnitTest>
+    <UnitTest name="Upload_NoExistingFileAndStoreTypeNone_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="f461b0d0-7f94-b1ce-b66a-4ced8156d5f1">
+      <Execution id="2b80e2c3-e39c-4d18-a79c-531076ac7bbf" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_NoExistingFileAndStoreTypeNone_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_NoExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="255b0463-4824-ce1b-d744-2ba16afed6ff">
+      <Execution id="38e53500-fb9c-4c68-aaad-b9bb6eb72882" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_NoExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="fb3dd578-a904-48e9-9c87-e3c51d125186">
+      <Execution id="4649321e-e47a-479c-9815-214aa5fd9626" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeNoneAndCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_NoExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="17c6c9f1-d78b-a9d1-917b-54086990c13b">
+      <Execution id="16fe5eb7-7729-4948-ad03-d0297e09f0b0" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_NoExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="49a230f5-de07-62da-4ae1-e51b4aaadd8f">
+      <Execution id="4f3361bf-f6e4-4fd5-acf2-7263601415d1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWithFileInSubFolder_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="80a48d29-9bbc-bd8f-4151-ce076acf5401">
+      <Execution id="658236ff-5d6d-4076-9628-346a3f85ae2d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWithFileInSubFolder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="7bf449b1-cb0a-9c4a-13d1-6f91a180577e">
+      <Execution id="9cb15c35-3cb7-4ec4-a7c6-f5ee018bfb6c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeAppendAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeOverwriteAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="d3e18c01-2c32-f944-5778-dbeaa9e6189d">
+      <Execution id="54a5c6c6-a74d-4fdc-a937-bf5ffcc6f1c9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeOverwriteAndCheckFileSizeWrittenByOtherBeforeCheck_Throws" />
+    </UnitTest>
+    <UnitTest name="Upload_InvalidArguments_RetryTwoTimesAndThrowFtpException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="0777feb8-f5e7-08d3-175b-a09a1594fe85">
+      <Execution id="90b1fb3a-41f6-4b3e-ad38-dadb726b5cfb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_InvalidArguments_RetryTwoTimesAndThrowFtpException" />
+    </UnitTest>
+    <UnitTest name="Upload_LostConnection_RetryOnceAndReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="380be209-9191-f5ed-539a-9359a2968942">
+      <Execution id="e7bbc832-d78c-46c7-9df9-dedaf123b3ed" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_LostConnection_RetryOnceAndReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_NoExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="667230d6-f6da-e1c7-d805-30002060bb8c">
+      <Execution id="e50ad5eb-e985-45cb-8372-db533c1c83ca" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_NoExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="be1582c4-f161-8f3e-97d7-57375a723d42">
+      <Execution id="960e459b-4bf4-4c21-8d56-7a91cbdd169d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeSkipAndCheckFileSize_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="Upload_ExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="11f120ea-4b43-ab0d-a4bd-cd5a22bad16b">
+      <Execution id="cbed6ad6-fd90-41fc-a50d-66c5beace310" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_ExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="Upload_NoExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="2cd53951-d089-fb7a-629d-0cf872239bd2">
+      <Execution id="14903558-45ae-45c0-b4e5-490eedecb0a1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="Upload_NoExistingFileAndStoreTypeSkipAndNoCheckFileSize_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetCurrentFtpirectory_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="bb94420d-a0ee-d918-29ca-bad6f089f076">
+      <Execution id="9716483d-adc6-417c-9228-ce5c69681c6b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="GetCurrentFtpirectory_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="SetCurrentFtpirectory_CorrectArguments_Success" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="c32b68ca-4fd5-ce64-d795-db960ac38da1">
+      <Execution id="cde994b4-13d9-487b-ac1e-933a58ce7f9d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="SetCurrentFtpirectory_CorrectArguments_Success" />
+    </UnitTest>
+    <UnitTest name="GetFiles_ValidArgs_ExpectedNoOfFilesReturned" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="78bed13f-984d-cf71-5790-6968b0992320">
+      <Execution id="edc010a3-4263-433d-89a4-115bf4b70964" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="GetFiles_ValidArgs_ExpectedNoOfFilesReturned" />
+    </UnitTest>
+    <UnitTest name="LogEvent_GetFilesWithInvalidArguments_LogEventRaisedTreeTimes" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="79124d3e-1fec-c10a-6cf0-63af4352aede">
+      <Execution id="79d67834-bd0f-4a8a-9513-6fec1a12fd91" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferConnectionTests" name="LogEvent_GetFilesWithInvalidArguments_LogEventRaisedTreeTimes" />
+    </UnitTest>
+    <UnitTest name="WriteFromFile_FileDontExist_NotTryingToOpenFile" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="593d7cf4-9f5f-d51e-5b1d-e0fff3713455">
+      <Execution id="5ec77a62-72c3-4689-9404-ae49c0bd9e91" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromFile_FileDontExist_NotTryingToOpenFile" />
+    </UnitTest>
+    <UnitTest name="WriteFromFile_FileDontExist_ThrowsFileNotFoundException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="79d11412-dc24-afba-b5cc-5afadfe19aca">
+      <Execution id="16e17b3b-0ec4-4b10-9d37-6fa61e18c3c2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromFile_FileDontExist_ThrowsFileNotFoundException" />
+    </UnitTest>
+    <UnitTest name="WriteFromFile_FileExists_FileIsOpened" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="acc5668f-d3ed-f46f-609b-18e6b65134ba">
+      <Execution id="0cc87af2-b1a2-48b5-a7ae-635305c54e35" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromFile_FileExists_FileIsOpened" />
+    </UnitTest>
+    <UnitTest name="WriteFromFile_FileExists_StreamIsUsedToUploadFile" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="46507018-f219-6306-abf2-aa2e51020f16">
+      <Execution id="91ad692d-be81-4a09-8349-522e8c0bcd47" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromFile_FileExists_StreamIsUsedToUploadFile" />
+    </UnitTest>
+    <UnitTest name="WriteFromFile_DestinationFileNameIsNull_UploadWithSourceFileName" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="b67d1f91-8c1b-19de-82e3-39429b8b1bf6">
+      <Execution id="d406ac81-945a-4eff-bb87-76d8697dc89f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromFile_DestinationFileNameIsNull_UploadWithSourceFileName" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_StreamIsNull_ThrowException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="7e3ac6d5-c19d-b1ad-3ed2-50396c5feaaf">
+      <Execution id="62bdd7a0-fa20-4326-ac38-b1d542f142e4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_StreamIsNull_ThrowException" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_NoTempFile_UploadingToDestinationFilePath" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="1eb73df5-8068-1b21-3228-2eae54186153">
+      <Execution id="a0017cf0-d0d3-4519-855a-26bde9838ba7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_NoTempFile_UploadingToDestinationFilePath" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileAndTempExtensionDefined_UploadingFileWithTempExtension" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="5bdf4f0b-16c0-dca3-a860-bda0f52385ef">
+      <Execution id="bf5491f3-0b10-4265-980f-2df8d1fa5883" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileAndTempExtensionDefined_UploadingFileWithTempExtension" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileAndTempFolderDefined_UploadingToTempFolder" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="866c3d81-fca6-6b78-abb9-36b60bbe735c">
+      <Execution id="c946e1bf-2ed6-47d2-9157-abc9fee6eb98" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileAndTempFolderDefined_UploadingToTempFolder" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_UploadingToTempFilePath" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="c8462dc6-6aaf-ef9c-3624-f8844333070c">
+      <Execution id="62ebf9fe-2cdd-4af7-bef5-eed442e61821" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_UploadingToTempFilePath" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileAndTempExtensionDefined_FileRenamedToDestinationFilePathAfterUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="1d19ce95-71ba-e494-81d2-38b982cbe349">
+      <Execution id="ef66a4b4-d484-4fbc-b801-0c3e015cfb9c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileAndTempExtensionDefined_FileRenamedToDestinationFilePathAfterUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="5631e00a-9b1f-af30-062e-79f0a72733e9">
+      <Execution id="ed5511eb-0a04-40a3-833a-481379df7edb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="57964779-2e29-d90b-d7eb-b8120b962d93">
+      <Execution id="ddea9ba0-6440-46c5-a5db-e7c149a3a349" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileTempExtensionAndTempFolderDefined_FileRenamedToDestinationFilePathAfterUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileButTempExtensionAndTempFolderEmpty_ThrowException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="e594b2e0-5ba1-1f9b-5d5a-3117e04f236d">
+      <Execution id="ccbdb6bf-d302-4114-8667-133b01cf63da" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileButTempExtensionAndTempFolderEmpty_ThrowException" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsAppendAndDestinationFileAlreadyExists_DestinationFileRenamedBeforeUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="3963b078-fdd7-5345-b05b-9179fbcf8daa">
+      <Execution id="b7c1a544-9e24-451b-bf54-148f1146336d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsAppendAndDestinationFileAlreadyExists_DestinationFileRenamedBeforeUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_DeleteTempFile" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="e9217f39-7b1a-175e-c84c-94b97af60e3a">
+      <Execution id="59058186-d87f-4609-9618-68606b854a06" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_DeleteTempFile" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_ThrowsException" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="3b697844-23e8-707f-4c64-ebc58232e643">
+      <Execution id="e4ae9a4a-d52d-4189-bc4f-e57ffa7c212e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileWhereRenameAfterUploadFails_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameBeforeUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="1b4cbfde-956a-7d4b-b460-2951c77b61f9">
+      <Execution id="34e7f66a-147e-4ea2-96b9-2741c348ea57" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameBeforeUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameAfterUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="5a9bf0fb-f3bd-3b13-0a4e-4446045fc476">
+      <Execution id="f112ac3c-59ae-4ed8-a081-054adcd94082" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoRenameAfterUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_RenameAfterUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="f3755226-aac9-2d93-11a3-2bebeded02ce">
+      <Execution id="3f42c45e-9cfd-4fe7-9d74-da1d551b37c8" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_RenameAfterUpload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_Upload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="ba71e18b-3730-630a-7a26-09a7bebad3f9">
+      <Execution id="0540fee1-50fc-4a50-837a-46f8fa51854f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileDontExist_Upload" />
+    </UnitTest>
+    <UnitTest name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoUpload" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="74939384-a053-b1e8-762d-18167f9f8002">
+      <Execution id="b4796a8a-2983-4d90-88bd-f3491d2722aa" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferWriterTests" name="WriteFromStream_CreateTempFileStoreModeIsSkipAndDestinationFileExists_NoUpload" />
+    </UnitTest>
+    <UnitTest name="Combine_DirectorySeparatorIsSlash_ReturnsCorrectPaths" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="38eb1053-0d0f-acc8-6206-02b47fdd1ffa">
+      <Execution id="59d6dc86-b080-4439-bb32-52cb2568b6ca" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="Combine_DirectorySeparatorIsSlash_ReturnsCorrectPaths" />
+    </UnitTest>
+    <UnitTest name="Combine_SlashInPath_ReturnsCorrectPath" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="7a48de11-86d8-3c6c-90eb-99e36dad4308">
+      <Execution id="5d2e4958-bdbd-4cee-a7bf-01735ac553d1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="Combine_SlashInPath_ReturnsCorrectPath" />
+    </UnitTest>
+    <UnitTest name="Combine_BackslashInPath_ReturnsCorrectPath" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="ffb854f7-2478-fef0-eb6b-95510ab9aa77">
+      <Execution id="b7d521c1-4184-43e1-8b89-45b1592c08fa" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="Combine_BackslashInPath_ReturnsCorrectPath" />
+    </UnitTest>
+    <UnitTest name="Combine_DirectorySeparatorIsBackslash_ReturnsCorrectPaths" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="2920d6c7-1cb4-9dee-9c50-0384cff8fb85">
+      <Execution id="a2a6d087-bf57-4a60-8e9d-69b14d4815a7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="Combine_DirectorySeparatorIsBackslash_ReturnsCorrectPaths" />
+    </UnitTest>
+    <UnitTest name="GetFileName_PathsWithSlash_ReturnsCorrectFileName" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="719a39fb-79f9-4cc7-44e9-f668570bdf04">
+      <Execution id="fff3b819-abf8-4181-a586-051bf0213b59" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="GetFileName_PathsWithSlash_ReturnsCorrectFileName" />
+    </UnitTest>
+    <UnitTest name="GetFileName_PathsWithBackSlash_ReturnsCorrectFileName" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="985e1c86-6f96-bdaa-e4bd-548bec999420">
+      <Execution id="72eb8631-88b3-41f1-ba55-df5e35512125" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="GetFileName_PathsWithBackSlash_ReturnsCorrectFileName" />
+    </UnitTest>
+    <UnitTest name="GetDirectoryName_PathsWithSlash_ReturnsCorrectDirectory" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="64cba36b-d9ec-effd-4bf9-fd6254e2c224">
+      <Execution id="c50fb5ae-d6ef-42cf-ac7e-460ac3a1e4e9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="GetDirectoryName_PathsWithSlash_ReturnsCorrectDirectory" />
+    </UnitTest>
+    <UnitTest name="GetDirectoryName_PathsWithBackSlash_RuturnsCorrectDirectory" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="05759293-98f6-97db-b4c2-82b1cc075d8b">
+      <Execution id="23900d88-da45-4dfa-b876-4f4c30452236" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="GetDirectoryName_PathsWithBackSlash_RuturnsCorrectDirectory" />
+    </UnitTest>
+    <UnitTest name="IsPathRooted_PathsWithSlash_RuturnsCorrectResult" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="f18645a2-d272-8695-ed66-7a98d2978c7c">
+      <Execution id="cee835bb-2614-4617-a119-fc09cb738c3c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="IsPathRooted_PathsWithSlash_RuturnsCorrectResult" />
+    </UnitTest>
+    <UnitTest name="IsPathRooted_PathsWithBackSlash_RuturnsCorrectResult" storage="f:\etwork\bin\tests\unittests.icore.runtime.ftp.dll" id="1288024f-4257-8d90-1273-c384c2c6602a">
+      <Execution id="a7a880da-29cf-49ea-9302-8329e32baacb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Runtime.Ftp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Runtime.Ftp.FileTransferPathTests" name="IsPathRooted_PathsWithBackSlash_RuturnsCorrectResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="554cddc9-6ec8-3081-bfea-f0f0e11eb729" executionId="a27da367-9a26-4f44-a4ca-8d257ebf0e7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="833d89f9-764e-9e23-21da-c15b350c16fe" executionId="80b0c797-d793-4e03-9860-14164e1cd960" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f775d7f-81a3-ec1f-fd8b-d2b89e4a37d6" executionId="a4612a67-936c-46bb-8a06-1046cb4ab9f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fd81cd8-e876-3650-a141-1447e8096590" executionId="319c7d0c-0815-4df3-8f57-4be671f39ce7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="970f1968-ce1d-7ba8-b746-6b4f1a081fdf" executionId="afebf214-5773-4f65-aea7-9e834c5ba84a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e892fe1-c54d-2a4c-7410-f0edd6c7de0b" executionId="2207ee34-9832-4b55-898c-0c6be96867de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35c5fa39-5d77-678a-8ce6-c99aaf48b579" executionId="93ca99a8-def6-4de0-a3f4-011a2f5e9b4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7039092-93f1-ad5e-329c-a69276598ffb" executionId="efa848ff-18c4-460b-aa0a-55634db362e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c2a4b2e-d018-6f5c-337b-0250862696a5" executionId="382312e6-f75f-4492-9a97-1fdc97dbaab9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c603de4-8af0-b9d0-51ab-43501f032767" executionId="be785ecf-951b-4403-9bb6-e3a5cfaa1e5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24fec4f4-18b0-cd4c-9040-b7fed9cb4afd" executionId="634408b8-084b-4d80-8141-56af2be576d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="019da2f5-d56f-7933-fdae-9bd905551030" executionId="97d65e4b-26d2-488b-9260-6176bca2b976" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d03305c-26af-5839-3ea9-1dabb6c5a9b9" executionId="27e61aaa-84ca-4255-a892-eaddc718fa6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="526c7c71-c5b1-b2b2-890e-efd722ebebf9" executionId="ba9cf808-4509-4738-8f63-ad121a11e37a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf93daea-620d-a83b-5369-17338042611e" executionId="bbaeb195-c9b3-42c7-a8cc-9652d14a4d44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e03bf87-09ad-6aa6-f6bf-a13e048f2bd9" executionId="206c37cf-963b-479e-8a02-8bd903cb9966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f9baba9-8438-701c-301b-437ad0759558" executionId="d7810c9a-6b24-433f-b62f-24e75961a2a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6d3735e-fd79-b61a-d360-8117efbac483" executionId="b442e548-3431-46e5-b07e-508f7d504063" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4809c12e-6481-d91f-1a7f-789a8b4c6427" executionId="534fe13e-136f-4cdc-93f1-de8233814677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bb8b826-77c8-575f-5f17-133320cd1c64" executionId="754f5fd7-b8dc-46d6-b8ea-6bba60251ca8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="329c41b2-9bc0-4dcb-f807-de21bacef647" executionId="ec3b112d-7133-4a43-bbf7-ed869f243336" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf7c9e20-3b73-b829-3d31-85c8b0e07b91" executionId="9e1039ee-b1fb-4031-87c5-0f2faa533615" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de80bc7f-79ae-b17f-c52a-ea50be9f5626" executionId="8ea0a50a-68bb-4da5-97a7-507156bd92fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cabe1a2-ac81-d47d-d8a8-2d78b98fc155" executionId="fada377c-00a9-4003-ba1b-80e631f0185e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b54a4bc-622d-9903-6575-e9f4df91cf6b" executionId="2b10669e-1447-4d49-a29c-3195c0f72778" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="938b017b-d589-d8fa-a640-5bc3cff20d0c" executionId="466c09eb-819c-4df5-9236-1caa06a093be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d1dc839-ee0f-7c6e-2c1c-6ea6662ab55a" executionId="eb96552f-0ee9-4b78-8952-99600a857bb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d996786f-2300-afbf-984f-e17561d8d5eb" executionId="12652e11-a70a-41c1-8391-6753e0eb176b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7eff1c8d-7e2a-a949-da7b-f35c1e1d354e" executionId="ff54bef9-52f4-4c9c-8da4-afd63e900bbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f461b0d0-7f94-b1ce-b66a-4ced8156d5f1" executionId="2b80e2c3-e39c-4d18-a79c-531076ac7bbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="255b0463-4824-ce1b-d744-2ba16afed6ff" executionId="38e53500-fb9c-4c68-aaad-b9bb6eb72882" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb3dd578-a904-48e9-9c87-e3c51d125186" executionId="4649321e-e47a-479c-9815-214aa5fd9626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17c6c9f1-d78b-a9d1-917b-54086990c13b" executionId="16fe5eb7-7729-4948-ad03-d0297e09f0b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49a230f5-de07-62da-4ae1-e51b4aaadd8f" executionId="4f3361bf-f6e4-4fd5-acf2-7263601415d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80a48d29-9bbc-bd8f-4151-ce076acf5401" executionId="658236ff-5d6d-4076-9628-346a3f85ae2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bf449b1-cb0a-9c4a-13d1-6f91a180577e" executionId="9cb15c35-3cb7-4ec4-a7c6-f5ee018bfb6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3e18c01-2c32-f944-5778-dbeaa9e6189d" executionId="54a5c6c6-a74d-4fdc-a937-bf5ffcc6f1c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0777feb8-f5e7-08d3-175b-a09a1594fe85" executionId="90b1fb3a-41f6-4b3e-ad38-dadb726b5cfb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="380be209-9191-f5ed-539a-9359a2968942" executionId="e7bbc832-d78c-46c7-9df9-dedaf123b3ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="667230d6-f6da-e1c7-d805-30002060bb8c" executionId="e50ad5eb-e985-45cb-8372-db533c1c83ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be1582c4-f161-8f3e-97d7-57375a723d42" executionId="960e459b-4bf4-4c21-8d56-7a91cbdd169d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11f120ea-4b43-ab0d-a4bd-cd5a22bad16b" executionId="cbed6ad6-fd90-41fc-a50d-66c5beace310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cd53951-d089-fb7a-629d-0cf872239bd2" executionId="14903558-45ae-45c0-b4e5-490eedecb0a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb94420d-a0ee-d918-29ca-bad6f089f076" executionId="9716483d-adc6-417c-9228-ce5c69681c6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c32b68ca-4fd5-ce64-d795-db960ac38da1" executionId="cde994b4-13d9-487b-ac1e-933a58ce7f9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78bed13f-984d-cf71-5790-6968b0992320" executionId="edc010a3-4263-433d-89a4-115bf4b70964" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79124d3e-1fec-c10a-6cf0-63af4352aede" executionId="79d67834-bd0f-4a8a-9513-6fec1a12fd91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="593d7cf4-9f5f-d51e-5b1d-e0fff3713455" executionId="5ec77a62-72c3-4689-9404-ae49c0bd9e91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79d11412-dc24-afba-b5cc-5afadfe19aca" executionId="16e17b3b-0ec4-4b10-9d37-6fa61e18c3c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acc5668f-d3ed-f46f-609b-18e6b65134ba" executionId="0cc87af2-b1a2-48b5-a7ae-635305c54e35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46507018-f219-6306-abf2-aa2e51020f16" executionId="91ad692d-be81-4a09-8349-522e8c0bcd47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b67d1f91-8c1b-19de-82e3-39429b8b1bf6" executionId="d406ac81-945a-4eff-bb87-76d8697dc89f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e3ac6d5-c19d-b1ad-3ed2-50396c5feaaf" executionId="62bdd7a0-fa20-4326-ac38-b1d542f142e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1eb73df5-8068-1b21-3228-2eae54186153" executionId="a0017cf0-d0d3-4519-855a-26bde9838ba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bdf4f0b-16c0-dca3-a860-bda0f52385ef" executionId="bf5491f3-0b10-4265-980f-2df8d1fa5883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="866c3d81-fca6-6b78-abb9-36b60bbe735c" executionId="c946e1bf-2ed6-47d2-9157-abc9fee6eb98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8462dc6-6aaf-ef9c-3624-f8844333070c" executionId="62ebf9fe-2cdd-4af7-bef5-eed442e61821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d19ce95-71ba-e494-81d2-38b982cbe349" executionId="ef66a4b4-d484-4fbc-b801-0c3e015cfb9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5631e00a-9b1f-af30-062e-79f0a72733e9" executionId="ed5511eb-0a04-40a3-833a-481379df7edb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57964779-2e29-d90b-d7eb-b8120b962d93" executionId="ddea9ba0-6440-46c5-a5db-e7c149a3a349" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e594b2e0-5ba1-1f9b-5d5a-3117e04f236d" executionId="ccbdb6bf-d302-4114-8667-133b01cf63da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3963b078-fdd7-5345-b05b-9179fbcf8daa" executionId="b7c1a544-9e24-451b-bf54-148f1146336d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9217f39-7b1a-175e-c84c-94b97af60e3a" executionId="59058186-d87f-4609-9618-68606b854a06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b697844-23e8-707f-4c64-ebc58232e643" executionId="e4ae9a4a-d52d-4189-bc4f-e57ffa7c212e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b4cbfde-956a-7d4b-b460-2951c77b61f9" executionId="34e7f66a-147e-4ea2-96b9-2741c348ea57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a9bf0fb-f3bd-3b13-0a4e-4446045fc476" executionId="f112ac3c-59ae-4ed8-a081-054adcd94082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3755226-aac9-2d93-11a3-2bebeded02ce" executionId="3f42c45e-9cfd-4fe7-9d74-da1d551b37c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba71e18b-3730-630a-7a26-09a7bebad3f9" executionId="0540fee1-50fc-4a50-837a-46f8fa51854f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74939384-a053-b1e8-762d-18167f9f8002" executionId="b4796a8a-2983-4d90-88bd-f3491d2722aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38eb1053-0d0f-acc8-6206-02b47fdd1ffa" executionId="59d6dc86-b080-4439-bb32-52cb2568b6ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a48de11-86d8-3c6c-90eb-99e36dad4308" executionId="5d2e4958-bdbd-4cee-a7bf-01735ac553d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb854f7-2478-fef0-eb6b-95510ab9aa77" executionId="b7d521c1-4184-43e1-8b89-45b1592c08fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2920d6c7-1cb4-9dee-9c50-0384cff8fb85" executionId="a2a6d087-bf57-4a60-8e9d-69b14d4815a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="719a39fb-79f9-4cc7-44e9-f668570bdf04" executionId="fff3b819-abf8-4181-a586-051bf0213b59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="985e1c86-6f96-bdaa-e4bd-548bec999420" executionId="72eb8631-88b3-41f1-ba55-df5e35512125" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64cba36b-d9ec-effd-4bf9-fd6254e2c224" executionId="c50fb5ae-d6ef-42cf-ac7e-460ac3a1e4e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05759293-98f6-97db-b4c2-82b1cc075d8b" executionId="23900d88-da45-4dfa-b876-4f4c30452236" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f18645a2-d272-8695-ed66-7a98d2978c7c" executionId="cee835bb-2614-4617-a119-fc09cb738c3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1288024f-4257-8d90-1273-c384c2c6602a" executionId="a7a880da-29cf-49ea-9302-8329e32baacb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="79" executed="79" passed="79" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

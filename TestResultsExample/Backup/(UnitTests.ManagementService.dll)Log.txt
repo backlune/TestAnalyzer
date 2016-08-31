@@ -1,0 +1,25 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   GenerateActivationRequest_ValidData_ReturnsExpectedResult
+Passed   GenerateActivationRequest_InvalidSerialNumber_ThrowsArgumentException
+Passed   GenerateActivationRequest_InvalidEMail_ThrowsArgumentException
+Passed   GenerateActivationRequest_EmptyName_ThrowsArgumentException
+Passed   ValidateProductSerialNumber_ValidatorReturnsValidResult_ReturnsTrue
+Passed   ValidateProductSerialNumber_ValidatorReturnsInvalidResult_ReturnsFalse
+Passed   ValidateProductSerialNumber_ValidatorThrowsException_ThrowsFaultException
+Passed   GenerateActivationRequest_ValidArguments_CallsExpectedMethodInLicensingManager
+Passed   GenerateActivationRequest_LicensingManagerThrows_ThrowsFaultException
+Passed   GetCurrentLicense_ValidArguments_CallsExpectedMethodInLicensingService
+Passed   GetCurrentLicense_InvalidLicense_ThrowsExpectedFaultException
+Passed   GetCurrentLicense_OtherError_PropagatesException
+Passed   TestCode
+Passed   ApplyActivationResponse_ValidArguments_CallsCorrectMethods
+Passed   ApplyActivationResponse_LicensingError_ThrowsExpectedFaultException
+Passed   ApplyActivationResponse_OtherError_PropagatesException
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_59_17.trx
+
+Total tests: 16. Passed: 16. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,4103 Seconds

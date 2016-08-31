@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="81d559d4-f58b-468e-a345-204c45dc0ae0" name="bacemi@ICSWS068 2016-08-04 09:56:37" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:56:37.0808070+02:00" queuing="2016-08-04T09:56:37.0808070+02:00" start="2016-08-04T09:56:36.5800407+02:00" finish="2016-08-04T09:56:37.2590424+02:00" />
+  <TestSettings name="default" id="d8b989ac-32da-44d3-af5b-74effc161087">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_56_37" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6666f404-a6bd-43de-8d9e-8da2dd2035cb" testId="4bc04036-8350-dc4a-90e9-a8bcf4dfcf42" testName="Constructor_OwnerActivityIsNnull_ThrowsException" computerName="ICSWS068" duration="00:00:00.1756586" startTime="2016-08-04T09:56:36.5800407+02:00" endTime="2016-08-04T09:56:36.9415750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6666f404-a6bd-43de-8d9e-8da2dd2035cb" />
+    <UnitTestResult executionId="380e8da3-03b5-4814-bc50-8558f9911adc" testId="19878a68-1aa7-3806-3377-55370028867e" testName="Constructor_ArgumentIsNnull_ThrowsException" computerName="ICSWS068" duration="00:00:00.0355431" startTime="2016-08-04T09:56:36.9450791+02:00" endTime="2016-08-04T09:56:36.9811084+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="380e8da3-03b5-4814-bc50-8558f9911adc" />
+    <UnitTestResult executionId="196cd51a-60c4-4079-9eec-1d9f7ee3463f" testId="6ed3300c-a1cd-4a06-5dd8-13a3e1d9433a" testName="Constructor_ValidOwnerActivityParameter_IsValid" computerName="ICSWS068" duration="00:00:00.0005545" startTime="2016-08-04T09:56:36.9849291+02:00" endTime="2016-08-04T09:56:36.9869303+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="196cd51a-60c4-4079-9eec-1d9f7ee3463f" />
+    <UnitTestResult executionId="4bc0dc30-bd09-44cb-b912-3eddd7078351" testId="f11d9434-0ad5-ccac-ff20-9599b2341afd" testName="Constructor_ValidArgumentParameter_IsValid" computerName="ICSWS068" duration="00:00:00.0003140" startTime="2016-08-04T09:56:36.9894323+02:00" endTime="2016-08-04T09:56:36.9909331+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bc0dc30-bd09-44cb-b912-3eddd7078351" />
+    <UnitTestResult executionId="75908429-1ea9-4193-a05d-2a58348c7e1b" testId="830a049b-ce08-9f1c-472a-487ec4ee71a9" testName="GetArgumentType_ArgumentIsNonNull_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0254310" startTime="2016-08-04T09:56:36.9934351+02:00" endTime="2016-08-04T09:56:37.0199540+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75908429-1ea9-4193-a05d-2a58348c7e1b" />
+    <UnitTestResult executionId="c25513fd-dd9b-4307-9bd3-f5eca4e152a9" testId="2d16e751-135d-866a-86a5-88ddb8aeccf2" testName="GetArgumentDirection_InArgumentProvided_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0014067" startTime="2016-08-04T09:56:37.0239575+02:00" endTime="2016-08-04T09:56:37.0264586+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c25513fd-dd9b-4307-9bd3-f5eca4e152a9" />
+    <UnitTestResult executionId="c66d703c-39d5-4bcb-ab52-02e85d1598db" testId="70caf206-9d4b-81f9-8a45-34f05fce77d2" testName="GetArgumentDirection_OutArgumentProvided_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0008938" startTime="2016-08-04T09:56:37.0294609+02:00" endTime="2016-08-04T09:56:37.0319626+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c66d703c-39d5-4bcb-ab52-02e85d1598db" />
+    <UnitTestResult executionId="f7b3597e-3650-4a0b-94f3-2493e9226b24" testId="69366bef-7631-488d-6b99-aec85e79aadf" testName="GetArgumentUseLocationExpression_ArgumentIsOut_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0011724" startTime="2016-08-04T09:56:37.0349649+02:00" endTime="2016-08-04T09:56:37.0374664+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7b3597e-3650-4a0b-94f3-2493e9226b24" />
+    <UnitTestResult executionId="ab30bb79-d51e-427a-b429-81575d8bc3dc" testId="ec8c6be1-555a-e447-26b6-2b92ec6e8f89" testName="GetArgumentUseLocationExpression_ArgumentIsIn_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0009049" startTime="2016-08-04T09:56:37.0399690+02:00" endTime="2016-08-04T09:56:37.0434712+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab30bb79-d51e-427a-b429-81575d8bc3dc" />
+    <UnitTestResult executionId="e45302c4-7e01-46aa-9519-80e0b01ff6dc" testId="f916ec6c-773a-bc69-49c2-78554f9a4496" testName="SetArgument_ValueIsNull_ThrowsException" computerName="ICSWS068" duration="00:00:00.0010562" startTime="2016-08-04T09:56:37.0474741+02:00" endTime="2016-08-04T09:56:37.0504761+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e45302c4-7e01-46aa-9519-80e0b01ff6dc" />
+    <UnitTestResult executionId="c440e31f-a923-40d1-8f4a-91ac633df016" testId="e0869a9f-4fa4-5b0a-0cd2-16c9a143767c" testName="SetArgument_ValidValue_ReturnsCorrectValue" computerName="ICSWS068" duration="00:00:00.0024448" startTime="2016-08-04T09:56:37.0534781+02:00" endTime="2016-08-04T09:56:37.0574816+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c440e31f-a923-40d1-8f4a-91ac633df016" />
+    <UnitTestResult executionId="9dbdfe9a-b3e3-4ed9-ae61-21394bc76379" testId="f77cdc44-c375-4f6d-4c2c-81708e56f0a7" testName="GetIsArgumentChanged_NewValidValue_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0002850" startTime="2016-08-04T09:56:37.0604991+02:00" endTime="2016-08-04T09:56:37.0614853+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dbdfe9a-b3e3-4ed9-ae61-21394bc76379" />
+    <UnitTestResult executionId="37aacde4-b3af-4609-bfa9-42f58ea39acd" testId="5221f797-d7b8-9fea-53af-9e3171980514" testName="GetIsArgumentChanged_SetArgumentToSameValue_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0002818" startTime="2016-08-04T09:56:37.0653451+02:00" endTime="2016-08-04T09:56:37.0668459+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37aacde4-b3af-4609-bfa9-42f58ea39acd" />
+    <UnitTestResult executionId="a3c65867-4ff3-4ca5-86db-3c4cb0a09f4e" testId="e271beb4-1ac6-95e3-ffad-f57c2d7ecd4c" testName="GetIsArgumentChanged_ArgumentNotChanged_ReturnFalse" computerName="ICSWS068" duration="00:00:00.0002568" startTime="2016-08-04T09:56:37.0693479+02:00" endTime="2016-08-04T09:56:37.0718488+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3c65867-4ff3-4ca5-86db-3c4cb0a09f4e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Constructor_OwnerActivityIsNnull_ThrowsException" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="4bc04036-8350-dc4a-90e9-a8bcf4dfcf42">
+      <Execution id="6666f404-a6bd-43de-8d9e-8da2dd2035cb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="Constructor_OwnerActivityIsNnull_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="Constructor_ArgumentIsNnull_ThrowsException" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="19878a68-1aa7-3806-3377-55370028867e">
+      <Execution id="380e8da3-03b5-4814-bc50-8558f9911adc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="Constructor_ArgumentIsNnull_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="Constructor_ValidOwnerActivityParameter_IsValid" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="6ed3300c-a1cd-4a06-5dd8-13a3e1d9433a">
+      <Execution id="196cd51a-60c4-4079-9eec-1d9f7ee3463f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="Constructor_ValidOwnerActivityParameter_IsValid" />
+    </UnitTest>
+    <UnitTest name="Constructor_ValidArgumentParameter_IsValid" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="f11d9434-0ad5-ccac-ff20-9599b2341afd">
+      <Execution id="4bc0dc30-bd09-44cb-b912-3eddd7078351" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="Constructor_ValidArgumentParameter_IsValid" />
+    </UnitTest>
+    <UnitTest name="GetArgumentType_ArgumentIsNonNull_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="830a049b-ce08-9f1c-472a-487ec4ee71a9">
+      <Execution id="75908429-1ea9-4193-a05d-2a58348c7e1b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetArgumentType_ArgumentIsNonNull_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="GetArgumentDirection_InArgumentProvided_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="2d16e751-135d-866a-86a5-88ddb8aeccf2">
+      <Execution id="c25513fd-dd9b-4307-9bd3-f5eca4e152a9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetArgumentDirection_InArgumentProvided_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="GetArgumentDirection_OutArgumentProvided_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="70caf206-9d4b-81f9-8a45-34f05fce77d2">
+      <Execution id="c66d703c-39d5-4bcb-ab52-02e85d1598db" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetArgumentDirection_OutArgumentProvided_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="GetArgumentUseLocationExpression_ArgumentIsOut_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="69366bef-7631-488d-6b99-aec85e79aadf">
+      <Execution id="f7b3597e-3650-4a0b-94f3-2493e9226b24" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetArgumentUseLocationExpression_ArgumentIsOut_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetArgumentUseLocationExpression_ArgumentIsIn_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="ec8c6be1-555a-e447-26b6-2b92ec6e8f89">
+      <Execution id="ab30bb79-d51e-427a-b429-81575d8bc3dc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetArgumentUseLocationExpression_ArgumentIsIn_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="SetArgument_ValueIsNull_ThrowsException" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="f916ec6c-773a-bc69-49c2-78554f9a4496">
+      <Execution id="e45302c4-7e01-46aa-9519-80e0b01ff6dc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="SetArgument_ValueIsNull_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="SetArgument_ValidValue_ReturnsCorrectValue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="e0869a9f-4fa4-5b0a-0cd2-16c9a143767c">
+      <Execution id="c440e31f-a923-40d1-8f4a-91ac633df016" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="SetArgument_ValidValue_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="GetIsArgumentChanged_NewValidValue_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="f77cdc44-c375-4f6d-4c2c-81708e56f0a7">
+      <Execution id="9dbdfe9a-b3e3-4ed9-ae61-21394bc76379" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetIsArgumentChanged_NewValidValue_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="GetIsArgumentChanged_SetArgumentToSameValue_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="5221f797-d7b8-9fea-53af-9e3171980514">
+      <Execution id="37aacde4-b3af-4609-bfa9-42f58ea39acd" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetIsArgumentChanged_SetArgumentToSameValue_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="GetIsArgumentChanged_ArgumentNotChanged_ReturnFalse" storage="f:\etwork\bin\tests\unittests.icore.common.types.editors.dll" id="e271beb4-1ac6-95e3-ffad-f57c2d7ecd4c">
+      <Execution id="a3c65867-4ff3-4ca5-86db-3c4cb0a09f4e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.iCore.Common.Types.Editors.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.iCore.Common.Types.Editors.ArgumentWrapperTest" name="GetIsArgumentChanged_ArgumentNotChanged_ReturnFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4bc04036-8350-dc4a-90e9-a8bcf4dfcf42" executionId="6666f404-a6bd-43de-8d9e-8da2dd2035cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19878a68-1aa7-3806-3377-55370028867e" executionId="380e8da3-03b5-4814-bc50-8558f9911adc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ed3300c-a1cd-4a06-5dd8-13a3e1d9433a" executionId="196cd51a-60c4-4079-9eec-1d9f7ee3463f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f11d9434-0ad5-ccac-ff20-9599b2341afd" executionId="4bc0dc30-bd09-44cb-b912-3eddd7078351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="830a049b-ce08-9f1c-472a-487ec4ee71a9" executionId="75908429-1ea9-4193-a05d-2a58348c7e1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d16e751-135d-866a-86a5-88ddb8aeccf2" executionId="c25513fd-dd9b-4307-9bd3-f5eca4e152a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70caf206-9d4b-81f9-8a45-34f05fce77d2" executionId="c66d703c-39d5-4bcb-ab52-02e85d1598db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69366bef-7631-488d-6b99-aec85e79aadf" executionId="f7b3597e-3650-4a0b-94f3-2493e9226b24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec8c6be1-555a-e447-26b6-2b92ec6e8f89" executionId="ab30bb79-d51e-427a-b429-81575d8bc3dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f916ec6c-773a-bc69-49c2-78554f9a4496" executionId="e45302c4-7e01-46aa-9519-80e0b01ff6dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0869a9f-4fa4-5b0a-0cd2-16c9a143767c" executionId="c440e31f-a923-40d1-8f4a-91ac633df016" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f77cdc44-c375-4f6d-4c2c-81708e56f0a7" executionId="9dbdfe9a-b3e3-4ed9-ae61-21394bc76379" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5221f797-d7b8-9fea-53af-9e3171980514" executionId="37aacde4-b3af-4609-bfa9-42f58ea39acd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e271beb4-1ac6-95e3-ffad-f57c2d7ecd4c" executionId="a3c65867-4ff3-4ca5-86db-3c4cb0a09f4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

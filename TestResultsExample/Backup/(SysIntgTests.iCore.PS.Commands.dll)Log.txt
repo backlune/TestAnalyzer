@@ -1,0 +1,40 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Invoke_SubEntityCollectionOfTypeT_ReturnsObjectOfTypeT
+Passed   Invoke_SubEntityCollectionOfTypeT_CollectionContainsNewObject
+Passed   Invoke_NonValidEnumerationAsEntityCollection_ExceptionThrown
+Passed   Invoke_BatchImportWithResponseFileContainsCompConfigAppPools_CompConfigIsImportedWithAppPoolsFromTheResponseFile
+Passed   Invoke_BatchImportWithResponseFileContainsCompConfigSecondaryAppPoolSetToNull_CompConfigIsImportedWithSecondaryAppPoolSetToNull
+Passed   Invoke_BatchImportPrimarySWithComponentConfigurationAppPoolEqualToSecondaryAppPool_EntityIsNotImported
+Passed   Invoke_RepeatedBatchImportWithResponseFileWithApplicationPools_CompConfigIsImportedWithAppPoolsFromTheLastImport
+Passed   ExportCommand_EntityTypeInput_ValidOutput
+Passed   ExportCommand_EntityInput_ValidOutput
+Passed   ExportCommand_WrongInputType_ThrowsParameterBindingException
+Passed   ExportCommand_BothInputTypesProvided_ThrowsParameterBindingException
+Passed   ExportCommand_ExportEncryptedAndFileNameNotSet_ValidOutput
+Passed   ExportCommand_ExportToFile_Success
+Passed   ExportCommand_ExportToEncryptedFilePasswordLessThan6Characters_Fails
+Passed   ExportCommand_ExportToEncryptedFilePasswordValid_Success
+Passed   ExportCommand_ProtectedEntitiesWithEncryptSet_Success
+Passed   ExportCommand_ProtectedEntitiesWithoutEncryptSet_Fails
+Passed   ExportCommand_ProtectedEntitiesWithoutEncryptSetAndNoFileOutput_Fails
+Passed   Invoke_CompileAll_RunsWithNoErrors
+Passed   Invoke_CorrectEntityExistsInDb_ReturnsTrue
+Passed   Invoke_CorrectEntityExistsWasJustAdded_ReturnsTrue
+Passed   Invoke_IncorrectIEntity_ExceptionThrown
+Passed   Invoke_SubEntityWithUnknownCollection_ExceptionThrown
+Passed   ImportEntityCommand_ImporFromFile_Success
+Passed   ImportEntityCommand_ImportFromEncryptedFile_Success
+Passed   Reatttach_WrongMasterKey_Throws
+Passed   Reatttach_CorrectInput_RunsWithoutError
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.ps.commands.dll' was not found.
+
+Warning: Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.ps.commands.dll' was not found.
+
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 10_30_46.trx
+
+Total tests: 27. Passed: 27. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 2,1232 Minutes

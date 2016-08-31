@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d33dd058-d60d-4819-af6b-fbf046e887b0" name="bacemi@ICSWS068 2016-08-04 09:59:17" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:59:17.4228443+02:00" queuing="2016-08-04T09:59:17.4228443+02:00" start="2016-08-04T09:59:16.6089566+02:00" finish="2016-08-04T09:59:17.6341445+02:00" />
+  <TestSettings name="default" id="2b5a85f2-febd-40e0-b593-4eb2b4efcf61">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_59_17" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="5f5c7633-7c7b-495b-84b1-fef361a3c861" testId="1ad25f9d-bfe1-a746-f144-dbe4ebd4ed40" testName="GenerateActivationRequest_ValidData_ReturnsExpectedResult" computerName="ICSWS068" duration="00:00:00.4331206" startTime="2016-08-04T09:59:16.6089566+02:00" endTime="2016-08-04T09:59:17.2595532+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f5c7633-7c7b-495b-84b1-fef361a3c861" />
+    <UnitTestResult executionId="8bdfa9f5-04e3-468d-866d-0d4bcb812d77" testId="fc4e3937-d850-c239-feca-0232bacc0b8d" testName="GenerateActivationRequest_InvalidSerialNumber_ThrowsArgumentException" computerName="ICSWS068" duration="00:00:00.0111167" startTime="2016-08-04T09:59:17.2640561+02:00" endTime="2016-08-04T09:59:17.2769497+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bdfa9f5-04e3-468d-866d-0d4bcb812d77" />
+    <UnitTestResult executionId="d521e6fb-c2be-4b3a-9e53-779847306e13" testId="88e0c969-8399-e8a3-0b6e-1fb4e113452e" testName="GenerateActivationRequest_InvalidEMail_ThrowsArgumentException" computerName="ICSWS068" duration="00:00:00.0070845" startTime="2016-08-04T09:59:17.2794514+02:00" endTime="2016-08-04T09:59:17.2879621+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d521e6fb-c2be-4b3a-9e53-779847306e13" />
+    <UnitTestResult executionId="9b9f709e-e7de-42f1-80c5-edc9fc07ade4" testId="1f96a1af-26ab-3c4f-4cd7-1720e31d3f2e" testName="GenerateActivationRequest_EmptyName_ThrowsArgumentException" computerName="ICSWS068" duration="00:00:00.0069933" startTime="2016-08-04T09:59:17.2909638+02:00" endTime="2016-08-04T09:59:17.2994728+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b9f709e-e7de-42f1-80c5-edc9fc07ade4" />
+    <UnitTestResult executionId="596680b9-4837-4fb0-bac4-ac794e7fca3b" testId="113cd9fd-23fa-3eb2-02da-9f70312b6640" testName="ValidateProductSerialNumber_ValidatorReturnsValidResult_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0386451" startTime="2016-08-04T09:59:17.3019742+02:00" endTime="2016-08-04T09:59:17.3420210+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="596680b9-4837-4fb0-bac4-ac794e7fca3b" />
+    <UnitTestResult executionId="f2a8ecc1-b8de-42c5-ae22-4cf2722bb67e" testId="719dc0d8-f46b-6f79-ab18-497e3d585a0f" testName="ValidateProductSerialNumber_ValidatorReturnsInvalidResult_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0014395" startTime="2016-08-04T09:59:17.3465127+02:00" endTime="2016-08-04T09:59:17.3500305+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2a8ecc1-b8de-42c5-ae22-4cf2722bb67e" />
+    <UnitTestResult executionId="1446ed74-daa3-443a-979d-629a2ddbdaa6" testId="e7f5c3fa-57b0-d3ff-16a9-f6d0ccf6dde7" testName="ValidateProductSerialNumber_ValidatorThrowsException_ThrowsFaultException" computerName="ICSWS068" duration="00:00:00.0037714" startTime="2016-08-04T09:59:17.3520164+02:00" endTime="2016-08-04T09:59:17.3574688+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1446ed74-daa3-443a-979d-629a2ddbdaa6" />
+    <UnitTestResult executionId="771e33fc-2573-4c01-9e94-ab7b9c6422ca" testId="18401602-554c-ec0a-3be5-fe470ce4a29e" testName="GenerateActivationRequest_ValidArguments_CallsExpectedMethodInLicensingManager" computerName="ICSWS068" duration="00:00:00.0100554" startTime="2016-08-04T09:59:17.3604720+02:00" endTime="2016-08-04T09:59:17.3717325+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="771e33fc-2573-4c01-9e94-ab7b9c6422ca" />
+    <UnitTestResult executionId="b82dd6ce-976a-4f00-822b-046c6fa178ce" testId="505b88cb-6500-90ba-1a71-8a085a9466e1" testName="GenerateActivationRequest_LicensingManagerThrows_ThrowsFaultException" computerName="ICSWS068" duration="00:00:00.0050937" startTime="2016-08-04T09:59:17.3757354+02:00" endTime="2016-08-04T09:59:17.3822400+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b82dd6ce-976a-4f00-822b-046c6fa178ce" />
+    <UnitTestResult executionId="226a0dff-9023-406c-89c4-3dd8ece8e96b" testId="eb778409-8378-896c-2006-a93e1ca2f53c" testName="GetCurrentLicense_ValidArguments_CallsExpectedMethodInLicensingService" computerName="ICSWS068" duration="00:00:00.0041063" startTime="2016-08-04T09:59:17.3853123+02:00" endTime="2016-08-04T09:59:17.3913169+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="226a0dff-9023-406c-89c4-3dd8ece8e96b" />
+    <UnitTestResult executionId="86cbf675-ef1a-48a3-b148-80ea28ccb737" testId="fd9ed832-5e23-8c17-b94d-97d94f6a94b0" testName="GetCurrentLicense_InvalidLicense_ThrowsExpectedFaultException" computerName="ICSWS068" duration="00:00:00.0031664" startTime="2016-08-04T09:59:17.3943222+02:00" endTime="2016-08-04T09:59:17.3988412+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86cbf675-ef1a-48a3-b148-80ea28ccb737" />
+    <UnitTestResult executionId="77714032-c120-42db-b2a8-fcedd7f745d5" testId="0a02f2b4-352c-c586-868c-1e93c5ba4f71" testName="GetCurrentLicense_OtherError_PropagatesException" computerName="ICSWS068" duration="00:00:00.0017952" startTime="2016-08-04T09:59:17.4018276+02:00" endTime="2016-08-04T09:59:17.4048296+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77714032-c120-42db-b2a8-fcedd7f745d5" />
+    <UnitTestResult executionId="23a80d46-4c3e-452d-b76d-00b82e995c2b" testId="17a8c618-1403-95f9-c139-92f25bfba4a4" testName="TestCode" computerName="ICSWS068" duration="00:00:00.0004903" startTime="2016-08-04T09:59:17.4088325+02:00" endTime="2016-08-04T09:59:17.4103351+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23a80d46-4c3e-452d-b76d-00b82e995c2b" />
+    <UnitTestResult executionId="8059657f-693a-4f1d-a376-c143585643bf" testId="d67c601a-f914-1e7c-96fa-8fcc5787b3c5" testName="ApplyActivationResponse_ValidArguments_CallsCorrectMethods" computerName="ICSWS068" duration="00:00:00.0050382" startTime="2016-08-04T09:59:17.4133359+02:00" endTime="2016-08-04T09:59:17.4198408+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8059657f-693a-4f1d-a376-c143585643bf" />
+    <UnitTestResult executionId="6065cae3-d7de-44e7-822f-bee2d22cb2a4" testId="67938646-b93a-c65c-3a10-e1c54667caa8" testName="ApplyActivationResponse_LicensingError_ThrowsExpectedFaultException" computerName="ICSWS068" duration="00:00:00.0021289" startTime="2016-08-04T09:59:17.4238434+02:00" endTime="2016-08-04T09:59:17.4278459+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6065cae3-d7de-44e7-822f-bee2d22cb2a4" />
+    <UnitTestResult executionId="f9a9a428-d858-4779-9893-8a589830450e" testId="1e119791-7936-291c-4a3d-db284cfb015c" testName="ApplyActivationResponse_OtherError_PropagatesException" computerName="ICSWS068" duration="00:00:00.0023324" startTime="2016-08-04T09:59:17.4303485+02:00" endTime="2016-08-04T09:59:17.4343508+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9a9a428-d858-4779-9893-8a589830450e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GenerateActivationRequest_ValidData_ReturnsExpectedResult" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="1ad25f9d-bfe1-a746-f144-dbe4ebd4ed40">
+      <Execution id="5f5c7633-7c7b-495b-84b1-fef361a3c861" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.LicensingServiceTests" name="GenerateActivationRequest_ValidData_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="GenerateActivationRequest_InvalidSerialNumber_ThrowsArgumentException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="fc4e3937-d850-c239-feca-0232bacc0b8d">
+      <Execution id="8bdfa9f5-04e3-468d-866d-0d4bcb812d77" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.LicensingServiceTests" name="GenerateActivationRequest_InvalidSerialNumber_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="GenerateActivationRequest_InvalidEMail_ThrowsArgumentException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="88e0c969-8399-e8a3-0b6e-1fb4e113452e">
+      <Execution id="d521e6fb-c2be-4b3a-9e53-779847306e13" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.LicensingServiceTests" name="GenerateActivationRequest_InvalidEMail_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="GenerateActivationRequest_EmptyName_ThrowsArgumentException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="1f96a1af-26ab-3c4f-4cd7-1720e31d3f2e">
+      <Execution id="9b9f709e-e7de-42f1-80c5-edc9fc07ade4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.LicensingServiceTests" name="GenerateActivationRequest_EmptyName_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="ValidateProductSerialNumber_ValidatorReturnsValidResult_ReturnsTrue" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="113cd9fd-23fa-3eb2-02da-9f70312b6640">
+      <Execution id="596680b9-4837-4fb0-bac4-ac794e7fca3b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ValidateProductSerialNumber_ValidatorReturnsValidResult_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="ValidateProductSerialNumber_ValidatorReturnsInvalidResult_ReturnsFalse" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="719dc0d8-f46b-6f79-ab18-497e3d585a0f">
+      <Execution id="f2a8ecc1-b8de-42c5-ae22-4cf2722bb67e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ValidateProductSerialNumber_ValidatorReturnsInvalidResult_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="ValidateProductSerialNumber_ValidatorThrowsException_ThrowsFaultException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="e7f5c3fa-57b0-d3ff-16a9-f6d0ccf6dde7">
+      <Execution id="1446ed74-daa3-443a-979d-629a2ddbdaa6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ValidateProductSerialNumber_ValidatorThrowsException_ThrowsFaultException" />
+    </UnitTest>
+    <UnitTest name="GenerateActivationRequest_ValidArguments_CallsExpectedMethodInLicensingManager" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="18401602-554c-ec0a-3be5-fe470ce4a29e">
+      <Execution id="771e33fc-2573-4c01-9e94-ab7b9c6422ca" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="GenerateActivationRequest_ValidArguments_CallsExpectedMethodInLicensingManager" />
+    </UnitTest>
+    <UnitTest name="GenerateActivationRequest_LicensingManagerThrows_ThrowsFaultException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="505b88cb-6500-90ba-1a71-8a085a9466e1">
+      <Execution id="b82dd6ce-976a-4f00-822b-046c6fa178ce" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="GenerateActivationRequest_LicensingManagerThrows_ThrowsFaultException" />
+    </UnitTest>
+    <UnitTest name="GetCurrentLicense_ValidArguments_CallsExpectedMethodInLicensingService" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="eb778409-8378-896c-2006-a93e1ca2f53c">
+      <Execution id="226a0dff-9023-406c-89c4-3dd8ece8e96b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="GetCurrentLicense_ValidArguments_CallsExpectedMethodInLicensingService" />
+    </UnitTest>
+    <UnitTest name="GetCurrentLicense_InvalidLicense_ThrowsExpectedFaultException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="fd9ed832-5e23-8c17-b94d-97d94f6a94b0">
+      <Execution id="86cbf675-ef1a-48a3-b148-80ea28ccb737" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="GetCurrentLicense_InvalidLicense_ThrowsExpectedFaultException" />
+    </UnitTest>
+    <UnitTest name="GetCurrentLicense_OtherError_PropagatesException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="0a02f2b4-352c-c586-868c-1e93c5ba4f71">
+      <Execution id="77714032-c120-42db-b2a8-fcedd7f745d5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="GetCurrentLicense_OtherError_PropagatesException" />
+    </UnitTest>
+    <UnitTest name="TestCode" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="17a8c618-1403-95f9-c139-92f25bfba4a4">
+      <Execution id="23a80d46-4c3e-452d-b76d-00b82e995c2b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="TestCode" />
+    </UnitTest>
+    <UnitTest name="ApplyActivationResponse_ValidArguments_CallsCorrectMethods" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="d67c601a-f914-1e7c-96fa-8fcc5787b3c5">
+      <Execution id="8059657f-693a-4f1d-a376-c143585643bf" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ApplyActivationResponse_ValidArguments_CallsCorrectMethods" />
+    </UnitTest>
+    <UnitTest name="ApplyActivationResponse_LicensingError_ThrowsExpectedFaultException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="67938646-b93a-c65c-3a10-e1c54667caa8">
+      <Execution id="6065cae3-d7de-44e7-822f-bee2d22cb2a4" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ApplyActivationResponse_LicensingError_ThrowsExpectedFaultException" />
+    </UnitTest>
+    <UnitTest name="ApplyActivationResponse_OtherError_PropagatesException" storage="f:\etwork\bin\tests\unittests.managementservice.dll" id="1e119791-7936-291c-4a3d-db284cfb015c">
+      <Execution id="f9a9a428-d858-4779-9893-8a589830450e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\UnitTests.ManagementService.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTests.ManagementService.ManagementServiceTests" name="ApplyActivationResponse_OtherError_PropagatesException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1ad25f9d-bfe1-a746-f144-dbe4ebd4ed40" executionId="5f5c7633-7c7b-495b-84b1-fef361a3c861" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc4e3937-d850-c239-feca-0232bacc0b8d" executionId="8bdfa9f5-04e3-468d-866d-0d4bcb812d77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88e0c969-8399-e8a3-0b6e-1fb4e113452e" executionId="d521e6fb-c2be-4b3a-9e53-779847306e13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f96a1af-26ab-3c4f-4cd7-1720e31d3f2e" executionId="9b9f709e-e7de-42f1-80c5-edc9fc07ade4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="113cd9fd-23fa-3eb2-02da-9f70312b6640" executionId="596680b9-4837-4fb0-bac4-ac794e7fca3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="719dc0d8-f46b-6f79-ab18-497e3d585a0f" executionId="f2a8ecc1-b8de-42c5-ae22-4cf2722bb67e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7f5c3fa-57b0-d3ff-16a9-f6d0ccf6dde7" executionId="1446ed74-daa3-443a-979d-629a2ddbdaa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18401602-554c-ec0a-3be5-fe470ce4a29e" executionId="771e33fc-2573-4c01-9e94-ab7b9c6422ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="505b88cb-6500-90ba-1a71-8a085a9466e1" executionId="b82dd6ce-976a-4f00-822b-046c6fa178ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb778409-8378-896c-2006-a93e1ca2f53c" executionId="226a0dff-9023-406c-89c4-3dd8ece8e96b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd9ed832-5e23-8c17-b94d-97d94f6a94b0" executionId="86cbf675-ef1a-48a3-b148-80ea28ccb737" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a02f2b4-352c-c586-868c-1e93c5ba4f71" executionId="77714032-c120-42db-b2a8-fcedd7f745d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17a8c618-1403-95f9-c139-92f25bfba4a4" executionId="23a80d46-4c3e-452d-b76d-00b82e995c2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d67c601a-f914-1e7c-96fa-8fcc5787b3c5" executionId="8059657f-693a-4f1d-a376-c143585643bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67938646-b93a-c65c-3a10-e1c54667caa8" executionId="6065cae3-d7de-44e7-822f-bee2d22cb2a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e119791-7936-291c-4a3d-db284cfb015c" executionId="f9a9a428-d858-4779-9893-8a589830450e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

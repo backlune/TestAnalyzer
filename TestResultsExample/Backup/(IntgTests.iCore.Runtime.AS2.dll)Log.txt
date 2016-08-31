@@ -1,0 +1,72 @@
+Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Passed   Send_NoMDN_ReturnsExpectedHttpResponseCode
+Passed   Send_UrlNotFound_ReturnsExpectedHttpResponseCode
+Passed   Send_MDNIsExpectedButNotReturned_ReturnsExpectedHttpResponseCode
+Passed   Send_UrlArgIsNull_Throws
+Passed   Send_UrlArgIsEmpty_Throws
+Passed   Send_MessageArgIsNull_Throws
+Passed   Send_MDNIsReturned_ReturnsExpectedHttpResponseCode
+Passed   Send_OutputMessageReturned_ReturnsNonEmptyStream
+Passed   Send_ObjectIsDisposed_Throws
+Passed   SendMDN_UrlNotFound_ReturnsExpectedHttpResponseCode
+Passed   SendMDN_UrlArgIsNull_Throws
+Passed   SendMDN_UrlArgIsEmpty_Throws
+Passed   SendMDN_MDNArgIsNull_Throws
+Passed   SendMDN_ObjectIsDisposed_Throws
+Passed   SendMDN_ValidMdn_ReturnsExpectedHttpResponseCode
+Passed   CompressionEnabled_NothingSet_DefaultsToFalse
+Passed   CompressionEncoding_NothingSet_DefaultsToBinary
+Passed   CompressionLevel_NothingSet_DefaultsTo6
+Passed   Charset_NothingSet_DefaultsToUTF8
+Passed   HeaderEncoding_NothingSet_DefaultsToAuto
+Passed   EncryptionEnabled_NothingSet_DefaultsToFalse
+Passed   EncryptionAlgorithm_NothingSet_DefaultsToFalse
+Passed   EncryptionKeySize_NothingSet_DefaultsTo192
+Passed   EncryptionEncoding_NothingSet_DefaultsToBinary
+Passed   MDNEnabled_NothingSet_DefaultsToFalse
+Passed   MDNDigestAlgorithm_NothingSet_DefaultsToSHA1
+Passed   MDNAsyncronous_NothingSet_DefaultsToFalse
+Passed   MDNSigned_NothingSet_DefaultsToFalse
+Passed   MDNDigestAlgorithmRequired_NothingSet_DefaultsToFalse
+Passed   MDNDigestAlgortihmOnly_NothingSet_DefaultsToFalse
+Passed   MDNSignatureProtocolRequired_NothingSet_DefaultsToFalse
+Passed   MDNSignatureProtocol_NothingSet_DefaultsToPKCS7
+Passed   SigningEnabled_NothingSet_DefaultsToFalse
+Passed   SigningDigestAlgorithm_NothingSet_DefaultsToSHA1
+Passed   SigningEncoding_NothingSet_DefaultsToBinary
+Passed   SigningIncludeCertificateChain_NothingSet_DefaultsToFalse
+Passed   Constructor_MDNRequest_PopulatedFromConfig
+Passed   Save_SignedMessage_ExpectedOutputProduced
+Passed   Save_Encrypted_ExpectedOutputProduced
+Passed   Save_SignedEncryptedAndRequestingMDN_ExpectedOutputProduced
+Passed   Errors_NewMessage_IsEmpty
+Passed   Errors_LoadedMessageWithNoAS2From_OneErrorExpected
+Passed   Load_ValidMDN_PropertiesPopulated
+Passed   Load_ValidMDNWithError_PropertiesPopulated
+Passed   Load_ValidMDNWithCertificateAndCertificateNotAddedToSut_DoesNotThrow
+Passed   Load_MDNSignedNoCertProvided_IsSignatureVerifiedIsFalse
+Passed   Load_MDNSignedWrongCertProvided_IsSignatureVerifiedIsFalse
+Passed   Load_MDNSignedCorrectCertIncluded_IsSignatureVerifiedIsTrue
+Passed   Load_MDNSignedCorrectCertProvided_IsSignatureVerifiedIsTrue
+Passed   Save_ValidMDN_FileContentContainsExpectedValues
+Passed   Save_ValidMDNWithSigning_FileContentContainsExpectedValues
+Passed   LoadAS2Message_UnencryptedMessageWithNoSignatureValidArgs_ReturnValueIsNotNull
+Passed   LoadAS2Message_SourceIsEmpty_ReturnValueIsNotNull
+Passed   LoadAS2Message_SourceIsEmpty_ReturnValueHasErrors
+Passed   LoadAS2Message_SourceIsEmpty_ReturnValueHasErrorsOfTypeError
+Passed   LoadAS2Message_SourceIsEmpty_ReturnValueHasErrorsOfTypeWarning
+Passed   LoadAS2Message_SourceIsEmpty_ReturnValueHasNoErrorsOfTypeFailure
+Passed   LoadAS2Message_EncryptedMessageNoCertificate_ReturnValueHasErrorsOfTypeError
+Passed   LoadAS2Message_SignedMessageNoCertificate_ReturnValueHasErrorsOfTypeError
+Passed   LoadAS2Message_EncryptedMessageCertificate_ReturnValueHasNoErrors
+Passed   LoadAS2Message_SignedMessageCertificate_ReturnValueHasNoErrors
+Passed   LoadAS2Message_SignedMessageWithEmbeddedCertificate_ReturnValueHasNoErrors
+Passed   CreateAS2Signature_NoInput_NotNull
+Results File: F:\ETWork\Main\TestResults\bacemi_ICSWS068 2016-08-04 09_49_17.trx
+
+Total tests: 63. Passed: 63. Failed: 0. Skipped: 0.
+Test Run Successful.
+Test execution time: 3,2384 Seconds
