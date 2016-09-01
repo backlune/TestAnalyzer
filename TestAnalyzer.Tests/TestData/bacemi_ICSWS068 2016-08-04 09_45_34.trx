@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9804749e-156f-49f4-be4d-2654a6eb35e2" name="bacemi@ICSWS068 2016-08-04 09:45:34" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:45:34.8686701+02:00" queuing="2016-08-04T09:45:34.8686701+02:00" start="2016-08-04T09:45:32.8892340+02:00" finish="2016-08-04T09:45:38.9749293+02:00" />
+  <TestSettings name="default" id="68ab2011-b1dc-4207-9463-4b9eec5966db">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_45_34" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="616a47de-abfe-4b4f-936b-d61a4ab6acc6" testId="a032e79c-7f49-215d-2b66-b0e0c7a90dae" testName="IsMasterKeyCorrect_MasterKeyIsNull_Throws" computerName="ICSWS068" duration="00:00:00.1785688" startTime="2016-08-04T09:45:32.8892340+02:00" endTime="2016-08-04T09:45:33.2788200+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="616a47de-abfe-4b4f-936b-d61a4ab6acc6" />
+    <UnitTestResult executionId="f744b2cb-f97f-4253-98fc-46d061e2f91c" testId="dd5d4186-c5c3-ea08-cbc3-19f3695b0a57" testName="IsMasterKeyCorrect_SystemContextIsNull_Throws" computerName="ICSWS068" duration="00:00:00.0007422" startTime="2016-08-04T09:45:33.2833246+02:00" endTime="2016-08-04T09:45:33.2853249+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f744b2cb-f97f-4253-98fc-46d061e2f91c" />
+    <UnitTestResult executionId="6b6a8c9f-17ae-4c23-a364-b87ac6a585c0" testId="c2c767e7-7970-b87c-5805-4ef4cf4a40e7" testName="IsMasterKeyCorrect_MasterKeyIsEmpty_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0008351" startTime="2016-08-04T09:45:33.2888275+02:00" endTime="2016-08-04T09:45:33.2913292+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b6a8c9f-17ae-4c23-a364-b87ac6a585c0" />
+    <UnitTestResult executionId="4676391e-c254-44ef-90e2-14f761ff2029" testId="ac297543-dc7f-80da-c21b-dc84d86c4137" testName="IsMasterKeyCorrect_MasterKeyIsTooShort_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0006683" startTime="2016-08-04T09:45:33.2938309+02:00" endTime="2016-08-04T09:45:33.2963332+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4676391e-c254-44ef-90e2-14f761ff2029" />
+    <UnitTestResult executionId="43fbcf81-d906-498c-afed-1dc772a8ad50" testId="604dcaba-b375-0dd3-bce9-0e6fe7ba72a5" testName="IsMasterKeyCorrect_MasterKeyIsCorrect_ReturnsTrue" computerName="ICSWS068" duration="00:00:01.2493214" startTime="2016-08-04T09:45:33.2993349+02:00" endTime="2016-08-04T09:45:34.5502711+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43fbcf81-d906-498c-afed-1dc772a8ad50">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests.IsMasterKeyCorrect_MasterKeyIsCorrect_ReturnsTrue() in F:\ETWork\Main\Common\Assemblies\IntgTests.iCore.Common.Entities\SystemProtectionServiceImplTests.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ad2c0d8-8bde-4efb-b800-0786afa09380" testId="c2762713-1d20-16ee-3be2-b678e9a7d74f" testName="IsMasterKeyCorrect_MasterKeyIsNotCorrect_ReturnsFalse" computerName="ICSWS068" duration="00:00:01.0479548" startTime="2016-08-04T09:45:34.5578250+02:00" endTime="2016-08-04T09:45:35.6072212+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad2c0d8-8bde-4efb-b800-0786afa09380" />
+    <UnitTestResult executionId="76e64e56-0dbe-44b8-bee9-c5101b033945" testId="2e8a1f52-d9e2-e95d-a57e-6fdf43a98e18" testName="ChangeMasterKey_CurrentKeyIsIncorrect_Throws" computerName="ICSWS068" duration="00:00:01.1127747" startTime="2016-08-04T09:45:35.6097223+02:00" endTime="2016-08-04T09:45:36.7242995+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76e64e56-0dbe-44b8-bee9-c5101b033945" />
+    <UnitTestResult executionId="83bd18cb-3b20-4e56-85fd-d5d1ee7f1503" testId="875e19ef-ae9d-fa5d-6938-825f178b12a3" testName="ChangeMasterKey_NewKeyIsNotSameAsCurrent_SystemConfigurationIsUpdated" computerName="ICSWS068" duration="00:00:00.9449265" startTime="2016-08-04T09:45:36.7273015+02:00" endTime="2016-08-04T09:45:37.6738576+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83bd18cb-3b20-4e56-85fd-d5d1ee7f1503">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests.ChangeMasterKey_NewKeyIsNotSameAsCurrent_SystemConfigurationIsUpdated threw exception: 
+System.ArgumentException: Wrong password</Message>
+          <StackTrace>    at iCore.Common.Entities.SystemProtectionServiceImpl.VerifyCorrectMasterKey(Byte[] hash, ISystemContext systemContext)
+   at iCore.Common.Entities.SystemProtectionServiceImpl.ChangeMasterKey(SecureString currentMasterKey, SecureString newMasterKey, ISystemContext systemContext, IOperationProgressInfo progressInfo)
+   at IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests.ChangeMasterKey_NewKeyIsNotSameAsCurrent_SystemConfigurationIsUpdated() in F:\ETWork\Main\Common\Assemblies\IntgTests.iCore.Common.Entities\SystemProtectionServiceImplTests.cs:line 205
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3282d1e3-1ff2-46d9-a4a5-b057803eda9b" testId="1af5cada-02f8-5da9-4dc1-7d229ba84af6" testName="ChangeMasterKey_CurrentKeyIsTooShort_Throws" computerName="ICSWS068" duration="00:00:00.9697699" startTime="2016-08-04T09:45:37.6768429+02:00" endTime="2016-08-04T09:45:38.6481985+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3282d1e3-1ff2-46d9-a4a5-b057803eda9b" />
+    <UnitTestResult executionId="cb4d5ebe-a7c2-4675-880b-3087952ba41b" testId="8967e9c1-d499-cd31-9661-4f242294eb8f" testName="ChangeMasterKey_UserNotAllowedToRunOperation_Throws" computerName="ICSWS068" duration="00:00:00.0045702" startTime="2016-08-04T09:45:38.6547207+02:00" endTime="2016-08-04T09:45:38.6612085+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb4d5ebe-a7c2-4675-880b-3087952ba41b" />
+    <UnitTestResult executionId="21dbd25a-c44e-44ac-914b-bcfe72930fbf" testId="27381e62-020c-20cb-647c-74e5bd7f084f" testName="CheckAuthorization_ListOp_Success" computerName="ICSWS068" duration="00:00:00.1126665" startTime="2016-08-04T09:45:38.6651962+02:00" endTime="2016-08-04T09:45:38.7790998+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21dbd25a-c44e-44ac-914b-bcfe72930fbf" />
+    <UnitTestResult executionId="3cbf6ed7-6fde-4234-819c-13ce73ccb107" testId="f3638930-9491-a202-d6d8-9292e2eacba7" testName="CheckAuthorization_SystemInternalNotSU_ReturnsFalse" computerName="ICSWS068" duration="00:00:00.0008982" startTime="2016-08-04T09:45:38.7816033+02:00" endTime="2016-08-04T09:45:38.7836047+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cbf6ed7-6fde-4234-819c-13ce73ccb107" />
+    <UnitTestResult executionId="c90c2fb2-6c77-47e3-b598-780bbc8c0d2b" testId="244e7a13-9b00-b840-c724-94664d7a4c5c" testName="CheckAuthorization_SystemInternalAndSULoggedIn_ReturnsTrue" computerName="ICSWS068" duration="00:00:00.0019023" startTime="2016-08-04T09:45:38.7866076+02:00" endTime="2016-08-04T09:45:38.7896090+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c90c2fb2-6c77-47e3-b598-780bbc8c0d2b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="IsMasterKeyCorrect_MasterKeyIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="a032e79c-7f49-215d-2b66-b0e0c7a90dae">
+      <Execution id="616a47de-abfe-4b4f-936b-d61a4ab6acc6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_MasterKeyIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="IsMasterKeyCorrect_SystemContextIsNull_Throws" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="dd5d4186-c5c3-ea08-cbc3-19f3695b0a57">
+      <Execution id="f744b2cb-f97f-4253-98fc-46d061e2f91c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_SystemContextIsNull_Throws" />
+    </UnitTest>
+    <UnitTest name="IsMasterKeyCorrect_MasterKeyIsEmpty_ReturnsFalse" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="c2c767e7-7970-b87c-5805-4ef4cf4a40e7">
+      <Execution id="6b6a8c9f-17ae-4c23-a364-b87ac6a585c0" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_MasterKeyIsEmpty_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="IsMasterKeyCorrect_MasterKeyIsTooShort_ReturnsFalse" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="ac297543-dc7f-80da-c21b-dc84d86c4137">
+      <Execution id="4676391e-c254-44ef-90e2-14f761ff2029" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_MasterKeyIsTooShort_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="IsMasterKeyCorrect_MasterKeyIsCorrect_ReturnsTrue" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="604dcaba-b375-0dd3-bce9-0e6fe7ba72a5">
+      <Execution id="43fbcf81-d906-498c-afed-1dc772a8ad50" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_MasterKeyIsCorrect_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="IsMasterKeyCorrect_MasterKeyIsNotCorrect_ReturnsFalse" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="c2762713-1d20-16ee-3be2-b678e9a7d74f">
+      <Execution id="0ad2c0d8-8bde-4efb-b800-0786afa09380" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="IsMasterKeyCorrect_MasterKeyIsNotCorrect_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="ChangeMasterKey_CurrentKeyIsIncorrect_Throws" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="2e8a1f52-d9e2-e95d-a57e-6fdf43a98e18">
+      <Execution id="76e64e56-0dbe-44b8-bee9-c5101b033945" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="ChangeMasterKey_CurrentKeyIsIncorrect_Throws" />
+    </UnitTest>
+    <UnitTest name="ChangeMasterKey_NewKeyIsNotSameAsCurrent_SystemConfigurationIsUpdated" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="875e19ef-ae9d-fa5d-6938-825f178b12a3">
+      <Execution id="83bd18cb-3b20-4e56-85fd-d5d1ee7f1503" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="ChangeMasterKey_NewKeyIsNotSameAsCurrent_SystemConfigurationIsUpdated" />
+    </UnitTest>
+    <UnitTest name="ChangeMasterKey_CurrentKeyIsTooShort_Throws" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="1af5cada-02f8-5da9-4dc1-7d229ba84af6">
+      <Execution id="3282d1e3-1ff2-46d9-a4a5-b057803eda9b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="ChangeMasterKey_CurrentKeyIsTooShort_Throws" />
+    </UnitTest>
+    <UnitTest name="ChangeMasterKey_UserNotAllowedToRunOperation_Throws" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="8967e9c1-d499-cd31-9661-4f242294eb8f">
+      <Execution id="cb4d5ebe-a7c2-4675-880b-3087952ba41b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.iCore.Common.Entities.SystemProtectionServiceImplTests" name="ChangeMasterKey_UserNotAllowedToRunOperation_Throws" />
+    </UnitTest>
+    <UnitTest name="CheckAuthorization_ListOp_Success" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="27381e62-020c-20cb-647c-74e5bd7f084f">
+      <Execution id="21dbd25a-c44e-44ac-914b-bcfe72930fbf" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.EntityDescriptorTests" name="CheckAuthorization_ListOp_Success" />
+    </UnitTest>
+    <UnitTest name="CheckAuthorization_SystemInternalNotSU_ReturnsFalse" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="f3638930-9491-a202-d6d8-9292e2eacba7">
+      <Execution id="3cbf6ed7-6fde-4234-819c-13ce73ccb107" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.EntityDescriptorTests" name="CheckAuthorization_SystemInternalNotSU_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="CheckAuthorization_SystemInternalAndSULoggedIn_ReturnsTrue" storage="f:\etwork\bin\tests\intgtests.icore.common.entities.dll" id="244e7a13-9b00-b840-c724-94664d7a4c5c">
+      <Execution id="c90c2fb2-6c77-47e3-b598-780bbc8c0d2b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.iCore.Common.Entities.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Common.Entities.EntityDescriptorTests" name="CheckAuthorization_SystemInternalAndSULoggedIn_ReturnsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a032e79c-7f49-215d-2b66-b0e0c7a90dae" executionId="616a47de-abfe-4b4f-936b-d61a4ab6acc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd5d4186-c5c3-ea08-cbc3-19f3695b0a57" executionId="f744b2cb-f97f-4253-98fc-46d061e2f91c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2c767e7-7970-b87c-5805-4ef4cf4a40e7" executionId="6b6a8c9f-17ae-4c23-a364-b87ac6a585c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac297543-dc7f-80da-c21b-dc84d86c4137" executionId="4676391e-c254-44ef-90e2-14f761ff2029" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="604dcaba-b375-0dd3-bce9-0e6fe7ba72a5" executionId="43fbcf81-d906-498c-afed-1dc772a8ad50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2762713-1d20-16ee-3be2-b678e9a7d74f" executionId="0ad2c0d8-8bde-4efb-b800-0786afa09380" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e8a1f52-d9e2-e95d-a57e-6fdf43a98e18" executionId="76e64e56-0dbe-44b8-bee9-c5101b033945" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="875e19ef-ae9d-fa5d-6938-825f178b12a3" executionId="83bd18cb-3b20-4e56-85fd-d5d1ee7f1503" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1af5cada-02f8-5da9-4dc1-7d229ba84af6" executionId="3282d1e3-1ff2-46d9-a4a5-b057803eda9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8967e9c1-d499-cd31-9661-4f242294eb8f" executionId="cb4d5ebe-a7c2-4675-880b-3087952ba41b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27381e62-020c-20cb-647c-74e5bd7f084f" executionId="21dbd25a-c44e-44ac-914b-bcfe72930fbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3638930-9491-a202-d6d8-9292e2eacba7" executionId="3cbf6ed7-6fde-4234-819c-13ce73ccb107" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="244e7a13-9b00-b840-c724-94664d7a4c5c" executionId="c90c2fb2-6c77-47e3-b598-780bbc8c0d2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="11" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -11,21 +11,44 @@ namespace TestAnalyzer
     public class TestAnalysisService
     {
 
-       public void DoIt()
+       public void AnalyzeFolder(string trxFolderName)
        {
+         var files = System.IO.Directory.GetFiles(trxFolderName);
+         var trxFiles = files.Where(f => f.EndsWith(".trx"));
+
          var resultsFactory = new TestResultFactory();
-          var results = resultsFactory.CreateResultsFromTestFiles(new List<string>());
-         var outputCreator = new ParsedDataOutputter();
-         //outputCreator.OutputResults(results);
+         var results = resultsFactory.CreateResultsFromTestFiles(trxFiles); // Need dependencies to TestParser.Core!
+         //results.SlowestTests
 
-         // run parse over all trx files
+         results.Summarise(); // When?
 
-         // Parse JSON
+         var assemblySummaries = results.SummaryByAssembly;
+         var classSummaries = results.SummaryByClass;
 
-         // Split json
-
-         // Save parts in store
+         // Save parts in store 
+         //TODO: Make json serializable classes
+         //TODO: Create a data store
       }
 
     }
+
+   public class TestRunResult
+   {
+
+   }
+
+   public class TestAssemblyResult
+   {
+
+   }
+
+   public class TestClassResult
+   {
+
+   }
+
+   public class TestMethodResult
+   {
+
+   }
 }

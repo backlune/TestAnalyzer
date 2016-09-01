@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("testwcf")]
+[assembly: AssemblyTitle("TestAnalyzer.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("testwcf")]
+[assembly: AssemblyProduct("TestAnalyzer.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e174355e-12e8-49e4-932d-a098c78d384c")]
+[assembly: Guid("144a1580-18ee-4ee2-b60f-98fc7b4bd4b7")]
 
 // Version information for an assembly consists of the following four values:
 //
