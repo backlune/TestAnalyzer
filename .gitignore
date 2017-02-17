@@ -48,3 +48,6 @@ Temporary Items
 *.pdb
 bin/
 obj/
+*.dll
+packages/
+.vs/

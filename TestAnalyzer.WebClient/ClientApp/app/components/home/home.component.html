@@ -1,0 +1,16 @@
+<h1>Test Summary</h1>
+<p>Welcome ...</p>
+
+<p *ngIf="!summary"><em>Loading...</em></p>
+
+<div class="panel panel-default">
+   <div class="panel-body">
+      <div class="progress">
+         <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" 
+              aria-valuemin="0" aria-valuemax="100" [style.width]="summary.percentagePassed">
+            <span class="sr-only">20% Complete</span>
+         </div>
+      </div>
+
+   </div>
+</div>

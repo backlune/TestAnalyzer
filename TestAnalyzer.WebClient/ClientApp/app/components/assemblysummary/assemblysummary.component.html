@@ -1,0 +1,22 @@
+<h1>Test summary per assembly</h1>
+
+<p>Summary over test results per assembly.</p>
+
+<p *ngIf="!summaries"><em>Loading...</em></p>
+
+<table class='table' *ngIf="summaries">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Passed</th>
+            <th>Failed</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr [ngClass]="(assembly.failed > 0)?'danger':'success'"  *ngFor="let assembly of summaries">
+            <td>{{ assembly.assemblyName }}</td>
+            <td>{{ assembly.passed}}</td>
+            <td>{{ assembly.failed }}</td>
+        </tr>
+    </tbody>
+</table>
