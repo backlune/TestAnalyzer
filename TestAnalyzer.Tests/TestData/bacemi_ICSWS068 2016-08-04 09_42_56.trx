@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6342356a-feae-421c-abf3-078d55604694" name="bacemi@ICSWS068 2016-08-04 09:42:56" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T09:42:56.0669808+02:00" queuing="2016-08-04T09:42:56.0669808+02:00" start="2016-08-04T09:42:53.8404647+02:00" finish="2016-08-04T09:45:09.4128694+02:00" />
+  <TestSettings name="default" id="0f2788db-13d4-4e62-b564-3b7691aa271a">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 09_42_56" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="dd3447a2-e3b0-406c-bfcd-77d6903568a9" testId="688cd5c6-cf81-4920-37e9-3511e9cc30f1" testName="RunWsmqTrgMon_TooFewArguments_ProcessExits" computerName="ICSWS068" duration="00:00:01.9438819" startTime="2016-08-04T09:42:53.8404647+02:00" endTime="2016-08-04T09:42:56.0108163+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3447a2-e3b0-406c-bfcd-77d6903568a9">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: 
+[2016-08-04][09:42:55.831][Inf] - --------------------------------------------------------
+[2016-08-04][09:42:55.834][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:42:55.834][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:42:55.837][Err] - Required parameter missing - initiation queue name or named pipe name.
+[2016-08-04][09:42:55.837][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:42:55.837][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="422c61ef-0a08-45dd-8114-de4a5d1efc54" testId="b8e0bb62-c3d4-1d54-ae69-46ce66472be3" testName="RunWsmqTrgMon_PipenameIsIncorrect_ProcessExits" computerName="ICSWS068" duration="00:00:30.8573197" startTime="2016-08-04T09:42:56.0138180+02:00" endTime="2016-08-04T09:43:26.8733520+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="422c61ef-0a08-45dd-8114-de4a5d1efc54">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_712909_init \\.\pipe\EWsmqTrgMonPipe_7129_2 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+[2016-08-04][09:42:56.642][Inf] - --------------------------------------------------------
+[2016-08-04][09:42:56.646][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:42:56.646][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:42:56.649][Inf] - Parameters: 
+[2016-08-04][09:42:56.649][Inf] -    Init Queue   : [IntgTest_ICSWS068_712909_init]
+[2016-08-04][09:42:56.649][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_7129_2]
+[2016-08-04][09:42:56.649][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:42:56.649][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:26.708][Err] - Failed to send start message or recieve init messae on pipe \\.\pipe\EWsmqTrgMonPipe_7129_2. The operation has timed out.
+[2016-08-04][09:43:26.708][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:43:26.708][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="08e6ffaf-8fee-4e5e-ab84-da7208f35f38" testId="d8060522-b6b4-3c98-d010-9fe5907452d7" testName="RunWsmqTrgMon_InitMessageNotSent_ProcessExitsAfterStartMessageSent" computerName="ICSWS068" duration="00:00:00.8532295" startTime="2016-08-04T09:43:26.8763541+02:00" endTime="2016-08-04T09:43:27.7311377+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08e6ffaf-8fee-4e5e-ab84-da7208f35f38">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_235679_init \\.\pipe\EWsmqTrgMonPipe_2357 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+[2016-08-04][09:43:27.527][Inf] - --------------------------------------------------------
+[2016-08-04][09:43:27.530][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:43:27.530][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:43:27.533][Inf] - Parameters: 
+[2016-08-04][09:43:27.533][Inf] -    Init Queue   : [IntgTest_ICSWS068_235679_init]
+[2016-08-04][09:43:27.533][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_2357]
+[2016-08-04][09:43:27.533][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:43:27.533][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:27.587][Inf] - Sending start message...
+[2016-08-04][09:43:27.588][Inf] - Sending start message complete.
+[2016-08-04][09:43:27.588][Inf] - Reading init message...
+[2016-08-04][09:43:27.593][Err] - Failed to send start message or recieve init messae on pipe \\.\pipe\EWsmqTrgMonPipe_2357. Unexpected size of message. Expected 20 bytes, but got 0 bytes.
+Parameter name: messageData
+[2016-08-04][09:43:27.593][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:43:27.593][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07852d96-ee05-43af-be76-963ee00e4691" testId="832bd072-2013-5fce-d1e5-612556370264" testName="RunWsmqTrgMon_InitMessageSentPingNotHandled_ProcessExitsAfterPingInterval" computerName="ICSWS068" duration="00:00:06.8256043" startTime="2016-08-04T09:43:27.7341397+02:00" endTime="2016-08-04T09:43:34.5612160+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07852d96-ee05-43af-be76-963ee00e4691">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_999024_init \\.\pipe\EWsmqTrgMonPipe_9990 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+[2016-08-04][09:43:28.352][Inf] - --------------------------------------------------------
+[2016-08-04][09:43:28.354][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:43:28.354][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:43:28.356][Inf] - Parameters: 
+[2016-08-04][09:43:28.356][Inf] -    Init Queue   : [IntgTest_ICSWS068_999024_init]
+[2016-08-04][09:43:28.356][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_9990]
+[2016-08-04][09:43:28.356][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:43:28.356][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:28.411][Inf] - Sending start message...
+[2016-08-04][09:43:28.411][Inf] - Sending start message complete.
+[2016-08-04][09:43:28.412][Inf] - Reading init message...
+[2016-08-04][09:43:28.413][Inf] - Init message received: 
+[2016-08-04][09:43:28.413][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:43:28.413][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:43:28.413][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:43:28.413][Inf] - Reading init message complete.
+[2016-08-04][09:43:28.414][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:31.420][Inf] - Send ping message.
+[2016-08-04][09:43:34.411][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_9990. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:43:34.411][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:43:34.411][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4510513e-269c-4f38-a6de-a140daf95fed" testId="aed1e9bc-db28-446d-cf8a-f96b461f586a" testName="RunWsmqTrgMon_InitMessageSentPingHandled_ProcessExitsAfterTwoPingInterval" computerName="ICSWS068" duration="00:00:09.8801022" startTime="2016-08-04T09:43:34.5667195+02:00" endTime="2016-08-04T09:43:44.4488111+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4510513e-269c-4f38-a6de-a140daf95fed">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_477874_init \\.\pipe\EWsmqTrgMonPipe_4779 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message IPNG
+[2016-08-04][09:43:35.219][Inf] - --------------------------------------------------------
+[2016-08-04][09:43:35.224][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:43:35.224][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:43:35.227][Inf] - Parameters: 
+[2016-08-04][09:43:35.227][Inf] -    Init Queue   : [IntgTest_ICSWS068_477874_init]
+[2016-08-04][09:43:35.227][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_4779]
+[2016-08-04][09:43:35.227][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:43:35.227][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:35.286][Inf] - Sending start message...
+[2016-08-04][09:43:35.286][Inf] - Sending start message complete.
+[2016-08-04][09:43:35.286][Inf] - Reading init message...
+[2016-08-04][09:43:35.288][Inf] - Init message received: 
+[2016-08-04][09:43:35.288][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:43:35.288][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:43:35.288][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:43:35.288][Inf] - Reading init message complete.
+[2016-08-04][09:43:35.289][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:38.293][Inf] - Send ping message.
+[2016-08-04][09:43:38.293][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:41.295][Inf] - Send ping message.
+[2016-08-04][09:43:44.286][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_4779. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:43:44.286][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:43:44.286][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c318030-4c9d-4c48-89c4-ca6cdd34ec0b" testId="c7d3a6e4-89f4-3637-4a3f-82559d299d26" testName="RunWsmqTrgMon_QueueMessageExists_ExpectedMessageRecievedOnPipe" computerName="ICSWS068" duration="00:00:06.8509067" startTime="2016-08-04T09:43:44.4513140+02:00" endTime="2016-08-04T09:43:51.3039880+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c318030-4c9d-4c48-89c4-ca6cdd34ec0b">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_427852_init \\.\pipe\EWsmqTrgMonPipe_4279 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+[2016-08-04][09:43:45.078][Inf] - --------------------------------------------------------
+[2016-08-04][09:43:45.081][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:43:45.081][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:43:45.084][Inf] - Parameters: 
+[2016-08-04][09:43:45.084][Inf] -    Init Queue   : [IntgTest_ICSWS068_427852_init]
+[2016-08-04][09:43:45.084][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_4279]
+[2016-08-04][09:43:45.084][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:43:45.084][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:45.140][Inf] - Sending start message...
+[2016-08-04][09:43:45.140][Inf] - Sending start message complete.
+[2016-08-04][09:43:45.140][Inf] - Reading init message...
+[2016-08-04][09:43:45.142][Inf] - Init message received: 
+[2016-08-04][09:43:45.142][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:43:45.142][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:43:45.142][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:43:45.142][Inf] - Reading init message complete.
+[2016-08-04][09:43:45.143][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:45.150][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_427852]
+[2016-08-04][09:43:45.151][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:48.153][Inf] - Send ping message.
+[2016-08-04][09:43:51.146][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_4279. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:43:51.146][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:43:51.146][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89dbf26a-00bd-468d-bb49-8561b2c19f5f" testId="b699915f-364a-e335-3ac5-976ac4c3832e" testName="RunWsmqTrgMon_QueueMessageSentAfterPing_ExpectedMessageRecievedOnPipe" computerName="ICSWS068" duration="00:00:09.9486982" startTime="2016-08-04T09:43:51.3069917+02:00" endTime="2016-08-04T09:44:01.2577940+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89dbf26a-00bd-468d-bb49-8561b2c19f5f">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_743082_init \\.\pipe\EWsmqTrgMonPipe_7431 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message IPNG
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+[2016-08-04][09:43:52.040][Inf] - --------------------------------------------------------
+[2016-08-04][09:43:52.043][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:43:52.043][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:43:52.046][Inf] - Parameters: 
+[2016-08-04][09:43:52.046][Inf] -    Init Queue   : [IntgTest_ICSWS068_743082_init]
+[2016-08-04][09:43:52.046][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_7431]
+[2016-08-04][09:43:52.046][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:43:52.046][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:43:52.104][Inf] - Sending start message...
+[2016-08-04][09:43:52.104][Inf] - Sending start message complete.
+[2016-08-04][09:43:52.104][Inf] - Reading init message...
+[2016-08-04][09:43:52.105][Inf] - Init message received: 
+[2016-08-04][09:43:52.105][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:43:52.105][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:43:52.106][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:43:52.106][Inf] - Reading init message complete.
+[2016-08-04][09:43:52.106][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:55.111][Inf] - Send ping message.
+[2016-08-04][09:43:55.111][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:55.121][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_743082]
+[2016-08-04][09:43:55.122][Inf] - Waiting for trigger message...
+[2016-08-04][09:43:58.124][Inf] - Send ping message.
+[2016-08-04][09:44:01.114][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_7431. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:44:01.115][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:44:01.115][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4649fe1e-0e1a-4810-a791-ace17ad9ba19" testId="19ad4d96-d7ce-5652-27f4-5c3ecfe06202" testName="RunWsmqTrgMon_TriggerMessageHandled_PingMessageRecievedOnPipe" computerName="ICSWS068" duration="00:00:10.2483428" startTime="2016-08-04T09:44:01.2612960+02:00" endTime="2016-08-04T09:44:11.5111403+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4649fe1e-0e1a-4810-a791-ace17ad9ba19">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_964659_init \\.\pipe\EWsmqTrgMonPipe_9646 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message IPNG
+[2016-08-04][09:44:02.262][Inf] - --------------------------------------------------------
+[2016-08-04][09:44:02.265][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:44:02.265][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:44:02.268][Inf] - Parameters: 
+[2016-08-04][09:44:02.268][Inf] -    Init Queue   : [IntgTest_ICSWS068_964659_init]
+[2016-08-04][09:44:02.268][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_9646]
+[2016-08-04][09:44:02.268][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:44:02.268][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:44:02.321][Inf] - Sending start message...
+[2016-08-04][09:44:02.322][Inf] - Sending start message complete.
+[2016-08-04][09:44:02.322][Inf] - Reading init message...
+[2016-08-04][09:44:02.323][Inf] - Init message received: 
+[2016-08-04][09:44:02.323][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:44:02.323][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:44:02.323][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:44:02.323][Inf] - Reading init message complete.
+[2016-08-04][09:44:02.324][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:02.331][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_964659]
+[2016-08-04][09:44:02.331][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:05.333][Inf] - Send ping message.
+[2016-08-04][09:44:05.334][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:08.335][Inf] - Send ping message.
+[2016-08-04][09:44:11.333][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_9646. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:44:11.333][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:44:11.333][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62a9562a-94aa-45e5-9f58-0a163ab928a1" testId="df2055fe-7d53-0e1b-be87-e94629b7756a" testName="RunWsmqTrgMon_TriggerMessageHandled_MessageOnlyOnTriggeredQueue" computerName="ICSWS068" duration="00:00:07.5255211" startTime="2016-08-04T09:44:11.5141382+02:00" endTime="2016-08-04T09:44:19.0413373+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62a9562a-94aa-45e5-9f58-0a163ab928a1">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_824130_init \\.\pipe\EWsmqTrgMonPipe_8241 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+[2016-08-04][09:44:12.823][Inf] - --------------------------------------------------------
+[2016-08-04][09:44:12.826][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:44:12.826][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:44:12.829][Inf] - Parameters: 
+[2016-08-04][09:44:12.829][Inf] -    Init Queue   : [IntgTest_ICSWS068_824130_init]
+[2016-08-04][09:44:12.829][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_8241]
+[2016-08-04][09:44:12.829][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:44:12.829][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:44:12.889][Inf] - Sending start message...
+[2016-08-04][09:44:12.889][Inf] - Sending start message complete.
+[2016-08-04][09:44:12.889][Inf] - Reading init message...
+[2016-08-04][09:44:12.891][Inf] - Init message received: 
+[2016-08-04][09:44:12.891][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:44:12.891][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:44:12.891][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:44:12.891][Inf] - Reading init message complete.
+[2016-08-04][09:44:12.892][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:12.898][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_824130]
+[2016-08-04][09:44:12.898][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:15.901][Inf] - Send ping message.
+[2016-08-04][09:44:18.896][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_8241. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:44:18.896][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:44:18.896][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c69690fb-7a1a-4d74-bc45-ce6330fdd81f" testId="b3743155-5122-ddea-6be0-63fe461fc021" testName="RunWsmqTrgMon_SeveralMessagesSent_SeveralTriggerMessagesRecieved" computerName="ICSWS068" duration="00:00:09.9242947" startTime="2016-08-04T09:44:19.0443416+02:00" endTime="2016-08-04T09:44:28.9700083+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c69690fb-7a1a-4d74-bc45-ce6330fdd81f">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_209171_init \\.\pipe\EWsmqTrgMonPipe_2092 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message IPNG
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+[2016-08-04][09:44:19.712][Inf] - --------------------------------------------------------
+[2016-08-04][09:44:19.715][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:44:19.715][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:44:19.718][Inf] - Parameters: 
+[2016-08-04][09:44:19.718][Inf] -    Init Queue   : [IntgTest_ICSWS068_209171_init]
+[2016-08-04][09:44:19.718][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_2092]
+[2016-08-04][09:44:19.718][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:44:19.718][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:44:19.772][Inf] - Sending start message...
+[2016-08-04][09:44:19.772][Inf] - Sending start message complete.
+[2016-08-04][09:44:19.772][Inf] - Reading init message...
+[2016-08-04][09:44:19.774][Inf] - Init message received: 
+[2016-08-04][09:44:19.774][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:44:19.774][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:44:19.774][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:44:19.774][Inf] - Reading init message complete.
+[2016-08-04][09:44:19.775][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:19.781][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_209171]
+[2016-08-04][09:44:19.781][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:22.784][Inf] - Send ping message.
+[2016-08-04][09:44:22.784][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:22.793][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_209171]
+[2016-08-04][09:44:22.794][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:25.795][Inf] - Send ping message.
+[2016-08-04][09:44:28.787][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_2092. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:44:28.787][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:44:28.787][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23bd8f1e-ca4e-45eb-89f3-133118ae02e1" testId="46724ac4-b4a5-e458-9bc3-06f5f6161688" testName="RunWsmqTrgMon_SeveralMessagesExists_OneTriggerMessageRecieved" computerName="ICSWS068" duration="00:00:06.8343901" startTime="2016-08-04T09:44:28.9730267+02:00" endTime="2016-08-04T09:44:35.8089268+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23bd8f1e-ca4e-45eb-89f3-133118ae02e1">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_549518_init \\.\pipe\EWsmqTrgMonPipe_5495 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+Read message from pipe. Bytes read: 12
+Read message from pipe. Total bytes read: 12
+Writing message on pipe. Bytes: 20
+Message written.
+Pipe drained.
+Read message from pipe. Bytes read: 732
+Read message from pipe. Total bytes read: 732
+Writing message on pipe. Bytes: 4
+Message written.
+Pipe drained.
+Processed message TMC 
+[2016-08-04][09:44:29.580][Inf] - --------------------------------------------------------
+[2016-08-04][09:44:29.584][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:44:29.584][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:44:29.587][Inf] - Parameters: 
+[2016-08-04][09:44:29.587][Inf] -    Init Queue   : [IntgTest_ICSWS068_549518_init]
+[2016-08-04][09:44:29.587][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_5495]
+[2016-08-04][09:44:29.587][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:44:29.587][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:44:29.640][Inf] - Sending start message...
+[2016-08-04][09:44:29.640][Inf] - Sending start message complete.
+[2016-08-04][09:44:29.640][Inf] - Reading init message...
+[2016-08-04][09:44:29.641][Inf] - Init message received: 
+[2016-08-04][09:44:29.641][Inf] -    Ping interval: 3000 ms.
+[2016-08-04][09:44:29.641][Inf] -    Ping confirm timeout: 3000 ms.
+[2016-08-04][09:44:29.641][Inf] -    Trigger message confirm timeout: 3000 ms.
+[2016-08-04][09:44:29.641][Inf] - Reading init message complete.
+[2016-08-04][09:44:29.642][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:29.649][Inf] - Msg received. QM:[IntgTest] Q:[IntgTest_ICSWS068_549518]
+[2016-08-04][09:44:29.649][Inf] - Waiting for trigger message...
+[2016-08-04][09:44:32.651][Inf] - Send ping message.
+[2016-08-04][09:44:35.647][Err] - Failed to send ping or receive ping confirmation on pipe \\.\pipe\EWsmqTrgMonPipe_5495. WSMQ trigger monitor will close. Details: The operation has timed out.
+[2016-08-04][09:44:35.647][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:44:35.647][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f9c1c7c-f504-4d8b-8949-e82edaa516a7" testId="fd201354-e277-66b1-1720-3c66e5b86a30" testName="RunWsmqTrgMon_Started_ProcessWritesToStdOut" computerName="ICSWS068" duration="00:00:30.8972525" startTime="2016-08-04T09:44:35.8119312+02:00" endTime="2016-08-04T09:45:06.7108452+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f9c1c7c-f504-4d8b-8949-e82edaa516a7">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_669563_init \\.\pipe\EWsmqTrgMonPipe_6695 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)
+[2016-08-04][09:44:36.442][Inf] - --------------------------------------------------------
+[2016-08-04][09:44:36.445][Inf] - iCore Websphere MQ Trigger Monitor (V2.0) Starting...
+[2016-08-04][09:44:36.445][Inf] - Please note that this version only supports the TCP protocol.
+[2016-08-04][09:44:36.448][Inf] - Parameters: 
+[2016-08-04][09:44:36.448][Inf] -    Init Queue   : [IntgTest_ICSWS068_669563_init]
+[2016-08-04][09:44:36.448][Inf] -    Named pipe   : [\\.\pipe\EWsmqTrgMonPipe_6695]
+[2016-08-04][09:44:36.448][Inf] -    Queue Manager: [IntgTest]
+[2016-08-04][09:44:36.448][Inf] -    Channel      : [SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)]
+[2016-08-04][09:45:06.490][Err] - Failed to send start message or recieve init messae on pipe \\.\pipe\EWsmqTrgMonPipe_6695. The operation has timed out.
+[2016-08-04][09:45:06.490][Inf] - iCore Trigger Monitor closing.
+[2016-08-04][09:45:06.490][Inf] - --------------------------------------------------------</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5357a966-dd9f-4f1d-9ecc-59836d5712b9" testId="52f16f63-e8f6-4f5e-5061-61ddeb45efe0" testName="RunWsmqTrgMon_ChannelArgumentIsMissing_ExitWithReasonCode2058" computerName="ICSWS068" duration="00:00:00.8948449" startTime="2016-08-04T09:45:06.7143475+02:00" endTime="2016-08-04T09:45:07.6108082+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5357a966-dd9f-4f1d-9ecc-59836d5712b9">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_268749_init \\.\pipe\EWsmqTrgMonPipe_2688 IntgTest</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5ba99cc-7738-4037-bb2a-3732076a7024" testId="2d636bef-ebfd-11cb-b26d-f38ab23acf09" testName="RunWsmqTrgMon_QueueNameArgumentIsIncorrect_ExitWithReasonCode2085" computerName="ICSWS068" duration="00:00:00.8611296" startTime="2016-08-04T09:45:07.6133096+02:00" endTime="2016-08-04T09:45:08.4760964+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5ba99cc-7738-4037-bb2a-3732076a7024">
+      <Output>
+        <StdOut>Debug Trace:
+Arguments: IntgTest_ICSWS068_586084_init_noExist \\.\pipe\EWsmqTrgMonPipe_5861 IntgTest SYSTEM.DEF.SVRCONN/TCP/192.168.227.32(1425)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97ee4327-c5aa-4ae8-a0ec-14ee9bce6ffe" testId="fb21e5df-e703-6e71-f9e1-d9b20e798d57" testName="Invoke_ValidArgs_MessageIsLoaded" computerName="ICSWS068" duration="00:00:00.6445839" startTime="2016-08-04T09:45:08.4790987+02:00" endTime="2016-08-04T09:45:09.1252889+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97ee4327-c5aa-4ae8-a0ec-14ee9bce6ffe" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RunWsmqTrgMon_TooFewArguments_ProcessExits" storage="f:\etwork\bin\tests\intgtests.general.dll" id="688cd5c6-cf81-4920-37e9-3511e9cc30f1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="dd3447a2-e3b0-406c-bfcd-77d6903568a9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_TooFewArguments_ProcessExits" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_PipenameIsIncorrect_ProcessExits" storage="f:\etwork\bin\tests\intgtests.general.dll" id="b8e0bb62-c3d4-1d54-ae69-46ce66472be3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="422c61ef-0a08-45dd-8114-de4a5d1efc54" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_PipenameIsIncorrect_ProcessExits" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_InitMessageNotSent_ProcessExitsAfterStartMessageSent" storage="f:\etwork\bin\tests\intgtests.general.dll" id="d8060522-b6b4-3c98-d010-9fe5907452d7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="08e6ffaf-8fee-4e5e-ab84-da7208f35f38" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_InitMessageNotSent_ProcessExitsAfterStartMessageSent" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_InitMessageSentPingNotHandled_ProcessExitsAfterPingInterval" storage="f:\etwork\bin\tests\intgtests.general.dll" id="832bd072-2013-5fce-d1e5-612556370264">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="07852d96-ee05-43af-be76-963ee00e4691" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_InitMessageSentPingNotHandled_ProcessExitsAfterPingInterval" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_InitMessageSentPingHandled_ProcessExitsAfterTwoPingInterval" storage="f:\etwork\bin\tests\intgtests.general.dll" id="aed1e9bc-db28-446d-cf8a-f96b461f586a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="4510513e-269c-4f38-a6de-a140daf95fed" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_InitMessageSentPingHandled_ProcessExitsAfterTwoPingInterval" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_QueueMessageExists_ExpectedMessageRecievedOnPipe" storage="f:\etwork\bin\tests\intgtests.general.dll" id="c7d3a6e4-89f4-3637-4a3f-82559d299d26">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="5c318030-4c9d-4c48-89c4-ca6cdd34ec0b" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_QueueMessageExists_ExpectedMessageRecievedOnPipe" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_QueueMessageSentAfterPing_ExpectedMessageRecievedOnPipe" storage="f:\etwork\bin\tests\intgtests.general.dll" id="b699915f-364a-e335-3ac5-976ac4c3832e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="89dbf26a-00bd-468d-bb49-8561b2c19f5f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_QueueMessageSentAfterPing_ExpectedMessageRecievedOnPipe" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_TriggerMessageHandled_PingMessageRecievedOnPipe" storage="f:\etwork\bin\tests\intgtests.general.dll" id="19ad4d96-d7ce-5652-27f4-5c3ecfe06202">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="4649fe1e-0e1a-4810-a791-ace17ad9ba19" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_TriggerMessageHandled_PingMessageRecievedOnPipe" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_TriggerMessageHandled_MessageOnlyOnTriggeredQueue" storage="f:\etwork\bin\tests\intgtests.general.dll" id="df2055fe-7d53-0e1b-be87-e94629b7756a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="62a9562a-94aa-45e5-9f58-0a163ab928a1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_TriggerMessageHandled_MessageOnlyOnTriggeredQueue" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_SeveralMessagesSent_SeveralTriggerMessagesRecieved" storage="f:\etwork\bin\tests\intgtests.general.dll" id="b3743155-5122-ddea-6be0-63fe461fc021">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="c69690fb-7a1a-4d74-bc45-ce6330fdd81f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_SeveralMessagesSent_SeveralTriggerMessagesRecieved" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_SeveralMessagesExists_OneTriggerMessageRecieved" storage="f:\etwork\bin\tests\intgtests.general.dll" id="46724ac4-b4a5-e458-9bc3-06f5f6161688">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="23bd8f1e-ca4e-45eb-89f3-133118ae02e1" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_SeveralMessagesExists_OneTriggerMessageRecieved" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_Started_ProcessWritesToStdOut" storage="f:\etwork\bin\tests\intgtests.general.dll" id="fd201354-e277-66b1-1720-3c66e5b86a30">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="0f9c1c7c-f504-4d8b-8949-e82edaa516a7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_Started_ProcessWritesToStdOut" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_ChannelArgumentIsMissing_ExitWithReasonCode2058" storage="f:\etwork\bin\tests\intgtests.general.dll" id="52f16f63-e8f6-4f5e-5061-61ddeb45efe0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="5357a966-dd9f-4f1d-9ecc-59836d5712b9" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_ChannelArgumentIsMissing_ExitWithReasonCode2058" />
+    </UnitTest>
+    <UnitTest name="RunWsmqTrgMon_QueueNameArgumentIsIncorrect_ExitWithReasonCode2085" storage="f:\etwork\bin\tests\intgtests.general.dll" id="2d636bef-ebfd-11cb-b26d-f38ab23acf09">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExternalDependencies" />
+        <TestCategoryItem TestCategory="WSMQ" />
+      </TestCategory>
+      <Execution id="b5ba99cc-7738-4037-bb2a-3732076a7024" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.EWsmqTrgMonTests" name="RunWsmqTrgMon_QueueNameArgumentIsIncorrect_ExitWithReasonCode2085" />
+    </UnitTest>
+    <UnitTest name="Invoke_ValidArgs_MessageIsLoaded" storage="f:\etwork\bin\tests\intgtests.general.dll" id="fb21e5df-e703-6e71-f9e1-d9b20e798d57">
+      <Execution id="97ee4327-c5aa-4ae8-a0ec-14ee9bce6ffe" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\IntgTests.General.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="IntgTests.General.IntgTests.iCore.Workflow.Activities.AS2.LoadAS2MessageActivityTests" name="Invoke_ValidArgs_MessageIsLoaded" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="688cd5c6-cf81-4920-37e9-3511e9cc30f1" executionId="dd3447a2-e3b0-406c-bfcd-77d6903568a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8e0bb62-c3d4-1d54-ae69-46ce66472be3" executionId="422c61ef-0a08-45dd-8114-de4a5d1efc54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8060522-b6b4-3c98-d010-9fe5907452d7" executionId="08e6ffaf-8fee-4e5e-ab84-da7208f35f38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="832bd072-2013-5fce-d1e5-612556370264" executionId="07852d96-ee05-43af-be76-963ee00e4691" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aed1e9bc-db28-446d-cf8a-f96b461f586a" executionId="4510513e-269c-4f38-a6de-a140daf95fed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7d3a6e4-89f4-3637-4a3f-82559d299d26" executionId="5c318030-4c9d-4c48-89c4-ca6cdd34ec0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b699915f-364a-e335-3ac5-976ac4c3832e" executionId="89dbf26a-00bd-468d-bb49-8561b2c19f5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19ad4d96-d7ce-5652-27f4-5c3ecfe06202" executionId="4649fe1e-0e1a-4810-a791-ace17ad9ba19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df2055fe-7d53-0e1b-be87-e94629b7756a" executionId="62a9562a-94aa-45e5-9f58-0a163ab928a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3743155-5122-ddea-6be0-63fe461fc021" executionId="c69690fb-7a1a-4d74-bc45-ce6330fdd81f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46724ac4-b4a5-e458-9bc3-06f5f6161688" executionId="23bd8f1e-ca4e-45eb-89f3-133118ae02e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd201354-e277-66b1-1720-3c66e5b86a30" executionId="0f9c1c7c-f504-4d8b-8949-e82edaa516a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52f16f63-e8f6-4f5e-5061-61ddeb45efe0" executionId="5357a966-dd9f-4f1d-9ecc-59836d5712b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d636bef-ebfd-11cb-b26d-f38ab23acf09" executionId="b5ba99cc-7738-4037-bb2a-3732076a7024" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb21e5df-e703-6e71-f9e1-d9b20e798d57" executionId="97ee4327-c5aa-4ae8-a0ec-14ee9bce6ffe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
