@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cabae335-8304-4b1e-ba58-60bb0aee9d55" name="bacemi@ICSWS068 2016-08-04 10:30:00" runUser="ICORE\bacemi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-04T10:30:00.0310917+02:00" queuing="2016-08-04T10:30:00.0310917+02:00" start="2016-08-04T10:29:55.5084982+02:00" finish="2016-08-04T10:30:39.4327148+02:00" />
+  <TestSettings name="default" id="65de7593-75b2-4ccf-95e6-3e384edfbc90">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="bacemi_ICSWS068 2016-08-04 10_30_00" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7a7d56d0-d3fc-4ed5-8250-5845cd8c56dc" testId="a651e949-5c24-7ec0-4a4b-067e87bf6c84" testName="AddRelationEx_AssociationNoExistingRelations_BiDirectionalRelationCreated" computerName="ICSWS068" duration="00:00:04.2008146" startTime="2016-08-04T10:29:55.5084982+02:00" endTime="2016-08-04T10:29:59.9736120+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a7d56d0-d3fc-4ed5-8250-5845cd8c56dc">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065454
+TestCleanup delete node 410065455</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d6cb336-c458-4279-a8b0-701c604ab7b6" testId="2975ceb7-f8ff-12e7-88b0-98f8616b6c34" testName="AddRelationEx_ParentChildNoExistingRelations_OneWayRelationCreated" computerName="ICSWS068" duration="00:00:00.9899248" startTime="2016-08-04T10:29:59.9776152+02:00" endTime="2016-08-04T10:30:00.9697388+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d6cb336-c458-4279-a8b0-701c604ab7b6">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065456
+TestCleanup delete node 410065457</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53bb103a-84b7-477f-a88b-93ea7e3926a5" testId="1061ca9a-5654-a26b-aece-9dd62cc136cf" testName="AddRelationEx_CreateCircularAssociationChild_Fails" computerName="ICSWS068" duration="00:00:01.0371343" startTime="2016-08-04T10:30:00.9727414+02:00" endTime="2016-08-04T10:30:02.0114996+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53bb103a-84b7-477f-a88b-93ea7e3926a5">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065458
+TestCleanup delete node 410065459</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0c7ad77-ee47-4895-b69a-a754a73a5f61" testId="056fda30-672c-9ff7-5275-94b2ff152fc4" testName="AddRelationEx_CreateCircularAssociationKeepExisting_Succeeds" computerName="ICSWS068" duration="00:00:00.9731243" startTime="2016-08-04T10:30:02.0145063+02:00" endTime="2016-08-04T10:30:02.9941955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0c7ad77-ee47-4895-b69a-a754a73a5f61">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065460
+TestCleanup delete node 410065461</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="865284fc-2e9b-4de1-8ea6-3315438e7fbe" testId="27309939-bc89-4550-f8d0-32f85c2a19d0" testName="AddRelationEx_CreateDuplicateParentChild_Fails" computerName="ICSWS068" duration="00:00:00.9790040" startTime="2016-08-04T10:30:02.9971975+02:00" endTime="2016-08-04T10:30:03.9779061+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="865284fc-2e9b-4de1-8ea6-3315438e7fbe">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065462
+TestCleanup delete node 410065463</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="610d7487-2933-4e4c-9a33-0b3e593f396f" testId="0ebd3c58-7da2-68b2-319c-e660f1e585b3" testName="AddRelationEx_CreateDuplicateParentChildKeepExisting_Succeeds" computerName="ICSWS068" duration="00:00:00.9600689" startTime="2016-08-04T10:30:03.9809096+02:00" endTime="2016-08-04T10:30:04.9427410+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="610d7487-2933-4e4c-9a33-0b3e593f396f">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065464
+TestCleanup delete node 410065465</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07d65479-9703-43b6-95cb-1e43c26d6eb5" testId="d8444f92-5515-48f9-2ed0-aa7c7a735901" testName="AddRelationEx_CreateDuplicateAssociation_Fails" computerName="ICSWS068" duration="00:00:00.9647934" startTime="2016-08-04T10:30:04.9457597+02:00" endTime="2016-08-04T10:30:05.9119984+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07d65479-9703-43b6-95cb-1e43c26d6eb5">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065466
+TestCleanup delete node 410065467</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df5cd6ff-049f-436c-89d4-ee24a46ece1f" testId="430360ca-f163-8b10-0fe2-c1d08c2cb851" testName="AddRelationEx_CreateDuplicateAssociationKeepExisting_Succeeds" computerName="ICSWS068" duration="00:00:00.9716587" startTime="2016-08-04T10:30:05.9155063+02:00" endTime="2016-08-04T10:30:06.8884554+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df5cd6ff-049f-436c-89d4-ee24a46ece1f">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065468
+TestCleanup delete node 410065469</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="172d3773-71d3-445b-b164-c06085c9a214" testId="6f7f0682-3c9f-d90e-a4b4-5a4fdee2e502" testName="AddRelationEx_CreateSelfAssociationKeepExisting_Fails" computerName="ICSWS068" duration="00:00:01.0095314" startTime="2016-08-04T10:30:06.8914559+02:00" endTime="2016-08-04T10:30:07.9028423+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="172d3773-71d3-445b-b164-c06085c9a214">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065470</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7db93645-5083-41bf-83da-a1d3c58b5717" testId="53090570-33d5-59b2-4426-9ebaac08eef1" testName="AddRelationEx_CreateSelfAssociation_Fails" computerName="ICSWS068" duration="00:00:00.9450731" startTime="2016-08-04T10:30:07.9053601+02:00" endTime="2016-08-04T10:30:08.8517754+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7db93645-5083-41bf-83da-a1d3c58b5717">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065471</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b037bd3e-4b58-4282-bf48-120a06f50adb" testId="5a7fdf27-c459-8afd-4c82-3c3277713f20" testName="AddRelationEx_CreateSelfParentChildKeepExisting_Fails" computerName="ICSWS068" duration="00:00:00.9742240" startTime="2016-08-04T10:30:08.8545583+02:00" endTime="2016-08-04T10:30:09.8306095+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b037bd3e-4b58-4282-bf48-120a06f50adb">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065472</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="896ad55b-acd9-4730-8553-439a1a3b0316" testId="46171153-5f47-ae23-97a1-b3237cee3b4b" testName="AddRelationEx_CreateSelfParentChild_Fails" computerName="ICSWS068" duration="00:00:00.9610061" startTime="2016-08-04T10:30:09.8336317+02:00" endTime="2016-08-04T10:30:10.7961960+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="896ad55b-acd9-4730-8553-439a1a3b0316">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065473</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c7aca33-01bb-4232-a3b8-4792a5a5932e" testId="ddf28664-9330-cfde-bf7a-cc17b0b31afc" testName="AddRelationEx_NodesAreAlreadyAssociatedKeepExisting_AssociationIntact" computerName="ICSWS068" duration="00:00:00.9684998" startTime="2016-08-04T10:30:10.7996980+02:00" endTime="2016-08-04T10:30:11.7695442+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c7aca33-01bb-4232-a3b8-4792a5a5932e">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065474
+TestCleanup delete node 410065475</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="82b8da66-7b94-4555-9c70-f539788c8d73" testId="ed38a4ef-297b-62df-e0dd-c089e40ea95d" testName="AddRelationEx_NodesAreAlreadyAssociated_FailsAssociationIntact" computerName="ICSWS068" duration="00:00:00.9967000" startTime="2016-08-04T10:30:11.7720468+02:00" endTime="2016-08-04T10:30:12.7706750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82b8da66-7b94-4555-9c70-f539788c8d73">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065476
+TestCleanup delete node 410065477</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6f8baa0-62db-4567-b063-20a0718b4f77" testId="b472394d-3777-26e9-561f-d3e947704b41" testName="AddRelationEx_NodeHaveNoAssociationOtherNodeHaveAssociationToAnotherNode_NodeHasTwoAssociations" computerName="ICSWS068" duration="00:00:01.3455613" startTime="2016-08-04T10:30:12.7736814+02:00" endTime="2016-08-04T10:30:14.1205553+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6f8baa0-62db-4567-b063-20a0718b4f77">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065478
+TestCleanup delete node 410065479
+TestCleanup delete node 410065480</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18d40e13-799b-4134-a87e-75cad786aee2" testId="7ed4d514-f4f0-37b4-983f-7487fb41d2ab" testName="AddRelationEx_NodeHasAssociationToAnotherNode_NodeHasTwoAssociations" computerName="ICSWS068" duration="00:00:01.3846258" startTime="2016-08-04T10:30:14.1235353+02:00" endTime="2016-08-04T10:30:15.5097750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18d40e13-799b-4134-a87e-75cad786aee2">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065481
+TestCleanup delete node 410065482
+TestCleanup delete node 410065483</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="abc5bfa7-1d76-4779-a2ae-502937be3e3d" testId="0e6b4a5f-c096-4fb2-7944-573eccab5bef" testName="AddRelationEx_NodesAreAlreadyAssociatedAddParentChild_AssociatedAndParentChild" computerName="ICSWS068" duration="00:00:00.9806488" startTime="2016-08-04T10:30:15.5127770+02:00" endTime="2016-08-04T10:30:16.4949008+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abc5bfa7-1d76-4779-a2ae-502937be3e3d">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065484
+TestCleanup delete node 410065485</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec85e867-f8cd-4ec9-b256-bc170adbeb43" testId="fb24ccf6-dd44-60de-c6b1-835b450ef7ff" testName="AddRelationEx_NodesAreAlreadyParentChildAddAssociation_ParentChildAndAssociated" computerName="ICSWS068" duration="00:00:00.9999853" startTime="2016-08-04T10:30:16.4974187+02:00" endTime="2016-08-04T10:30:17.4987843+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec85e867-f8cd-4ec9-b256-bc170adbeb43">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065486
+TestCleanup delete node 410065487</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8d8cd85-fef2-4604-95d9-bb9d543869f5" testId="21df42f5-5e62-37ac-c8e5-2947e01e8fab" testName="AddRelationEx_NodesAreAlreadyChildParentAddAssociation_ParentChildAndAssociated" computerName="ICSWS068" duration="00:00:01.0601144" startTime="2016-08-04T10:30:17.5027889+02:00" endTime="2016-08-04T10:30:18.5643847+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8d8cd85-fef2-4604-95d9-bb9d543869f5">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065488
+TestCleanup delete node 410065489</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b82ad2d5-d717-4165-8c91-2ec3bb353319" testId="33404562-aa32-ccba-e469-d5661791ba7b" testName="AddRelationEx_UnknownRelationType_ReturnsInvalidArgument" computerName="ICSWS068" duration="00:00:01.1162714" startTime="2016-08-04T10:30:18.5673702+02:00" endTime="2016-08-04T10:30:19.6857017+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b82ad2d5-d717-4165-8c91-2ec3bb353319">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065490
+TestCleanup delete node 410065491</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1203f06-7902-4937-a104-4b77805cd351" testId="65150b2c-5e1e-0132-ed28-ca2d7f02284d" testName="AddRelationEx_UnknownRelationTypeKeepExisting_ReturnsInvalidArgument" computerName="ICSWS068" duration="00:00:01.0117833" startTime="2016-08-04T10:30:19.6897042+02:00" endTime="2016-08-04T10:30:20.7041826+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1203f06-7902-4937-a104-4b77805cd351">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065492
+TestCleanup delete node 410065493</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33312a2f-82ce-4ee7-8008-2c90a22b480c" testId="b21fb85e-4279-2800-d1f8-c931d02c083c" testName="AddRelationEx_NodeHaveNoParentChildOtherNodeIsChildToAnotherNode_NodeHasChild" computerName="ICSWS068" duration="00:00:01.4004917" startTime="2016-08-04T10:30:20.7066840+02:00" endTime="2016-08-04T10:30:22.1089050+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33312a2f-82ce-4ee7-8008-2c90a22b480c">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065494
+TestCleanup delete node 410065495
+TestCleanup delete node 410065496</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b37eb9c-cf77-42e7-b837-10c9e40cf0c7" testId="04e10aa9-ce74-94fb-89cb-761130f0aeba" testName="AddRelationEx_NodeHaveNoParentChildOtherNodeIsParentToAnotherNode_NodeHasChild" computerName="ICSWS068" duration="00:00:01.4021468" startTime="2016-08-04T10:30:22.1119070+02:00" endTime="2016-08-04T10:30:23.5157216+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b37eb9c-cf77-42e7-b837-10c9e40cf0c7">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065497
+TestCleanup delete node 410065498
+TestCleanup delete node 410065499</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ce1a56e-f2b3-4599-aa02-f63624573673" testId="e80322d7-b610-35ba-0320-5895235cc3b5" testName="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasNoRelations_NodeHasParentAndChild" computerName="ICSWS068" duration="00:00:01.2919400" startTime="2016-08-04T10:30:23.5187239+02:00" endTime="2016-08-04T10:30:24.8122549+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ce1a56e-f2b3-4599-aa02-f63624573673">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065500
+TestCleanup delete node 410065501
+TestCleanup delete node 410065502</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c7a895a-0ec1-46fd-8455-98a47693a1d5" testId="22323ed1-dbf6-6a31-05a7-b2df30189198" testName="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasChild_NodeHasParentAndChild" computerName="ICSWS068" duration="00:00:01.6948872" startTime="2016-08-04T10:30:24.8157405+02:00" endTime="2016-08-04T10:30:26.5118213+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c7a895a-0ec1-46fd-8455-98a47693a1d5">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065503
+TestCleanup delete node 410065504
+TestCleanup delete node 410065505
+TestCleanup delete node 410065506</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1b52c69-a4e6-487d-af8f-3bb1db1ad1c2" testId="1ec2bb7d-4552-f9f7-9b3c-9510904945c6" testName="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasParent_NodeHasParentAndChild" computerName="ICSWS068" duration="00:00:01.6699658" startTime="2016-08-04T10:30:26.5143257+02:00" endTime="2016-08-04T10:30:28.1857720+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b52c69-a4e6-487d-af8f-3bb1db1ad1c2">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065507
+TestCleanup delete node 410065508
+TestCleanup delete node 410065509
+TestCleanup delete node 410065510</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d1ae590-9c80-45e9-8588-223514ae6466" testId="10ca599a-63f7-809e-4fad-82167821e488" testName="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasNoRelations_NodeHasTwoChildren" computerName="ICSWS068" duration="00:00:01.2701399" startTime="2016-08-04T10:30:28.1887738+02:00" endTime="2016-08-04T10:30:29.4602897+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d1ae590-9c80-45e9-8588-223514ae6466">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065511
+TestCleanup delete node 410065512
+TestCleanup delete node 410065513</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc6850f7-2d5a-40d6-b906-d5e89e25c1f3" testId="6583331f-07b4-28ff-8d03-cd8d873f6e93" testName="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasChild_NodeHasTwoChildren" computerName="ICSWS068" duration="00:00:01.6361554" startTime="2016-08-04T10:30:29.4637940+02:00" endTime="2016-08-04T10:30:31.1012307+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc6850f7-2d5a-40d6-b906-d5e89e25c1f3">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065514
+TestCleanup delete node 410065515
+TestCleanup delete node 410065516
+TestCleanup delete node 410065517</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c0099753-942c-4c22-b0cc-4064b07c9db6" testId="d40b58ed-ebed-50a8-b8fa-39aa964c9e84" testName="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasParent_NodeHasTwoChildren" computerName="ICSWS068" duration="00:00:01.7319042" startTime="2016-08-04T10:30:31.1044684+02:00" endTime="2016-08-04T10:30:32.8381615+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0099753-942c-4c22-b0cc-4064b07c9db6">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065518
+TestCleanup delete node 410065519
+TestCleanup delete node 410065520
+TestCleanup delete node 410065521</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86f854cd-daf7-4386-b63b-2d1f6cb03fd6" testId="ba91e05a-a215-7794-fb24-b7feb340d2ad" testName="AddRelationEx_AddThreeChildren_NodeHasThreeChildren" computerName="ICSWS068" duration="00:00:01.6431778" startTime="2016-08-04T10:30:32.8416629+02:00" endTime="2016-08-04T10:30:34.4870112+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86f854cd-daf7-4386-b63b-2d1f6cb03fd6">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065522
+TestCleanup delete node 410065523
+TestCleanup delete node 410065524
+TestCleanup delete node 410065525</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b86b95a-d7ac-4d71-bf14-4ed6c7499e03" testId="6be04472-4d6a-be5b-e35d-584a44e8eebb" testName="AddRelationEx_AddThreeParents_NodeHasThreeParents" computerName="ICSWS068" duration="00:00:01.6026090" startTime="2016-08-04T10:30:34.4900147+02:00" endTime="2016-08-04T10:30:36.0939707+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b86b95a-d7ac-4d71-bf14-4ed6c7499e03">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065526
+TestCleanup delete node 410065527
+TestCleanup delete node 410065528
+TestCleanup delete node 410065529</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6efe95c-0b9f-4524-beaf-0718b6d0c79a" testId="391978bb-0b42-a31c-a68f-b196108844b5" testName="AddRelationEx_AddThreeAssociations_NodeHasThreeAssosiations" computerName="ICSWS068" duration="00:00:01.6385861" startTime="2016-08-04T10:30:36.0969739+02:00" endTime="2016-08-04T10:30:37.7365046+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6efe95c-0b9f-4524-beaf-0718b6d0c79a">
+      <Output>
+        <StdOut>Debug Trace:
+TestCleanup delete node 410065530
+TestCleanup delete node 410065531
+TestCleanup delete node 410065532
+TestCleanup delete node 410065533</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AddRelationEx_AssociationNoExistingRelations_BiDirectionalRelationCreated" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="a651e949-5c24-7ec0-4a4b-067e87bf6c84">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="7a7d56d0-d3fc-4ed5-8250-5845cd8c56dc" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_AssociationNoExistingRelations_BiDirectionalRelationCreated" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_ParentChildNoExistingRelations_OneWayRelationCreated" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="2975ceb7-f8ff-12e7-88b0-98f8616b6c34">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="4d6cb336-c458-4279-a8b0-701c604ab7b6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_ParentChildNoExistingRelations_OneWayRelationCreated" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateCircularAssociationChild_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="1061ca9a-5654-a26b-aece-9dd62cc136cf">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="53bb103a-84b7-477f-a88b-93ea7e3926a5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateCircularAssociationChild_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateCircularAssociationKeepExisting_Succeeds" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="056fda30-672c-9ff7-5275-94b2ff152fc4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="b0c7ad77-ee47-4895-b69a-a754a73a5f61" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateCircularAssociationKeepExisting_Succeeds" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateDuplicateParentChild_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="27309939-bc89-4550-f8d0-32f85c2a19d0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="865284fc-2e9b-4de1-8ea6-3315438e7fbe" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateDuplicateParentChild_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateDuplicateParentChildKeepExisting_Succeeds" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="0ebd3c58-7da2-68b2-319c-e660f1e585b3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="610d7487-2933-4e4c-9a33-0b3e593f396f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateDuplicateParentChildKeepExisting_Succeeds" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateDuplicateAssociation_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="d8444f92-5515-48f9-2ed0-aa7c7a735901">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="07d65479-9703-43b6-95cb-1e43c26d6eb5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateDuplicateAssociation_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateDuplicateAssociationKeepExisting_Succeeds" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="430360ca-f163-8b10-0fe2-c1d08c2cb851">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="df5cd6ff-049f-436c-89d4-ee24a46ece1f" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateDuplicateAssociationKeepExisting_Succeeds" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateSelfAssociationKeepExisting_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="6f7f0682-3c9f-d90e-a4b4-5a4fdee2e502">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="172d3773-71d3-445b-b164-c06085c9a214" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateSelfAssociationKeepExisting_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateSelfAssociation_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="53090570-33d5-59b2-4426-9ebaac08eef1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="7db93645-5083-41bf-83da-a1d3c58b5717" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateSelfAssociation_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateSelfParentChildKeepExisting_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="5a7fdf27-c459-8afd-4c82-3c3277713f20">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="b037bd3e-4b58-4282-bf48-120a06f50adb" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateSelfParentChildKeepExisting_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_CreateSelfParentChild_Fails" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="46171153-5f47-ae23-97a1-b3237cee3b4b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="896ad55b-acd9-4730-8553-439a1a3b0316" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_CreateSelfParentChild_Fails" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodesAreAlreadyAssociatedKeepExisting_AssociationIntact" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="ddf28664-9330-cfde-bf7a-cc17b0b31afc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="0c7aca33-01bb-4232-a3b8-4792a5a5932e" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodesAreAlreadyAssociatedKeepExisting_AssociationIntact" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodesAreAlreadyAssociated_FailsAssociationIntact" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="ed38a4ef-297b-62df-e0dd-c089e40ea95d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="82b8da66-7b94-4555-9c70-f539788c8d73" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodesAreAlreadyAssociated_FailsAssociationIntact" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeHaveNoAssociationOtherNodeHaveAssociationToAnotherNode_NodeHasTwoAssociations" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="b472394d-3777-26e9-561f-d3e947704b41">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="f6f8baa0-62db-4567-b063-20a0718b4f77" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeHaveNoAssociationOtherNodeHaveAssociationToAnotherNode_NodeHasTwoAssociations" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeHasAssociationToAnotherNode_NodeHasTwoAssociations" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="7ed4d514-f4f0-37b4-983f-7487fb41d2ab">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="18d40e13-799b-4134-a87e-75cad786aee2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeHasAssociationToAnotherNode_NodeHasTwoAssociations" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodesAreAlreadyAssociatedAddParentChild_AssociatedAndParentChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="0e6b4a5f-c096-4fb2-7944-573eccab5bef">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="abc5bfa7-1d76-4779-a2ae-502937be3e3d" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodesAreAlreadyAssociatedAddParentChild_AssociatedAndParentChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodesAreAlreadyParentChildAddAssociation_ParentChildAndAssociated" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="fb24ccf6-dd44-60de-c6b1-835b450ef7ff">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="ec85e867-f8cd-4ec9-b256-bc170adbeb43" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodesAreAlreadyParentChildAddAssociation_ParentChildAndAssociated" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodesAreAlreadyChildParentAddAssociation_ParentChildAndAssociated" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="21df42f5-5e62-37ac-c8e5-2947e01e8fab">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="e8d8cd85-fef2-4604-95d9-bb9d543869f5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodesAreAlreadyChildParentAddAssociation_ParentChildAndAssociated" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_UnknownRelationType_ReturnsInvalidArgument" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="33404562-aa32-ccba-e469-d5661791ba7b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="b82ad2d5-d717-4165-8c91-2ec3bb353319" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_UnknownRelationType_ReturnsInvalidArgument" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_UnknownRelationTypeKeepExisting_ReturnsInvalidArgument" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="65150b2c-5e1e-0132-ed28-ca2d7f02284d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="b1203f06-7902-4937-a104-4b77805cd351" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_UnknownRelationTypeKeepExisting_ReturnsInvalidArgument" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeHaveNoParentChildOtherNodeIsChildToAnotherNode_NodeHasChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="b21fb85e-4279-2800-d1f8-c931d02c083c">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="33312a2f-82ce-4ee7-8008-2c90a22b480c" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeHaveNoParentChildOtherNodeIsChildToAnotherNode_NodeHasChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeHaveNoParentChildOtherNodeIsParentToAnotherNode_NodeHasChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="04e10aa9-ce74-94fb-89cb-761130f0aeba">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="2b37eb9c-cf77-42e7-b837-10c9e40cf0c7" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeHaveNoParentChildOtherNodeIsParentToAnotherNode_NodeHasChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasNoRelations_NodeHasParentAndChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="e80322d7-b610-35ba-0320-5895235cc3b5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="1ce1a56e-f2b3-4599-aa02-f63624573673" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasNoRelations_NodeHasParentAndChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasChild_NodeHasParentAndChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="22323ed1-dbf6-6a31-05a7-b2df30189198">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="5c7a895a-0ec1-46fd-8455-98a47693a1d5" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasChild_NodeHasParentAndChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasParent_NodeHasParentAndChild" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="1ec2bb7d-4552-f9f7-9b3c-9510904945c6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="d1b52c69-a4e6-487d-af8f-3bb1db1ad1c2" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsChildOfAnotherNodeOtherNodeHasParent_NodeHasParentAndChild" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasNoRelations_NodeHasTwoChildren" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="10ca599a-63f7-809e-4fad-82167821e488">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="6d1ae590-9c80-45e9-8588-223514ae6466" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasNoRelations_NodeHasTwoChildren" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasChild_NodeHasTwoChildren" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="6583331f-07b4-28ff-8d03-cd8d873f6e93">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="cc6850f7-2d5a-40d6-b906-d5e89e25c1f3" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasChild_NodeHasTwoChildren" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasParent_NodeHasTwoChildren" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="d40b58ed-ebed-50a8-b8fa-39aa964c9e84">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="c0099753-942c-4c22-b0cc-4064b07c9db6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_NodeIsParentToAnotherNodeOtherNodeHasParent_NodeHasTwoChildren" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_AddThreeChildren_NodeHasThreeChildren" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="ba91e05a-a215-7794-fb24-b7feb340d2ad">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="86f854cd-daf7-4386-b63b-2d1f6cb03fd6" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_AddThreeChildren_NodeHasThreeChildren" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_AddThreeParents_NodeHasThreeParents" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="6be04472-4d6a-be5b-e35d-584a44e8eebb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="3b86b95a-d7ac-4d71-bf14-4ed6c7499e03" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_AddThreeParents_NodeHasThreeParents" />
+    </UnitTest>
+    <UnitTest name="AddRelationEx_AddThreeAssociations_NodeHasThreeAssosiations" storage="f:\etwork\bin\tests\sysintgtests.icore.components.core.dll" id="391978bb-0b42-a31c-a68f-b196108844b5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="SystemIntegration" />
+        <TestCategoryItem TestCategory="EFuncNode" />
+      </TestCategory>
+      <Execution id="f6efe95c-0b9f-4524-beaf-0718b6d0c79a" />
+      <TestMethod codeBase="F:\ETWork\bin\Tests\SysIntgTests.iCore.Components.Core.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="SysIntgTests.iCore.Components.Core.EFuncNodeTests" name="AddRelationEx_AddThreeAssociations_NodeHasThreeAssosiations" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a651e949-5c24-7ec0-4a4b-067e87bf6c84" executionId="7a7d56d0-d3fc-4ed5-8250-5845cd8c56dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2975ceb7-f8ff-12e7-88b0-98f8616b6c34" executionId="4d6cb336-c458-4279-a8b0-701c604ab7b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1061ca9a-5654-a26b-aece-9dd62cc136cf" executionId="53bb103a-84b7-477f-a88b-93ea7e3926a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="056fda30-672c-9ff7-5275-94b2ff152fc4" executionId="b0c7ad77-ee47-4895-b69a-a754a73a5f61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27309939-bc89-4550-f8d0-32f85c2a19d0" executionId="865284fc-2e9b-4de1-8ea6-3315438e7fbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ebd3c58-7da2-68b2-319c-e660f1e585b3" executionId="610d7487-2933-4e4c-9a33-0b3e593f396f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8444f92-5515-48f9-2ed0-aa7c7a735901" executionId="07d65479-9703-43b6-95cb-1e43c26d6eb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="430360ca-f163-8b10-0fe2-c1d08c2cb851" executionId="df5cd6ff-049f-436c-89d4-ee24a46ece1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f7f0682-3c9f-d90e-a4b4-5a4fdee2e502" executionId="172d3773-71d3-445b-b164-c06085c9a214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53090570-33d5-59b2-4426-9ebaac08eef1" executionId="7db93645-5083-41bf-83da-a1d3c58b5717" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a7fdf27-c459-8afd-4c82-3c3277713f20" executionId="b037bd3e-4b58-4282-bf48-120a06f50adb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46171153-5f47-ae23-97a1-b3237cee3b4b" executionId="896ad55b-acd9-4730-8553-439a1a3b0316" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddf28664-9330-cfde-bf7a-cc17b0b31afc" executionId="0c7aca33-01bb-4232-a3b8-4792a5a5932e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed38a4ef-297b-62df-e0dd-c089e40ea95d" executionId="82b8da66-7b94-4555-9c70-f539788c8d73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b472394d-3777-26e9-561f-d3e947704b41" executionId="f6f8baa0-62db-4567-b063-20a0718b4f77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ed4d514-f4f0-37b4-983f-7487fb41d2ab" executionId="18d40e13-799b-4134-a87e-75cad786aee2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e6b4a5f-c096-4fb2-7944-573eccab5bef" executionId="abc5bfa7-1d76-4779-a2ae-502937be3e3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb24ccf6-dd44-60de-c6b1-835b450ef7ff" executionId="ec85e867-f8cd-4ec9-b256-bc170adbeb43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21df42f5-5e62-37ac-c8e5-2947e01e8fab" executionId="e8d8cd85-fef2-4604-95d9-bb9d543869f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33404562-aa32-ccba-e469-d5661791ba7b" executionId="b82ad2d5-d717-4165-8c91-2ec3bb353319" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65150b2c-5e1e-0132-ed28-ca2d7f02284d" executionId="b1203f06-7902-4937-a104-4b77805cd351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b21fb85e-4279-2800-d1f8-c931d02c083c" executionId="33312a2f-82ce-4ee7-8008-2c90a22b480c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04e10aa9-ce74-94fb-89cb-761130f0aeba" executionId="2b37eb9c-cf77-42e7-b837-10c9e40cf0c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e80322d7-b610-35ba-0320-5895235cc3b5" executionId="1ce1a56e-f2b3-4599-aa02-f63624573673" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22323ed1-dbf6-6a31-05a7-b2df30189198" executionId="5c7a895a-0ec1-46fd-8455-98a47693a1d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ec2bb7d-4552-f9f7-9b3c-9510904945c6" executionId="d1b52c69-a4e6-487d-af8f-3bb1db1ad1c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10ca599a-63f7-809e-4fad-82167821e488" executionId="6d1ae590-9c80-45e9-8588-223514ae6466" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6583331f-07b4-28ff-8d03-cd8d873f6e93" executionId="cc6850f7-2d5a-40d6-b906-d5e89e25c1f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d40b58ed-ebed-50a8-b8fa-39aa964c9e84" executionId="c0099753-942c-4c22-b0cc-4064b07c9db6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba91e05a-a215-7794-fb24-b7feb340d2ad" executionId="86f854cd-daf7-4386-b63b-2d1f6cb03fd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6be04472-4d6a-be5b-e35d-584a44e8eebb" executionId="3b86b95a-d7ac-4d71-bf14-4ed6c7499e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="391978bb-0b42-a31c-a68f-b196108844b5" executionId="f6efe95c-0b9f-4524-beaf-0718b6d0c79a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="32" executed="32" passed="32" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ICSWS068" outcome="Warning" timestamp="2016-08-04T10:30:39.3945582+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.IdentityModel.Clients.ActiveDirectory' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.components.core.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="ICSWS068" outcome="Warning" timestamp="2016-08-04T10:30:39.3975456+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Microsoft.ServiceBus' directly or indirectly referenced by the test container 'f:\etwork\bin\tests\sysintgtests.icore.components.core.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

@@ -11,7 +11,7 @@ namespace TestAnalyzer.WebClient.Controllers
       public IEnumerable<AssemblyTestSummary> Get()
       {
          var tas = new TestAnalysisService();
-         return tas.DoIt();
+         return tas.GetAssemblySummary();
       }
 
    }
