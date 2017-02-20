@@ -1,9 +1,0 @@
-Microsoft (R) Test Execution Command Line Tool Version 14.0.25420.1
-Copyright (c) Microsoft Corporation.  All rights reserved.
-
-Starting test execution, please wait...
-Warning: No test is available in F:\ETWork\bin\Tests\UnitTests.iCore.Web.Core.dll. Make sure that installed test discoverers & executors, platform & framework version settings are appropriate and try again.
-
-
-Information: Additionally, you can try specifying '/UseVsixExtensions' command if the test discoverer & executor is installed on the machine as vsix extensions and your installation supports vsix extensions. Example: vstest.console.exe myTests.dll /UseVsixExtensions:true
-
