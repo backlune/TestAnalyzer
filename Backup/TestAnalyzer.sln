@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{4D17CB07-4981-4632-B70E-4A322FEF5F50}"
 	ProjectSection(SolutionItems) = preProject
@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{4D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAnalyzer", "TestAnalyzer\TestAnalyzer.csproj", "{7DA2DBDD-C9A2-4E6F-BB5F-43101B2C0A0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAnalyzer.WebClient", "TestAnalyzer.WebClient\TestAnalyzer.WebClient.csproj", "{21A86E94-C900-4C4F-917F-C4A580742632}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestAnalyzer.WebClient", "TestAnalyzer.WebClient\TestAnalyzer.WebClient.xproj", "{21A86E94-C900-4C4F-917F-C4A580742632}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAnalyzer.Models", "TestAnalyzer.Models\TestAnalyzer.Models.csproj", "{4D310E8B-67BE-4EDC-919F-EB15F154FBFE}"
 EndProject

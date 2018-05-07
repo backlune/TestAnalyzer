@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Glob.cs" />
+    <Compile Include="ITestAnalysisService.cs" />
     <Compile Include="TestAnalysisService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

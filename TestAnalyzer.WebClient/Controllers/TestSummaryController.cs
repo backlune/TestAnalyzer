@@ -10,11 +10,17 @@ namespace TestAnalyzer.WebClient.Controllers
    [Route("api/[controller]")]
    public class TestSummaryController : Controller
    {
+      private readonly ITestAnalysisService m_testAnalysisService;
+
+      public TestSummaryController(ITestAnalysisService testAnalysisService)
+      {
+         m_testAnalysisService = testAnalysisService;
+      }
+
       [HttpGet]
       public TestSummary Get()
       {
-         var tas = new TestAnalysisService();
-         return tas.GetTestSummary();
+         return m_testAnalysisService.GetTestSummary();
       }
 
     }

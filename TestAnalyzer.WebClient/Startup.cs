@@ -30,6 +30,9 @@ namespace TestAnalyzer.WebClient
         {
             // Add framework services.
             services.AddMvc();
+
+           string testLogFolder = Configuration.GetSection("TestAnalyzer")["TestLogFolder"];
+           services.Add(new ServiceDescriptor(typeof(ITestAnalysisService), new TestAnalysisService(testLogFolder)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -14,7 +14,7 @@
     </thead>
     <tbody>
         <tr [ngClass]="(assembly.failed > 0)?'danger':'success'"  *ngFor="let assembly of summaries">
-            <td>{{ assembly.assemblyName }}</td>
+            <td><a [routerLink]="['/assemblydetail',  assembly.assemblyName]">{{ assembly.assemblyName }}</a></td>
             <td>{{ assembly.passed}}</td>
             <td>{{ assembly.failed }}</td>
         </tr>

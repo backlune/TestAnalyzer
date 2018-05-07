@@ -8,10 +8,16 @@ namespace TestAnalyzer.WebClient.Controllers
    [Route("api/[controller]")]
    public class AssemblyTestSummaryController : Controller
    {
+      private readonly ITestAnalysisService m_testAnalysisService;
+
+      public AssemblyTestSummaryController(ITestAnalysisService testAnalysisService)
+      {
+         m_testAnalysisService = testAnalysisService;
+      }
+
       public IEnumerable<AssemblyTestSummary> Get()
       {
-         var tas = new TestAnalysisService();
-         return tas.GetAssemblySummary();
+         return m_testAnalysisService.GetAssemblySummary();
       }
 
    }
